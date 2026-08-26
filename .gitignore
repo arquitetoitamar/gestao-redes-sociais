@@ -1,0 +1,6 @@
+.env
+.env.local
+*.pickle
+client_secret*.json
+instagram_config.json
+.DS_Store
