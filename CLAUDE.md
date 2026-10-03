@@ -13,6 +13,10 @@
 
 ## Dependências fora do repo (conferir em máquina/Claude novo)
 
+**Sessão na nuvem ou máquina nova: rodar primeiro `bash scripts/setup_ambiente.sh`** (instala yt-dlp e Chromium via pip e testa).
+Na nuvem não há `.env` nem memórias locais; commit e push no fim de cada rotina são o que mantém o trabalho (o clone da nuvem some).
+Se o TikTok bloquear o IP da nuvem no monitor, avisar o usuário e rodar o monitor no Mac.
+
 - `yt-dlp` (monitor TikTok): `brew install yt-dlp`
 - Playwright + Chromium (card de imagem): `pip install playwright && playwright install chromium`
 - Conector **Chatiops (MCP)** conectado na conta Claude, para `send_group_message` / `list_groups`.
