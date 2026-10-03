@@ -18,7 +18,7 @@ from datetime import datetime
 from pathlib import Path
 
 CONTAS = ["danielmaehara"]
-ULTIMOS = 15
+ULTIMOS = 40
 RAIZ = Path(__file__).resolve().parent.parent / "output" / "monitor-tiktok"
 
 
