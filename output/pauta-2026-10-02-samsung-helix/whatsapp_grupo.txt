@@ -1,0 +1,16 @@
+📰 *Notícia de IA do dia*
+
+*A corrida da IA agora é por infraestrutura* ⚡
+
+A Samsung e mais 5 empresas do grupo vão investir *US$ 1 bilhão* na Helix, empresa criada pela KKR para construir a base física da IA: data centers, energia e fibra óptica. A Samsung Electronics entra com US$ 500 milhões, ao lado de NVIDIA, Vistra e Kuwait Investment Authority.
+
+💡 *Por que importa pra quem vende online:*
+→ Todo agente de IA, conteúdo gerado e previsão de demanda roda em infraestrutura real
+→ Mais uso de IA = mais demanda por processamento e energia
+→ Quem tem infraestrutura define a velocidade com que a IA chega na operação do seller
+
+A disputa não é só pelo melhor modelo, é por quem consegue colocar em escala.
+
+Vocês já estão usando IA na operação de vocês? Conta aqui 👇
+
+Fonte: @danielmaehara
