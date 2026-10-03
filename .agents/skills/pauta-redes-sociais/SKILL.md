@@ -7,6 +7,11 @@ description: Pega o vídeo mais recente de uma conta monitorada do TikTok (ex. @
 
 Fluxo completo, do monitor TikTok ao grupo de WhatsApp.
 
+## Cadência
+
+Uma notícia por dia, disparada pelo usuário ("pauta do dia"). Não postar automaticamente nem mais de uma por dia no grupo.
+Se já existe `output/pauta-<hoje>-*`, avisar antes de gerar outra.
+
 ## Passos
 
 1. **Atualizar o monitor** (grava estado em `output/monitor-tiktok/<conta>/`):
@@ -14,7 +19,10 @@ Fluxo completo, do monitor TikTok ao grupo de WhatsApp.
    Pegar o vídeo mais recente **com legenda** em `output/monitor-tiktok/<conta>/digest.md`
    (posts em modo foto sem legenda não servem como pauta; avisar o usuário e usar o anterior).
 2. **Reescrever com palavras próprias**: nunca copiar a legenda. Manter fatos (números, nomes, valores),
-   mudar estrutura e adicionar ângulo para sellers de marketplace/e-commerce. Sempre creditar a fonte (`Fonte: @conta`).
+   mudar estrutura e adicionar ângulo para sellers de marketplace/e-commerce.
+   **Não citar a conta do TikTok** (nem `@conta`) em card, legendas ou mensagem do grupo. Citar a **fonte original da notícia**
+   (empresa/veículo que a divulgou, ex. `Fonte: KKR / Samsung`), identificada pelo texto do vídeo ou por busca (WebSearch) para confirmar.
+   Se não der para identificar a fonte original com segurança, omitir o campo `fonte` em vez de inventar.
 3. **Montar `output/pauta-<AAAA-MM-DD>-<slug>/pauta.json`** com `tag`, `titulo`, `destaque`,
    `destaque_legenda`, `bullets` (máx. 3), `fonte`. Gerar o card:
    `python3 .agents/skills/pauta-redes-sociais/scripts/gerar_card.py <pasta>/pauta.json <pasta>/`

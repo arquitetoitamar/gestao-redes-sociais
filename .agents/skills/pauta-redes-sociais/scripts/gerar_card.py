@@ -10,7 +10,7 @@ pauta.json:
   "destaque": "US$ 1 bi",
   "destaque_legenda": "Samsung + 5 empresas do grupo na Helix (KKR)",
   "bullets": ["Data centers, energia e fibra óptica", "..."],
-  "fonte": "Fonte: @danielmaehara"
+  "fonte": "Fonte: KKR / Samsung"
 }
 Saída: post_4x5.jpg (1080x1350) e story_9x16.jpg (1080x1920).
 """
