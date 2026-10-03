@@ -1,0 +1,143 @@
+{
+ "fps": 30,
+ "total": 42.162,
+ "scenes": [
+  {
+   "id": "s0",
+   "kind": "scene",
+   "narr": "n0",
+   "start": 0.0,
+   "dur": 4.815,
+   "nstart": 0.2,
+   "ndur": 4.315,
+   "cues": {
+    "sua loja": 2.011,
+    "E se ela": 2.864,
+    "operasse": 3.343
+   }
+  },
+  {
+   "id": "s1",
+   "kind": "scene",
+   "narr": "n1",
+   "start": 4.815,
+   "dur": 6.502,
+   "nstart": 5.065,
+   "ndur": 5.702,
+   "cues": {
+    "Mercado Livre": 5.673,
+    "Shopee": 6.467,
+    "TikTok Shop": 6.935,
+    "Amazon": 7.636,
+    "e quando vê": 9.131,
+    "meio-dia": 10.066
+   }
+  },
+  {
+   "id": "i1",
+   "kind": "inter",
+   "word": "CONECTA.",
+   "style": "dark",
+   "start": 11.317,
+   "dur": 0.75
+  },
+  {
+   "id": "s2",
+   "kind": "scene",
+   "narr": "n2",
+   "start": 12.067,
+   "dur": 6.682,
+   "nstart": 12.267,
+   "ndur": 6.032,
+   "cues": {
+    "Marketplace Connect": 12.378,
+    "o Claude": 13.761,
+    "ChatGPT": 14.536,
+    "direto nas suas contas": 14.979,
+    "Um clique": 16.639,
+    "sem código": 17.358
+   }
+  },
+  {
+   "id": "i2",
+   "kind": "inter",
+   "word": "PEDE.",
+   "style": "yellow",
+   "start": 18.749,
+   "dur": 0.7
+  },
+  {
+   "id": "s3",
+   "kind": "scene",
+   "narr": "n3",
+   "start": 19.449,
+   "dur": 5.125,
+   "nstart": 19.649,
+   "ndur": 3.625,
+   "cues": {
+    "em português": 20.126,
+    "e ele responde": 20.889,
+    "dado real": 21.891,
+    "sua conta": 22.511
+   }
+  },
+  {
+   "id": "i3",
+   "kind": "inter",
+   "word": "APROVA.",
+   "style": "dark",
+   "start": 24.574,
+   "dur": 0.7
+  },
+  {
+   "id": "s4",
+   "kind": "scene",
+   "narr": "n4",
+   "start": 25.274,
+   "dur": 5.723,
+   "nstart": 25.474,
+   "ndur": 4.323,
+   "cues": {
+    "nada muda": 25.589,
+    "ele prepara": 27.03,
+    "você aprova": 27.895,
+    "ele executa": 28.76
+   }
+  },
+  {
+   "id": "i4",
+   "kind": "inter",
+   "word": "COMEÇA.",
+   "style": "yellow",
+   "start": 30.997,
+   "dur": 0.7
+  },
+  {
+   "id": "s6",
+   "kind": "scene",
+   "narr": "n6",
+   "start": 31.697,
+   "dur": 4.819,
+   "nstart": 31.897,
+   "ndur": 3.719,
+   "cues": {
+    "dois minutos": 32.269,
+    "E no Claude": 33.467,
+    "plano gratuito": 34.748
+   }
+  },
+  {
+   "id": "s7",
+   "kind": "scene",
+   "narr": "n7",
+   "start": 36.516,
+   "dur": 5.646,
+   "nstart": 36.916,
+   "ndur": 2.646,
+   "cues": {
+    "CONNECT": 37.263,
+    "o link": 38.998
+   }
+  }
+ ]
+}

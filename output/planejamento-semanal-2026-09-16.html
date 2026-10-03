@@ -1,0 +1,323 @@
+<title>Semana RS 16–22/09</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  :root{
+    --bg:#F5F7FB; --surface:#FFFFFF; --surface-2:#EDF1F7; --ink:#151A23; --muted:#616A7B;
+    --line:#E1E6EE; --accent:#0E6FFF; --accent-ink:#0B58CC; --accent-soft:#E8F1FF;
+    --good:#1C9A6C; --good-soft:#E4F6EE; --warn:#B8791A; --warn-soft:#FBF0DE;
+    --bad:#D64545; --bad-soft:#FCEAEA; --blocked:#8D93A3; --blocked-soft:#EEF0F4;
+    --shadow: 0 1px 2px rgba(21,26,35,.04), 0 6px 20px -8px rgba(21,26,35,.10);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0E1117; --surface:#171C25; --surface-2:#1E2531; --ink:#E8EBF1; --muted:#96A0B3;
+      --line:#2A3140; --accent:#4C9AFF; --accent-ink:#8CC0FF; --accent-soft:#152238;
+      --good:#34C98A; --good-soft:#122A21; --warn:#E0A83D; --warn-soft:#2E2411;
+      --bad:#F16565; --bad-soft:#2E1616; --blocked:#8D93A3; --blocked-soft:#1B2029;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px -12px rgba(0,0,0,.6);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0E1117; --surface:#171C25; --surface-2:#1E2531; --ink:#E8EBF1; --muted:#96A0B3;
+    --line:#2A3140; --accent:#4C9AFF; --accent-ink:#8CC0FF; --accent-soft:#152238;
+    --good:#34C98A; --good-soft:#122A21; --warn:#E0A83D; --warn-soft:#2E2411;
+    --bad:#F16565; --bad-soft:#2E1616; --blocked:#8D93A3; --blocked-soft:#1B2029;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px -12px rgba(0,0,0,.6);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"IBM Plex Sans",system-ui,sans-serif;
+    padding-inline:20px; padding-block:28px 60px;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{font-family:"Sora",system-ui,sans-serif; text-wrap:balance; margin:0}
+  .mono{font-family:"IBM Plex Mono",ui-monospace,monospace; font-variant-numeric:tabular-nums}
+  .wrap{max-width:1180px; margin-inline:auto; display:flex; flex-direction:column; gap:28px}
+
+  /* ---- header ---- */
+  .head{display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-end; gap:16px}
+  .eyebrow{font-size:12.5px; font-weight:600; color:var(--accent-ink); letter-spacing:.06em; text-transform:uppercase}
+  h1{font-size:clamp(24px,3vw,32px); font-weight:700; margin-top:4px}
+  .head-sub{color:var(--muted); font-size:14px; margin-top:4px; max-width:60ch}
+  .badges{display:flex; gap:8px; flex-wrap:wrap}
+  .badge{
+    display:inline-flex; align-items:center; gap:6px; padding:6px 12px; border-radius:999px;
+    font-size:12.5px; font-weight:600; border:1px solid var(--line); background:var(--surface);
+  }
+  .dot{width:7px; height:7px; border-radius:50%}
+
+  /* ---- sync banner ---- */
+  .banner{
+    display:flex; gap:12px; align-items:flex-start; padding:14px 16px; border-radius:12px;
+    background:var(--warn-soft); border:1px solid color-mix(in srgb, var(--warn) 35%, transparent);
+  }
+  .banner b{color:var(--warn)}
+  .banner p{margin:2px 0 0; font-size:13.5px; color:var(--ink); line-height:1.5}
+
+  section{display:flex; flex-direction:column; gap:14px}
+  .section-head{display:flex; justify-content:space-between; align-items:baseline; gap:12px; flex-wrap:wrap}
+  h2{font-size:18px; font-weight:600}
+  .section-note{color:var(--muted); font-size:13px}
+
+  /* ---- weekly cadence grid ---- */
+  .cadence-scroll{overflow-x:auto; padding-bottom:4px}
+  .cadence{display:grid; grid-template-columns:repeat(7,minmax(150px,1fr)); gap:10px; min-width:1040px}
+  .day{
+    background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:14px;
+    display:flex; flex-direction:column; gap:10px; box-shadow:var(--shadow);
+  }
+  .day.is-today{border-color:var(--accent); box-shadow:0 0 0 1px var(--accent), var(--shadow)}
+  .day-name{font-family:"Sora"; font-weight:600; font-size:14px}
+  .day-date{font-size:12px; color:var(--muted)}
+  .lane{display:flex; flex-direction:column; gap:3px; padding-top:8px; border-top:1px solid var(--line)}
+  .lane:first-of-type{border-top:none; padding-top:0}
+  .lane-label{font-size:10.5px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; color:var(--muted)}
+  .lane-text{font-size:12.5px; line-height:1.45}
+  .lane.is-rs .lane-label{color:var(--accent-ink)}
+  .lane.is-rs .lane-text{font-weight:500}
+
+  /* ---- my cards ---- */
+  .cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:12px}
+  .card{
+    background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:16px;
+    display:flex; flex-direction:column; gap:10px; box-shadow:var(--shadow);
+  }
+  .card-top{display:flex; justify-content:space-between; align-items:flex-start; gap:8px}
+  .card-id{font-family:"IBM Plex Mono"; font-size:11px; color:var(--muted); font-weight:600}
+  .card h3{font-size:15px; line-height:1.35}
+  .card p{margin:0; font-size:12.5px; color:var(--muted); line-height:1.5}
+  .pill{
+    display:inline-flex; align-items:center; gap:5px; padding:4px 9px; border-radius:999px;
+    font-size:11px; font-weight:600; white-space:nowrap;
+  }
+  .pill.blocked{background:var(--blocked-soft); color:var(--blocked)}
+  .pill.warn{background:var(--warn-soft); color:var(--warn)}
+  .pill.good{background:var(--good-soft); color:var(--good)}
+
+  /* ---- ads table ---- */
+  .table-scroll{overflow-x:auto}
+  table{width:100%; border-collapse:collapse; min-width:680px}
+  thead th{
+    text-align:left; font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:.04em;
+    color:var(--muted); padding:0 12px 10px; border-bottom:1px solid var(--line);
+  }
+  tbody td{padding:12px; border-bottom:1px solid var(--line); font-size:13.5px; vertical-align:middle}
+  tbody tr:last-child td{border-bottom:none}
+  td.num{font-family:"IBM Plex Mono"; font-variant-numeric:tabular-nums; font-size:13px}
+  .camp-name{font-weight:600}
+  .ctr-bar-wrap{display:flex; align-items:center; gap:8px}
+  .ctr-bar{height:6px; border-radius:3px; background:var(--surface-2); flex:1; min-width:60px; overflow:hidden}
+  .ctr-bar > span{display:block; height:100%; background:var(--accent); border-radius:3px}
+  .status-dot{width:8px; height:8px; border-radius:50%; display:inline-block; margin-right:7px}
+
+  /* ---- backlog / footer ---- */
+  .backlog{display:flex; flex-direction:column; gap:8px}
+  .backlog-item{
+    display:flex; gap:10px; align-items:flex-start; padding:11px 14px; border-radius:10px;
+    background:var(--surface); border:1px solid var(--line); font-size:13px; line-height:1.5;
+  }
+  .backlog-item b{font-weight:600}
+
+  .checklist{
+    background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:16px 18px;
+    display:flex; flex-direction:column; gap:8px; box-shadow:var(--shadow);
+  }
+  .checklist ol{margin:0; padding-left:20px; display:flex; flex-direction:column; gap:5px}
+  .checklist li{font-size:13px; line-height:1.5; color:var(--ink)}
+  .checklist li b{color:var(--accent-ink)}
+
+  footer{color:var(--muted); font-size:12px; text-align:center; padding-top:8px}
+
+  @media (max-width:560px){
+    body{padding-inline:14px}
+    .cadence{grid-template-columns:repeat(7,220px)}
+  }
+</style>
+
+<div class="wrap">
+
+  <div class="head">
+    <div>
+      <div class="eyebrow">Redes Sociais · Tiops</div>
+      <h1>Semana de 16 a 22 de setembro</h1>
+      <div class="head-sub">Cadência das três sessões (GP · MC · RS) — GestorPro e Marketplace Connect. Fonte: <span class="mono">kanban-semanal.md</span>, repo gestor-pro.</div>
+    </div>
+    <div class="badges">
+      <span class="badge"><span class="dot" style="background:var(--good)"></span>Meta Ads: 3 campanhas ativas</span>
+      <span class="badge"><span class="dot" style="background:var(--warn)"></span>Board de Tarefas: token pendente</span>
+    </div>
+  </div>
+
+  <div class="banner">
+    <span style="font-size:18px; line-height:1">⏳</span>
+    <div>
+      <b>Sincronização com o Board de Tarefas ainda não entrou no ar.</b>
+      <p>A API de agentes (<span class="mono">gestao.tiops.com.br</span>) está em produção, mas falta o token do agente <span class="mono">redes-sociais</span> — pedido ao Itamar. Assim que chegar, os cards abaixo (A1, A4, Ep. 3) sobem automaticamente pro board real.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="section-head">
+      <h2>Calendário da semana — as três sessões</h2>
+      <span class="section-note">Coluna RS em destaque · minha linha</span>
+    </div>
+    <div class="cadence-scroll">
+      <div class="cadence">
+
+        <div class="day is-today">
+          <div><div class="day-name">Segunda</div><div class="day-date">16/09</div></div>
+          <div class="lane"><div class="lane-label">GP</div><div class="lane-text">Fecha números da semana e escreve 2 roteiros (A1, A4)</div></div>
+          <div class="lane"><div class="lane-label">MC</div><div class="lane-text">Relatório dos dois funis, lado a lado</div></div>
+          <div class="lane is-rs"><div class="lane-label">RS</div><div class="lane-text">Revisão de métricas das peças publicadas + Meta Ads (feito hoje)</div></div>
+        </div>
+
+        <div class="day">
+          <div><div class="day-name">Terça</div><div class="day-date">17/09</div></div>
+          <div class="lane"><div class="lane-label">GP</div><div class="lane-text">Grava demonstração de tela da funcionalidade da semana</div></div>
+          <div class="lane"><div class="lane-label">MC</div><div class="lane-text">E-mail 1 da campanha</div></div>
+          <div class="lane is-rs"><div class="lane-label">RS</div><div class="lane-text">Grava e edita 2 shorts — <b>aguardando roteiro A1/A4</b></div></div>
+        </div>
+
+        <div class="day">
+          <div><div class="day-name">Quarta</div><div class="day-date">18/09</div></div>
+          <div class="lane"><div class="lane-label">GP</div><div class="lane-text">Responde dúvidas técnicas do roteiro</div></div>
+          <div class="lane"><div class="lane-label">MC</div><div class="lane-text">Cria os links curtos da semana (aguarda slugs pra mim)</div></div>
+          <div class="lane is-rs"><div class="lane-label">RS</div><div class="lane-text">Publica short 1 + carrossel — depende da gravação de terça</div></div>
+        </div>
+
+        <div class="day">
+          <div><div class="day-name">Quinta</div><div class="day-date">19/09</div></div>
+          <div class="lane"><div class="lane-label">GP</div><div class="lane-text">Mede a prova prometida (B1 — primeiro número desde 18/09)</div></div>
+          <div class="lane"><div class="lane-label">MC</div><div class="lane-text">Landing e prova; confere subsídio no billing</div></div>
+          <div class="lane is-rs"><div class="lane-label">RS</div><div class="lane-text">Grava o tutorial Ep. 3 — <b>aguardando roteiro</b></div></div>
+        </div>
+
+        <div class="day">
+          <div><div class="day-name">Sexta</div><div class="day-date">20/09</div></div>
+          <div class="lane"><div class="lane-label">GP</div><div class="lane-text">Fecha o case ou número novo da semana</div></div>
+          <div class="lane"><div class="lane-label">MC</div><div class="lane-text">E-mail 2</div></div>
+          <div class="lane is-rs"><div class="lane-label">RS</div><div class="lane-text">Publica short 2 + sobe o tutorial Ep. 3</div></div>
+        </div>
+
+        <div class="day">
+          <div><div class="day-name">Sábado</div><div class="day-date">21/09</div></div>
+          <div class="lane"><div class="lane-label">GP</div><div class="lane-text">—</div></div>
+          <div class="lane"><div class="lane-label">MC</div><div class="lane-text">Guia por marketplace</div></div>
+          <div class="lane is-rs"><div class="lane-label">RS</div><div class="lane-text">Live ou bastidor — candidato: corte inédito (não é peça de produto)</div></div>
+        </div>
+
+        <div class="day">
+          <div><div class="day-name">Domingo</div><div class="day-date">22/09</div></div>
+          <div class="lane"><div class="lane-label">GP</div><div class="lane-text">Escreve o aprendizado da semana</div></div>
+          <div class="lane"><div class="lane-label">MC</div><div class="lane-text">Relatório semanal consolidado</div></div>
+          <div class="lane is-rs"><div class="lane-label">RS</div><div class="lane-text">Planeja a semana seguinte</div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Meus cards (RS) — status agora</h2>
+      <span class="section-note">Regra: nada entra em gravação sem número conferido chegando do GP</span>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-top"><span class="card-id">A1</span><span class="pill blocked">Aguardando roteiro</span></div>
+        <h3>"A promoção que fura a margem sai sozinha"</h3>
+        <p>Short + demo. Prova: 3 saídas automáticas em 1h35, margem a −2,25% / −2,25% / 0,33% contra piso de 12%. O mais forte da fila — único com prova medida hoje.</p>
+      </div>
+      <div class="card">
+        <div class="card-top"><span class="card-id">A4</span><span class="pill blocked">Aguardando roteiro</span></div>
+        <h3>"IA com freio"</h3>
+        <p>Short. Modo sombra, banda de margem, aprovação, registro e desfazer. Responde a objeção de autonomia — a mais comum na fila de vendas.</p>
+      </div>
+      <div class="card">
+        <div class="card-top"><span class="card-id">Ep. 3</span><span class="pill blocked">Aguardando roteiro</span></div>
+        <h3>Tutorial — Promoções ponta a ponta</h3>
+        <p>YouTube, 10 min. Corta para os shorts A1 e A2. Canal principal de aquisição (busca resolve dúvida → short leva ao tutorial → tutorial leva ao teste).</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Campanhas ativas no Meta Ads</h2>
+      <span class="section-note">Conta Tiops tecnologia · lifetime · só leitura, nenhuma alteração sem autorização por campanha</span>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Campanha</th><th>Gasto</th><th>CTR</th><th>CPC</th><th>Resultado</th><th>Custo/resultado</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="status-dot" style="background:var(--good)"></span><span class="camp-name">MC | Sellers 300k | Tráfego LPV</span></td>
+            <td class="num">R$17,70</td>
+            <td class="num"><div class="ctr-bar-wrap"><span>6,91%</span><div class="ctr-bar"><span style="width:100%"></span></div></div></td>
+            <td class="num">R$0,14</td>
+            <td class="num">95 LPV</td>
+            <td class="num" style="color:var(--good); font-weight:600">R$0,19</td>
+          </tr>
+          <tr>
+            <td><span class="status-dot" style="background:var(--good)"></span><span class="camp-name">MC | Sellers | Visitas ao perfil IG</span></td>
+            <td class="num">R$8,54</td>
+            <td class="num"><div class="ctr-bar-wrap"><span>8,40%</span><div class="ctr-bar"><span style="width:100%"></span></div></div></td>
+            <td class="num">R$0,16</td>
+            <td class="num">10 visitas</td>
+            <td class="num">R$0,85</td>
+          </tr>
+          <tr>
+            <td><span class="status-dot" style="background:var(--warn)"></span><span class="camp-name">MC | Sellers | Reels novos IG | Tráfego LPV</span></td>
+            <td class="num">R$17,69</td>
+            <td class="num"><div class="ctr-bar-wrap"><span>1,25%</span><div class="ctr-bar"><span style="width:18%"></span></div></div></td>
+            <td class="num">R$0,40</td>
+            <td class="num">38 LPV</td>
+            <td class="num">R$0,47</td>
+          </tr>
+          <tr>
+            <td><span class="status-dot" style="background:var(--blocked)"></span><span class="camp-name">Curso Claude iniciantes (Udemy)</span></td>
+            <td class="num">R$5,11</td>
+            <td class="num"><div class="ctr-bar-wrap"><span>3,30%</span><div class="ctr-bar"><span style="width:48%"></span></div></div></td>
+            <td class="num">R$0,18</td>
+            <td class="num">28 cliques</td>
+            <td class="num">R$0,18</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="backlog-item">
+      <span style="font-size:15px">→</span>
+      <div><b>Leitura da semana:</b> o Reels novo (CTR 1,25%) está bem abaixo do padrão das outras duas (6,9%–8,4%) — hook/capa provavelmente fracos, vale trocar. A campanha "Sellers 300k" segue como régua: CPC R$0,14, custo/resultado R$0,19. Conta pessoal "Itamar Santos" tem ~85 campanhas zumbi (R$0 de entrega) — recomendo arquivar, aguardando seu ok.</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Backlog / fora da cadência oficial</h2>
+    </div>
+    <div class="backlog">
+      <div class="backlog-item"><span>🎬</span><div><b>Corte Rodrigo Faro — "4 pilares da vida"</b> (69,5s, 9:16) — pronto, revisado, <b>não publicado</b>. Conteúdo de autoridade pessoal, não é peça de GestorPro/Marketplace Connect — aguardando sua decisão sobre onde/se publicar.</div></div>
+      <div class="backlog-item"><span>📋</span><div><b>Texto pronto para TikTok</b> do vídeo "skill-rpa" (já publicado no Instagram e YouTube Shorts) — só falta colar manualmente, TikTok segue sem publicação automática.</div></div>
+    </div>
+  </section>
+
+  <div class="checklist">
+    <h2 style="margin-bottom:2px">Antes de publicar qualquer peça desta semana</h2>
+    <ol>
+      <li>O número é <b>comportamento do produto</b> ou resultado financeiro de alguém? Se for o segundo, sai.</li>
+      <li>Dá pra identificar a loja, a pessoa ou o pedido? Se sim, sai — loja aparece só como "acessórios e decoração, quatro canais".</li>
+      <li>Isso ajudaria um concorrente a copiar preço, custo ou estratégia?</li>
+      <li>O número tem data e fonte?</li>
+      <li>Material de cliente e de venda estão no mesmo arquivo? Se sim, separa antes.</li>
+    </ol>
+  </div>
+
+  <footer>Gerado em 16/09/2026 · repo <span class="mono">gestao-redes-sociais</span> · próxima atualização: domingo, planejamento da semana seguinte</footer>
+
+</div>

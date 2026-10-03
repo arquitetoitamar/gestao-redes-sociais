@@ -1,0 +1,159 @@
+1
+00:00:09,726 --> 00:00:13,495
+Você vende no Mercado Livre, na Shopee, na Amazon…
+
+2
+00:00:13,495 --> 00:00:20,954
+e passa o dia apagando incêndio: pergunta sem resposta, promoção que come a margem, anúncio parado.
+
+3
+00:00:20,954 --> 00:00:30,372
+O GestorPro é um escritório de agentes de inteligência artificial que trabalha nas suas lojas enquanto você cuida do negócio.
+
+4
+00:00:30,372 --> 00:00:34,818
+Neste vídeo eu te mostro, tela por tela, como ele funciona.
+
+5
+00:00:35,908 --> 00:00:39,925
+Cada agente tem uma função, como num escritório de verdade.
+
+6
+00:00:39,925 --> 00:00:42,579
+O Gestor coordena o time e fecha o dia.
+
+7
+00:00:42,579 --> 00:00:45,847
+O Guardião de margem cuida de preço e promoções.
+
+8
+00:00:45,847 --> 00:00:48,910
+O Atendente responde perguntas e reclamações.
+
+9
+00:00:48,910 --> 00:00:57,283
+O Comprador de mídia olha as campanhas, o Curador cuida do catálogo, e o Analista de estoque avisa antes de faltar produto.
+
+10
+00:00:57,283 --> 00:01:02,592
+Aqui você vê quem rodou, o que cada um fez no mês e o que está esperando você.
+
+11
+00:01:03,683 --> 00:01:06,484
+A Sala de comando é o painel do dono.
+
+12
+00:01:06,484 --> 00:01:10,647
+Em cima, as ações de hoje e o que espera sua aprovação.
+
+13
+00:01:10,647 --> 00:01:19,352
+Esta nota mede a saúde da operação: anúncios com custo, vendendo acima do piso, com estoque, perguntas respondidas.
+
+14
+00:01:19,352 --> 00:01:25,484
+E aqui embaixo fica a fila de aprovação: no começo, o time prepara e você decide.
+
+15
+00:01:25,484 --> 00:01:29,646
+Nada é alterado na loja sem o seu ok — é o modo sombra.
+
+16
+00:01:30,738 --> 00:01:40,034
+Esta é a tela que mais importa: cada pedido, com a comissão do marketplace, o imposto, o frete e o custo do produto já descontados.
+
+17
+00:01:40,034 --> 00:01:42,446
+Não é faturamento — é o que sobra.
+
+18
+00:01:42,446 --> 00:01:49,188
+Aqui a loja fatura doze mil e oitocentos no mês, com trinta e três por cento de margem líquida.
+
+19
+00:01:49,188 --> 00:01:52,665
+Pedido a pedido, você vê onde ganha e onde perde.
+
+20
+00:01:53,755 --> 00:01:55,730
+Margem só existe com custo.
+
+21
+00:01:55,730 --> 00:02:01,654
+Você sobe uma planilha, cola SKU e custo, ou importa direto do Bling ou do Olist.
+
+22
+00:02:01,654 --> 00:02:09,477
+Aqui também ficam as regras do negócio: o piso de margem — abaixo disso o time não deixa vender — e o teto.
+
+23
+00:02:09,477 --> 00:02:15,181
+E os custos fixos do mês, para o GestorPro calcular o seu ponto de equilíbrio.
+
+24
+00:02:16,272 --> 00:02:23,477
+Com custos fixos cadastrados, você vê o resultado real do mês: da receita até o lucro, passo a passo.
+
+25
+00:02:23,477 --> 00:02:28,970
+E o ponto de equilíbrio: quanto a loja precisa faturar para pagar a operação.
+
+26
+00:02:30,062 --> 00:02:33,676
+Promoção é onde mais se perde dinheiro sem perceber.
+
+27
+00:02:33,676 --> 00:02:43,269
+O Guardião de margem calcula cada campanha candidata: quanto o marketplace paga do desconto, quanto sai do seu bolso e como fica a margem.
+
+28
+00:02:43,269 --> 00:02:46,189
+Só entra o que cabe entre o piso e o teto.
+
+29
+00:02:46,189 --> 00:02:56,199
+E se você quiser, liga o automático: ele entra nas promoções que valem a pena e sai das que derrubam a margem — sozinho, registrando cada passo.
+
+30
+00:02:57,290 --> 00:03:02,516
+O Atendente lê cada pergunta e prepara a resposta com base na ficha do anúncio.
+
+31
+00:03:02,516 --> 00:03:05,824
+No começo, ele sugere e você aprova com um clique.
+
+32
+00:03:05,824 --> 00:03:09,065
+Depois de ganhar confiança, ele responde sozinho.
+
+33
+00:03:09,065 --> 00:03:11,843
+Pergunta respondida rápido é venda a mais.
+
+34
+00:03:12,934 --> 00:03:21,165
+Reclamações, mediações e devoluções ficam aqui, abertas e encerradas, com a etapa de cada uma.
+
+35
+00:03:21,165 --> 00:03:25,719
+O Atendente sugere a resposta e acompanha até o fim.
+
+36
+00:03:26,811 --> 00:03:34,613
+Tudo o que o time faz fica registrado: quem fez, o que mudou, o valor antes e depois, e a regra que autorizou.
+
+37
+00:03:34,613 --> 00:03:35,818
+Dá para desfazer.
+
+38
+00:03:35,818 --> 00:03:46,316
+E todo fim de dia o Gestor fecha um relatório: vendas, o que o time fez, o que espera você e as decisões para amanhã — também por e-mail e WhatsApp.
+
+39
+00:03:47,407 --> 00:04:02,156
+Para começar, você conecta suas lojas pelo Marketplace Connect — Mercado Livre, Shopee, Amazon, Magalu, Shein, TikTok Shop, Bling e Olist — e em poucos minutos o time já está trabalhando.
+
+40
+00:04:02,156 --> 00:04:05,233
+Teste grátis em gestorpro.tiops.com.br.

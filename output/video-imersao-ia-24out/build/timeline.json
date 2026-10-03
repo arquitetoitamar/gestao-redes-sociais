@@ -1,0 +1,83 @@
+{
+ "fps": 30,
+ "total": 31.839,
+ "scenes": [
+  {
+   "id": "s0",
+   "kind": "scene",
+   "narr": "n0",
+   "start": 0.0,
+   "dur": 3.592,
+   "nstart": 0.15,
+   "ndur": 3.092,
+   "cues": {
+    "ouvir falar": 0.801,
+    "inteligência": 1.615
+   }
+  },
+  {
+   "id": "s1",
+   "kind": "scene",
+   "narr": "n1",
+   "start": 3.592,
+   "dur": 8.356,
+   "nstart": 3.792,
+   "ndur": 7.756,
+   "cues": {
+    "vinte e quatro": 4.009,
+    "São Paulo": 5.745,
+    "criar o seu": 6.938,
+    "agente de IA": 8.022,
+    "trabalhar": 8.999,
+    "marketplace": 10.571
+   }
+  },
+  {
+   "id": "s2",
+   "kind": "scene",
+   "narr": "n2",
+   "start": 11.948,
+   "dur": 7.183,
+   "nstart": 12.098,
+   "ndur": 6.583,
+   "cues": {
+    "Na prática": 12.098,
+    "criar seus": 12.986,
+    "ver aplicações": 14.658,
+    "descobrir": 15.86,
+    "automatizar": 17.113
+   }
+  },
+  {
+   "id": "s3",
+   "kind": "scene",
+   "narr": "n3",
+   "start": 19.131,
+   "dur": 7.463,
+   "nstart": 19.281,
+   "ndur": 6.963,
+   "cues": {
+    "Um dia inteiro": 19.281,
+    "Itamar Rocha": 20.299,
+    "professor": 21.156,
+    "fundador da Tiops": 22.548,
+    "plataforma": 23.673
+   }
+  },
+  {
+   "id": "s4",
+   "kind": "scene",
+   "narr": "n4",
+   "start": 26.594,
+   "dur": 5.244,
+   "nstart": 26.794,
+   "ndur": 3.444,
+   "cues": {
+    "Vagas limitadas": 26.794,
+    "Clique": 27.995,
+    "Saiba mais": 28.516,
+    "garanta": 29.195
+   }
+  }
+ ]
+}

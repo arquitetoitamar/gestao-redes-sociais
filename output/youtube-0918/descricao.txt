@@ -1,0 +1,50 @@
+Dá pra automatizar uma loja com IA hoje? Dá — e o caminho tem 3 peças: olhos, cérebro e braço. Neste vídeo eu mostro como aplicar isso no Mercado Livre, Shopee, TikTok Shop e outros marketplaces.
+
+Saiba mais sobre o Marketplace Connect: https://l.tiops.com.br/automatizar-loja?o=youtube
+
+Você vai ver:
+• Por que quase todo mundo parou no mesmo degrau da IA (usar só para perguntar)
+• Olhos, cérebro e braço: as 3 peças para automatizar uma loja
+• Chatbot x agente: quem só conversa e quem executa
+• As 6 frentes da operação: preço, promoção, estoque, perguntas, devolução e anúncio
+• Modo sombra, aprovação e registro: como automatizar sem perder o controle
+• Como começar em 3 passos: custos, acesso só de leitura e regras de negócio
+• Como não ficar refém de um único modelo de IA
+
+Links:
+• Marketplace Connect (o braço que conecta a IA às suas contas): https://l.tiops.com.br/automatizar-loja?o=youtube
+• GestorPro (agentes para marketplaces): https://l.tiops.com.br/gestorpro?o=youtube
+• Guia: como vender na Shopee com IA: https://l.tiops.com.br/guia-vender-shopee-ia?o=youtube
+• Biblioteca de prompts para marketplaces: https://prompts.tiops.com.br
+
+Capítulos:
+00:00 Dá pra automatizar uma loja com IA hoje?
+00:59 O dia a dia repetitivo de quem vende
+02:21 Produtividade não é fazer muita coisa
+03:05 Processos: as engrenagens da empresa
+04:42 A pirâmide da IA: quase todo mundo parou no mesmo degrau
+08:17 As 3 peças: olhos, cérebro e braço
+09:09 Os olhos: a IA lendo vendas, custos, estoque e taxas
+10:15 O cérebro: o que a IA deve e não deve fazer
+12:01 Chatbot x agente: quem só conversa e quem executa
+12:29 O modelo pensa e escreve: onde focar
+14:30 Trabalho fora do horário: perguntas, promoções e preço dinâmico
+16:07 Ruptura e reposição de estoque
+18:44 As 6 frentes: preço, promoção, estoque, perguntas, devolução e anúncio
+19:32 Modo sombra, aprovação e registro de tudo
+20:00 Tarefa repetida x estratégia do negócio
+20:56 Como começar em 3 passos
+23:12 Não fique refém de um único modelo de IA
+24:49 Quem delega o repetido x quem faz na mão
+28:02 Marketplace Connect: o braço da sua IA
+29:05 GestorPro: agentes para marketplaces
+30:00 Para quem é: sellers, agências, comunidades, devs e empresas
+32:10 Mentoria técnica
+34:41 Por onde começar
+36:43 Suporte com agentes
+38:11 Material inicial e biblioteca de prompts
+39:19 Próximo passo
+
+Sobre o autor: Itamar Rocha, especialista em inteligência artificial, professor de graduação e fundador da Tiops.
+
+#AutomacaoComIA #Marketplaces #Ecommerce #MercadoLivre #Shopee #IAparaVendedores

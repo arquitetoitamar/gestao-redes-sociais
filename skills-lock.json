@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "skills": {
+    "ad-creative-video": {
+      "source": "iart-ai/ad-video-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ad-creative-video/SKILL.md",
+      "computedHash": "94c33e3435abd802773c4b7e6058f3d47456bc56354d87b1e6fc2b689757735d"
+    },
+    "brand-intake": {
+      "source": "motion-team/creative-strategy-skills",
+      "sourceType": "github",
+      "skillPath": "brand-intake/SKILL.md",
+      "computedHash": "e16d9849231f2fcb1f54a5c744455f214301a6d6857fb1b62dafb9d6250d120a"
+    },
+    "caption-animation": {
+      "source": "iart-ai/tiktok-video-skills",
+      "sourceType": "github",
+      "skillPath": "skills/caption-animation/SKILL.md",
+      "computedHash": "e42c4828d3c6115dfb4d8fd3c3fd485b8e6a89c35a8835eee6dae39fb83210a4"
+    },
+    "countdown-video": {
+      "source": "iart-ai/tiktok-video-skills",
+      "sourceType": "github",
+      "skillPath": "skills/countdown-video/SKILL.md",
+      "computedHash": "dafb9127ededa76d0df08be73adc46e18d6ec3955153f6ecfd0f928984ce95b2"
+    },
+    "creative-mechanics": {
+      "source": "motion-team/creative-strategy-skills",
+      "sourceType": "github",
+      "skillPath": "creative-mechanics/SKILL.md",
+      "computedHash": "38575061f3230bee65a398114160d61b3a95d499f09287576242ff8e671ad0f1"
+    },
+    "creative-strategy-engine": {
+      "source": "motion-team/creative-strategy-skills",
+      "sourceType": "github",
+      "skillPath": "creative-strategy-engine/SKILL.md",
+      "computedHash": "a40db1d0840d113b157e11cc4f0b4c64c15db1cbaafd0c60dbb8cb3ed4ab97bb"
+    },
+    "hook-tactics": {
+      "source": "motion-team/creative-strategy-skills",
+      "sourceType": "github",
+      "skillPath": "hook-tactics/SKILL.md",
+      "computedHash": "3440c72534dd22a3fbd17002b6645e8ed3423de510088726a81e484a1b1babc6"
+    },
+    "hook-voice-patterns": {
+      "source": "motion-team/creative-strategy-skills",
+      "sourceType": "github",
+      "skillPath": "hook-voice-patterns/SKILL.md",
+      "computedHash": "7b336ce6f6363cfd7bc6fc964f85c6bd14bea769bbfe9074ced9dba295b92fc7"
+    },
+    "hook-writing": {
+      "source": "motion-team/creative-strategy-skills",
+      "sourceType": "github",
+      "skillPath": "hook-writing/SKILL.md",
+      "computedHash": "a72041e94cb9927d7b49c8019763e43dcc8d4370beaf3c73ba60e39e668bd58c"
+    },
+    "launch-video": {
+      "source": "iart-ai/ad-video-skills",
+      "sourceType": "github",
+      "skillPath": "skills/launch-video/SKILL.md",
+      "computedHash": "a55b82d2ca76de5bb80a1217594b11d1bf1ae4485b487bcad7ab256e2f116790"
+    },
+    "lower-thirds": {
+      "source": "iart-ai/tiktok-video-skills",
+      "sourceType": "github",
+      "skillPath": "skills/lower-thirds/SKILL.md",
+      "computedHash": "502c1a8a491e477dd855eb1a45469c09f6ff46a72ea841838d358d0a6a9fd790"
+    },
+    "photo-slideshow": {
+      "source": "iart-ai/ecommerce-video-skills",
+      "sourceType": "github",
+      "skillPath": "skills/photo-slideshow/SKILL.md",
+      "computedHash": "ec1dc38355073f869c41d6eff2ae3a73323255392b31bcd99e7ff74a61044d55"
+    },
+    "promo-video": {
+      "source": "iart-ai/ecommerce-video-skills",
+      "sourceType": "github",
+      "skillPath": "skills/promo-video/SKILL.md",
+      "computedHash": "c36e454e50ace08d7bb5189ab325af57721c2ecb3f32deddd87afb9f5e704c3d"
+    },
+    "review-audit": {
+      "source": "motion-team/creative-strategy-skills",
+      "sourceType": "github",
+      "skillPath": "review-audit/SKILL.md",
+      "computedHash": "f6f04b3e84552db76203dfda8ee6f1b4a54fa4d55956a184f31cac8e876c6ece"
+    },
+    "short-form-video": {
+      "source": "iart-ai/tiktok-video-skills",
+      "sourceType": "github",
+      "skillPath": "skills/short-form-video/SKILL.md",
+      "computedHash": "893ea19615f3199159b9fe94f05e37a5e538e7e0c3af7f77f9f9bed7ff933423"
+    },
+    "testimonial-video": {
+      "source": "iart-ai/ad-video-skills",
+      "sourceType": "github",
+      "skillPath": "skills/testimonial-video/SKILL.md",
+      "computedHash": "0d71fa501ffc13fc979d4d93865785c16741c6b4041ccbb3926eaf0da0f486da"
+    },
+    "video-shotcraft": {
+      "source": "Vincentwei1021/video-shotcraft",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "f4ee855f52b266a9c05d645b90e1f803be17b2c94af59907dfd52910697ac7e8"
+    },
+    "visual-formats": {
+      "source": "motion-team/creative-strategy-skills",
+      "sourceType": "github",
+      "skillPath": "visual-formats/SKILL.md",
+      "computedHash": "1cd4b4dc07fba616a96c3eebdfc8b7fd40749fb5bd65dbfa230eba91a4529b2c"
+    }
+  }
+}

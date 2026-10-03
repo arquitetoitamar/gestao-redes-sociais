@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Reel Marketplace Connect</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage">
+
+<!-- S0 gancho -->
+<section class="scene dark" id="s0"><div class="cam">
+  <div class="hdr"><span><i class="dot"></i>Marketplace Connect</span><span>Tiops</span></div>
+  <div class="endw fit" id="s0a" style="top:600px;font-size:170px">SUA IA</div>
+  <div class="endw fit" id="s0b" style="top:770px;font-size:170px">RESPONDE.</div>
+  <div id="s0bar" style="position:absolute;left:110px;top:840px;width:860px;height:26px;background:#f5c400;border-radius:6px"></div>
+  <div class="endw y fit" id="s0c" style="top:770px;font-size:200px">OPERA</div>
+  <div class="endw fit" id="s0d" style="top:960px;font-size:170px">SUA LOJA.</div>
+</div></section>
+
+<!-- S1 abas -->
+<section class="scene light" id="s1"><div class="grid"></div><div class="cam">
+  <div class="hdr"><span><i class="dot"></i>Marketplace Connect</span><span>01 / 05</span></div>
+  <div class="lbl">01 · A rotina</div>
+  <div class="h1 fith"><span class="ln">O dia começa</span><span class="ln">abrindo abas.</span></div>
+  <div id="deck" style="position:absolute;left:190px;top:580px;width:760px;height:700px"></div>
+  <div class="card clock" id="clock" style="left:150px;top:760px;width:780px;height:420px">
+    <div class="num" id="clockN">08:00</div>
+    <div class="bar"><i id="clockB"></i></div>
+    <div class="cap">e quando vê, já é <b style="color:#0b0b0c">meio-dia.</b></div>
+  </div>
+</div></section>
+
+<!-- I1 -->
+<section class="scene dark inter" id="i1"><div class="hdr"><span><i class="dot"></i>Marketplace Connect</span><span>02 / 05</span></div><div class="big">CONECTA.</div><div class="foot"><span>A ponte</span><span>Tiops</span></div></section>
+
+<!-- S2 ponte -->
+<section class="scene light" id="s2"><div class="grid"></div><div class="cam">
+  <div class="hdr"><span><i class="dot"></i>Marketplace Connect</span><span>02 / 05</span></div>
+  <div class="lbl">02 · A ponte</div>
+  <div class="h1 fith"><span class="ln">A ponte</span><span class="ln">que faltava.</span></div>
+  <div class="sub" id="s2sub" style="top:546px"><b>Um clique.</b> Sem chave de API. Sem código.</div>
+  <svg id="s2svg" width="1080" height="1920" style="position:absolute;left:0;top:0"></svg>
+  <div class="card node" id="nA" style="left:80px;top:640px;width:600px;height:140px">
+    <div class="logo" style="background:#d97757">✳</div>
+    <div class="logo" style="background:#10a37f;font-size:19px;margin-left:-8px">GPT</div>
+    <div class="t"><b>Claude · ChatGPT</b><span>o assistente que você já usa</span></div>
+  </div>
+  <div class="card node mc" id="nB" style="left:140px;top:862px;width:800px;height:150px">
+    <div class="logo" style="background:#0b0b0c;color:#f5c400;font-size:26px">MC</div>
+    <div class="t"><b>Marketplace Connect</b><span>uma autorização, direto nas suas contas</span></div>
+    <div class="btn" id="nBbtn">Autorizar</div>
+  </div>
+  <div id="stores"></div>
+</div></section>
+
+<!-- I2 -->
+<section class="scene yellow inter" id="i2"><div class="hdr"><span><i class="dot"></i>Marketplace Connect</span><span>03 / 05</span></div><div class="big">PEDE.</div><div class="foot"><span>Em português</span><span>Tiops</span></div></section>
+
+<!-- S3 chat -->
+<section class="scene light" id="s3"><div class="grid"></div><div class="cam">
+  <div class="hdr"><span><i class="dot"></i>Marketplace Connect</span><span>03 / 05</span></div>
+  <div class="lbl">03 · Em português</div>
+  <div class="h1 fith" style="font-size:112px"><span class="ln">Você não</span><span class="ln">programa.</span><span class="ln">Você <span class="mark">pede.</span></span></div>
+  <div class="card chat" id="chat" style="left:60px;top:640px;width:960px;height:720px">
+    <div class="top"><span style="color:#d97757;font-size:30px">✳</span>Claude<span class="pill"><i></i>Marketplace Connect conectado</span></div>
+    <div class="sep"></div>
+    <div class="bubble" id="bub"></div>
+    <div class="status" id="stat"><div class="spin" id="spin"></div><span>Consultando o estoque e o giro da semana…</span></div>
+    <div class="answer" id="ans"><b>7 anúncios</b> abaixo de 5 unidades. O mais crítico vendeu 23 em 7 dias e tem só 2 em estoque.</div>
+    <div class="rows" id="rows">
+      <div class="row"><span class="nm">Kit Organizador de Gaveta</span><span class="un">2 un</span><span class="tag red">rompe em 1 dia</span></div>
+      <div class="row"><span class="nm">Suporte de Parede Duplo</span><span class="un">4 un</span><span class="tag amb">3 dias</span></div>
+      <div class="row"><span class="nm">Luminária LED de Mesa</span><span class="un">4 un</span><span class="tag amb">4 dias</span></div>
+    </div>
+  </div>
+  <div class="note" id="s3note" style="top:1372px">Conversa ilustrativa · loja e números fictícios</div>
+</div></section>
+
+<!-- I3 -->
+<section class="scene dark inter" id="i3"><div class="hdr"><span><i class="dot"></i>Marketplace Connect</span><span>04 / 05</span></div><div class="big">APROVA.</div><div class="foot"><span>Controle</span><span>Tiops</span></div></section>
+
+<!-- S4 aprovação -->
+<section class="scene light" id="s4"><div class="grid"></div><div class="cam">
+  <div class="hdr"><span><i class="dot"></i>Marketplace Connect</span><span>04 / 05</span></div>
+  <div class="lbl">04 · Controle</div>
+  <div class="h1 fith"><span class="ln">Nada muda</span><span class="ln">sem você.</span></div>
+  <div class="mini" id="mini"><span>preço</span><span>anúncio</span><span>resposta ao cliente</span></div>
+  <div class="card" id="appr" style="left:60px;top:640px;width:960px;height:470px">
+    <div class="badge wait" id="bWait">● Aguardando sua aprovação</div>
+    <div class="badge done" id="bDone">✓ Aprovado e executado</div>
+    <div class="prod"><div class="thumb"></div><div><b>Kit Organizador de Gaveta</b><span>Mercado Livre · anúncio ativo</span></div></div>
+    <div class="price"><span class="old">R$ 89,90</span><span class="arr">→</span><span class="new">R$ 84,90</span></div>
+    <div class="why">Concorrente baixou. O novo preço respeita o seu piso.</div>
+    <div class="bt no">Recusar</div>
+    <div class="bt yes" id="btYes">Aprovar<div class="ok2" id="btOk">✓ Aprovado</div></div>
+  </div>
+  <div class="card log" id="log" style="left:60px;top:1130px;width:960px;height:232px">
+    <div class="ttl">Histórico</div>
+    <div class="li" style="top:66px"><span class="h">14:32</span><span class="w">Preço alterado</span><span class="by">aprovado por você</span></div>
+    <div class="li" style="top:114px"><span class="h">14:10</span><span class="w">Resposta ao cliente</span><span class="by">aprovada</span></div>
+    <div class="li" style="top:162px"><span class="h">13:55</span><span class="w">Anúncio publicado</span><span class="by">aprovado</span></div>
+  </div>
+  <svg id="cursor" width="54" height="54" viewBox="0 0 24 24" style="position:absolute;left:0;top:0;z-index:9;filter:drop-shadow(0 6px 10px rgba(0,0,0,.35))">
+    <path d="M4 2 L4 20 L9 15.5 L12.2 22 L15 20.7 L11.9 14.4 L18.5 14.2 Z" fill="#0b0b0c" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/>
+  </svg>
+</div></section>
+
+<!-- I4 -->
+<section class="scene yellow inter" id="i4"><div class="hdr"><span><i class="dot"></i>Marketplace Connect</span><span>05 / 05</span></div><div class="big">COMEÇA.</div><div class="foot"><span>Dois minutos</span><span>Tiops</span></div></section>
+
+<!-- S6 começar -->
+<section class="scene light" id="s6"><div class="grid"></div><div class="cam">
+  <div class="hdr"><span><i class="dot"></i>Marketplace Connect</span><span>05 / 05</span></div>
+  <div class="lbl">05 · Começar</div>
+  <div class="h1 fith"><span class="ln">Dois minutos</span><span class="ln">por <span class="mark">loja.</span></span></div>
+  <div class="card step" style="left:60px;top:600px;width:960px;height:130px"><div class="n">1</div><div><b>Autorize a loja</b><span>login oficial do marketplace, um clique</span></div></div>
+  <div class="card step" style="left:60px;top:752px;width:960px;height:130px"><div class="n">2</div><div><b>Cole um endereço no seu assistente</b><span>Claude, ChatGPT, Codex…</span></div></div>
+  <div class="card step" style="left:60px;top:904px;width:960px;height:130px"><div class="n">3</div><div><b>Pronto. Peça em português.</b><span>nenhuma linha de código</span></div></div>
+  <div class="card free" id="free" style="left:60px;top:1080px;width:960px;height:150px">
+    <div class="logo" style="background:#d97757">✳</div>
+    <div><b>Funciona no <em>plano gratuito</em> do Claude</b><span>No ChatGPT, precisa de plano pago.</span></div>
+  </div>
+</div></section>
+
+<!-- S7 final -->
+<section class="scene dark" id="s7"><div class="cam">
+  <div class="hdr"><span><i class="dot"></i>Marketplace Connect</span><span>Tiops</span></div>
+  <div class="endw fit" id="e1" style="top:520px;font-size:150px">MARKETPLACE</div>
+  <div class="endw y fit" id="e2" style="top:660px;font-size:190px">CONNECT.</div>
+  <div class="endsub" id="e3" style="top:880px">Sua IA operando a sua loja.</div>
+  <div class="bigcta" id="e4" style="top:1000px">Comenta <span class="kw">CONNECT</span></div>
+  <div class="small" id="e5" style="top:1160px">que eu te mando o link</div>
+  <div class="small" id="e6" style="top:1330px;font-size:26px;color:rgba(255,255,255,.38)">Saiba mais · marketplaces.tiops.com.br</div>
+</div></section>
+
+<div id="cta">Comenta <span class="kw">CONNECT</span><span class="rest">e receba o link</span></div>
+</div>
+
+<script src="../assets/gsap.min.js"></script>
+<script src="timeline.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

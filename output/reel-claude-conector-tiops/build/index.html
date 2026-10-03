@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Reel conector Tiops</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage">
+
+<!-- gancho: pessoa -->
+<section class="scene" id="hook">
+  <canvas class="person" id="cvHook" width="1080" height="1920"></canvas>
+  <div class="topbar">O Claude agora faz o quê? 😳</div>
+</section>
+
+<!-- 1. Personalizar -->
+<section class="scene room" id="b1"><div class="screen">
+  <div class="chrome"><div class="tabs"><i class="r"></i><i class="y"></i><i class="g"></i><span class="tab"><b class="ast">✳</b> Claude</span></div><div class="url">claude.ai/new</div></div>
+  <div class="page side">
+    <div class="ctitle">Claude</div>
+    <div class="it" style="top:400px"><span class="ic">⊕</span>Novo bate-papo</div>
+    <div class="it" style="top:492px"><span class="ic">⌕</span>Procurar</div>
+    <div class="it" style="top:584px"><span class="ic">◌</span>Conversas</div>
+    <div class="it" style="top:676px"><span class="ic">▢</span>Projetos</div>
+    <div class="it" style="top:768px"><span class="ic">⧉</span>Artefatos</div>
+    <div class="it mutedit" style="top:860px"><span class="ic">‹›</span>Código <span class="chipup">Fazer Upgrade</span></div>
+    <div class="it" id="itPers" style="top:952px"><span class="ic">⌂</span>Personalizar</div>
+    <div class="lab" style="top:1090px">Favoritos</div>
+    <div class="it small" style="top:1150px">Plano de anúncios</div>
+    <div class="lab" style="top:1260px">Recentes</div>
+    <div class="it small" style="top:1320px">Ideias de títulos</div>
+    <div class="it small" style="top:1400px">Planilha de custos</div>
+    <div class="it small" style="top:1480px">Resposta para cliente</div>
+  </div>
+  <svg class="cursor" viewBox="0 0 24 24"><path d="M4 2 L4 20 L9 15.5 L12.2 22 L15 20.7 L11.9 14.4 L18.5 14.2 Z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
+</div><div class="cap">1. Vá em Personalizar</div></section>
+
+<!-- 2. Conectores -->
+<section class="scene room" id="b2"><div class="screen">
+  <div class="chrome"><div class="tabs"><i class="r"></i><i class="y"></i><i class="g"></i><span class="tab"><b class="ast">✳</b> Claude</span></div><div class="url">claude.ai/customize</div></div>
+  <div class="page">
+    <div class="rail"><span>▭</span><span>⊕</span><span>⌕</span><span>◌</span><span>▢</span><span>⧉</span><span>‹›</span></div>
+    <div class="pgtitle" style="left:200px;top:300px">←&nbsp;&nbsp;Personalizar</div>
+    <div class="it2" style="top:450px"><span class="ic">☰</span>Habilidades</div>
+    <div class="it2" id="itConn" style="top:560px"><span class="ic">⊞</span>Conectores</div>
+  </div>
+  <svg class="cursor" viewBox="0 0 24 24"><path d="M4 2 L4 20 L9 15.5 L12.2 22 L15 20.7 L11.9 14.4 L18.5 14.2 Z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
+</div><div class="cap">2. Conectores</div></section>
+
+<!-- 3. Adicionar + -->
+<section class="scene room" id="b3"><div class="screen">
+  <div class="chrome"><div class="tabs"><i class="r"></i><i class="y"></i><i class="g"></i><span class="tab"><b class="ast">✳</b> Claude</span></div><div class="url">claude.ai/customize/connectors</div></div>
+  <div class="page conn">
+    <div class="connhdr">Conectores <span class="srch">⌕</span><span class="plus" id="plusBtn">+</span></div>
+    <div class="grp" style="top:360px">⌄&nbsp; Web</div>
+    <div class="row sel" style="top:410px"><span class="gh">●</span>Integração com GitHub</div>
+    <div class="grp" style="top:540px">⌄&nbsp; Não conectado</div>
+    <div class="row" style="top:600px"><span class="lg" style="color:#ea4335">M</span>Gmail</div>
+    <div class="row" style="top:690px"><span class="lg" style="color:#4285f4">▦</span>Google Calendar</div>
+    <div class="row" style="top:780px"><span class="lg" style="color:#0f9d58">▲</span>Google Drive</div>
+    <div class="dd" id="dd">
+      <div class="ddi"><span>▤</span>Navegar conectores</div>
+      <div class="ddi" id="ddAdd"><span>···</span>Adicionar conector personalizado</div>
+    </div>
+  </div>
+  <svg class="cursor" viewBox="0 0 24 24"><path d="M4 2 L4 20 L9 15.5 L12.2 22 L15 20.7 L11.9 14.4 L18.5 14.2 Z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
+</div><div class="cap">3. Adicionar “+”</div></section>
+
+<!-- 4. Nome -->
+<section class="scene room" id="b4"><div class="screen">
+  <div class="chrome"><div class="tabs"><i class="r"></i><i class="y"></i><i class="g"></i><span class="tab"><b class="ast">✳</b> Claude</span></div><div class="url">claude.ai/customize/connectors?modal=add-custom-connector</div></div>
+  <div class="page conn dim">
+    <div class="connhdr">Conectores <span class="srch">⌕</span><span class="plus">+</span></div>
+    <div class="grp" style="top:360px">⌄&nbsp; Web</div>
+    <div class="row sel" style="top:410px"><span class="gh">●</span>Integração com GitHub</div>
+  </div>
+  <div class="modal">
+    <div class="mt">Adicionar conector personalizado <span class="beta">BETA</span></div>
+    <div class="mp">Conecte Claude aos seus dados e ferramentas. <u>Saiba mais sobre conectores</u> ou comece com <u>conectores pré-construídos</u>.</div>
+    <div class="fld" style="top:290px"><span class="typed" id="nm4"></span></div>
+    <div class="fld ph" style="top:410px">URL do servidor MCP remoto</div>
+    <div class="adv">⌄&nbsp; Configurações avançadas</div>
+    <div class="warn">Use apenas conectores de desenvolvedores em quem você confia. A Anthropic não controla quais ferramentas os desenvolvedores disponibilizam e não pode verificar se elas funcionarão conforme o esperado ou se não serão alteradas.</div>
+    <div class="mbtn"><span class="cancel">Cancelar</span><span class="add off">Adicionar</span></div>
+  </div>
+  <svg class="cursor" viewBox="0 0 24 24"><path d="M4 2 L4 20 L9 15.5 L12.2 22 L15 20.7 L11.9 14.4 L18.5 14.2 Z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
+</div><div class="cap">4. Coloque qualquer nome</div></section>
+
+<!-- 5. Copie a URL -->
+<section class="scene room" id="b5"><div class="screen">
+  <div class="chrome"><div class="tabs"><i class="r"></i><i class="y"></i><i class="g"></i><span class="tab">Tiops Marketplace Connect</span></div><div class="url">marketplaces.tiops.com.br</div></div>
+  <div class="page lp">
+    <img src="../assets/landing_url.png" style="position:absolute;left:60px;top:420px;width:1060px">
+    <div class="copied" id="copied">✓ Copiado</div>
+  </div>
+  <svg class="cursor" viewBox="0 0 24 24"><path d="M4 2 L4 20 L9 15.5 L12.2 22 L15 20.7 L11.9 14.4 L18.5 14.2 Z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
+</div><div class="cap">5. Copie a URL do link</div></section>
+
+<!-- 6. Cole a URL -->
+<section class="scene room" id="b6"><div class="screen">
+  <div class="chrome"><div class="tabs"><i class="r"></i><i class="y"></i><i class="g"></i><span class="tab"><b class="ast">✳</b> Claude</span></div><div class="url">claude.ai/customize/connectors?modal=add-custom-connector</div></div>
+  <div class="page conn dim">
+    <div class="connhdr">Conectores <span class="srch">⌕</span><span class="plus">+</span></div>
+    <div class="grp" style="top:360px">⌄&nbsp; Web</div>
+    <div class="row sel" style="top:410px"><span class="gh">●</span>Integração com GitHub</div>
+  </div>
+  <div class="modal">
+    <div class="mt">Adicionar conector personalizado <span class="beta">BETA</span></div>
+    <div class="mp">Conecte Claude aos seus dados e ferramentas. <u>Saiba mais sobre conectores</u> ou comece com <u>conectores pré-construídos</u>.</div>
+    <div class="fld" style="top:290px">Marketplace Connect</div>
+    <div class="fld" id="urlFld" style="top:410px"><span class="ph2" id="urlPh">URL do servidor MCP remoto</span><span id="urlVal">https://mcp.tiops.com.br/mcp</span></div>
+    <div class="adv">⌄&nbsp; Configurações avançadas</div>
+    <div class="warn">Use apenas conectores de desenvolvedores em quem você confia. A Anthropic não controla quais ferramentas os desenvolvedores disponibilizam e não pode verificar se elas funcionarão conforme o esperado ou se não serão alteradas.</div>
+    <div class="mbtn"><span class="cancel">Cancelar</span><span class="add" id="addBtn">Adicionar</span></div>
+  </div>
+  <svg class="cursor" viewBox="0 0 24 24"><path d="M4 2 L4 20 L9 15.5 L12.2 22 L15 20.7 L11.9 14.4 L18.5 14.2 Z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
+</div><div class="cap">6. Cole no campo URL do MCP</div></section>
+
+<!-- autorização -->
+<section class="scene room" id="c1"><div class="screen">
+  <div class="chrome"><div class="tabs"><i class="r"></i><i class="y"></i><i class="g"></i><span class="tab">Marketplace Connect</span></div><div class="url">mcp.tiops.com.br/authorize</div></div>
+  <div class="page lp">
+    <div class="auth">
+      <div class="mclogo">MC</div>
+      <div class="at">Marketplace Connect</div>
+      <div class="as">O Claude quer acessar suas lojas</div>
+      <div class="ar"><span class="mk" style="background:#ffe600;color:#2d3277">ML</span>Mercado Livre<i>✓</i></div>
+      <div class="ar"><span class="mk" style="background:#111;color:#fff">TT</span>TikTok Shop<i>✓</i></div>
+      <div class="abtn" id="authBtn">Autorizar</div>
+      <div class="af">Autenticação oficial OAuth · você revoga quando quiser</div>
+    </div>
+  </div>
+  <svg class="cursor" viewBox="0 0 24 24"><path d="M4 2 L4 20 L9 15.5 L12.2 22 L15 20.7 L11.9 14.4 L18.5 14.2 Z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
+</div><div class="cap">Aceita que dói menos 😅</div></section>
+
+<!-- Claude trabalhando -->
+<section class="scene room" id="d"><div class="screen">
+  <div class="chrome"><div class="tabs"><i class="r"></i><i class="y"></i><i class="g"></i><span class="tab"><b class="ast">✳</b> Claude</span></div><div class="url">claude.ai/new</div></div>
+  <div class="page">
+    <div id="dA">
+      <div class="greet"><b class="ast">✳</b> De volta ao trabalho, Itamar</div>
+      <div class="inbox"><span class="typed" id="dPrompt"></span><span class="ip">+</span><span class="send">↑</span></div>
+    </div>
+    <div id="dB">
+      <div class="ub">Confira minhas vendas no Mercado Livre e no TikTok Shop</div>
+      <div class="tl">Ferramentas carregadas ›</div>
+      <div class="perm" id="perm"><b class="ast">✳</b><span class="ptx">Claude quer usar <b>Marketplace Connect</b></span><span class="pb" id="permBtn">Sempre permitir ⏎</span><span class="pn">Negar</span></div>
+      <div class="tr" style="top:560px"><span class="mk sm" style="background:#ffe600;color:#2d3277">ML</span>Mercado Livre · listar pedidos de hoje<i class="st"></i></div>
+      <div class="tr" style="top:640px"><span class="mk sm" style="background:#111;color:#fff">TT</span>TikTok Shop · buscar pedidos<i class="st"></i></div>
+      <div class="tr" style="top:720px"><span class="mk sm" style="background:#ffe600;color:#2d3277">ML</span>Mercado Livre · anúncios sem estoque<i class="st"></i></div>
+      <div class="rc" style="left:80px"><div class="rh" style="background:#ffe600;color:#2d3277">Mercado Livre</div><div class="rn"><b id="nML">0</b> pedidos hoje</div><div class="rl red">3 anúncios sem estoque</div></div>
+      <div class="rc" style="left:610px"><div class="rh" style="background:#111;color:#fff">TikTok Shop</div><div class="rn"><b id="nTT">0</b> pedidos hoje</div><div class="rl amb">2 perguntas sem resposta</div></div>
+      <div class="cr" id="cr">Quer que eu responda as 2 perguntas e pause os 3 anúncios sem estoque? Te mostro antes de mudar.</div>
+      <div class="ilus">exemplo ilustrativo</div>
+    </div>
+  </div>
+  <svg class="cursor" viewBox="0 0 24 24"><path d="M4 2 L4 20 L9 15.5 L12.2 22 L15 20.7 L11.9 14.4 L18.5 14.2 Z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
+</div><div class="cap" id="capD1">Para prompts prontos</div><div class="cap" id="capD2">Tem o passo a passo</div></section>
+
+<!-- chamada final: pessoa -->
+<section class="scene" id="e">
+  <canvas class="person" id="cvCta" width="1080" height="1920"></canvas>
+  <div class="cap big">Comente CONNECT</div>
+</section>
+
+</div>
+<script src="../../reel-explica-marketplace-connect/assets/gsap.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
