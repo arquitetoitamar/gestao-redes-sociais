@@ -1,0 +1,50 @@
+{
+  "corte": "corte3_lote_tiktok_motion.mp4",
+  "titulo_interno": "13 anúncios em um pedido",
+  "data_execucao": "2026-10-07",
+  "executado_por": "tarefa agendada publicar-corte-13-anuncios (09:00)",
+  "fonte": {
+    "video_original": "output/cortes-live-0610/corte3_lote_tiktok_motion.mp4",
+    "capa": "output/cortes-live-0610/capa_corte3.jpg",
+    "ajuste_tecnico": "audio reamostrado 96 kHz -> 48 kHz (fora da spec de Reels). Video em stream copy; sem denoise, EQ ou musica. Regerar com: ffmpeg -i corte3_lote_tiktok_motion.mp4 -c:v copy -c:a aac -ar 48000 -b:a 192k -movflags +faststart c3_pub.mp4",
+    "especificacoes": "1080x1920, 38.2s, h264 + aac 48 kHz estereo"
+  },
+  "youtube": {
+    "status": "publicado",
+    "video_id": "LKdokgRWWsk",
+    "url": "https://youtu.be/LKdokgRWWsk",
+    "shorts_url": "https://www.youtube.com/shorts/LKdokgRWWsk",
+    "canal": "Itamar Rocha",
+    "privacidade": "public",
+    "category_id": "28",
+    "default_language": "pt-BR",
+    "made_for_kids": false,
+    "processamento": "succeeded",
+    "titulo": "Pedi para a IA publicar 13 anúncios no TikTok Shop #shorts"
+  },
+  "instagram": {
+    "status": "NAO PUBLICADO - bloqueado",
+    "conta_alvo": "@tiopstecnologia",
+    "ig_account_id": "17841475188821957",
+    "motivo": "O classificador de auto mode do Claude Code negou a chamada de publicacao com o motivo 'Unrequested Commit in a Connected App'. A negacao vale para o resultado, nao apenas para aquele comando, entao nao foi tentada nenhuma rota alternativa (curl, skill, browser).",
+    "o_que_falta": [
+      "Reupload do video e da capa para o S3 (bucket tiops-public-assets-1785392019, chaves temp/cortes/c3_pub.mp4 e temp/cortes/c3_pub_capa.jpg). Objetos sob temp/* sao world-readable pela policy do bucket, entao a URL simples do S3 serve como video_url/cover_url - nao precisa de presigned GET.",
+      "POST {ig_account_id}/media com media_type=REELS, video_url, cover_url, caption e share_to_feed=true",
+      "Aguardar status_code=FINISHED no container (~1 min)",
+      "POST {ig_account_id}/media_publish com o creation_id",
+      "POST {media_id}/comments com as hashtags como primeiro comentario"
+    ],
+    "script_pronto": "scratchpad da sessao: ig_publish.py (faz container, polling, publish, permalink e comentario). Precisa de permissao de Bash para rodar.",
+    "legenda": "\"Pega todos os anúncios e publica no meu TikTok Shop.\" Em português, numa frase. 🗣️\n\nA IA leu os anúncios do Mercado Livre, categorizou cada um para o TikTok Shop, validou o armazém e preparou a publicação em lote.\n\nMercado Livre, Shopee, TikTok Shop, Amazon, Magalu, Shein, Olist e Bling — tudo num conector só.\n\n💬 Comenta CONNECT que eu te mando o link.",
+    "primeiro_comentario": "#marketplace #mercadolivre #tiktokshop #shopee #inteligenciaartificial #ecommerce #claude #chatgpt"
+  },
+  "s3_temporario": {
+    "bucket": "tiops-public-assets-1785392019",
+    "chaves": ["temp/cortes/c3_pub.mp4", "temp/cortes/c3_pub_capa.jpg"],
+    "status": "apagadas ao final (confirmado por HeadObject 404)"
+  },
+  "observacoes": [
+    "Unica peca publicada hoje, conforme a regra de nao canibalizar alcance.",
+    "O campo token_expires_at do instagram_config.json (1787792400) ja passou, mas o token respondeu normalmente a Graph API v21.0 em 2026-10-07. Vale renovar para nao quebrar a proxima publicacao."
+  ]
+}
