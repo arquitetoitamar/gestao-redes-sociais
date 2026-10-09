@@ -1,0 +1,59 @@
+{
+  "corte": "corte1_ia_recusou_motion.mp4",
+  "titulo_interno": "A IA se recusou a publicar",
+  "data_execucao": "2026-10-09",
+  "executado_por": "tarefa agendada publicar-corte-ia-recusou",
+  "fonte": {
+    "video_original": "output/cortes-live-0610/corte1_ia_recusou_motion.mp4",
+    "arquivo_publicado": "output/cortes-live-0610/c1_pub.mp4",
+    "capa": "output/cortes-live-0610/c1_pub_capa.jpg (extraida em 1.5s)",
+    "ajuste_tecnico": "audio reamostrado 96 kHz -> 48 kHz (fora da spec de Reels). Video em stream copy; sem denoise, EQ ou musica. Regerar com: ffmpeg -i corte1_ia_recusou_motion.mp4 -c:v copy -c:a aac -ar 48000 -b:a 192k -movflags +faststart c1_pub.mp4",
+    "especificacoes": "1080x1920, 53.9s, h264 + aac 48 kHz estereo"
+  },
+  "gate_de_canibalizacao": {
+    "regra": "nao publicar se ja houver post no dia",
+    "ultimo_post_anterior": "2026-10-08T15:31:20+0000 (corte 3, https://www.instagram.com/reel/DePQrtOD7Fe/)",
+    "resultado": "liberado - nenhum post em 2026-10-09",
+    "observacao": "intervalo real de ~21h entre as duas pecas, abaixo das 24h ideais da regra de espacamento"
+  },
+  "instagram": {
+    "status": "publicado",
+    "conta": "@tiopstecnologia",
+    "ig_account_id": "17841475188821957",
+    "media_id": "17905800759591767",
+    "creation_id": "17910170109506295",
+    "permalink": "https://www.instagram.com/reel/DeRjlIllv7d/",
+    "timestamp": "2026-10-09T12:55:01+0000",
+    "media_type": "REELS",
+    "share_to_feed": true,
+    "primeiro_comentario": {
+      "comment_id": "17933512398147226",
+      "texto": "#inteligenciaartificial #marketplace #mercadolivre #tiktokshop #ecommerce #agentesdeia #claude #chatgpt"
+    }
+  },
+  "youtube": {
+    "status": "publicado",
+    "video_id": "WIXd2HW4oFE",
+    "url": "https://youtu.be/WIXd2HW4oFE",
+    "shorts_url": "https://www.youtube.com/shorts/WIXd2HW4oFE",
+    "canal": "Itamar Rocha",
+    "privacidade": "public",
+    "category_id": "28",
+    "default_language": "pt-BR",
+    "made_for_kids": false,
+    "upload_status": "processed",
+    "processamento": "succeeded",
+    "duracao": "PT54S",
+    "titulo": "Mandei a IA publicar e ela se recusou #shorts"
+  },
+  "s3_temporario": {
+    "bucket": "tiops-public-assets-1785392019",
+    "chaves": ["temp/cortes/c1_pub.mp4", "temp/cortes/c1_pub_capa.jpg"],
+    "status": "apagadas ao final (DeleteObject ok + HeadObject 404)"
+  },
+  "observacoes": [
+    "Usada a versao _motion (53.9s), conforme a instrucao da tarefa de preferir o sufixo _motion. O enunciado citava 62s, que e a duracao do corte1_ia_recusou.mp4 sem motion.",
+    "Nenhuma oferta de impulsionamento pago ou assinatura foi aceita.",
+    "O campo token_expires_at do instagram_config.json (1787792400) continua no passado, mas o token respondeu normalmente a Graph API v21.0 em 2026-10-09. Vale renovar."
+  ]
+}
