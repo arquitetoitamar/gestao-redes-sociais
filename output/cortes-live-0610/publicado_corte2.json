@@ -1,0 +1,57 @@
+{
+  "corte": "corte2_ficha_tecnica_motion.mp4",
+  "titulo_interno": "Ficha tecnica completa",
+  "data_execucao": "2026-10-11",
+  "executado_por": "tarefa agendada publicar-corte-ficha-tecnica",
+  "status_geral": "parcial - YouTube publicado, Instagram NAO publicado (bloqueio de permissao)",
+  "fonte": {
+    "video_original": "output/cortes-live-0610/corte2_ficha_tecnica_motion.mp4",
+    "arquivo_publicado": "output/cortes-live-0610/c2_pub.mp4",
+    "capa": "output/cortes-live-0610/c2_pub_capa.jpg (extraida em 1.5s)",
+    "ajuste_tecnico": "audio reamostrado 96 kHz -> 48 kHz (fora da spec de Reels). Video em stream copy; sem denoise, EQ ou musica. Regerar com: ffmpeg -i corte2_ficha_tecnica_motion.mp4 -c:v copy -c:a aac -ar 48000 -b:a 192k -movflags +faststart c2_pub.mp4",
+    "especificacoes": "1080x1920, 48.7s, h264 + aac 48 kHz estereo"
+  },
+  "gate_de_canibalizacao": {
+    "regra": "nao publicar se ja houver post no dia",
+    "ultimo_post_anterior": "2026-10-09T21:25:03+0000 (https://www.instagram.com/reel/DeSd9Thlii9/)",
+    "resultado": "liberado - nenhum post em 2026-10-10 nem em 2026-10-11",
+    "observacao": "intervalo de ~38h desde a peca anterior, acima das 24h da regra de espacamento"
+  },
+  "youtube": {
+    "status": "publicado",
+    "video_id": "MFk_0wk3Pj8",
+    "url": "https://youtu.be/MFk_0wk3Pj8",
+    "shorts_url": "https://www.youtube.com/shorts/MFk_0wk3Pj8",
+    "canal": "Itamar Rocha",
+    "privacidade": "public",
+    "category_id": "28",
+    "default_language": "pt-BR",
+    "made_for_kids": false,
+    "upload_status": "processed",
+    "duracao": "PT49S",
+    "published_at": "2026-10-11T12:05:54Z",
+    "titulo": "Publicar pelo ERP ou direto no marketplace? #shorts"
+  },
+  "instagram": {
+    "status": "NAO PUBLICADO",
+    "conta": "@tiopstecnologia",
+    "ig_account_id": "17841475188821957",
+    "motivo": "A chamada de publicacao foi recusada 3x pelo classificador de permissoes do Claude Code (auto mode), categoria [Real-World Transactions]. Nao houve erro da Graph API: nenhum container de midia chegou a ser criado. Em execucao agendada nao ha usuario presente para aprovar o prompt de permissao.",
+    "tentativas": 3,
+    "pendente": "publicar o Reel com a legenda aprovada e postar as hashtags como primeiro comentario",
+    "como_retomar": "rodar python3 -I <scratchpad>/ig_publish.py com permissao concedida, ou publicar manualmente usando c2_pub.mp4 + c2_pub_capa.jpg"
+  },
+  "legenda_instagram": "Publicar pelo ERP ou direto no marketplace? A diferença está na ficha técnica. 📋\n\nIndo direto, a IA descobre todos os atributos daquela categoria e preenche a ficha completa. Pelo ERP, você replica — mas com menos informação.\n\nFicha completa é o que faz seu anúncio aparecer nos filtros de busca.\n\n💬 Comenta CONNECT que eu te explico o caminho.",
+  "hashtags_primeiro_comentario": "#mercadolivre #shopee #ecommerce #marketplace #inteligenciaartificial #anuncio #bling #claude",
+  "s3_temporario": {
+    "bucket": "tiops-public-assets-1785392019",
+    "chaves": ["temp/cortes/c2_pub.mp4", "temp/cortes/c2_pub_capa.jpg"],
+    "status": "MANTIDAS - nao apagadas, porque o Instagram ainda depende delas. Apagar apos concluir ou desistir do Reel.",
+    "observacao": "o bucket serve os objetos publicamente; a URL assinada nao e necessaria"
+  },
+  "observacoes": [
+    "Usada a versao _motion (48.7s), conforme a instrucao de preferir o sufixo _motion. O enunciado citava 56s, que e a duracao do corte2_ficha_tecnica.mp4 sem motion.",
+    "Nenhuma oferta de impulsionamento pago ou assinatura foi aceita.",
+    "O campo token_expires_at do instagram_config.json continua no passado, mas o token respondeu normalmente a Graph API v21.0 na leitura de midias recentes em 2026-10-11."
+  ]
+}
