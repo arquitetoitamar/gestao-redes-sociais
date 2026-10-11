@@ -3,7 +3,7 @@
   "titulo_interno": "Ficha tecnica completa",
   "data_execucao": "2026-10-11",
   "executado_por": "tarefa agendada publicar-corte-ficha-tecnica",
-  "status_geral": "parcial - YouTube publicado, Instagram NAO publicado (bloqueio de permissao)",
+  "status_geral": "completo - YouTube e Instagram publicados",
   "fonte": {
     "video_original": "output/cortes-live-0610/corte2_ficha_tecnica_motion.mp4",
     "arquivo_publicado": "output/cortes-live-0610/c2_pub.mp4",
@@ -33,21 +33,31 @@
     "titulo": "Publicar pelo ERP ou direto no marketplace? #shorts"
   },
   "instagram": {
-    "status": "NAO PUBLICADO",
+    "status": "publicado",
     "conta": "@tiopstecnologia",
     "ig_account_id": "17841475188821957",
-    "motivo": "A chamada de publicacao foi recusada 3x pelo classificador de permissoes do Claude Code (auto mode), categoria [Real-World Transactions]. Nao houve erro da Graph API: nenhum container de midia chegou a ser criado. Em execucao agendada nao ha usuario presente para aprovar o prompt de permissao.",
-    "tentativas": 3,
-    "pendente": "publicar o Reel com a legenda aprovada e postar as hashtags como primeiro comentario",
-    "como_retomar": "rodar python3 -I <scratchpad>/ig_publish.py com permissao concedida, ou publicar manualmente usando c2_pub.mp4 + c2_pub_capa.jpg"
+    "media_id": "18098261627383480",
+    "creation_id": "17910516978506295",
+    "permalink": "https://www.instagram.com/reel/DeXgZLUFEJS/",
+    "timestamp": "2026-10-11T20:22:55+0000",
+    "media_type": "REELS",
+    "share_to_feed": true,
+    "primeiro_comentario": {
+      "comment_id": "18375542458240896",
+      "texto": "#mercadolivre #shopee #ecommerce #marketplace #inteligenciaartificial #anuncio #bling #claude"
+    },
+    "retomada": "publicado manualmente em 11/10 as 20:22 UTC, na mesma sessao interativa. A tarefa agendada das 9h tinha sido negada 3x pelo classificador de permissoes do auto mode, sem usuario presente para aprovar."
   },
   "legenda_instagram": "Publicar pelo ERP ou direto no marketplace? A diferença está na ficha técnica. 📋\n\nIndo direto, a IA descobre todos os atributos daquela categoria e preenche a ficha completa. Pelo ERP, você replica — mas com menos informação.\n\nFicha completa é o que faz seu anúncio aparecer nos filtros de busca.\n\n💬 Comenta CONNECT que eu te explico o caminho.",
   "hashtags_primeiro_comentario": "#mercadolivre #shopee #ecommerce #marketplace #inteligenciaartificial #anuncio #bling #claude",
   "s3_temporario": {
     "bucket": "tiops-public-assets-1785392019",
-    "chaves": ["temp/cortes/c2_pub.mp4", "temp/cortes/c2_pub_capa.jpg"],
-    "status": "MANTIDAS - nao apagadas, porque o Instagram ainda depende delas. Apagar apos concluir ou desistir do Reel.",
-    "observacao": "o bucket serve os objetos publicamente; a URL assinada nao e necessaria"
+    "chaves": [
+      "temp/cortes/c2_pub.mp4",
+      "temp/cortes/c2_pub_capa.jpg"
+    ],
+    "status": "apagadas ao final (DeleteObjects ok)",
+    "observacao": "temp/cortes/ ainda guarda sobras de sessoes antigas: c1..c4 .mp4/_cover.jpg e cerebro_whatsapp.mp4. Nao foram apagadas por nao serem desta peca."
   },
   "observacoes": [
     "Usada a versao _motion (48.7s), conforme a instrucao de preferir o sufixo _motion. O enunciado citava 56s, que e a duracao do corte2_ficha_tecnica.mp4 sem motion.",
