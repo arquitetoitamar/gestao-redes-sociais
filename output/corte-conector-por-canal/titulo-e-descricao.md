@@ -57,3 +57,30 @@ O "meu agente virou CLT" não sobreviveu à checagem: a frase está por volta de
 12:50, com o Board de Tarefas na tela o tempo todo. Mascarar o board inteiro num
 vertical de 30s estragaria a imagem. Fica para quando houver uma tomada igual sem
 dado de cliente atrás.
+
+---
+
+## Publicado
+
+**https://youtu.be/k1b8TMwiwg0** · 12/10/2026 · público, categoria Ciência e Tecnologia
+
+## A capa
+
+Primeira versão foi um frame da tela — capa ruim, não para ninguém no primeiro
+segundo. Refeita no padrão: **texto gigante à esquerda, logos de marketplace,
+robô à direita.**
+
+Tentei usar o rosto do Itamar recortado da webcam da live e **não funcionou**: a
+webcam é pequena e de baixa resolução, e qualquer recorte que preenchesse a
+altura da capa saía borrado, com a borda do círculo aparecendo e os olhos quase
+fechados nos frames disponíveis.
+
+Troquei pelo robô da arte do escritório de agentes. É alta resolução, está
+apontando, e é a mesma identidade dos seis posts da grade publicados hoje — então
+a capa conversa com o Instagram em vez de competir.
+
+**Para a próxima:** se a ideia é ter o rosto dele na capa, precisa de uma foto
+feita para isso, não de recorte de live. Uma sessão de 10 minutos com três
+expressões (apontando, surpreso, braços cruzados) resolve o ano inteiro de capas.
+
+Fonte da capa em `capa.html` — roda com Playwright e troca só o texto e os logos.
