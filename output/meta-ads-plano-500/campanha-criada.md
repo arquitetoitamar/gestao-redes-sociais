@@ -55,18 +55,24 @@ Os dois conjuntos apontam para o Marketplace Connect, que é onde a conversão e
 
 Feito isso, os dois conjuntos começam a entregar sozinhos.
 
-## Decisão pendente do Itamar
+## Declaração de IA — resolvida em 12/10
 
-**Declaração de conteúdo gerado por IA (`self_ai_disclosure`).** Não preenchi: a decisão é
-do anunciante e o campo **não pode ser alterado depois de criado**.
+O Itamar pediu para declarar. O criativo do conjunto A foi **refeito** com
+`self_ai_disclosure = OPT_IN`, porque a narração do Reel "MC explicador" foi gerada com
+**Gemini TTS** — áudio de ferramenta generativa de terceiros. O campo é imutável depois de
+criado, por isso exigiu criativo e anúncio novos em vez de edição.
 
-Pesa para o conjunto A: a narração do Reel "MC explicador" foi gerada com **Gemini TTS**,
-ou seja, áudio de uma ferramenta generativa de terceiros. Pela regra da Meta isso se
-declara com `OPT_IN`. O vídeo do conjunto B é locução do próprio Itamar, gravada — `OPT_OUT`.
+- Criativo novo: `1869574060697836` ("A2 | MC explicador 42s | Saiba mais | declara IA")
+- Anúncio novo: `120254710431920007` ("A | MC explicador 42s | declara IA"), ativado
+- Anúncio antigo `120254709855950007` (criativo `1784084369468901`, sem declaração): pausado
 
-Se ele quiser declarar, o criativo A precisa ser **refeito** e o anúncio trocado.
-A declaração só tem efeito onde há regra de transparência de IA (Região Europeia, Índia,
-Taiwan, Califórnia e Nova York) — o alvo aqui é Brasil.
+Mídia, texto, título, CTA, destino e identidade seguem idênticos — só a declaração mudou.
+
+O conjunto B segue sem declaração: o áudio é locução do próprio Itamar, gravada.
+
+A declaração só produz efeito onde há regra de transparência de IA (Região Europeia,
+Índia, Taiwan, Califórnia e Nova York). O alvo destes conjuntos é Brasil, então na prática
+a Meta pode nem exibir o selo "Informações de IA" — a declaração fica correta de qualquer forma.
 
 ## Pendências técnicas levantadas no caminho
 
