@@ -39,3 +39,35 @@ python3 fatiar.py <arte_3x2.png>
 
 Gera os 6 JPG. Depois publicar na ordem inversa — sempre do último quadro para o
 primeiro.
+
+---
+
+## Destaques — 12/10/2026
+
+Destaque no Instagram nasce de story: sem story no arquivo não existe destaque.
+Então os 6 quadros foram republicados como **Stories 1080×1920** (o quadro
+nítido centralizado sobre fundo desfocado dele mesmo, gerado por `story.py`).
+
+Os 6 stories estão publicados e ficam no arquivo da conta — o prazo de 24 h vale
+para o feed de stories, não para o arquivo, então dá para montar destaque depois.
+
+**Criados por aqui:** `1 Pesquisa` e `2 Anúncios`.
+
+**Faltam quatro:** `3 Atendimento`, `4 Margem`, `5 Logística`, `6 Crescimento`.
+
+O editor web do Instagram se mostrou frágil para isso: o botão "Novo" muda de
+posição a cada destaque criado, e a marcação do story falha em silêncio — o
+modal fecha sem avisar e nada é criado. Pelo celular são dois toques por
+destaque, contra várias tentativas por aqui.
+
+### Como terminar no celular
+
+Perfil → **Novo** nos destaques → nome → escolher o story do quadro → a capa já
+vem certa (o Instagram usa o próprio quadro) → Concluir.
+
+| Destaque | Story a escolher |
+|---|---|
+| 3 Atendimento | Atendimento e pós-venda |
+| 4 Margem | Análise e rentabilidade |
+| 5 Logística | Operação e logística |
+| 6 Crescimento | Planejamento e crescimento |
