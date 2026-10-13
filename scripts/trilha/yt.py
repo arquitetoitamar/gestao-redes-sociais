@@ -1,4 +1,4 @@
-import json, os, sys, urllib.request, urllib.parse, urllib.error
+import json, os, sys, time, urllib.request, urllib.parse, urllib.error
 
 TOK = os.path.expanduser('~/.google_gtm_youtube_token.json')
 SEC = os.path.expanduser('~/client_secret.json')
@@ -36,10 +36,20 @@ def call(method, path, params=None, body=None, retry=True):
         hdr['Content-Type'] = 'application/json'
     req = urllib.request.Request(url, data=data, headers=hdr, method=method)
     try:
-        return json.load(urllib.request.urlopen(req))
+        r = urllib.request.urlopen(req)
+        bruto = r.read()
+        return json.loads(bruto) if bruto else {}
     except urllib.error.HTTPError as e:
         if e.code == 401 and retry:
             refresh()
             return call(method, path, params, body, retry=False)
+        if e.code in (429, 500, 502, 503) and retry:
+            time.sleep(3)
+            return call(method, path, params, body, retry=False)
         sys.stderr.write('HTTP %s %s\n%s\n' % (e.code, url, e.read().decode()[:800]))
         raise
+    except urllib.error.URLError:
+        if not retry:
+            raise
+        time.sleep(3)
+        return call(method, path, params, body, retry=False)

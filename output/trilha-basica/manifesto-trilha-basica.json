@@ -100,13 +100,15 @@
       ],
       "categoria": "27",
       "playlist": "PLW3upCIZHed4",
-      "video_id_na_playlist": "e6YZbIU3oK8",
-      "publicado_por_este_script": false,
-      "status": "na playlist (video do canal, fora do padrao)",
+      "video_id_na_playlist": null,
+      "publicado_por_este_script": true,
+      "status": "bloqueado: vazamento na tela",
       "video_origem": "e6YZbIU3oK8",
       "inicio": null,
       "fim": null,
-      "nota": "Vídeo do canal, público, de 23/06. Entrou na playlist sem corte e sem alteração, como o brief mandou. Título e descrição são os originais — fora do padrão da trilha."
+      "nota": "Cópia O_AJyA9bOgE subida e IMEDIATAMENTE retirada da playlist e deixada privada: a fonte e6YZbIU3oK8 mostra chave mc_live_ de produção por volta de 1:56 e ids de conta entre 1:12 e 1:50. Não entra na trilha antes de mascarar.",
+      "video_id": "O_AJyA9bOgE",
+      "substituiu": "e6YZbIU3oK8"
     },
     {
       "numero": 5,
@@ -123,13 +125,15 @@
       ],
       "categoria": "27",
       "playlist": "PLW3upCIZHed4",
-      "video_id_na_playlist": "f1t_OJZBrxg",
-      "publicado_por_este_script": false,
-      "status": "na playlist (video do canal, fora do padrao)",
+      "video_id_na_playlist": null,
+      "publicado_por_este_script": true,
+      "status": "bloqueado: vazamento na tela",
       "video_origem": "f1t_OJZBrxg",
       "inicio": null,
       "fim": null,
-      "nota": "Vídeo do canal, público, de 27/08 (não o homônimo 0qUq0wKouF4 de 23/06). Sem alteração. A descrição original leva para o curso de Claude — CTA concorrente dentro da trilha."
+      "nota": "Cópia usU38GZmJ8s subida e IMEDIATAMENTE retirada da playlist e deixada privada: a fonte f1t_OJZBrxg mostra ids de conta entre 1:34 e 1:46. Não entra antes de mascarar.",
+      "video_id": "usU38GZmJ8s",
+      "substituiu": "f1t_OJZBrxg"
     },
     {
       "numero": 6,
@@ -152,7 +156,7 @@
       "video_origem": "k1b8TMwiwg0",
       "inicio": null,
       "fim": null,
-      "nota": "Vídeo do canal, público, de 12/10 — já era um corte publicado. Entrou como está por decisão do Itamar. A descrição leva para l.tiops.com.br/comece?o=yt-conector."
+      "nota": "Vídeo do canal, público, de 12/10 — já era um corte publicado. Entrou como está por decisão do Itamar. A descrição leva para l.tiops.com.br/comece?o=yt-conector. ATENÇÃO: o vídeo público k1b8TMwiwg0 mostra um id de conta do Mercado Livre por volta de 0:40."
     },
     {
       "numero": 7,

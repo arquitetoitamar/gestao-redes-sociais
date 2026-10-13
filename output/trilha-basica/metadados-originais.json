@@ -1,0 +1,85 @@
+{
+  "e6YZbIU3oK8": {
+    "title": "Como ativar o Marketplace connect",
+    "description": "https://marketplaces.tiops.com.br/\n\nClaude\nMercado livre\nShopee",
+    "tags": [
+      "claude",
+      "mercadolivre",
+      "mercado l",
+      "mercado libre",
+      "shopee"
+    ],
+    "categoryId": "28",
+    "privacyStatus": "public",
+    "duration": "PT3M17S"
+  },
+  "f1t_OJZBrxg": {
+    "title": "Como configurar o Marketplace Connect no Claude - Parte 2: configurando o conector",
+    "description": "https://marketplaces.tiops.com.br/\n\nPrecisa contratar a conta Claude PRO\nhttps://claude.ai/\nClaude mercado livre\nShopee\n\n🎓 Curso completo de Claude: https://l.tiops.com.br/curso-claude?o=linha",
+    "tags": [
+      "Claude mercado livre Shopee",
+      "GoogleVids",
+      "MadeWithGoogleVids",
+      "Vids",
+      "chatgpt",
+      "ia",
+      "ia para marketplaces",
+      "marketplace",
+      "shopee",
+      "tiktokshop"
+    ],
+    "categoryId": "22",
+    "privacyStatus": "public",
+    "duration": "PT1M48S"
+  },
+  "k1b8TMwiwg0": {
+    "title": "Um conector por canal no ChatGPT | Mercado Livre, Shopee, Magalu e Bling",
+    "description": "Em vez de jogar tudo num conector genérico, dá pra criar um conector de MCP separado para cada canal. Fica mais organizado e o ChatGPT acerta mais, porque cada ferramenta aparece só no conector do canal certo.\n\nNeste corte: copiar a URL do conector, nomear, autenticar por OAuth, instalar e conectar — passo a passo, direto da live.\n\n👉 Marketplace Connect: https://l.tiops.com.br/comece?o=yt-conector\n\nTrecho da live de 06/10. Live completa: https://youtu.be/4Xti4U6Lt-A\n\n#mercadolivre #shopee #chatgpt #claude #ecommerce #marketplace #inteligenciaartificial",
+    "tags": [
+      "automacao ecommerce",
+      "bling",
+      "chatgpt",
+      "claude",
+      "conector",
+      "ecommerce",
+      "ia para marketplace",
+      "inteligencia artificial",
+      "magalu",
+      "marketplace connect",
+      "mcp",
+      "mercado livre",
+      "shopee",
+      "tiops",
+      "vender online"
+    ],
+    "categoryId": "28",
+    "privacyStatus": "public",
+    "duration": "PT2M36S"
+  },
+  "LtifaBOjLRQ": {
+    "title": "Como criar Agente que responde perguntas chatgpt",
+    "description": "Made with Google Vids https://vids.new/\n\n#MadeWithGoogleVids",
+    "tags": [
+      "GoogleVids",
+      "MadeWithGoogleVids",
+      "Vids"
+    ],
+    "categoryId": "28",
+    "privacyStatus": "unlisted",
+    "duration": "PT3M25S"
+  },
+  "oE3QT7Ze3VM": {
+    "title": "MC · Básico · Aula 11 — Seu primeiro anúncio pela IA",
+    "description": "Do dado do produto ao anúncio criado com variações, sem sair da conversa com a IA. A IA acha a categoria certa, puxa os atributos obrigatórios daquela categoria, monta o rascunho e sobe o anúncio com as variações de tamanho.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+    "tags": [
+      "anuncio",
+      "aula 11",
+      "marketplace connect",
+      "mercado livre",
+      "trilha basica"
+    ],
+    "categoryId": "27",
+    "privacyStatus": "unlisted",
+    "duration": "PT4M40S"
+  }
+}

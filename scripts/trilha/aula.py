@@ -3,6 +3,7 @@
 
     python3 aula.py <numero> <arquivo.mp4>     publica ou substitui a aula
     python3 aula.py --estado                   mostra a playlist e o manifesto
+    python3 aula.py --sincroniza               põe a playlist igual ao manifesto
 
 O manifesto é a fonte da verdade: ele diz o título, a descrição, as tags e a
 ordem. O script nunca inventa texto — se a aula não está no manifesto, ele para.
@@ -97,6 +98,48 @@ def sobe(caminho, aula):
     return v['id']
 
 
+def tira(m, vid, era_nosso):
+    """Tira um vídeo da playlist. Se foi este script que o publicou, deixa privado."""
+    pl = m['playlists']['basica']
+    for item_id, _, v, _ in itens(pl):
+        if v == vid:
+            yt.call('DELETE', 'playlistItems', {'id': item_id})
+            print('tirou da playlist', vid)
+    if era_nosso:
+        yt.call('PUT', 'videos', {'part': 'status'},
+                {'id': vid, 'status': {'privacyStatus': 'private'}})
+        print('vídeo antigo virou privado (não foi apagado)')
+    else:
+        print('vídeo antigo é do canal, não foi tocado')
+
+
+def sincroniza():
+    """Deixa a playlist igual ao manifesto: tira o que sobrou, põe na ordem certa.
+
+    Não sobe nada. Serve para terminar uma troca que a rede interrompeu.
+    """
+    m = carrega()
+    pl = m['playlists']['basica']
+    quer = {a['video_id_na_playlist']: a for a in m['aulas'] if a.get('video_id_na_playlist')}
+
+    for item_id, _, vid, titulo in itens(pl):
+        if vid not in quer:
+            yt.call('DELETE', 'playlistItems', {'id': item_id})
+            print('sobrando, tirei:', vid, '|', titulo[:50])
+
+    ordem = [a['video_id_na_playlist'] for a in sorted(m['aulas'], key=lambda a: a['numero'])
+             if a.get('video_id_na_playlist')]
+    for alvo, vid in enumerate(ordem):
+        for item_id, pos, v, _ in itens(pl):
+            if v == vid and pos != alvo:
+                yt.call('PUT', 'playlistItems', {'part': 'snippet'}, {
+                    'id': item_id,
+                    'snippet': {'playlistId': pl, 'position': alvo,
+                                'resourceId': {'kind': 'youtube#video', 'videoId': vid}}})
+                print('movi', vid, 'de', pos, 'para', alvo)
+    estado()
+
+
 def estado():
     m = carrega()
     pl = m['playlists']['basica']
@@ -130,18 +173,8 @@ def troca(numero, caminho):
                     'resourceId': {'kind': 'youtube#video', 'videoId': novo}}})
     print('entrou na posição', pos)
 
-    if antigo:
-        for item_id, _, vid, _ in itens(pl):
-            if vid == antigo:
-                yt.call('DELETE', 'playlistItems', {'id': item_id})
-                print('tirou da playlist', antigo)
-        if nosso:
-            yt.call('PUT', 'videos', {'part': 'status'},
-                    {'id': antigo, 'status': {'privacyStatus': 'private'}})
-            print('vídeo antigo virou privado (não foi apagado)')
-        else:
-            print('vídeo antigo é do canal, não foi tocado')
-
+    # o manifesto é gravado ANTES da limpeza: se a rede cair no meio,
+    # `--sincroniza` termina o serviço sem subir nada de novo.
     aula['video_id_na_playlist'] = novo
     aula['video_id'] = novo
     aula['publicado_por_este_script'] = True
@@ -150,10 +183,15 @@ def troca(numero, caminho):
     salva(m)
     print('manifesto atualizado')
 
+    if antigo:
+        tira(m, antigo, nosso)
+
 
 if __name__ == '__main__':
     if len(sys.argv) == 2 and sys.argv[1] == '--estado':
         estado()
+    elif len(sys.argv) == 2 and sys.argv[1] == '--sincroniza':
+        sincroniza()
     elif len(sys.argv) == 3:
         troca(int(sys.argv[1]), os.path.expanduser(sys.argv[2]))
     else:
