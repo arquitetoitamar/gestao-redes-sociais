@@ -30,8 +30,8 @@
       ],
       "playlist": "PLW3upCIZHed4",
       "categoria": "27",
-      "status": "sem fonte usavel",
-      "nota": "Live 06/10: a abertura (00:00-05:30) é música, queda de transmissão e saudação a espectadores com nome de loja. A definição mais limpa do produto está em 40:30 e 43:30, dois fragmentos de ~30s separados por 3 min, dentro de demo do GestorPro. Não existe trecho contínuo de 3 min. Precisa de decisão: outra fonte ou gravar."
+      "status": "voce grava",
+      "nota": "Live 06/10: a abertura (00:00-05:30) é música, queda de transmissão e saudação a espectadores com nome de loja. A definição mais limpa do produto está em 40:30 e 43:30, dois fragmentos de ~30s separados por 3 min, dentro de demo do GestorPro. Não existe trecho contínuo de 3 min. Precisa de decisão: outra fonte ou gravar. DECISÃO 13/10: entra na sua lista de gravação."
     },
     {
       "numero": 2,
@@ -50,8 +50,8 @@
       ],
       "playlist": "PLW3upCIZHed4",
       "categoria": "27",
-      "status": "sem fonte usavel",
-      "nota": "Live 06/10: o trecho de demonstração (43:30-47:00, publicação em lote de 13 anúncios no TikTok Shop) tem id de conta do Mercado Livre e da Shopee falados em voz alta, nome de conta Olist, telefone e e-mail de importador, e margem de 30% e 100%. Fora da regra de publicação. Precisa de decisão."
+      "status": "voce grava",
+      "nota": "Live 06/10: o trecho de demonstração (43:30-47:00, publicação em lote de 13 anúncios no TikTok Shop) tem id de conta do Mercado Livre e da Shopee falados em voz alta, nome de conta Olist, telefone e e-mail de importador, e margem de 30% e 100%. Fora da regra de publicação. Precisa de decisão. DECISÃO 13/10: entra na sua lista de gravação."
     },
     {
       "numero": 3,
@@ -196,8 +196,8 @@
       ],
       "playlist": "PLW3upCIZHed4",
       "categoria": "27",
-      "status": "sem fonte usavel",
-      "nota": "Live 31/05: os 50 primeiros minutos são aula de estratégia, não de mecânica. O tema multi-loja aparece em dois fragmentos de ~30s (57:00 e 60:00) separados por 3 min, dentro de uma demo de criação de habilidade. O resto do trecho tem preço de plano (R$ 250/mês), taxa de setup, margem e consumo de token. Precisa de decisão."
+      "status": "voce grava",
+      "nota": "Live 31/05: os 50 primeiros minutos são aula de estratégia, não de mecânica. O tema multi-loja aparece em dois fragmentos de ~30s (57:00 e 60:00) separados por 3 min, dentro de uma demo de criação de habilidade. O resto do trecho tem preço de plano (R$ 250/mês), taxa de setup, margem e consumo de token. Precisa de decisão. DECISÃO 13/10: entra na sua lista de gravação."
     },
     {
       "numero": 11,
@@ -205,8 +205,8 @@
       "titulo_curto": "Seu primeiro anúncio pela IA",
       "descricao": "Do dado do produto ao anúncio criado com variações, sem sair da conversa com a IA.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
       "video_origem": "kvGLTgxkEjk",
-      "inicio": "00:02:05",
-      "fim": "00:06:48",
+      "inicio": "00:02:08.1",
+      "fim": "00:06:48.0",
       "tags": [
         "marketplace connect",
         "trilha basica",
@@ -216,8 +216,10 @@
       ],
       "playlist": "PLW3upCIZHed4",
       "categoria": "27",
-      "status": "a cortar",
-      "nota": "Arco fechado: pedido → IA acha a categoria → puxa atributos obrigatórios → rascunho completo → escolha da conta → sobe imagem → anúncio com 4 variações. 4m43. Atenção em 01:55 do corte: ele diz \"marca genérica, que eu não vou colocar ali a marca que é real\" — é ele evitando usar a marca real na demo, mas fora de contexto pode soar como ensinar a declarar marca errada. Conferir."
+      "status": "publicado",
+      "nota": "Corte 02:08.1 → 06:48.0 do kvGLTgxkEjk (4m40). DECISÃO 13/10: ids das contas do Mercado Livre tapados com caixa sólida — exigiu recodificar (libx264 crf 18), exceção à regra de cópia de fluxo, autorizada pelo Itamar. As 21 caixas estão em output/trilha-basica/mascara-aula11.txt. Conferência: OCR nos 280 frames do arquivo final — zero ocorrência de id de conta. Em 01:55 do corte ele diz \"marca genérica, que eu não vou colocar ali a marca que é real\"; na tela a própria IA sinaliza a divergência de marca, mas o áudio fora de contexto é ambíguo.",
+      "video_id": "oE3QT7Ze3VM",
+      "posicao_playlist": 3
     },
     {
       "numero": 12,

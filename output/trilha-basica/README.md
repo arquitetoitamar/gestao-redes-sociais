@@ -12,23 +12,37 @@ Plano: https://claude.ai/code/artifact/750375f2-8ec5-4479-9b25-be9c206b2d77
 
 As 12 playlists que já existiam não foram tocadas.
 
-## Na playlist básica (4 aulas, nenhuma alterada)
+## Na playlist básica (5 aulas)
 
 | Pos | Aula | Vídeo | Observação |
 |---|---|---|---|
 | 0 | 4 | `e6YZbIU3oK8` | pronto, sem corte |
 | 1 | 5 | `f1t_OJZBrxg` | o de 27/08, não o homônimo `0qUq0wKouF4` |
 | 2 | 6 | `k1b8TMwiwg0` | entrou como está, por decisão do Itamar |
-| 3 | 12 | `LtifaBOjLRQ` | pronto, sem corte |
+| 3 | 11 | `oE3QT7Ze3VM` | **novo** · corte 02:08.1→06:48.0 de `kvGLTgxkEjk` · 4m40 · não listado |
+| 4 | 12 | `LtifaBOjLRQ` | pronto, sem corte |
 
-Nenhum vídeo foi renomeado, teve descrição reescrita ou mudou de visibilidade.
+Nenhum vídeo que já existia foi renomeado, teve descrição reescrita ou mudou de
+visibilidade.
 
-## Nenhum corte foi publicado
+## Aula 11 — publicada com os ids tapados
 
-As quatro aulas de corte (1, 2, 10, 11) não têm trecho contínuo que passe nas
-regras de publicação. Detalhe por aula no campo `nota` do manifesto.
+O corte bom deixava os ids das contas do Mercado Livre na tela de 04:23 até o
+fim. Com autorização do Itamar, abri exceção à regra de cópia de fluxo:
+localizei cada ocorrência por OCR quadro a quadro, gerei 21 caixas sólidas
+(`mascara-aula11.txt`) e recodifiquei em libx264 crf 18 — 23 segundos de
+máquina. Conferência: OCR nos 280 quadros do arquivo final, **zero** ocorrência
+de id de conta. O que sobrou de número longo é `MLB429215`, que é a categoria do
+Mercado Livre e faz parte da aula. Contact sheet em `mascarado.jpg`.
 
-Resumo:
+Ponto a conferir quando assistir: em 01:55 do corte ele diz "marca genérica, que
+eu não vou colocar ali a marca que é real". Na tela a própria IA sinaliza a
+divergência de marca, o que joga a favor; o áudio sozinho é ambíguo.
+
+## Aulas 1, 2 e 10 — sem fonte, entram na lista de gravação
+
+Decisão de 13/10: viram gravação do Itamar, junto com 3, 7, 8, 9, 13 e 14.
+Por quê:
 
 - **1 e 2** — live 06/10 (`4Xti4U6Lt-A`). A abertura é música e queda de
   transmissão; a demo tem id de conta do Mercado Livre e da Shopee falados em
@@ -37,10 +51,6 @@ Resumo:
   não mecânica. O tema multi-loja só aparece em dois fragmentos de ~30 s
   separados por 3 min. O entorno tem preço de plano, taxa de setup e consumo de
   token.
-- **11** — `kvGLTgxkEjk`. O arco de 4m40 é bom, mas os ids das contas do Mercado
-  Livre ficam na tela do minuto 4:23 até o fim do trecho. Cortar antes deixa
-  2m07, que não entrega o que o título promete. Evidência em `tira.jpg` e
-  `tira2.jpg`.
 
 ## Alternativas olhadas no acervo (163 vídeos)
 
@@ -55,5 +65,7 @@ Resumo:
 ## Arquivos
 
 - `manifesto-trilha-basica.json` — cópia do que está em `~/midia-tmp/`
+- `mascara-aula11.txt` — as 21 caixas de drawbox usadas na aula 11
 - `t_0610.txt`, `t_3105.txt` — legendas automáticas condensadas das duas lives
-- `contato.jpg`, `tira.jpg`, `tira2.jpg` — frames da janela da aula 11
+- `contato.jpg`, `tira.jpg`, `tira2.jpg` — frames da janela da aula 11 antes da máscara
+- `mascarado.jpg` — o mesmo trecho depois da máscara
