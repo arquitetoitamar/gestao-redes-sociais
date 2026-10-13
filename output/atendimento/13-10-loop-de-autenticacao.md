@@ -14,34 +14,34 @@ O comentário do YouTube é o único que descreve o mecanismo:
 > envia um link de acesso. Quando clico no link, em vez de concluir a
 > autorização, ele volta para a tela que pede meu e-mail novamente.
 
-## Causa, pela skill `conectar-mcp`
+## Causa — corrigida pelo Itamar em 13/10
 
-É o primeiro dos quatro modos de falha conhecidos: **a página de autorização não
-encontra a sessão.** Em produção o modo é Cognito e a sessão vive em
-`localStorage['mc_cognito_sessao']`, não em `supabase.auth`. Sem sessão, não há
-grant — e o `Failed to create authorization grant` é consequência, não causa.
+**O método de login mudou: agora é por código, não mais por link de acesso.**
+Quem tentou no método antigo ficou com cache velho no navegador, e é esse cache
+que produz o loop. O `Failed to create authorization grant` vem depois, como
+consequência.
 
-Diagnóstico no navegador do cliente:
+**A saída é limpar o cache e os dados do site de `marketplaces.tiops.com.br`**
+(ou abrir uma janela anônima), entrar de novo com o código e autorizar.
 
-```js
-Object.keys(localStorage).filter(k => k.includes('cognito') || k.startsWith('sb-'))
-```
+### O que eu tinha respondido antes, e estava errado
 
-Vazio nos dois: ele não está logado. A saída é entrar antes em
-`marketplaces.tiops.com.br`, no mesmo navegador, e só então autorizar.
+A skill `conectar-mcp` descrevia esse sintoma como sessão ausente e mandava o
+cliente "logar antes no site". Era o diagnóstico do método anterior. Respondi o
+Alexandre com isso, e em seguida publiquei a correção no mesmo comentário. A
+skill foi atualizada em `~/.claude/skills/conectar-mcp/SKILL.md` para não
+repetir o erro.
 
-## O que respondi
+## Estado de cada um
 
-Ao Alexandre, o passo a passo acima mais a recomendação de conectar
-`/mcp/meli` em vez da raiz. Ao Frido e à Nipônica, pedi o print da tela onde
-travaram, porque ainda não dá para afirmar que é o mesmo caso.
+| Quem | Estado |
+|---|---|
+| @alexandremiranda7376 | respondido e corrigido no YouTube |
+| Frido Benner Junior | confirmou: "a hora de conectar a conta", com print da tela de e-mail. O Itamar entrou na conversa ao vivo às 19:46 |
+| Nipônica Design | ainda sem retorno desde o pedido de print |
 
-## O que isso sugere
+## O que fica
 
-Se o fluxo depende de o cliente já estar logado no site antes de mandar o
-cliente de IA autorizar, e nada na tela diz isso, então não é um erro de três
-pessoas — é o desenho do fluxo. A página de consentimento deveria mandar para o
-login e voltar sozinha, em vez de repetir o pedido de e-mail.
-
-Vale medir quantas autorizações começam e quantas terminam antes de tratar isso
-como caso isolado.
+Três pessoas travaram na transição entre os dois métodos de login. Se o número
+for maior do que esses três, vale um aviso no próprio site — a pessoa que pega
+cache velho não tem como adivinhar que o problema é esse.
