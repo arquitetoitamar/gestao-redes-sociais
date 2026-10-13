@@ -69,3 +69,38 @@ Por quê:
 - `t_0610.txt`, `t_3105.txt` — legendas automáticas condensadas das duas lives
 - `contato.jpg`, `tira.jpg`, `tira2.jpg` — frames da janela da aula 11 antes da máscara
 - `mascarado.jpg` — o mesmo trecho depois da máscara
+
+## Como trocar ou regravar uma aula
+
+O manifesto é a fonte do padrão: nome, descrição, tags e ordem saem dele, não
+do que eu digitar na hora. Para mudar o padrão de uma aula, edite a tabela em
+[`scripts/trilha/monta_manifesto.py`](../../scripts/trilha/monta_manifesto.py)
+e rode-o; ele reescreve o manifesto sem perder o que já está publicado.
+
+```bash
+cd scripts/trilha
+python3 aula.py --estado                 # o que está em cada posição
+python3 aula.py 7 ~/gravacoes/aula07.mp4 # publica ou substitui a aula 7
+```
+
+Publicar e substituir são o mesmo comando. Ele sobe como **não listado** com o
+título e a descrição do manifesto, encaixa na posição certa pelo número da
+aula, tira o vídeo anterior da playlist e atualiza o manifesto.
+
+O vídeo substituído **nunca é apagado**: se foi este script que publicou, vira
+privado; se é vídeo que já existia no canal, sai da playlist e mais nada.
+
+## Padrão
+
+| Campo | Regra |
+|---|---|
+| Título | `MC · Básico · Aula 07 — Qual endereço conectar` |
+| Descrição | uma linha do que a aula resolve + link da playlist |
+| Tags | `marketplace connect`, `trilha basica`, tema, `aula <n>` |
+| Categoria | Educação |
+| Visibilidade | não listado |
+
+**As aulas 4, 5, 6 e 12 estão fora desse padrão** — são vídeos que já existiam
+no canal e o brief proibiu renomear. Três são públicos e levam CTA próprio na
+descrição (curso de Claude na 5, `?o=yt-conector` na 6); a 12 tem o rodapé do
+Google Vids. Decisão pendente do Itamar.
