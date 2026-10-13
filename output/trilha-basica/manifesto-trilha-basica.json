@@ -1,0 +1,277 @@
+{
+  "gerado_em": "2026-10-13",
+  "canal": "UC4mEWT48J1erkqlbHqfHpEg",
+  "playlists": {
+    "basica": "PLW3upCIZHed4",
+    "avancada": "PLavmDN-e4LEE"
+  },
+  "regras": {
+    "visibilidade": "unlisted",
+    "corte": "ffmpeg -ss X -to Y -c copy (sem recodificar)",
+    "vinheta": "nenhuma nesta rodada",
+    "piso_disco_gb": 3,
+    "download": "yt-dlp --download-sections (só a janela do corte)"
+  },
+  "aulas": [
+    {
+      "numero": 1,
+      "titulo": "MC · Básico · Aula 01 — O que é o Marketplace Connect",
+      "titulo_curto": "O que é o Marketplace Connect",
+      "descricao": "O que o Marketplace Connect é e o que ele não é.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "video_origem": "4Xti4U6Lt-A",
+      "inicio": null,
+      "fim": null,
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "mercado livre",
+        "o que e",
+        "aula 1"
+      ],
+      "playlist": "PLW3upCIZHed4",
+      "categoria": "27",
+      "status": "sem fonte usavel",
+      "nota": "Live 06/10: a abertura (00:00-05:30) é música, queda de transmissão e saudação a espectadores com nome de loja. A definição mais limpa do produto está em 40:30 e 43:30, dois fragmentos de ~30s separados por 3 min, dentro de demo do GestorPro. Não existe trecho contínuo de 3 min. Precisa de decisão: outra fonte ou gravar."
+    },
+    {
+      "numero": 2,
+      "titulo": "MC · Básico · Aula 02 — O que dá pra fazer com ele",
+      "titulo_curto": "O que dá pra fazer com ele",
+      "descricao": "Uma volta pelo que a IA faz direto na sua conta de marketplace.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "video_origem": "4Xti4U6Lt-A",
+      "inicio": null,
+      "fim": null,
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "mercado livre",
+        "demonstracao",
+        "aula 2"
+      ],
+      "playlist": "PLW3upCIZHed4",
+      "categoria": "27",
+      "status": "sem fonte usavel",
+      "nota": "Live 06/10: o trecho de demonstração (43:30-47:00, publicação em lote de 13 anúncios no TikTok Shop) tem id de conta do Mercado Livre e da Shopee falados em voz alta, nome de conta Olist, telefone e e-mail de importador, e margem de 30% e 100%. Fora da regra de publicação. Precisa de decisão."
+    },
+    {
+      "numero": 3,
+      "titulo": "Com o que ele integra",
+      "titulo_curto": "Com o que ele integra",
+      "descricao": "\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "video_origem": null,
+      "inicio": null,
+      "fim": null,
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "aula 3"
+      ],
+      "playlist": "PLW3upCIZHed4",
+      "categoria": "27",
+      "status": "voce grava",
+      "nota": "Fora desta rodada. Puxar a tabela de canais do STATUS.md na hora de gravar."
+    },
+    {
+      "numero": 4,
+      "titulo": "MC · Básico · Aula 04 — Como ativar o Marketplace connect",
+      "titulo_curto": "Como ativar o Marketplace connect",
+      "descricao": "\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "video_origem": "e6YZbIU3oK8",
+      "inicio": null,
+      "fim": null,
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "aula 4"
+      ],
+      "playlist": "PLW3upCIZHed4",
+      "categoria": "27",
+      "status": "na playlist",
+      "nota": "Pronto, sem corte. Título, descrição e visibilidade originais preservados. Posição 0."
+    },
+    {
+      "numero": 5,
+      "titulo": "MC · Básico · Aula 05 — Configurar o Connect no Claude — Parte 2",
+      "titulo_curto": "Configurar o Connect no Claude — Parte 2",
+      "descricao": "\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "video_origem": "f1t_OJZBrxg",
+      "inicio": null,
+      "fim": null,
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "aula 5"
+      ],
+      "playlist": "PLW3upCIZHed4",
+      "categoria": "27",
+      "status": "na playlist",
+      "nota": "Pronto, sem corte. É o de 27/08, não o homônimo 0qUq0wKouF4 de 23/06. Posição 1."
+    },
+    {
+      "numero": 6,
+      "titulo": "MC · Básico · Aula 06 — Um conector por canal no ChatGPT",
+      "titulo_curto": "Um conector por canal no ChatGPT",
+      "descricao": "\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "video_origem": "k1b8TMwiwg0",
+      "inicio": null,
+      "fim": null,
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "aula 6"
+      ],
+      "playlist": "PLW3upCIZHed4",
+      "categoria": "27",
+      "status": "na playlist",
+      "nota": "Entrou como está, por decisão do Itamar: a fonte já era um corte publicado em 12/10. Cortar de novo geraria um gêmeo não listado de um vídeo público. Posição 2."
+    },
+    {
+      "numero": 7,
+      "titulo": "Qual endereço conectar: raiz ou conector do canal",
+      "titulo_curto": "Qual endereço conectar: raiz ou conector do canal",
+      "descricao": "\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "video_origem": null,
+      "inicio": null,
+      "fim": null,
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "aula 7"
+      ],
+      "playlist": "PLW3upCIZHed4",
+      "categoria": "27",
+      "status": "voce grava",
+      "nota": "Fora desta rodada. A aula que mais evita chamado — nunca foi explicada em vídeo."
+    },
+    {
+      "numero": 8,
+      "titulo": "Autorizar sua loja do marketplace",
+      "titulo_curto": "Autorizar sua loja do marketplace",
+      "descricao": "\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "video_origem": null,
+      "inicio": null,
+      "fim": null,
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "aula 8"
+      ],
+      "playlist": "PLW3upCIZHed4",
+      "categoria": "27",
+      "status": "voce grava",
+      "nota": "Fora desta rodada."
+    },
+    {
+      "numero": 9,
+      "titulo": "Listar suas contas e conferir o que entrou",
+      "titulo_curto": "Listar suas contas e conferir o que entrou",
+      "descricao": "\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "video_origem": null,
+      "inicio": null,
+      "fim": null,
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "aula 9"
+      ],
+      "playlist": "PLW3upCIZHed4",
+      "categoria": "27",
+      "status": "voce grava",
+      "nota": "Fora desta rodada."
+    },
+    {
+      "numero": 10,
+      "titulo": "MC · Básico · Aula 10 — Várias lojas na mesma conta",
+      "titulo_curto": "Várias lojas na mesma conta",
+      "descricao": "Como operar mais de uma loja e mais de um canal pela mesma IA.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "video_origem": "0kK3z0Ic4qU",
+      "inicio": null,
+      "fim": null,
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "multi loja",
+        "escala",
+        "aula 10"
+      ],
+      "playlist": "PLW3upCIZHed4",
+      "categoria": "27",
+      "status": "sem fonte usavel",
+      "nota": "Live 31/05: os 50 primeiros minutos são aula de estratégia, não de mecânica. O tema multi-loja aparece em dois fragmentos de ~30s (57:00 e 60:00) separados por 3 min, dentro de uma demo de criação de habilidade. O resto do trecho tem preço de plano (R$ 250/mês), taxa de setup, margem e consumo de token. Precisa de decisão."
+    },
+    {
+      "numero": 11,
+      "titulo": "MC · Básico · Aula 11 — Seu primeiro anúncio pela IA",
+      "titulo_curto": "Seu primeiro anúncio pela IA",
+      "descricao": "Do dado do produto ao anúncio criado com variações, sem sair da conversa com a IA.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "video_origem": "kvGLTgxkEjk",
+      "inicio": "00:02:05",
+      "fim": "00:06:48",
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "mercado livre",
+        "anuncio",
+        "aula 11"
+      ],
+      "playlist": "PLW3upCIZHed4",
+      "categoria": "27",
+      "status": "a cortar",
+      "nota": "Arco fechado: pedido → IA acha a categoria → puxa atributos obrigatórios → rascunho completo → escolha da conta → sobe imagem → anúncio com 4 variações. 4m43. Atenção em 01:55 do corte: ele diz \"marca genérica, que eu não vou colocar ali a marca que é real\" — é ele evitando usar a marca real na demo, mas fora de contexto pode soar como ensinar a declarar marca errada. Conferir."
+    },
+    {
+      "numero": 12,
+      "titulo": "MC · Básico · Aula 12 — Como criar Agente que responde perguntas",
+      "titulo_curto": "Como criar Agente que responde perguntas",
+      "descricao": "\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "video_origem": "LtifaBOjLRQ",
+      "inicio": null,
+      "fim": null,
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "aula 12"
+      ],
+      "playlist": "PLW3upCIZHed4",
+      "categoria": "27",
+      "status": "na playlist",
+      "nota": "Pronto, sem corte. Já era não listado desde 05/10. Posição 3."
+    },
+    {
+      "numero": 13,
+      "titulo": "Equipe: convidar e liberar loja por loja",
+      "titulo_curto": "Equipe: convidar e liberar loja por loja",
+      "descricao": "\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "video_origem": null,
+      "inicio": null,
+      "fim": null,
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "aula 13"
+      ],
+      "playlist": "PLW3upCIZHed4",
+      "categoria": "27",
+      "status": "voce grava",
+      "nota": "Fora desta rodada."
+    },
+    {
+      "numero": 14,
+      "titulo": "Plano, limites e onde pedir ajuda",
+      "titulo_curto": "Plano, limites e onde pedir ajuda",
+      "descricao": "\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "video_origem": null,
+      "inicio": null,
+      "fim": null,
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "aula 14"
+      ],
+      "playlist": "PLW3upCIZHed4",
+      "categoria": "27",
+      "status": "voce grava",
+      "nota": "Fora desta rodada. O brief põe nas suas; o plano cogitava eu montar com captura de tela. Segui o brief."
+    }
+  ]
+}
