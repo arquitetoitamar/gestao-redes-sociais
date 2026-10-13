@@ -31,12 +31,25 @@ Livre, um da Shopee, mais um) e um identificador em UUID.
 - **Nenhum vídeo público foi alterado.** Mudar visibilidade de peça pública é
   decisão do Itamar.
 
-## O que falta — nesta ordem
+## Decisão do Itamar, 13/10
 
-1. **Girar a chave `mc_live_` que aparece no vídeo.** É o único passo que fecha
-   o buraco de verdade: o vídeo está público há quase quatro meses, e tirar do
-   ar agora não desfaz quem já copiou. Conferir também o log de uso dessa chave.
-2. Decidir o que fazer com `e6YZbIU3oK8` enquanto isso — deixar não listado,
-   privado, ou substituir pela versão mascarada.
-3. Mascarar os três e republicar as cópias da trilha. O mesmo caminho da aula 11
-   serve: OCR acha, `drawbox` tapa, OCR confere.
+> "só tampar a chave" · "provavelmente já até rotacionei"
+
+Tapar só a chave. Ids de conta ficam como estão. Chave já girada por ele.
+
+## O que foi feito depois disso
+
+A chave aparece em duas janelas de `e6YZbIU3oK8`: **1:58 – 2:18** e
+**2:54 – 3:15**. Uma caixa cobre só o valor — a URL do conector continua
+legível até o `key=`, que é o que o aluno precisa ver para saber onde cola a
+chave dele.
+
+Conferência: OCR nos 196 quadros do arquivo final. Sobra `mcp?key=` e nada
+depois. Nenhum resto de `live_` nem corrida de 24+ caracteres.
+
+A cópia `O_AJyA9bOgE` (feita antes, com a chave visível) ficou **privada** no
+canal — não foi apagada. Dá para apagar quando quiser.
+
+**Os vídeos públicos originais não foram alterados** — nem título, nem
+descrição, nem visibilidade. A chave continua visível em `e6YZbIU3oK8` para
+quem assistir pelo canal; o que mudou é que a trilha paga não leva mais isso.
