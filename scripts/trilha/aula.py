@@ -2,6 +2,7 @@
 """Publica ou troca uma aula da trilha, mantendo nome, descrição e posição.
 
     python3 aula.py <numero> <arquivo.mp4>     publica ou substitui a aula
+    python3 aula.py <numero> --id <videoId>    adota vídeo que já está no canal
     python3 aula.py --estado                   mostra a playlist e o manifesto
     python3 aula.py --sincroniza               põe a playlist igual ao manifesto
 
@@ -98,6 +99,47 @@ def sobe(caminho, aula):
     return v['id']
 
 
+def padroniza(vid, aula):
+    """Põe título, descrição, tags e categoria do manifesto num vídeo que já existe."""
+    yt.call('PUT', 'videos', {'part': 'snippet,status'}, {
+        'id': vid,
+        'snippet': {'title': aula['titulo'], 'description': aula['descricao'],
+                    'tags': aula['tags'], 'categoryId': aula.get('categoria', '27'),
+                    'defaultLanguage': 'pt-BR', 'defaultAudioLanguage': 'pt-BR'},
+        'status': {'privacyStatus': 'unlisted', 'selfDeclaredMadeForKids': False}})
+    print('padronizado', vid, '· não listado')
+
+
+def adota(numero, vid):
+    """Encaixa na trilha um vídeo que já está no canal, sem subir de novo."""
+    m = carrega()
+    aula = next((a for a in m['aulas'] if a['numero'] == numero), None)
+    if aula is None:
+        sys.exit('aula %d não está no manifesto' % numero)
+    if vid == aula.get('video_id_na_playlist'):
+        sys.exit('a aula %d já é esse vídeo' % numero)
+
+    antigo = aula.get('video_id_na_playlist')
+    nosso = aula.get('publicado_por_este_script', False)
+
+    padroniza(vid, aula)
+    pos = posicao_de(m, numero)
+    yt.call('POST', 'playlistItems', {'part': 'snippet'}, {
+        'snippet': {'playlistId': m['playlists']['basica'], 'position': pos,
+                    'resourceId': {'kind': 'youtube#video', 'videoId': vid}}})
+    print('entrou na posição', pos)
+
+    aula['video_id_na_playlist'] = aula['video_id'] = vid
+    aula['publicado_por_este_script'] = True
+    aula['status'] = 'publicado'
+    aula['substituiu'] = antigo
+    salva(m)
+    print('manifesto atualizado')
+
+    if antigo:
+        tira(m, antigo, nosso)
+
+
 def tira(m, vid, era_nosso):
     """Tira um vídeo da playlist. Se foi este script que o publicou, deixa privado."""
     pl = m['playlists']['basica']
@@ -192,6 +234,8 @@ if __name__ == '__main__':
         estado()
     elif len(sys.argv) == 2 and sys.argv[1] == '--sincroniza':
         sincroniza()
+    elif len(sys.argv) == 4 and sys.argv[2] == '--id':
+        adota(int(sys.argv[1]), sys.argv[3])
     elif len(sys.argv) == 3:
         troca(int(sys.argv[1]), os.path.expanduser(sys.argv[2]))
     else:

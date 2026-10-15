@@ -150,15 +150,15 @@
       ],
       "categoria": "27",
       "playlist": "PLW3upCIZHed4",
-      "video_id_na_playlist": "_ig7Ne-J1ZE",
+      "video_id_na_playlist": "JxSXxjsdJyw",
       "publicado_por_este_script": true,
       "status": "publicado",
       "video_origem": "k1b8TMwiwg0",
       "inicio": null,
       "fim": null,
-      "nota": "Cópia não listada de k1b8TMwiwg0 (público, 12/10), nome e descrição no padrão — sem o CTA ?o=yt-conector que a versão pública leva. Mostra um id de conta do Mercado Livre por volta de 0:40; decisão de 13/10 foi tapar só a chave, ids ficam. Original público não foi tocado.",
-      "video_id": "_ig7Ne-J1ZE",
-      "substituiu": "k1b8TMwiwg0"
+      "nota": "Gravação própria de 15/10 (JxSXxjsdJyw, 2m29), feita para a trilha. Título e descrição padronizados — a versão original trazia o rodapé do Google Vids. Varredura por OCR nos 148 quadros: nenhuma chave, nenhum id de conta. Substituiu _ig7Ne-J1ZE (cópia do corte \"Um conector por canal\"), que ficou privada no canal.",
+      "video_id": "JxSXxjsdJyw",
+      "substituiu": "_ig7Ne-J1ZE"
     },
     {
       "numero": 7,
