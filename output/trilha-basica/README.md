@@ -104,3 +104,20 @@ privado; se é vídeo que já existia no canal, sai da playlist e mais nada.
 no canal e o brief proibiu renomear. Três são públicos e levam CTA próprio na
 descrição (curso de Claude na 5, `?o=yt-conector` na 6); a 12 tem o rodapé do
 Google Vids. Decisão pendente do Itamar.
+
+## Conferir vídeo antes de publicar: o OCR não basta
+
+Em 16/10 a Aula 06 subiu com o id da conta do Mercado Livre na tela. Duas
+varreduras por OCR — a normal e uma com o quadro ampliado e `--psm 11` —
+disseram que estava limpo. O tesseract lia `ID: 667706601` como
+`IDESGAZOG001`: texto pequeno e cinza vira letra, e nenhum filtro de dígito
+pega isso.
+
+**O que funciona é olhar.** Monte um contact sheet (`fps=1/8,tile=5x4`), passe
+o olho, e amplie onde houver tabela, cabeçalho de painel ou resposta de IA
+listando conta. O OCR serve para achar a janela de tempo depois que você já
+sabe o que procurar — não para dizer que não há nada.
+
+Naquele vídeo a varredura visual achou três exposições que o OCR perdeu: o
+e-mail no cabeçalho do painel, o e-mail na tela de autorização, e a resposta
+final com o inventário de contas de cinco canais.

@@ -1,0 +1,13 @@
+[
+ {"t": 0.5,  "txt": "Nesta aula a gente liga o Marketplace Connect no ChatGPT. São poucas telas, e no fim você pergunta pela conversa e ele responde com os dados da sua conta."},
+ {"t": 10.0, "txt": "Comece pelo painel. Em Suas Integrações ficam as contas que você já autorizou: Mercado Livre, Shopee, e o que mais você tiver ligado."},
+ {"t": 24.0, "txt": "Desça até a parte de integração com cliente de inteligência artificial. É daqui que sai o endereço do conector."},
+ {"t": 46.0, "txt": "Agora no ChatGPT. Abra Plugins e clique em adicionar servidor MCP personalizado."},
+ {"t": 58.0, "txt": "Dê um nome que você reconheça depois. Aqui vai ser Meli Gestor, porque é o conector do Mercado Livre."},
+ {"t": 72.0, "txt": "Agora o endereço. Repare: barra m c p, barra meli. É o conector do canal, não o endereço raiz. A raiz carrega mais de mil ferramentas de uma vez, e o ChatGPT trunca uma lista desse tamanho. Por isso parece que a ação não existe."},
+ {"t": 94.0, "txt": "A autenticação é OAuth. Você não cola chave nenhuma: ela nasce sozinha quando você autoriza."},
+ {"t": 104.0, "txt": "Essa tela é nossa. Ela diz exatamente o que o ChatGPT vai poder fazer: consultar suas contas, anúncios e pedidos, e criar ou atualizar anúncio, preço e estoque. Autorize."},
+ {"t": 120.0, "txt": "Pronto, conectado. O conector aparece instalado na lista."},
+ {"t": 132.0, "txt": "Agora é conversa. Peça a lista das suas contas e ele responde com dado real, buscado na hora."},
+ {"t": 142.0, "txt": "Na próxima aula a gente resolve a dúvida que mais gera chamado: qual endereço conectar."}
+]

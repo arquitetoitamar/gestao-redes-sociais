@@ -140,25 +140,28 @@
       "modulo": "Ligar",
       "titulo_curto": "Conectar no ChatGPT",
       "titulo": "MC · Básico · Aula 06 — Conectar no ChatGPT",
-      "descricao": "Como ligar o Marketplace Connect no ChatGPT, com um conector separado para cada canal.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "descricao": "Como ligar o Marketplace Connect no ChatGPT, com um conector separado para cada canal.\n\n00:00 O que você vai ligar\n00:10 Onde ficam as suas integrações no painel\n00:46 Adicionar servidor MCP personalizado no ChatGPT\n01:12 Conector do canal ou endereço raiz — e por que isso importa\n01:34 A autenticação é OAuth: você não cola chave nenhuma\n01:44 Autorizar o acesso\n02:00 Conectado\n02:12 Testando: peça a lista das suas contas\n\nO Marketplace Connect liga as suas contas de marketplace ao cliente de IA que você já usa. A licença de IA é sua — Claude ou ChatGPT, a que você já paga.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
       "tags": [
         "marketplace connect",
         "trilha basica",
         "chatgpt",
         "conector",
+        "mcp",
+        "mercado livre",
+        "integracao",
         "aula 6"
       ],
       "categoria": "27",
       "playlist": "PLW3upCIZHed4",
-      "video_id_na_playlist": "JxSXxjsdJyw",
+      "video_id_na_playlist": "42SCkSPpm_w",
       "publicado_por_este_script": true,
       "status": "publicado",
       "video_origem": "k1b8TMwiwg0",
       "inicio": null,
       "fim": null,
-      "nota": "Gravação própria de 15/10 (JxSXxjsdJyw, 2m29), feita para a trilha. Título e descrição padronizados — a versão original trazia o rodapé do Google Vids. Varredura por OCR nos 148 quadros: nenhuma chave, nenhum id de conta. Substituiu _ig7Ne-J1ZE (cópia do corte \"Um conector por canal\"), que ficou privada no canal.",
-      "video_id": "JxSXxjsdJyw",
-      "substituiu": "_ig7Ne-J1ZE"
+      "nota": "Gravação de 15/10, muda de origem (−91 dB). Narração gerada com TTS do Gemini (voz Orus), 11 trechos cronometrados — texto em output/trilha-basica/narracao-aula06.json. Mascarado: e-mail no cabeçalho do painel (7–47s), e-mail na tela de autorização (99–119s) e o bloco inteiro da resposta final (134s ao fim), que listava id de conta de ML, Shopee, Shopee Afiliados, Bling e a razão social no Olist. O borrão cobre só os valores: a pergunta e o título da seção continuam legíveis. Substituiu JxSXxjsdJyw (sem narração e sem máscara), que ficou privado.",
+      "video_id": "42SCkSPpm_w",
+      "substituiu": "JxSXxjsdJyw"
     },
     {
       "numero": 7,
