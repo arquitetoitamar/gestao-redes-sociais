@@ -93,6 +93,7 @@ m = {
     'playlists': {'basica': PL_B, 'avancada': PL_A},
     'regras': {
         'visibilidade': 'unlisted',
+        'descricao_sem_sinal_de_maior_menor': 'o YouTube recusa < e > na descrição (invalidDescription)',
         'titulo': 'MC · Básico · Aula NN — <título curto>',
         'descricao': 'uma linha do que a aula resolve + link da playlist',
         'tags': 'marketplace connect, trilha basica, <tema>, aula <n>',
