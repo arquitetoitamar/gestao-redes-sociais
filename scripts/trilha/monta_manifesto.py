@@ -7,6 +7,7 @@ Rodar de novo é seguro: preserva o que já está publicado (video_id, posição
 import json, os, sys
 
 PL_B, PL_A = 'PLW3upCIZHed4', 'PLavmDN-e4LEE'
+PL_ADOCAO = 'PLGhRDamQTH7o'   # 'Comece por aqui': demo + a trilha, espelhada
 LINK = 'https://www.youtube.com/playlist?list=' + PL_B
 GUIA = 'https://claude.ai/code/artifact/53bebbdf-0a74-4309-9c3c-ea591be370f9'
 BASE = ['marketplace connect', 'trilha basica']
@@ -111,7 +112,7 @@ for n, modulo, curto, resolve, extra in AULAS:
 m = {
     'gerado_em': '2026-10-13',
     'canal': 'UC4mEWT48J1erkqlbHqfHpEg',
-    'playlists': {'basica': PL_B, 'avancada': PL_A},
+    'playlists': {'basica': PL_B, 'avancada': PL_A, 'adocao': PL_ADOCAO},
     'regras': {
         'visibilidade': 'unlisted',
         'descricao_sem_sinal_de_maior_menor': 'o YouTube recusa < e > na descrição (invalidDescription)',

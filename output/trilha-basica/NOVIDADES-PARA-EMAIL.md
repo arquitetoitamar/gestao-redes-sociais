@@ -60,8 +60,9 @@ https://www.youtube.com/playlist?list=PLGhRDamQTH7o
 | MC · Básico · Aula 11 — Seu primeiro anúncio pela IA | 5 min |
 | MC · Básico · Aula 12 — Como criar um agente | 3 min |
 | Claude MCP: Como Integrar o Claude Com Qualquer Coisa (Tutorial Claude MCP) | 9 min |
+| Como integrar sistema com Marketplace Connect — Vibe Coding | 5 min |
 
-_7 vídeos · cerca de 46 minutos no total._
+_8 vídeos · cerca de 51 minutos no total._
 
 ### Trilha de Claude
 
