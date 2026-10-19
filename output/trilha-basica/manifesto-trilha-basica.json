@@ -3,8 +3,7 @@
   "canal": "UC4mEWT48J1erkqlbHqfHpEg",
   "playlists": {
     "basica": "PLW3upCIZHed4",
-    "avancada": "PLavmDN-e4LEE",
-    "adocao": "PLGhRDamQTH7o"
+    "avancada": "PLavmDN-e4LEE"
   },
   "regras": {
     "visibilidade": "unlisted",
@@ -14,9 +13,7 @@
     "tags": "marketplace connect, trilha basica, <tema>, aula <n>",
     "categoria": "Educação (27)",
     "vinheta": "nenhuma",
-    "piso_disco_gb": 3,
-    "playlist_adocao": "PLGhRDamQTH7o abre com o demo KDjLvwLEbrQ e espelha a trilha. Mantida pelo --sincroniza.",
-    "recursos": "Vídeo de apoio entra depois das aulas, nas duas playlists. É de terceiro: metadado não é nosso e pode sumir sem aviso."
+    "piso_disco_gb": 3
   },
   "aulas": [
     {
@@ -40,8 +37,7 @@
       "video_origem": "4Xti4U6Lt-A",
       "inicio": null,
       "fim": null,
-      "nota": "Live 06/10: a abertura (00:00-05:30) é música, queda de transmissão e saudação a espectadores com nome de loja. A definição mais limpa do produto está em 40:30 e 43:30, dois fragmentos de ~30s separados por 3 min, dentro de demo do GestorPro. Não existe trecho contínuo de 3 min. Precisa de decisão: outra fonte ou gravar. DECISÃO 13/10: entra na sua lista de gravação.",
-      "video_id": null
+      "nota": "Live 06/10: a abertura (00:00-05:30) é música, queda de transmissão e saudação a espectadores com nome de loja. A definição mais limpa do produto está em 40:30 e 43:30, dois fragmentos de ~30s separados por 3 min, dentro de demo do GestorPro. Não existe trecho contínuo de 3 min. Precisa de decisão: outra fonte ou gravar. DECISÃO 13/10: entra na sua lista de gravação."
     },
     {
       "numero": 2,
@@ -64,8 +60,7 @@
       "video_origem": "4Xti4U6Lt-A",
       "inicio": null,
       "fim": null,
-      "nota": "Live 06/10: o trecho de demonstração (43:30-47:00, publicação em lote de 13 anúncios no TikTok Shop) tem id de conta do Mercado Livre e da Shopee falados em voz alta, nome de conta Olist, telefone e e-mail de importador, e margem de 30% e 100%. Fora da regra de publicação. Precisa de decisão. DECISÃO 13/10: entra na sua lista de gravação.",
-      "video_id": null
+      "nota": "Live 06/10: o trecho de demonstração (43:30-47:00, publicação em lote de 13 anúncios no TikTok Shop) tem id de conta do Mercado Livre e da Shopee falados em voz alta, nome de conta Olist, telefone e e-mail de importador, e margem de 30% e 100%. Fora da regra de publicação. Precisa de decisão. DECISÃO 13/10: entra na sua lista de gravação."
     },
     {
       "numero": 3,
@@ -89,8 +84,7 @@
       "video_origem": null,
       "inicio": null,
       "fim": null,
-      "nota": "Fora desta rodada. Puxar a tabela de canais do STATUS.md na hora de gravar.",
-      "video_id": null
+      "nota": "Fora desta rodada. Puxar a tabela de canais do STATUS.md na hora de gravar."
     },
     {
       "numero": 4,
@@ -113,8 +107,7 @@
       "video_origem": "e6YZbIU3oK8",
       "inicio": null,
       "fim": null,
-      "nota": "Cópia não listada de e6YZbIU3oK8 (público, 23/06), com a chave mc_live_ tapada.",
-      "video_id": "d3lJeTYmCk8"
+      "nota": "Cópia não listada de e6YZbIU3oK8 (público, 23/06), com a chave mc_live_ tapada."
     },
     {
       "numero": 5,
@@ -137,8 +130,7 @@
       "video_origem": "f1t_OJZBrxg",
       "inicio": null,
       "fim": null,
-      "nota": "Cópia não listada de f1t_OJZBrxg (público, 27/08), nome e descrição no padrão. Não tem chave na tela. Mostra ids de conta entre 1:34 e 1:46 — decisão de 13/10: tapar só a chave, ids de conta ficam. Original público não foi tocado.",
-      "video_id": null
+      "nota": "Cópia não listada de f1t_OJZBrxg (público, 27/08), nome e descrição no padrão. Não tem chave na tela. Mostra ids de conta entre 1:34 e 1:46 — decisão de 13/10: tapar só a chave, ids de conta ficam. Original público não foi tocado."
     },
     {
       "numero": 6,
@@ -161,8 +153,7 @@
       "video_origem": "k1b8TMwiwg0",
       "inicio": null,
       "fim": null,
-      "nota": "Gravação de 15/10, sem áudio — decisão de 18/10: fica sem narração. Mascarado: e-mail no cabeçalho do painel (7–47s), e-mail na tela de autorização (99–119s) e o bloco da resposta final (134s ao fim), que listava id de conta de ML, Shopee, Shopee Afiliados, Bling e a razão social no Olist. A versão narrada (42SCkSPpm_w) e a original sem máscara (JxSXxjsdJyw) ficaram privadas no canal.",
-      "video_id": null
+      "nota": "Gravação de 15/10, sem áudio — decisão de 18/10: fica sem narração. Mascarado: e-mail no cabeçalho do painel (7–47s), e-mail na tela de autorização (99–119s) e o bloco da resposta final (134s ao fim), que listava id de conta de ML, Shopee, Shopee Afiliados, Bling e a razão social no Olist. A versão narrada (42SCkSPpm_w) e a original sem máscara (JxSXxjsdJyw) ficaram privadas no canal."
     },
     {
       "numero": 7,
@@ -185,8 +176,7 @@
       "video_origem": null,
       "inicio": null,
       "fim": null,
-      "nota": "Cópia não listada de f1t_OJZBrxg (público, 27/08). Era a aula 5 antes da reordenação de 18/10. ATENÇÃO: mostra tabela com id de conta no final — ainda sem máscara.",
-      "video_id": "usU38GZmJ8s"
+      "nota": "Cópia não listada de f1t_OJZBrxg (público, 27/08). Era a aula 5 antes da reordenação de 18/10. ATENÇÃO: mostra tabela com id de conta no final — ainda sem máscara."
     },
     {
       "numero": 8,
@@ -209,8 +199,7 @@
       "video_origem": null,
       "inicio": null,
       "fim": null,
-      "nota": "Gravação de 15/10, sem áudio, decisão de ficar sem narração. E-mail e inventário de contas mascarados. Era a aula 6 antes da reordenação de 18/10.",
-      "video_id": "hP9X6rWxpM0"
+      "nota": "Gravação de 15/10, sem áudio, decisão de ficar sem narração. E-mail e inventário de contas mascarados. Era a aula 6 antes da reordenação de 18/10."
     },
     {
       "numero": 9,
@@ -233,8 +222,7 @@
       "video_origem": null,
       "inicio": null,
       "fim": null,
-      "nota": "Fora desta rodada.",
-      "video_id": null
+      "nota": "Fora desta rodada."
     },
     {
       "numero": 10,
@@ -257,8 +245,7 @@
       "video_origem": "0kK3z0Ic4qU",
       "inicio": null,
       "fim": null,
-      "nota": "Live 31/05: os 50 primeiros minutos são aula de estratégia, não de mecânica. O tema multi-loja aparece em dois fragmentos de ~30s (57:00 e 60:00) separados por 3 min, dentro de uma demo de criação de habilidade. O resto do trecho tem preço de plano (R$ 250/mês), taxa de setup, margem e consumo de token. Precisa de decisão. DECISÃO 13/10: entra na sua lista de gravação.",
-      "video_id": null
+      "nota": "Live 31/05: os 50 primeiros minutos são aula de estratégia, não de mecânica. O tema multi-loja aparece em dois fragmentos de ~30s (57:00 e 60:00) separados por 3 min, dentro de uma demo de criação de habilidade. O resto do trecho tem preço de plano (R$ 250/mês), taxa de setup, margem e consumo de token. Precisa de decisão. DECISÃO 13/10: entra na sua lista de gravação."
     },
     {
       "numero": 11,
@@ -281,8 +268,7 @@
       "video_origem": "kvGLTgxkEjk",
       "inicio": "00:02:08.1",
       "fim": "00:06:48.0",
-      "nota": "Corte de kvGLTgxkEjk com os ids do Mercado Livre tapados.",
-      "video_id": "oE3QT7Ze3VM"
+      "nota": "Corte de kvGLTgxkEjk com os ids do Mercado Livre tapados."
     },
     {
       "numero": 12,
@@ -305,8 +291,7 @@
       "video_origem": "LtifaBOjLRQ",
       "inicio": null,
       "fim": null,
-      "nota": "Cópia não listada de LtifaBOjLRQ, com nome e descrição no padrão.",
-      "video_id": "6BJJPsnnfYo"
+      "nota": "Cópia não listada de LtifaBOjLRQ, com nome e descrição no padrão."
     },
     {
       "numero": 13,
@@ -329,8 +314,7 @@
       "video_origem": null,
       "inicio": null,
       "fim": null,
-      "nota": "Fora desta rodada.",
-      "video_id": null
+      "nota": "Fora desta rodada."
     },
     {
       "numero": 14,
@@ -353,8 +337,7 @@
       "video_origem": null,
       "inicio": null,
       "fim": null,
-      "nota": "Fora desta rodada. O brief põe nas suas; o plano cogitava eu montar com captura de tela. Segui o brief.",
-      "video_id": null
+      "nota": "Fora desta rodada. O brief põe nas suas; o plano cogitava eu montar com captura de tela. Segui o brief."
     }
   ],
   "abertura_adocao": "KDjLvwLEbrQ",
@@ -365,6 +348,14 @@
       "autor": "André Arcas",
       "dura": "8m47",
       "nota": "Vídeo de terceiro, público. Entra no fim da trilha como apoio para quem quer entender MCP por fora do nosso produto. Não dá para renomear nem tirar o CTA do autor, e some da trilha se ele apagar ou tornar privado — conferir de vez em quando."
+    },
+    {
+      "video_id": "-sjtfEfCekY",
+      "titulo": "Como integrar sistema com Marketplace Connect | Vibe Coding",
+      "autor": "Itamar Rocha",
+      "dura": "4m58",
+      "nota": "Nosso, não listado. Público é dev, não lojista — por isso entra como apoio e não como aula numerada, e o título fica como está. Faz par com o guia de integração (REST + MCP): https://claude.ai/code/artifact/53bebbdf-0a74-4309-9c3c-ea591be370f9"
     }
-  ]
+  ],
+  "guia_integracao": "https://claude.ai/code/artifact/53bebbdf-0a74-4309-9c3c-ea591be370f9"
 }

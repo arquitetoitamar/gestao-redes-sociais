@@ -7,6 +7,7 @@ import yt
 SAIDA = '../../output/trilha-basica/NOVIDADES-PARA-EMAIL.md'
 PL_MC, PL_INICIO, PL_CLAUDE = 'PLW3upCIZHed4', 'PLGhRDamQTH7o', 'PLRRzEvlO7GjU'
 KIT = 'https://drive.google.com/drive/folders/1mRnzxFIWPibvLqTBCO6xiZIG6J5cxGac'
+GUIA = 'https://claude.ai/code/artifact/53bebbdf-0a74-4309-9c3c-ea591be370f9'
 
 
 def itens(pl):
@@ -82,6 +83,11 @@ exemplos prontos para instalar.
 Kit de skills — template comentado e três exemplos que funcionam:
 %s
 
+Guia de integração (REST + MCP) — para quem vai ligar o próprio sistema no
+Connect: endpoint, chave, as duas formas de chamar e os erros que mais custam
+caro. Faz par com o vídeo "Como integrar sistema com Marketplace Connect".
+%s
+
 ---
 
 ## Observações para você antes de disparar
@@ -98,7 +104,8 @@ Kit de skills — template comentado e três exemplos que funcionam:
 """ % (bloco('Trilha do Marketplace Connect', PL_MC, mc),
        bloco('Comece por aqui (demonstração + trilha)', PL_INICIO, inicio),
        bloco('Trilha de Claude', PL_CLAUDE, claude),
-       KIT)
+       KIT,
+       GUIA)
 
 os.makedirs(os.path.dirname(SAIDA), exist_ok=True)
 open(SAIDA, 'w', encoding='utf-8').write(texto)

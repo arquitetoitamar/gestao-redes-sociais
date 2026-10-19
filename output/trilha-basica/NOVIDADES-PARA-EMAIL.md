@@ -43,8 +43,9 @@ https://www.youtube.com/playlist?list=PLW3upCIZHed4
 | MC · Básico · Aula 11 — Seu primeiro anúncio pela IA | 5 min |
 | MC · Básico · Aula 12 — Como criar um agente | 3 min |
 | Claude MCP: Como Integrar o Claude Com Qualquer Coisa (Tutorial Claude MCP) | 9 min |
+| Como integrar sistema com Marketplace Connect — Vibe Coding | 5 min |
 
-_6 vídeos · cerca de 24 minutos no total._
+_7 vídeos · cerca de 29 minutos no total._
 
 ### Comece por aqui (demonstração + trilha)
 
@@ -84,6 +85,11 @@ _9 vídeos · cerca de 101 minutos no total._
 
 Kit de skills — template comentado e três exemplos que funcionam:
 https://drive.google.com/drive/folders/1mRnzxFIWPibvLqTBCO6xiZIG6J5cxGac
+
+Guia de integração (REST + MCP) — para quem vai ligar o próprio sistema no
+Connect: endpoint, chave, as duas formas de chamar e os erros que mais custam
+caro. Faz par com o vídeo "Como integrar sistema com Marketplace Connect".
+https://claude.ai/code/artifact/53bebbdf-0a74-4309-9c3c-ea591be370f9
 
 ---
 

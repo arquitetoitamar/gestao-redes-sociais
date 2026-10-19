@@ -8,6 +8,7 @@ import json, os, sys
 
 PL_B, PL_A = 'PLW3upCIZHed4', 'PLavmDN-e4LEE'
 LINK = 'https://www.youtube.com/playlist?list=' + PL_B
+GUIA = 'https://claude.ai/code/artifact/53bebbdf-0a74-4309-9c3c-ea591be370f9'
 BASE = ['marketplace connect', 'trilha basica']
 
 # numero, módulo, título curto, uma linha do que resolve, tags extras
@@ -57,6 +58,26 @@ AULAS = [
   ['plano', 'suporte']),
 ]
 
+# Apoio: entram no fim da playlist, sem renomear. Vídeo de terceiro a gente não
+# edita; o nosso a gente padroniza só a descrição, mantendo o título original.
+RECURSOS = [
+ {'video_id': 'IIKA4VkXCoM',
+  'titulo': 'Claude MCP: Como Integrar o Claude Com Qualquer Coisa',
+  'autor': 'André Arcas',
+  'dura': '8m47',
+  'nota': 'Vídeo de terceiro, público. Entra no fim da trilha como apoio para quem '
+          'quer entender MCP por fora do nosso produto. Não dá para renomear nem tirar '
+          'o CTA do autor, e some da trilha se ele apagar ou tornar privado — conferir '
+          'de vez em quando.'},
+ {'video_id': '-sjtfEfCekY',
+  'titulo': 'Como integrar sistema com Marketplace Connect | Vibe Coding',
+  'autor': 'Itamar Rocha',
+  'dura': '4m58',
+  'nota': 'Nosso, não listado. Público é dev, não lojista — por isso entra como apoio '
+          'e não como aula numerada, e o título fica como está. Faz par com o guia de '
+          'integração (REST + MCP): ' + GUIA},
+]
+
 CAMINHO = os.path.expanduser('~/midia-tmp/manifesto-trilha-basica.json')
 ESPELHO = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                        '..', '..', 'output', 'trilha-basica', 'manifesto-trilha-basica.json')
@@ -102,6 +123,9 @@ m = {
         'piso_disco_gb': 3,
     },
     'aulas': aulas,
+    'abertura_adocao': 'KDjLvwLEbrQ',
+    'recursos': RECURSOS,
+    'guia_integracao': GUIA,
 }
 for destino in (CAMINHO, ESPELHO):
     with open(destino, 'w', encoding='utf-8') as f:

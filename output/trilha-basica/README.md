@@ -111,6 +111,31 @@ no canal e o brief proibiu renomear. Três são públicos e levam CTA próprio n
 descrição (curso de Claude na 5, `?o=yt-conector` na 6); a 12 tem o rodapé do
 Google Vids. Decisão pendente do Itamar.
 
+## Apoio no fim da trilha (19/10/2026)
+
+Entram depois da última aula, pela lista `recursos` do manifesto. Apoio **não é
+aula numerada**: não recebe o título do padrão e não ocupa posição de aula.
+`aula.py --sincroniza` insere e reordena; `monta_manifesto.py` é quem guarda a
+lista, então ela sobrevive a uma regeração.
+
+| Vídeo | Autor | Dura | Por que é apoio |
+|---|---|---|---|
+| `IIKA4VkXCoM` | André Arcas | 8m47 | de terceiro, público — não dá pra renomear nem tirar o CTA dele, e some se ele despublicar |
+| `-sjtfEfCekY` | Itamar | 4m58 | nosso, mas o público é dev e não lojista; o título fica como está |
+
+**Guia de integração (REST + MCP)** — a página que faz par com o `-sjtfEfCekY`:
+https://claude.ai/code/artifact/53bebbdf-0a74-4309-9c3c-ea591be370f9
+
+Cobre endpoint único, chave `x-api-key`, os dois caminhos (REST para rotina, MCP
+para agente), descoberta por `list_actions`/`describe_action`, limites em
+`mac_usage` e os códigos de erro. O link está na descrição do vídeo e no
+`NOVIDADES-PARA-EMAIL.md`; a fonte dele é a constante `GUIA` em
+`monta_manifesto.py` e em `gera_md_email.py`.
+
+Dois cuidados: o guia é um artefato compartilhado por link e **os leitores veem
+uma versão fixada, não a atual** — ao editar, republique para que o que circula
+mude. E ele traz a contagem de ações verificada em 17/08/2026, que envelhece.
+
 ## Conferir vídeo antes de publicar: o OCR não basta
 
 Em 16/10 a Aula 06 subiu com o id da conta do Mercado Livre na tela. Duas
