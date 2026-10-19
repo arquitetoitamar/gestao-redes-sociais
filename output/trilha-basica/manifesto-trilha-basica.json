@@ -8,13 +8,15 @@
   },
   "regras": {
     "visibilidade": "unlisted",
+    "descricao_sem_sinal_de_maior_menor": "o YouTube recusa < e > na descrição (invalidDescription)",
     "titulo": "MC · Básico · Aula NN — <título curto>",
     "descricao": "uma linha do que a aula resolve + link da playlist",
     "tags": "marketplace connect, trilha basica, <tema>, aula <n>",
     "categoria": "Educação (27)",
     "vinheta": "nenhuma",
     "piso_disco_gb": 3,
-    "playlist_adocao": "PLGhRDamQTH7o é a playlist que já circula com cliente. Ela abre com o demo KDjLvwLEbrQ e depois espelha a trilha básica, na mesma ordem. Quem mantém é o --sincroniza."
+    "playlist_adocao": "PLGhRDamQTH7o abre com o demo KDjLvwLEbrQ e espelha a trilha. Mantida pelo --sincroniza.",
+    "recursos": "Vídeo de apoio entra depois das aulas, nas duas playlists. É de terceiro: metadado não é nosso e pode sumir sem aviso."
   },
   "aulas": [
     {
@@ -34,11 +36,12 @@
       "playlist": "PLW3upCIZHed4",
       "video_id_na_playlist": null,
       "publicado_por_este_script": false,
-      "status": "voce grava ate 15/10",
+      "status": "voce grava",
       "video_origem": "4Xti4U6Lt-A",
       "inicio": null,
       "fim": null,
-      "nota": "Live 06/10: a abertura (00:00-05:30) é música, queda de transmissão e saudação a espectadores com nome de loja. A definição mais limpa do produto está em 40:30 e 43:30, dois fragmentos de ~30s separados por 3 min, dentro de demo do GestorPro. Não existe trecho contínuo de 3 min. Precisa de decisão: outra fonte ou gravar. DECISÃO 13/10: entra na sua lista de gravação."
+      "nota": "Live 06/10: a abertura (00:00-05:30) é música, queda de transmissão e saudação a espectadores com nome de loja. A definição mais limpa do produto está em 40:30 e 43:30, dois fragmentos de ~30s separados por 3 min, dentro de demo do GestorPro. Não existe trecho contínuo de 3 min. Precisa de decisão: outra fonte ou gravar. DECISÃO 13/10: entra na sua lista de gravação.",
+      "video_id": null
     },
     {
       "numero": 2,
@@ -57,11 +60,12 @@
       "playlist": "PLW3upCIZHed4",
       "video_id_na_playlist": null,
       "publicado_por_este_script": false,
-      "status": "voce grava ate 15/10",
+      "status": "voce grava",
       "video_origem": "4Xti4U6Lt-A",
       "inicio": null,
       "fim": null,
-      "nota": "Live 06/10: o trecho de demonstração (43:30-47:00, publicação em lote de 13 anúncios no TikTok Shop) tem id de conta do Mercado Livre e da Shopee falados em voz alta, nome de conta Olist, telefone e e-mail de importador, e margem de 30% e 100%. Fora da regra de publicação. Precisa de decisão. DECISÃO 13/10: entra na sua lista de gravação."
+      "nota": "Live 06/10: o trecho de demonstração (43:30-47:00, publicação em lote de 13 anúncios no TikTok Shop) tem id de conta do Mercado Livre e da Shopee falados em voz alta, nome de conta Olist, telefone e e-mail de importador, e margem de 30% e 100%. Fora da regra de publicação. Precisa de decisão. DECISÃO 13/10: entra na sua lista de gravação.",
+      "video_id": null
     },
     {
       "numero": 3,
@@ -81,11 +85,12 @@
       "playlist": "PLW3upCIZHed4",
       "video_id_na_playlist": null,
       "publicado_por_este_script": false,
-      "status": "voce grava ate 15/10",
+      "status": "voce grava",
       "video_origem": null,
       "inicio": null,
       "fim": null,
-      "nota": "Fora desta rodada. Puxar a tabela de canais do STATUS.md na hora de gravar."
+      "nota": "Fora desta rodada. Puxar a tabela de canais do STATUS.md na hora de gravar.",
+      "video_id": null
     },
     {
       "numero": 4,
@@ -108,108 +113,104 @@
       "video_origem": "e6YZbIU3oK8",
       "inicio": null,
       "fim": null,
-      "nota": "Cópia não listada de e6YZbIU3oK8 (público, 23/06), nome e descrição no padrão. A chave mc_live_ que a fonte mostra em 1:58-2:18 e 2:54-3:15 está tapada: a URL do conector continua legível até o \"key=\", o valor não. Conferido por OCR nos 196 quadros: nenhum resto da chave. Ids de conta entre 1:12 e 1:50 ficaram — decisão de 13/10 foi tapar só a chave. Original público não foi tocado. A cópia anterior O_AJyA9bOgE (com a chave) ficou PRIVADA no canal, não foi apagada.",
-      "video_id": "d3lJeTYmCk8",
-      "substituiu": null
+      "nota": "Cópia não listada de e6YZbIU3oK8 (público, 23/06), com a chave mc_live_ tapada.",
+      "video_id": "d3lJeTYmCk8"
     },
     {
       "numero": 5,
       "modulo": "Ligar",
-      "titulo_curto": "Conectar no Claude",
-      "titulo": "MC · Básico · Aula 05 — Conectar no Claude",
-      "descricao": "Como ligar o Marketplace Connect no Claude, do endereço do conector até a autorização.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
-      "tags": [
-        "marketplace connect",
-        "trilha basica",
-        "claude",
-        "conector",
-        "aula 5"
-      ],
-      "categoria": "27",
-      "playlist": "PLW3upCIZHed4",
-      "video_id_na_playlist": "usU38GZmJ8s",
-      "publicado_por_este_script": true,
-      "status": "publicado",
-      "video_origem": "f1t_OJZBrxg",
-      "inicio": null,
-      "fim": null,
-      "nota": "Cópia não listada de f1t_OJZBrxg (público, 27/08), nome e descrição no padrão. Não tem chave na tela. Mostra ids de conta entre 1:34 e 1:46 — decisão de 13/10: tapar só a chave, ids de conta ficam. Original público não foi tocado.",
-      "video_id": "usU38GZmJ8s",
-      "substituiu": "f1t_OJZBrxg"
-    },
-    {
-      "numero": 6,
-      "modulo": "Ligar",
-      "titulo_curto": "Conectar no ChatGPT",
-      "titulo": "MC · Básico · Aula 06 — Conectar no ChatGPT",
-      "descricao": "Como ligar o Marketplace Connect no ChatGPT, com um conector separado para cada canal.\n\n00:10 Suas integrações no painel\n00:46 Adicionar servidor MCP personalizado no ChatGPT\n01:12 O endereço do conector do canal\n01:44 Autorizar o acesso\n02:00 Conectado\n02:12 Testando: a lista das suas contas\n\nUse o endereço do canal que você vende (barra mcp barra o nome do canal), não o endereço raiz: a raiz carrega mais de mil ferramentas de uma vez e o cliente de IA trunca a lista.\n\nO Marketplace Connect liga as suas contas de marketplace ao cliente de IA que você já usa. A licença de IA é sua — Claude ou ChatGPT, a que você já paga.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
-      "tags": [
-        "marketplace connect",
-        "trilha basica",
-        "chatgpt",
-        "conector",
-        "mcp",
-        "mercado livre",
-        "integracao",
-        "aula 6"
-      ],
-      "categoria": "27",
-      "playlist": "PLW3upCIZHed4",
-      "video_id_na_playlist": "hP9X6rWxpM0",
-      "publicado_por_este_script": true,
-      "status": "publicado",
-      "video_origem": "k1b8TMwiwg0",
-      "inicio": null,
-      "fim": null,
-      "nota": "Gravação de 15/10, sem áudio — decisão de 18/10: fica sem narração. Mascarado: e-mail no cabeçalho do painel (7–47s), e-mail na tela de autorização (99–119s) e o bloco da resposta final (134s ao fim), que listava id de conta de ML, Shopee, Shopee Afiliados, Bling e a razão social no Olist. A versão narrada (42SCkSPpm_w) e a original sem máscara (JxSXxjsdJyw) ficaram privadas no canal.",
-      "video_id": "hP9X6rWxpM0",
-      "substituiu": "42SCkSPpm_w"
-    },
-    {
-      "numero": 7,
-      "modulo": "Ligar",
-      "titulo_curto": "Qual endereço conectar: raiz ou conector do canal",
-      "titulo": "MC · Básico · Aula 07 — Qual endereço conectar: raiz ou conector do canal",
-      "descricao": "Raiz ou conector do canal: por que a lista de ferramentas trunca no cliente de IA e qual endereço resolve.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
-      "tags": [
-        "marketplace connect",
-        "trilha basica",
-        "conector",
-        "mcp",
-        "aula 7"
-      ],
-      "categoria": "27",
-      "playlist": "PLW3upCIZHed4",
-      "video_id_na_playlist": null,
-      "publicado_por_este_script": false,
-      "status": "voce grava ate 15/10",
-      "video_origem": null,
-      "inicio": null,
-      "fim": null,
-      "nota": "Fora desta rodada. A aula que mais evita chamado — nunca foi explicada em vídeo."
-    },
-    {
-      "numero": 8,
-      "modulo": "Ligar",
       "titulo_curto": "Autorizar sua loja do marketplace",
-      "titulo": "MC · Básico · Aula 08 — Autorizar sua loja do marketplace",
+      "titulo": "MC · Básico · Aula 05 — Autorizar sua loja do marketplace",
       "descricao": "Tela a tela, com Mercado Livre — inclusive o consentimento do marketplace, que é onde a dúvida costuma aparecer.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
       "tags": [
         "marketplace connect",
         "trilha basica",
         "autorizacao",
         "mercado livre",
-        "aula 8"
+        "aula 5"
       ],
       "categoria": "27",
       "playlist": "PLW3upCIZHed4",
       "video_id_na_playlist": null,
       "publicado_por_este_script": false,
-      "status": "voce grava ate 15/10",
+      "status": "voce grava",
+      "video_origem": "f1t_OJZBrxg",
+      "inicio": null,
+      "fim": null,
+      "nota": "Cópia não listada de f1t_OJZBrxg (público, 27/08), nome e descrição no padrão. Não tem chave na tela. Mostra ids de conta entre 1:34 e 1:46 — decisão de 13/10: tapar só a chave, ids de conta ficam. Original público não foi tocado.",
+      "video_id": null
+    },
+    {
+      "numero": 6,
+      "modulo": "Ligar",
+      "titulo_curto": "Qual endereço conectar: raiz ou conector do canal",
+      "titulo": "MC · Básico · Aula 06 — Qual endereço conectar: raiz ou conector do canal",
+      "descricao": "Raiz ou conector do canal: por que a lista de ferramentas trunca no cliente de IA e qual endereço resolve.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "conector",
+        "mcp",
+        "aula 6"
+      ],
+      "categoria": "27",
+      "playlist": "PLW3upCIZHed4",
+      "video_id_na_playlist": null,
+      "publicado_por_este_script": false,
+      "status": "voce grava",
+      "video_origem": "k1b8TMwiwg0",
+      "inicio": null,
+      "fim": null,
+      "nota": "Gravação de 15/10, sem áudio — decisão de 18/10: fica sem narração. Mascarado: e-mail no cabeçalho do painel (7–47s), e-mail na tela de autorização (99–119s) e o bloco da resposta final (134s ao fim), que listava id de conta de ML, Shopee, Shopee Afiliados, Bling e a razão social no Olist. A versão narrada (42SCkSPpm_w) e a original sem máscara (JxSXxjsdJyw) ficaram privadas no canal.",
+      "video_id": null
+    },
+    {
+      "numero": 7,
+      "modulo": "Ligar",
+      "titulo_curto": "Conectar no Claude",
+      "titulo": "MC · Básico · Aula 07 — Conectar no Claude",
+      "descricao": "Como ligar o Marketplace Connect no Claude, do endereço do conector até a autorização.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "claude",
+        "conector",
+        "aula 7"
+      ],
+      "categoria": "27",
+      "playlist": "PLW3upCIZHed4",
+      "video_id_na_playlist": "usU38GZmJ8s",
+      "publicado_por_este_script": true,
+      "status": "publicado",
       "video_origem": null,
       "inicio": null,
       "fim": null,
-      "nota": "Fora desta rodada."
+      "nota": "Cópia não listada de f1t_OJZBrxg (público, 27/08). Era a aula 5 antes da reordenação de 18/10. ATENÇÃO: mostra tabela com id de conta no final — ainda sem máscara.",
+      "video_id": "usU38GZmJ8s"
+    },
+    {
+      "numero": 8,
+      "modulo": "Ligar",
+      "titulo_curto": "Conectar no ChatGPT",
+      "titulo": "MC · Básico · Aula 08 — Conectar no ChatGPT",
+      "descricao": "Como ligar o Marketplace Connect no ChatGPT, com um conector separado para cada canal.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "chatgpt",
+        "conector",
+        "aula 8"
+      ],
+      "categoria": "27",
+      "playlist": "PLW3upCIZHed4",
+      "video_id_na_playlist": "hP9X6rWxpM0",
+      "publicado_por_este_script": true,
+      "status": "publicado",
+      "video_origem": null,
+      "inicio": null,
+      "fim": null,
+      "nota": "Gravação de 15/10, sem áudio, decisão de ficar sem narração. E-mail e inventário de contas mascarados. Era a aula 6 antes da reordenação de 18/10.",
+      "video_id": "hP9X6rWxpM0"
     },
     {
       "numero": 9,
@@ -228,11 +229,12 @@
       "playlist": "PLW3upCIZHed4",
       "video_id_na_playlist": null,
       "publicado_por_este_script": false,
-      "status": "voce grava ate 15/10",
+      "status": "voce grava",
       "video_origem": null,
       "inicio": null,
       "fim": null,
-      "nota": "Fora desta rodada."
+      "nota": "Fora desta rodada.",
+      "video_id": null
     },
     {
       "numero": 10,
@@ -251,11 +253,12 @@
       "playlist": "PLW3upCIZHed4",
       "video_id_na_playlist": null,
       "publicado_por_este_script": false,
-      "status": "voce grava ate 15/10",
+      "status": "voce grava",
       "video_origem": "0kK3z0Ic4qU",
       "inicio": null,
       "fim": null,
-      "nota": "Live 31/05: os 50 primeiros minutos são aula de estratégia, não de mecânica. O tema multi-loja aparece em dois fragmentos de ~30s (57:00 e 60:00) separados por 3 min, dentro de uma demo de criação de habilidade. O resto do trecho tem preço de plano (R$ 250/mês), taxa de setup, margem e consumo de token. Precisa de decisão. DECISÃO 13/10: entra na sua lista de gravação."
+      "nota": "Live 31/05: os 50 primeiros minutos são aula de estratégia, não de mecânica. O tema multi-loja aparece em dois fragmentos de ~30s (57:00 e 60:00) separados por 3 min, dentro de uma demo de criação de habilidade. O resto do trecho tem preço de plano (R$ 250/mês), taxa de setup, margem e consumo de token. Precisa de decisão. DECISÃO 13/10: entra na sua lista de gravação.",
+      "video_id": null
     },
     {
       "numero": 11,
@@ -278,7 +281,8 @@
       "video_origem": "kvGLTgxkEjk",
       "inicio": "00:02:08.1",
       "fim": "00:06:48.0",
-      "nota": "Corte de kvGLTgxkEjk. Ids das contas do Mercado Livre tapados com 21 caixas sólidas (mascara-aula11.txt); exigiu recodificar, exceção autorizada em 13/10. Conferido por OCR nos 280 quadros do arquivo final: zero id de conta."
+      "nota": "Corte de kvGLTgxkEjk com os ids do Mercado Livre tapados.",
+      "video_id": "oE3QT7Ze3VM"
     },
     {
       "numero": 12,
@@ -301,9 +305,8 @@
       "video_origem": "LtifaBOjLRQ",
       "inicio": null,
       "fim": null,
-      "nota": "Cópia não listada de LtifaBOjLRQ (não listado, 05/10), nome e descrição no padrão — a versão antiga tinha o rodapé do Google Vids. Varredura por OCR não achou chave nem id de conta. O vídeo antigo continua no canal, não listado, só saiu da playlist.",
-      "video_id": "6BJJPsnnfYo",
-      "substituiu": "LtifaBOjLRQ"
+      "nota": "Cópia não listada de LtifaBOjLRQ, com nome e descrição no padrão.",
+      "video_id": "6BJJPsnnfYo"
     },
     {
       "numero": 13,
@@ -322,11 +325,12 @@
       "playlist": "PLW3upCIZHed4",
       "video_id_na_playlist": null,
       "publicado_por_este_script": false,
-      "status": "voce grava ate 15/10",
+      "status": "voce grava",
       "video_origem": null,
       "inicio": null,
       "fim": null,
-      "nota": "Fora desta rodada."
+      "nota": "Fora desta rodada.",
+      "video_id": null
     },
     {
       "numero": 14,
@@ -345,12 +349,22 @@
       "playlist": "PLW3upCIZHed4",
       "video_id_na_playlist": null,
       "publicado_por_este_script": false,
-      "status": "voce grava ate 15/10",
+      "status": "voce grava",
       "video_origem": null,
       "inicio": null,
       "fim": null,
-      "nota": "Fora desta rodada. O brief põe nas suas; o plano cogitava eu montar com captura de tela. Segui o brief."
+      "nota": "Fora desta rodada. O brief põe nas suas; o plano cogitava eu montar com captura de tela. Segui o brief.",
+      "video_id": null
     }
   ],
-  "abertura_adocao": "KDjLvwLEbrQ"
+  "abertura_adocao": "KDjLvwLEbrQ",
+  "recursos": [
+    {
+      "video_id": "IIKA4VkXCoM",
+      "titulo": "Claude MCP: Como Integrar o Claude Com Qualquer Coisa",
+      "autor": "André Arcas",
+      "dura": "8m47",
+      "nota": "Vídeo de terceiro, público. Entra no fim da trilha como apoio para quem quer entender MCP por fora do nosso produto. Não dá para renomear nem tirar o CTA do autor, e some da trilha se ele apagar ou tornar privado — conferir de vez em quando."
+    }
+  ]
 }

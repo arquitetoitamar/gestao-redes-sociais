@@ -1,4 +1,19 @@
-# Roteiro das 9 aulas que você grava
+# Roteiro das aulas que você grava
+
+> **Renumerado em 18/10.** O módulo Ligar mudou de ordem: autorizar a loja e
+> escolher o endereço agora vêm **antes** de conectar no Claude e no ChatGPT —
+> o aluno não cola mais um endereço antes de saber qual escolher.
+>
+> | Era | Virou | Aula |
+> |---|---|---|
+> | 8 | **5** | Autorizar sua loja do marketplace |
+> | 7 | **6** | Qual endereço conectar: raiz ou conector do canal |
+> | 5 | 7 | Conectar no Claude *(já publicada)* |
+> | 6 | 8 | Conectar no ChatGPT *(já publicada)* |
+>
+> Então **grave a 5 e a 6**, não a 7 e a 8. O conteúdo de cada uma é o mesmo
+> descrito abaixo — só o número mudou.
+
 
 Trilha Básica do Marketplace Connect. Grave bruto, sem edição, sem vinheta.
 Corte, título, descrição e tags são do script.
@@ -37,19 +52,19 @@ escapou alguma coisa. Mas é mais barato não deixar entrar.
 
 | Bloco | Aulas | Onde | Tempo |
 |---|---|---|---|
-| A — a que mais evita chamado | **7**, 8 | cliente de IA + painel | 6 min |
+| A — as que mais evitam chamado | **6**, 5 | cliente de IA + painel | 6 min |
 | B — operar | 9, 10, 13 | painel + cliente de IA | 8 min |
 | C — conceito | 1, 2, 3, 14 | você falando + site | 10 min |
 
-Se o tempo apertar, **7 e 8 são as que não podem faltar**. A 7 é a dúvida que
-mais vira chamado e nunca foi explicada em vídeo; a 8 é a tela onde o cliente
+Se o tempo apertar, **6 e 5 são as que não podem faltar**. A 6 é a dúvida que
+mais vira chamado e nunca foi explicada em vídeo; a 5 é a tela onde o cliente
 novo trava.
 
 ---
 
 # Bloco A
 
-## Aula 7 — Qual endereço conectar: raiz ou conector do canal · 3 min
+## Aula 6 — Qual endereço conectar: raiz ou conector do canal · 3 min
 
 Esta é a aula mais valiosa da trilha. O cliente conecta o endereço raiz, a
 lista de ferramentas trunca no cliente de IA, e ele jura que a ação não existe.
@@ -74,7 +89,7 @@ lista de ferramentas trunca no cliente de IA, e ele jura que a ação não exist
 
 ---
 
-## Aula 8 — Autorizar sua loja do marketplace · 3 min
+## Aula 5 — Autorizar sua loja do marketplace · 3 min
 
 Tela a tela, com Mercado Livre. O ponto que gera dúvida não é o nosso botão —
 é o consentimento do marketplace.
@@ -249,7 +264,7 @@ Canais em produção, com o endereço de cada um:
 
 ```bash
 cd ~/git/gestao-redes-sociais/scripts/trilha
-python3 aula.py 7 ~/gravacoes/aula07.mp4
+python3 aula.py 6 ~/gravacoes/aula06.mp4
 ```
 
 Ele sobe não listado, com o nome e a descrição do padrão, encaixa na posição

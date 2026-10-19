@@ -163,14 +163,24 @@ def sincroniza():
     m = carrega()
     pl = m['playlists']['basica']
     quer = {a['video_id_na_playlist']: a for a in m['aulas'] if a.get('video_id_na_playlist')}
+    quer.update({r['video_id']: r for r in m.get('recursos', [])})
 
     for item_id, _, vid, titulo in itens(pl):
         if vid not in quer:
             yt.call('DELETE', 'playlistItems', {'id': item_id})
             print('sobrando, tirei:', vid, '|', titulo[:50])
 
+    tenho = {vid for _, _, vid, _ in itens(pl)}
+    for r in m.get('recursos', []):
+        if r['video_id'] not in tenho:
+            yt.call('POST', 'playlistItems', {'part': 'snippet'}, {
+                'snippet': {'playlistId': pl,
+                            'resourceId': {'kind': 'youtube#video', 'videoId': r['video_id']}}})
+            print('apoio: entrou', r['video_id'], '|', r['titulo'][:45])
+
     ordem = [a['video_id_na_playlist'] for a in sorted(m['aulas'], key=lambda a: a['numero'])
              if a.get('video_id_na_playlist')]
+    ordem += [r['video_id'] for r in m.get('recursos', [])]
     _espelha(m, ordem)
     for alvo, vid in enumerate(ordem):
         for item_id, pos, v, _ in itens(pl):
@@ -228,6 +238,10 @@ def estado():
         marca = 'pos %d' % atuais[vid][0] if vid in atuais else '  —  '
         print('%2d  %-7s %-12s %-11s %s' % (a['numero'], marca, a['status'],
                                             vid or '', a['titulo_curto']))
+    for r in m.get('recursos', []):
+        vid = r['video_id']
+        marca = 'pos %d' % atuais[vid][0] if vid in atuais else '  —  '
+        print('--  %-7s %-12s %-11s %s (%s)' % (marca, 'apoio', vid, r['titulo'][:38], r['autor']))
 
 
 def troca(numero, caminho):
