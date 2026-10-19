@@ -3,14 +3,20 @@
 Brief: `~/git/meli-oauth-buddy/docs/planos/BRIEF-DEV-MIDIA-trilha-basica.md`
 Plano: https://claude.ai/code/artifact/750375f2-8ec5-4479-9b25-be9c206b2d77
 
-## Playlists criadas (não listadas)
+## Playlists (todas não listadas)
 
-| Trilha | Id | Link |
+| Playlist | Id | Para quê |
 |---|---|---|
-| Básica | `PLW3upCIZHed4` | https://www.youtube.com/playlist?list=PLW3upCIZHed4 |
-| Avançada | `PLavmDN-e4LEE` | https://www.youtube.com/playlist?list=PLavmDN-e4LEE |
+| Trilha Básica | `PLW3upCIZHed4` | a trilha em si, aula por aula |
+| Trilha Avançada | `PLavmDN-e4LEE` | ainda vazia |
+| Comece por aqui | `PLGhRDamQTH7o` | o link que já circula com cliente: abre com a demonstração de 22 min e depois espelha a Básica |
 
-As 12 playlists que já existiam não foram tocadas.
+`PLGhRDamQTH7o` já existia (era "Início de Adoção de IA com Marketplace
+Connect", com um vídeo só) e tinha ficado para trás. Em vez de encher na mão,
+`aula.py --sincroniza` passou a mantê-la: demo primeiro, trilha em seguida, na
+mesma ordem. Assim as duas não divergem calado.
+
+As outras playlists do canal não foram tocadas.
 
 ## Na playlist básica (5 aulas)
 

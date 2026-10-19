@@ -171,6 +171,7 @@ def sincroniza():
 
     ordem = [a['video_id_na_playlist'] for a in sorted(m['aulas'], key=lambda a: a['numero'])
              if a.get('video_id_na_playlist')]
+    _espelha(m, ordem)
     for alvo, vid in enumerate(ordem):
         for item_id, pos, v, _ in itens(pl):
             if v == vid and pos != alvo:
@@ -180,6 +181,41 @@ def sincroniza():
                                 'resourceId': {'kind': 'youtube#video', 'videoId': vid}}})
                 print('movi', vid, 'de', pos, 'para', alvo)
     estado()
+
+
+def _espelha(m, ordem):
+    """Mantém a playlist que já circula com cliente igual à trilha.
+
+    Ela abre com o demo e depois repete as aulas na mesma ordem. Sem isso as
+    duas divergem calado, que foi o que aconteceu até 18/10.
+    """
+    pl = m['playlists'].get('adocao')
+    if not pl:
+        return
+    desejado = ([m['abertura_adocao']] if m.get('abertura_adocao') else []) + ordem
+
+    atuais = itens(pl)
+    tenho = {vid: item_id for item_id, _, vid, _ in atuais}
+    for item_id, _, vid, titulo in atuais:
+        if vid not in desejado:
+            yt.call('DELETE', 'playlistItems', {'id': item_id})
+            print('adoção: tirei', vid, '|', titulo[:45])
+
+    for alvo, vid in enumerate(desejado):
+        if vid not in tenho:
+            yt.call('POST', 'playlistItems', {'part': 'snippet'}, {
+                'snippet': {'playlistId': pl, 'position': alvo,
+                            'resourceId': {'kind': 'youtube#video', 'videoId': vid}}})
+            print('adoção: entrou', vid, 'na posição', alvo)
+
+    for alvo, vid in enumerate(desejado):
+        for item_id, pos, v, _ in itens(pl):
+            if v == vid and pos != alvo:
+                yt.call('PUT', 'playlistItems', {'part': 'snippet'}, {
+                    'id': item_id,
+                    'snippet': {'playlistId': pl, 'position': alvo,
+                                'resourceId': {'kind': 'youtube#video', 'videoId': vid}}})
+                print('adoção: movi', vid, 'de', pos, 'para', alvo)
 
 
 def estado():

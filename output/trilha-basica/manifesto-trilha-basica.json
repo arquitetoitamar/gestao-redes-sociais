@@ -3,7 +3,8 @@
   "canal": "UC4mEWT48J1erkqlbHqfHpEg",
   "playlists": {
     "basica": "PLW3upCIZHed4",
-    "avancada": "PLavmDN-e4LEE"
+    "avancada": "PLavmDN-e4LEE",
+    "adocao": "PLGhRDamQTH7o"
   },
   "regras": {
     "visibilidade": "unlisted",
@@ -12,7 +13,8 @@
     "tags": "marketplace connect, trilha basica, <tema>, aula <n>",
     "categoria": "Educação (27)",
     "vinheta": "nenhuma",
-    "piso_disco_gb": 3
+    "piso_disco_gb": 3,
+    "playlist_adocao": "PLGhRDamQTH7o é a playlist que já circula com cliente. Ela abre com o demo KDjLvwLEbrQ e depois espelha a trilha básica, na mesma ordem. Quem mantém é o --sincroniza."
   },
   "aulas": [
     {
@@ -349,5 +351,6 @@
       "fim": null,
       "nota": "Fora desta rodada. O brief põe nas suas; o plano cogitava eu montar com captura de tela. Segui o brief."
     }
-  ]
+  ],
+  "abertura_adocao": "KDjLvwLEbrQ"
 }
