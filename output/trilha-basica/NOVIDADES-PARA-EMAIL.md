@@ -42,10 +42,11 @@ https://www.youtube.com/playlist?list=PLW3upCIZHed4
 | MC · Básico · Aula 08 — Conectar no ChatGPT | 2 min |
 | MC · Básico · Aula 11 — Seu primeiro anúncio pela IA | 5 min |
 | MC · Básico · Aula 12 — Como criar um agente | 3 min |
+| MC · Básico · Aula 13 — Criar as fotos e atualizar o anúncio | 10 min |
 | Claude MCP: Como Integrar o Claude Com Qualquer Coisa (Tutorial Claude MCP) | 9 min |
 | Como integrar sistema com Marketplace Connect — Vibe Coding | 5 min |
 
-_7 vídeos · cerca de 29 minutos no total._
+_8 vídeos · cerca de 39 minutos no total._
 
 ### Comece por aqui (demonstração + trilha)
 
@@ -59,10 +60,11 @@ https://www.youtube.com/playlist?list=PLGhRDamQTH7o
 | MC · Básico · Aula 08 — Conectar no ChatGPT | 2 min |
 | MC · Básico · Aula 11 — Seu primeiro anúncio pela IA | 5 min |
 | MC · Básico · Aula 12 — Como criar um agente | 3 min |
+| MC · Básico · Aula 13 — Criar as fotos e atualizar o anúncio | 10 min |
 | Claude MCP: Como Integrar o Claude Com Qualquer Coisa (Tutorial Claude MCP) | 9 min |
 | Como integrar sistema com Marketplace Connect — Vibe Coding | 5 min |
 
-_8 vídeos · cerca de 51 minutos no total._
+_9 vídeos · cerca de 61 minutos no total._
 
 ### Trilha de Claude
 

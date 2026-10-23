@@ -14,6 +14,11 @@
 > Então **grave a 5 e a 6**, não a 7 e a 8. O conteúdo de cada uma é o mesmo
 > descrito abaixo — só o número mudou.
 
+> **Atualizado em 23/10.** Entrou uma aula nova, a **13 — Criar as fotos e
+> atualizar o anúncio** (gravada, já publicada). Com isso, Equipe virou **14**
+> e Plano/limites virou **15**. As que faltam gravar são
+> **1, 2, 3, 5, 6, 9, 10, 14 e 15**.
+
 
 Trilha Básica do Marketplace Connect. Grave bruto, sem edição, sem vinheta.
 Corte, título, descrição e tags são do script.
@@ -43,8 +48,10 @@ junho. Então, antes de cada gravação:
 3. Quando for mostrar a URL do conector, **cubra o `key=` com a mão ou com
    uma janela** — ou fale "aqui entra a sua chave" e não mostre.
 
-Mesmo assim eu passo OCR em todo arquivo antes de publicar e te aviso se
-escapou alguma coisa. Mas é mais barato não deixar entrar.
+Antes de publicar eu olho a gravação quadro a quadro, em contact sheet. Não
+use "o OCR não achou nada" como garantia: já me enganou uma vez, num vídeo em
+que o seu e-mail aparecia duas vezes. Olho é o que funciona — mas é mais
+barato não deixar entrar.
 
 ---
 
@@ -53,8 +60,8 @@ escapou alguma coisa. Mas é mais barato não deixar entrar.
 | Bloco | Aulas | Onde | Tempo |
 |---|---|---|---|
 | A — as que mais evitam chamado | **6**, 5 | cliente de IA + painel | 6 min |
-| B — operar | 9, 10, 13 | painel + cliente de IA | 8 min |
-| C — conceito | 1, 2, 3, 14 | você falando + site | 10 min |
+| B — operar | 9, 10, 14 | painel + cliente de IA | 8 min |
+| C — conceito | 1, 2, 3, 15 | você falando + site | 10 min |
 
 Se o tempo apertar, **6 e 5 são as que não podem faltar**. A 6 é a dúvida que
 mais vira chamado e nunca foi explicada em vídeo; a 5 é a tela onde o cliente
@@ -154,7 +161,7 @@ Tela a tela, com Mercado Livre. O ponto que gera dúvida não é o nosso botão 
 
 ---
 
-## Aula 13 — Equipe: convidar e liberar loja por loja · 3 min
+## Aula 14 — Equipe: convidar e liberar loja por loja · 3 min
 
 **Beats**
 1. Convidar por e-mail. Use um e-mail seu, não de cliente.
@@ -244,7 +251,7 @@ Canais em produção, com o endereço de cada um:
 
 ---
 
-## Aula 14 — Plano, limites e onde pedir ajuda · 2 min
+## Aula 15 — Plano, limites e onde pedir ajuda · 2 min
 
 Última aula. É aqui que você fecha o funil.
 

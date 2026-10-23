@@ -296,38 +296,41 @@
     },
     {
       "numero": 13,
+      "modulo": "Operar",
+      "titulo_curto": "Criar as fotos e atualizar o anúncio",
+      "titulo": "MC · Básico · Aula 13 — Criar as fotos e atualizar o anúncio",
+      "descricao": "Como gerar as fotos do produto e atualizar o anúncio sem sair do ChatGPT, com o Codex instalado.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "fotos",
+        "codex",
+        "imagem de produto",
+        "aula 13"
+      ],
+      "categoria": "27",
+      "playlist": "PLW3upCIZHed4",
+      "video_id_na_playlist": "ajHT5bvhzj0",
+      "publicado_por_este_script": true,
+      "status": "publicado",
+      "video_origem": null,
+      "inicio": null,
+      "fim": null,
+      "nota": "Fora desta rodada.",
+      "video_id": "ajHT5bvhzj0",
+      "substituiu": null
+    },
+    {
+      "numero": 14,
       "modulo": "Crescer",
       "titulo_curto": "Equipe: convidar e liberar loja por loja",
-      "titulo": "MC · Básico · Aula 13 — Equipe: convidar e liberar loja por loja",
+      "titulo": "MC · Básico · Aula 14 — Equipe: convidar e liberar loja por loja",
       "descricao": "Convidar por e-mail, liberar loja a loja, leitura contra escrita, e quem pode conectar loja nova.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
       "tags": [
         "marketplace connect",
         "trilha basica",
         "equipe",
         "permissao",
-        "aula 13"
-      ],
-      "categoria": "27",
-      "playlist": "PLW3upCIZHed4",
-      "video_id_na_playlist": null,
-      "publicado_por_este_script": false,
-      "status": "voce grava",
-      "video_origem": null,
-      "inicio": null,
-      "fim": null,
-      "nota": "Fora desta rodada."
-    },
-    {
-      "numero": 14,
-      "modulo": "Crescer",
-      "titulo_curto": "Plano, limites e onde pedir ajuda",
-      "titulo": "MC · Básico · Aula 14 — Plano, limites e onde pedir ajuda",
-      "descricao": "O que o seu plano cobre, onde ficam os limites e por onde pedir ajuda quando travar.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
-      "tags": [
-        "marketplace connect",
-        "trilha basica",
-        "plano",
-        "suporte",
         "aula 14"
       ],
       "categoria": "27",
@@ -339,6 +342,29 @@
       "inicio": null,
       "fim": null,
       "nota": "Fora desta rodada. O brief põe nas suas; o plano cogitava eu montar com captura de tela. Segui o brief."
+    },
+    {
+      "numero": 15,
+      "modulo": "Crescer",
+      "titulo_curto": "Plano, limites e onde pedir ajuda",
+      "titulo": "MC · Básico · Aula 15 — Plano, limites e onde pedir ajuda",
+      "descricao": "O que o seu plano cobre, onde ficam os limites e por onde pedir ajuda quando travar.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "tags": [
+        "marketplace connect",
+        "trilha basica",
+        "plano",
+        "suporte",
+        "aula 15"
+      ],
+      "categoria": "27",
+      "playlist": "PLW3upCIZHed4",
+      "video_id_na_playlist": null,
+      "publicado_por_este_script": false,
+      "status": "voce grava",
+      "video_origem": null,
+      "inicio": null,
+      "fim": null,
+      "nota": ""
     }
   ],
   "abertura_adocao": "KDjLvwLEbrQ",
