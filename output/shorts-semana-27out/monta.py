@@ -103,8 +103,11 @@ def fatia(itens, ini, fim, limite=5.0):
 def monta(chave, fonte_video, ini, fim, gancho):
     os.makedirs(TRAB, exist_ok=True)
     dur = fim - ini
-    num = fonte_video.split('-')[1].split('.')[0]
-    legendas = fatia(le_srt(os.path.join(SRT, 'tr-%s.srt' % num)), ini, fim)
+    if fonte_video.startswith('IMG_'):          # gravações da Imersão
+        nome_srt = 'srt-%s.srt' % fonte_video.split('.')[0]
+    else:                                        # material do vlog
+        nome_srt = 'tr-%s.srt' % fonte_video.split('-')[1].split('.')[0]
+    legendas = fatia(le_srt(os.path.join(SRT, nome_srt)), ini, fim)
 
     png_gancho = os.path.join(TRAB, '%s-gancho.png' % chave)
     cartao(gancho, 104, (255, 216, 0, 255)).save(png_gancho)
