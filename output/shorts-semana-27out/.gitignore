@@ -1,0 +1,4 @@
+# Os Shorts renderizados passam de 10 MB cada; ficam só na máquina.
+# `python3 monta.py` refaz todos a partir do material normalizado.
+*.mp4
+trab/
