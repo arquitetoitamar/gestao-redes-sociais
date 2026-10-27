@@ -30,9 +30,17 @@ echo "fala: ${D}s -> atempo ${F}"
 $FF -v error -y -i trab/fala-bruta.wav -af "atempo=${F},loudnorm=I=-16:TP=-1.5:LRA=11" -ar 48000 trab/fala.wav
 T=$(ffprobe -v error -show_entries format=duration -of csv=p=0 trab/fala.wav)
 
+# 2b) voz "na cozinha": tira o grave de estúdio, sala pequena (eco curto) como celular perto da boca
+sox trab/fala.wav trab/fala-sala.wav highpass 100 lowpass 11000 reverb 25 60 30 0 8 -8
+
 # 3) vídeo: unidade de loop repetida até cobrir a fala + selo discreto de IA
-$FF -v error -y -stream_loop -1 -i trab/unidade.mp4 -i trab/fala.wav -t "$T" \
-  -vf "drawtext=fontfile=/System/Library/Fonts/Supplemental/Arial.ttf:text='Conteúdo gerado com IA':fontsize=30:fontcolor=white@0.75:box=1:boxcolor=black@0.35:boxborderw=10:x=36:y=60" \
-  -map 0:v -map 1:a -c:v libx264 -preset medium -crf 20 -r 24 -pix_fmt yuv420p \
-  -c:a aac -b:a 160k -movflags +faststart final/escorredor-live-8min.mp4
+#    áudio: voz na sala + ambiente de cozinha (-40 LUFS) + tilintares sincronizados com o loop
+#    (trab/sfx-unidade.wav tem o mesmo tamanho de trab/unidade.mp4; gerar com: python3 ambienta.py)
+$FF -v error -y -stream_loop -1 -i trab/unidade.mp4 -i trab/fala-sala.wav \
+  -stream_loop -1 -i trab/ambiente-loop.wav -stream_loop -1 -i trab/sfx-unidade.wav -t "$T" \
+  -filter_complex "[0:v]drawtext=fontfile=/System/Library/Fonts/Supplemental/Arial.ttf:text='Conteúdo gerado com IA':fontsize=30:fontcolor=white@0.75:box=1:boxcolor=black@0.35:boxborderw=10:x=36:y=60[v];
+    [1:a]aformat=channel_layouts=mono[voz];[2:a]aformat=channel_layouts=mono[amb];[3:a]aformat=channel_layouts=mono,volume=6dB[sfx];
+    [voz][amb][sfx]amix=inputs=3:normalize=0:duration=first,alimiter=limit=0.84:level=disabled[a]" \
+  -map "[v]" -map "[a]" -c:v libx264 -preset medium -crf 20 -r 24 -pix_fmt yuv420p \
+  -c:a aac -b:a 160k -ar 48000 -movflags +faststart final/escorredor-live-8min.mp4
 ffprobe -v error -show_entries format=duration -of csv=p=0 final/escorredor-live-8min.mp4

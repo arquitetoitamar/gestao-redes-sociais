@@ -20,6 +20,14 @@ A técnica de referência é o vídeo do Pedro Veiga ("Live Shop com IA"); a tra
 - **O vídeo tem um selo discreto "Conteúdo gerado com IA".** O TikTok exige rótulo em conteúdo realista gerado por IA. Para tirar, edite o `drawtext` no `monta.sh`.
 - **Risco do TikTok:** a regra de LIVE proíbe transmitir conteúdo pré-gravado em loop como se fosse ao vivo. Rodar isso na live arrisca restrição da conta de afiliado. O mesmo vídeo serve sem esse risco como post, anúncio ou vídeo do produto na vitrine.
 
+## Ambiente (som de cozinha de verdade)
+
+`python3 ambienta.py` gera as camadas uma vez:
+- **Voz na sala**: no `monta.sh`, o sox tira o grave de estúdio (corta abaixo de 100 Hz e acima de 11 kHz) e aplica um eco curto de cozinha pequena (`reverb 25 60 30`), como celular perto da boca.
+- **Ambiente**: ruído de cozinha gerado no ElevenLabs Sound Effects (geladeira, rua longe, passarinho), em loop sem emenda, a -40 LUFS. Fica 24 LU abaixo da voz e aparece nas pausas.
+- **Tilintares sincronizados**: prato e talher batendo no inox nos 12 momentos em que a mão encosta no escorredor, em cada volta de 39,9 s. A trilha tem exatamente o tamanho do loop de vídeo, então fica sincronizada nas 12 voltas.
+- **Mistura linear com limitador** (`alimiter level=disabled`). Sem `loudnorm` dinâmico, o fundo fica constante.
+
 ## Montagem
 
 ```bash
