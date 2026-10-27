@@ -31,4 +31,4 @@ A técnica de referência é o vídeo do Pedro Veiga ("Live Shop com IA"); a tra
 ## Custos (27/10/2026)
 
 - Higgsfield: quadro inicial por 2,75 créditos e 2 clipes Grok de 10 s em 720p por 90. O saldo ficou em ~94,5.
-- ElevenLabs: as falas foram geradas no fluxo `QBxXq7wbCfrnYDxFoMN5` (~7,4 mil créditos), mas o conector não deixa baixar. A chave do `.env` não tem as permissões `text_to_speech` e `speech_history_read`.
+- ElevenLabs: as falas foram geradas no fluxo `QBxXq7wbCfrnYDxFoMN5` (~7,4 mil créditos), mas o conector não deixa baixar porque `creative_get_generations` está desligado nas configurações. A chave do `.env` é de conta gratuita: voz da biblioteca (Jenifer) e criação de voz pela API só funcionam no plano pago (erros 402 e 403).
