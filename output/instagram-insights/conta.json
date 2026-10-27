@@ -1,0 +1,797 @@
+{
+ "reach_dia": {
+  "data": [
+   {
+    "id": "17841475188821957/insights/reach/day",
+    "name": "reach",
+    "period": "day",
+    "values": [
+     {
+      "value": 1775,
+      "end_time": "2026-09-29T07:00:00+0000"
+     },
+     {
+      "value": 270,
+      "end_time": "2026-09-30T07:00:00+0000"
+     },
+     {
+      "value": 198,
+      "end_time": "2026-10-01T07:00:00+0000"
+     },
+     {
+      "value": 265,
+      "end_time": "2026-10-02T07:00:00+0000"
+     },
+     {
+      "value": 2933,
+      "end_time": "2026-10-03T07:00:00+0000"
+     },
+     {
+      "value": 3532,
+      "end_time": "2026-10-04T07:00:00+0000"
+     },
+     {
+      "value": 198,
+      "end_time": "2026-10-05T07:00:00+0000"
+     },
+     {
+      "value": 1925,
+      "end_time": "2026-10-06T07:00:00+0000"
+     },
+     {
+      "value": 906,
+      "end_time": "2026-10-07T07:00:00+0000"
+     },
+     {
+      "value": 177,
+      "end_time": "2026-10-08T07:00:00+0000"
+     },
+     {
+      "value": 141,
+      "end_time": "2026-10-09T07:00:00+0000"
+     },
+     {
+      "value": 42,
+      "end_time": "2026-10-10T07:00:00+0000"
+     },
+     {
+      "value": 6263,
+      "end_time": "2026-10-11T07:00:00+0000"
+     },
+     {
+      "value": 1877,
+      "end_time": "2026-10-12T07:00:00+0000"
+     },
+     {
+      "value": 1396,
+      "end_time": "2026-10-13T07:00:00+0000"
+     },
+     {
+      "value": 995,
+      "end_time": "2026-10-14T07:00:00+0000"
+     },
+     {
+      "value": 130,
+      "end_time": "2026-10-15T07:00:00+0000"
+     },
+     {
+      "value": 695,
+      "end_time": "2026-10-16T07:00:00+0000"
+     },
+     {
+      "value": 193,
+      "end_time": "2026-10-17T07:00:00+0000"
+     },
+     {
+      "value": 9,
+      "end_time": "2026-10-18T07:00:00+0000"
+     },
+     {
+      "value": 25,
+      "end_time": "2026-10-19T07:00:00+0000"
+     },
+     {
+      "value": 59,
+      "end_time": "2026-10-20T07:00:00+0000"
+     },
+     {
+      "value": 34,
+      "end_time": "2026-10-21T07:00:00+0000"
+     },
+     {
+      "value": 198,
+      "end_time": "2026-10-22T07:00:00+0000"
+     },
+     {
+      "value": 1353,
+      "end_time": "2026-10-23T07:00:00+0000"
+     },
+     {
+      "value": 308,
+      "end_time": "2026-10-24T07:00:00+0000"
+     },
+     {
+      "value": 3063,
+      "end_time": "2026-10-25T07:00:00+0000"
+     },
+     {
+      "value": 2627,
+      "end_time": "2026-10-26T07:00:00+0000"
+     },
+     {
+      "value": 281,
+      "end_time": "2026-10-27T07:00:00+0000"
+     }
+    ],
+    "title": "Alcance",
+    "description": "Número total de vezes que os objetos de mídia da conta comercial foram visualizados unicamente"
+   }
+  ]
+ },
+ "seguidores_dia": {
+  "data": [
+   {
+    "id": "17841475188821957/insights/follower_count/day",
+    "name": "follower_count",
+    "period": "day",
+    "values": [
+     {
+      "value": 22,
+      "end_time": "2026-09-29T07:00:00+0000"
+     },
+     {
+      "value": 4,
+      "end_time": "2026-09-30T07:00:00+0000"
+     },
+     {
+      "value": 7,
+      "end_time": "2026-10-01T07:00:00+0000"
+     },
+     {
+      "value": 4,
+      "end_time": "2026-10-02T07:00:00+0000"
+     },
+     {
+      "value": 4,
+      "end_time": "2026-10-03T07:00:00+0000"
+     },
+     {
+      "value": 14,
+      "end_time": "2026-10-04T07:00:00+0000"
+     },
+     {
+      "value": 3,
+      "end_time": "2026-10-05T07:00:00+0000"
+     },
+     {
+      "value": 3,
+      "end_time": "2026-10-06T07:00:00+0000"
+     },
+     {
+      "value": 2,
+      "end_time": "2026-10-07T07:00:00+0000"
+     },
+     {
+      "value": 0,
+      "end_time": "2026-10-08T07:00:00+0000"
+     },
+     {
+      "value": 1,
+      "end_time": "2026-10-09T07:00:00+0000"
+     },
+     {
+      "value": 0,
+      "end_time": "2026-10-10T07:00:00+0000"
+     },
+     {
+      "value": 4,
+      "end_time": "2026-10-11T07:00:00+0000"
+     },
+     {
+      "value": 13,
+      "end_time": "2026-10-12T07:00:00+0000"
+     },
+     {
+      "value": 11,
+      "end_time": "2026-10-13T07:00:00+0000"
+     },
+     {
+      "value": 3,
+      "end_time": "2026-10-14T07:00:00+0000"
+     },
+     {
+      "value": 0,
+      "end_time": "2026-10-15T07:00:00+0000"
+     },
+     {
+      "value": 2,
+      "end_time": "2026-10-16T07:00:00+0000"
+     },
+     {
+      "value": 1,
+      "end_time": "2026-10-17T07:00:00+0000"
+     },
+     {
+      "value": 1,
+      "end_time": "2026-10-18T07:00:00+0000"
+     },
+     {
+      "value": 1,
+      "end_time": "2026-10-19T07:00:00+0000"
+     },
+     {
+      "value": 0,
+      "end_time": "2026-10-20T07:00:00+0000"
+     },
+     {
+      "value": 3,
+      "end_time": "2026-10-21T07:00:00+0000"
+     },
+     {
+      "value": 4,
+      "end_time": "2026-10-22T07:00:00+0000"
+     },
+     {
+      "value": 5,
+      "end_time": "2026-10-23T07:00:00+0000"
+     },
+     {
+      "value": 6,
+      "end_time": "2026-10-24T07:00:00+0000"
+     },
+     {
+      "value": 4,
+      "end_time": "2026-10-25T07:00:00+0000"
+     },
+     {
+      "value": 4,
+      "end_time": "2026-10-26T07:00:00+0000"
+     },
+     {
+      "value": 0,
+      "end_time": "2026-10-27T07:00:00+0000"
+     }
+    ],
+    "title": "Número de seguidores",
+    "description": "Número total de contas únicas que seguem este perfil"
+   }
+  ]
+ },
+ "totais_30d": {
+  "data": [
+   {
+    "id": "17841475188821957/insights/reach/day",
+    "name": "reach",
+    "period": "day",
+    "title": "Contas alcançadas",
+    "description": "O número de contas únicas que viram seu conteúdo pelo menos uma vez, inclusive anúncios. O conteúdo inclui posts, stories, reels, vídeos e vídeos ao vivo. O alcance é diferente das impressões, que podem incluir várias visualizações do seu conteúdo pelas mesmas contas. Essa métrica é estimada e está em desenvolvimento.",
+    "total_value": {
+     "value": 29165
+    }
+   },
+   {
+    "id": "17841475188821957/insights/accounts_engaged/day",
+    "name": "accounts_engaged",
+    "period": "day",
+    "title": "Contas com engajamento",
+    "description": "O número de contas que interagiram com seu conteúdo, inclusive em anúncios. O conteúdo inclui posts, stories, reels, vídeos e vídeos ao vivo. As interações podem ser ações como curtir, salvar, comentar, compartilhar ou responder. Essas métricas são estimadas e estão em desenvolvimento.",
+    "total_value": {
+     "value": 306
+    }
+   },
+   {
+    "id": "17841475188821957/insights/profile_views/day",
+    "name": "profile_views",
+    "period": "day",
+    "title": "Visitas ao perfil",
+    "description": "O número de vezes que o seu perfil foi acessado.",
+    "total_value": {
+     "value": 753
+    }
+   },
+   {
+    "id": "17841475188821957/insights/views/day",
+    "name": "views",
+    "period": "day",
+    "title": "Visualizações",
+    "description": "O número de vezes que seu conteúdo foi reproduzido ou exibido. O conteúdo inclui reels, posts e stories.",
+    "total_value": {
+     "value": 44983
+    }
+   },
+   {
+    "id": "17841475188821957/insights/total_interactions/day",
+    "name": "total_interactions",
+    "period": "day",
+    "title": "Interações com o conteúdo",
+    "description": "O número total de interações com posts, stories, reels, vídeos e vídeos ao vivo, incluindo todas as interações em conteúdo turbinado.",
+    "total_value": {
+     "value": 670
+    }
+   }
+  ]
+ },
+ "follows_breakdown": {
+  "data": [
+   {
+    "id": "17841475188821957/insights/follows_and_unfollows/day",
+    "name": "follows_and_unfollows",
+    "period": "day",
+    "title": "Começaram a seguir e deixaram de seguir",
+    "description": "O número de contas que começaram a seguir você menos o número de contas que deixaram de seguir ou saíram do Instagram no período selecionado.",
+    "total_value": {
+     "breakdowns": [
+      {
+       "dimension_keys": [
+        "follow_type"
+       ],
+       "results": [
+        {
+         "dimension_values": [
+          "FOLLOWER"
+         ],
+         "value": 126
+        },
+        {
+         "dimension_values": [
+          "NON_FOLLOWER"
+         ],
+         "value": 14
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "reach_por_tipo": {
+  "data": [
+   {
+    "id": "17841475188821957/insights/reach/day",
+    "name": "reach",
+    "period": "day",
+    "title": "Contas alcançadas",
+    "description": "O número de contas únicas que viram seu conteúdo pelo menos uma vez, inclusive anúncios. O conteúdo inclui posts, stories, reels, vídeos e vídeos ao vivo. O alcance é diferente das impressões, que podem incluir várias visualizações do seu conteúdo pelas mesmas contas. Essa métrica é estimada e está em desenvolvimento.",
+    "total_value": {
+     "value": 29165,
+     "breakdowns": [
+      {
+       "dimension_keys": [
+        "media_product_type"
+       ],
+       "results": [
+        {
+         "dimension_values": [
+          "AD"
+         ],
+         "value": 24830
+        },
+        {
+         "dimension_values": [
+          "CAROUSEL_CONTAINER"
+         ],
+         "value": 129
+        },
+        {
+         "dimension_values": [
+          "REEL"
+         ],
+         "value": 3340
+        },
+        {
+         "dimension_values": [
+          "STORY"
+         ],
+         "value": 923
+        },
+        {
+         "dimension_values": [
+          "POST"
+         ],
+         "value": 192
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "demo_city": {
+  "data": [
+   {
+    "id": "17841475188821957/insights/follower_demographics/lifetime",
+    "name": "follower_demographics",
+    "period": "lifetime",
+    "title": "Dados demográficos dos seguidores",
+    "description": "As características demográficas dos seguidores, incluindo a distribuição por países, cidades e gênero.",
+    "total_value": {
+     "breakdowns": [
+      {
+       "dimension_keys": [
+        "city"
+       ],
+       "results": [
+        {
+         "dimension_values": [
+          "Ribeirão Prêto, São Paulo (state)"
+         ],
+         "value": 5
+        },
+        {
+         "dimension_values": [
+          "São Paulo, São Paulo (state)"
+         ],
+         "value": 140
+        },
+        {
+         "dimension_values": [
+          "Blumenau, Santa Catarina"
+         ],
+         "value": 5
+        },
+        {
+         "dimension_values": [
+          "Nova Friburgo, Rio de Janeiro (state)"
+         ],
+         "value": 3
+        },
+        {
+         "dimension_values": [
+          "Rio de Janeiro, Rio de Janeiro (state)"
+         ],
+         "value": 25
+        },
+        {
+         "dimension_values": [
+          "São José dos Campos, São Paulo (state)"
+         ],
+         "value": 11
+        },
+        {
+         "dimension_values": [
+          "Contagem, Minas Gerais"
+         ],
+         "value": 3
+        },
+        {
+         "dimension_values": [
+          "Presidente Prudente, São Paulo (state)"
+         ],
+         "value": 4
+        },
+        {
+         "dimension_values": [
+          "Jundiaí, São Paulo (state)"
+         ],
+         "value": 4
+        },
+        {
+         "dimension_values": [
+          "Americana, São Paulo (state)"
+         ],
+         "value": 4
+        },
+        {
+         "dimension_values": [
+          "Osasco, São Paulo (state)"
+         ],
+         "value": 10
+        },
+        {
+         "dimension_values": [
+          "Itumbiara, Goiás"
+         ],
+         "value": 3
+        },
+        {
+         "dimension_values": [
+          "Campo Grande, Mato Grosso do Sul"
+         ],
+         "value": 3
+        },
+        {
+         "dimension_values": [
+          "Duque de Caxias, Rio de Janeiro (state)"
+         ],
+         "value": 4
+        },
+        {
+         "dimension_values": [
+          "Londrina, Paraná"
+         ],
+         "value": 4
+        },
+        {
+         "dimension_values": [
+          "João Pessoa, Paraíba"
+         ],
+         "value": 4
+        },
+        {
+         "dimension_values": [
+          "Itajaí, Santa Catarina"
+         ],
+         "value": 5
+        },
+        {
+         "dimension_values": [
+          "Franca, São Paulo (state)"
+         ],
+         "value": 9
+        },
+        {
+         "dimension_values": [
+          "Feira de Santana, Bahia"
+         ],
+         "value": 3
+        },
+        {
+         "dimension_values": [
+          "Recife, Pernambuco"
+         ],
+         "value": 4
+        },
+        {
+         "dimension_values": [
+          "Itaquaquecetuba, São Paulo (state)"
+         ],
+         "value": 4
+        },
+        {
+         "dimension_values": [
+          "Perdões, Minas Gerais"
+         ],
+         "value": 4
+        },
+        {
+         "dimension_values": [
+          "Guarulhos, São Paulo (state)"
+         ],
+         "value": 17
+        },
+        {
+         "dimension_values": [
+          "Sorocaba, São Paulo (state)"
+         ],
+         "value": 8
+        },
+        {
+         "dimension_values": [
+          "Santos, São Paulo (state)"
+         ],
+         "value": 3
+        },
+        {
+         "dimension_values": [
+          "Piracicaba, São Paulo (state)"
+         ],
+         "value": 4
+        },
+        {
+         "dimension_values": [
+          "São Bernardo do Campo, São Paulo (state)"
+         ],
+         "value": 9
+        },
+        {
+         "dimension_values": [
+          "Betim, Minas Gerais"
+         ],
+         "value": 3
+        },
+        {
+         "dimension_values": [
+          "Barueri, São Paulo (state)"
+         ],
+         "value": 3
+        },
+        {
+         "dimension_values": [
+          "Salvador, Bahia"
+         ],
+         "value": 6
+        },
+        {
+         "dimension_values": [
+          "São José, Santa Catarina"
+         ],
+         "value": 5
+        },
+        {
+         "dimension_values": [
+          "Mauá, São Paulo (state)"
+         ],
+         "value": 5
+        },
+        {
+         "dimension_values": [
+          "Goiânia, Goiás"
+         ],
+         "value": 8
+        },
+        {
+         "dimension_values": [
+          "Fortaleza, Ceará"
+         ],
+         "value": 12
+        },
+        {
+         "dimension_values": [
+          "Manaus, Amazonas"
+         ],
+         "value": 5
+        },
+        {
+         "dimension_values": [
+          "Indaiatuba, São Paulo (state)"
+         ],
+         "value": 4
+        },
+        {
+         "dimension_values": [
+          "Campina Grande, Paraíba"
+         ],
+         "value": 3
+        },
+        {
+         "dimension_values": [
+          "Serra, Espírito Santo"
+         ],
+         "value": 3
+        },
+        {
+         "dimension_values": [
+          "Belo Horizonte, Minas Gerais"
+         ],
+         "value": 17
+        },
+        {
+         "dimension_values": [
+          "São José do Rio Prêto, São Paulo (state)"
+         ],
+         "value": 3
+        },
+        {
+         "dimension_values": [
+          "Curitiba, Paraná"
+         ],
+         "value": 10
+        },
+        {
+         "dimension_values": [
+          "Santo André, São Paulo (state)"
+         ],
+         "value": 13
+        },
+        {
+         "dimension_values": [
+          "Belém, Pará"
+         ],
+         "value": 3
+        },
+        {
+         "dimension_values": [
+          "Campinas, São Paulo (state)"
+         ],
+         "value": 16
+        },
+        {
+         "dimension_values": [
+          "Sumaré, São Paulo (state)"
+         ],
+         "value": 4
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "demo_age": {
+  "data": [
+   {
+    "id": "17841475188821957/insights/follower_demographics/lifetime",
+    "name": "follower_demographics",
+    "period": "lifetime",
+    "title": "Dados demográficos dos seguidores",
+    "description": "As características demográficas dos seguidores, incluindo a distribuição por países, cidades e gênero.",
+    "total_value": {
+     "breakdowns": [
+      {
+       "dimension_keys": [
+        "age"
+       ],
+       "results": [
+        {
+         "dimension_values": [
+          "13-17"
+         ],
+         "value": 1
+        },
+        {
+         "dimension_values": [
+          "18-24"
+         ],
+         "value": 65
+        },
+        {
+         "dimension_values": [
+          "25-34"
+         ],
+         "value": 217
+        },
+        {
+         "dimension_values": [
+          "35-44"
+         ],
+         "value": 265
+        },
+        {
+         "dimension_values": [
+          "45-54"
+         ],
+         "value": 170
+        },
+        {
+         "dimension_values": [
+          "55-64"
+         ],
+         "value": 55
+        },
+        {
+         "dimension_values": [
+          "65+"
+         ],
+         "value": 35
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "demo_gender": {
+  "data": [
+   {
+    "id": "17841475188821957/insights/follower_demographics/lifetime",
+    "name": "follower_demographics",
+    "period": "lifetime",
+    "title": "Dados demográficos dos seguidores",
+    "description": "As características demográficas dos seguidores, incluindo a distribuição por países, cidades e gênero.",
+    "total_value": {
+     "breakdowns": [
+      {
+       "dimension_keys": [
+        "gender"
+       ],
+       "results": [
+        {
+         "dimension_values": [
+          "F"
+         ],
+         "value": 121
+        },
+        {
+         "dimension_values": [
+          "M"
+         ],
+         "value": 573
+        },
+        {
+         "dimension_values": [
+          "U"
+         ],
+         "value": 114
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ }
+}
