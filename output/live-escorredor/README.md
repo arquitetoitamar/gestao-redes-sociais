@@ -10,7 +10,8 @@ A técnica de referência é o vídeo do Pedro Veiga ("Live Shop com IA"); a tra
 2. Animar a foto em clipes de 10 s com o Grok, o modelo que o vídeo recomenda. São dois clipes partindo do mesmo quadro: `clipe-prato` (tira o prato e devolve) e `clipe-talher` (tira garfo e colher do porta-talheres e devolve).
 3. Montar o loop de ida e volta: o clipe roda para frente e depois ao contrário, nos dois clipes. O resultado é `trab/unidade.mp4`, com 39,9 s, e ele se repete até cobrir a fala. Como os dois clipes começam no mesmo quadro, a emenda não aparece.
 4. Fala longa sem repetir: 2 roteiros de ~3.800 caracteres cada, que dão ~8 min, com começos diferentes e perguntas que a própria apresentadora responde. Estão em `roteiros/`.
-5. Voz pt-BR do ElevenLabs: Jenifer (`GOkMqfyKMLVUcYfO2WbB`), sotaque do interior de São Paulo, modelo eleven_v3.
+5. Voz feminina do ElevenLabs: Jessica (`cgSgspJ2msm6clMCkdW9`), voz padrão, modelo eleven_v3 em português. A Jenifer (pt-BR nativa) não roda pela API em conta gratuita.
+6. Fala com roteiro diferente a cada ~2 min, intercalando os dois roteiros: 1 (abertura, 0:00), 2 (peça por peça, 2:03), 1 ("é inox mesmo?", 3:39), 2 (dúvidas, 5:44). Os blocos são `audio/bloco1..4.wav`, cortados numa pausa entre parágrafos e acelerados 1,15x para fechar 8:00.
 
 ## O que ficou de fora da técnica
 
@@ -22,13 +23,19 @@ A técnica de referência é o vídeo do Pedro Veiga ("Live Shop com IA"); a tra
 ## Montagem
 
 ```bash
-# com audio/parte1.mp3 e audio/parte2.mp3 no lugar
-./monta.sh            # gera final/escorredor-live-8min.mp4 com 8:00 cravados
+# com audio/bloco1..4.wav no lugar
+./monta.sh            # gera final/escorredor-live-8min.mp4 (1080p) com 8:00 cravados
 ```
 
-`monta.sh` junta as duas falas com 1,5 s de respiro e ajusta a velocidade para fechar em 8:00. A variável `ALVO` muda a duração, mas o ajuste só vale entre 0,9x e 1,25x. Em seguida o script repete o loop, normaliza o áudio em -16 LUFS e aplica o selo. Precisa do ffmpeg-full por causa do drawtext.
+`monta.sh` junta os 4 blocos com 1,2 s de respiro e ajusta a velocidade para fechar em 8:00. A variável `ALVO` muda a duração, mas o ajuste só vale entre 0,9x e 1,25x. Em seguida o script repete o loop, normaliza o áudio em -16 LUFS e aplica o selo. Precisa do ffmpeg-full por causa do drawtext.
 
 ## Custos (27/10/2026)
 
 - Higgsfield: quadro inicial por 2,75 créditos e 2 clipes Grok de 10 s em 720p por 90. O saldo ficou em ~94,5.
 - ElevenLabs: as falas foram geradas no fluxo `QBxXq7wbCfrnYDxFoMN5` (~7,4 mil créditos), mas o conector não deixa baixar porque `creative_get_generations` está desligado nas configurações. A chave do `.env` é de conta gratuita: voz da biblioteca (Jenifer) e criação de voz pela API só funcionam no plano pago (erros 402 e 403).
+
+## Entregue em 27/10/2026
+
+- `final/escorredor-live-8min.mp4`: 1080x1920, 8:00, 369 MB. É o arquivo que vai para a live.
+- `final/escorredor-live-8min-leve.mp4`: 720p, para conferir no celular.
+- O ElevenLabs gastou ~8,2 mil caracteres da cota gratuita: 2 amostras e os 2 roteiros com a Jessica.
