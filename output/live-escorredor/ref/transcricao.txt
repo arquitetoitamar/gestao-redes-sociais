@@ -1,0 +1,757 @@
+[00:00:01] fazer vídeo com IA, tipo de
+[00:00:02] dropshipping, dá muito dinheiro, gente,
+[00:00:05] já sai. Mas e se a gente conseguisse
+[00:00:07] botar uma inteligência artificial, fazer
+[00:00:11] uma live shop infinite e vender para nós
+[00:00:13] 100% no automático? Ah, Pedro, mas isso
+[00:00:15] não dá violação? Sim e não. Dá violação
+[00:00:17] quando você não sabe fazer da maneira
+[00:00:19] correta. Durante semanas eu desenvolvi
+[00:00:21] um método que dá para poder vender na
+[00:00:23] live shop usando inteligência artificial
+[00:00:26] sem tomar violação, sem tomar restrição,
+[00:00:29] aviso, rodando infinitamente. E esse
+[00:00:32] método eu vou te ensinar tudo 100% de
+[00:00:34] graça nesse vídeo aqui. Cara, já pega
+[00:00:36] papel e caneta porque esse vídeo aqui é
+[00:00:38] um vídeo de ouro. Eu vou te ensinar
+[00:00:40] coisas que você não aprende nem dentro
+[00:00:42] de curso pago. Se você não me conhece,
+[00:00:43] sou o Pedro Veiga, esse canal aqui é
+[00:00:45] focado em criar negócios online usando
+[00:00:46] inteligência artificial e também fazer
+[00:00:49] pessoas vencerem através do digital. Se
+[00:00:50] apareceu o botão de hype para esse
+[00:00:52] vídeo, já hypa. Se você é novo aqui, se
+[00:00:53] inscreve e deixa o like. Vamos para a
+[00:00:55] tela do meu computador sem enrolação que
+[00:00:57] eu vou te mostrar tudo aqui agora. Vamos
+[00:00:58] embora. Ó, então antes de tudo, que a
+[00:00:59] gente começar esse vídeo, a gente
+[00:01:01] precisa achar um produto viral, um
+[00:01:02] produto que tá vendendo muito. Cara, eu
+[00:01:04] nem vou procurar muito, eu já achei esse
+[00:01:05] daqui, ó. Deixa eu até tirar minha
+[00:01:07] câmera da frente. Fechou? Eu poderia
+[00:01:08] pegar outros aqui, ó. Tem a cadeira, tem
+[00:01:10] a cadeira gamer, tem um perfume, tem
+[00:01:12] outros aqui também que venderam muito,
+[00:01:14] mas é um produto que é muito mais fácil
+[00:01:15] de vender que esse daqui. Ele é um
+[00:01:17] produto muito barato. E quando a gente
+[00:01:18] fala com IA, principalmente em live
+[00:01:20] shop, é bom a gente vender produtos para
+[00:01:22] pessoa um pouco mais velha, tá? Um pouco
+[00:01:24] mais leiga no assunto de IA, que ela não
+[00:01:26] consegue perceber, ter um discernimento
+[00:01:28] que aquilo é IA. E a gente consegue
+[00:01:31] vender muito mais o produto para esse
+[00:01:32] público. Fechou? Então isso é importante
+[00:01:34] já, já pega esse hack quando você for
+[00:01:35] produzir os vídeos, ter essa
+[00:01:37] mentalidade. Fechou? Eu vou pegar esse
+[00:01:39] produto aqui, ó, tá? É um kit com 12
+[00:01:41] potes de 200 ml. Fechou? Ó, se eu vim
+[00:01:43] aqui, ó, em ver o pu a foto do produto,
+[00:01:45] já pega a foto perfeita do produto, de
+[00:01:47] como ele é. Fechou? Eu posso fazer das
+[00:01:49] duas formas, tá? Tanto pegar só a foto
+[00:01:51] aqui do produto, vim aqui dentro do chat
+[00:01:54] GPT e mandar ele fazer a imagem ou pegar
+[00:01:55] o print do próprio vídeo, aqui, ó. Posso
+[00:01:57] abrir dentro do TikTok, pegar o print do
+[00:01:59] próprio vídeo, ou pegar um print aqui,
+[00:02:01] ó, desse produto, fechou? Que tá em
+[00:02:03] primeira pessoa, é até bom, mano. E se
+[00:02:05] você quiser pegar, tipo, uns vídeos de
+[00:02:07] pessoas reais mostrando o produto, dá
+[00:02:08] para fazer isso aí também, metade a
+[00:02:10] metade de pessoas reais. Mas aqui eu vou
+[00:02:13] te mostrar 100% com IA, que é o foco do
+[00:02:14] vídeo, tá? Eu tirei um print aqui da da
+[00:02:16] tela, tá? Peguei um print aqui desse
+[00:02:18] frame aqui do vídeo, tá? Que é esse
+[00:02:19] vídeo aqui, fechou? Que a gente vai
+[00:02:21] usar. Então, tá aqui, beleza? Peguei uma
+[00:02:23] foto do produto real, é importante
+[00:02:25] também o produto ser o mesmo. E agora eu
+[00:02:27] vou pedir para o ChatGPT, mas pode ficar
+[00:02:28] tranquilo que tudo que eu usar nesse
+[00:02:29] vídeo aqui eu vou deixar para vocês aí
+[00:02:31] na descrição no link fixado, fechou?
+[00:02:33] Todas as ferramentas que eu usar, tudo
+[00:02:35] na descrição aí vai ter o o comentário
+[00:02:37] fixado, você clica ali, você consegue
+[00:02:38] pegar todos os prompts e tudo que eu
+[00:02:40] usei nesse vídeo para vocês, fechou? Mas
+[00:02:41] sem muita enrolação, o que que eu vou
+[00:02:43] fazer? Eu vou mandar um áudio para o
+[00:02:44] ChatGPT, lembrando que o ChatGPT pode
+[00:02:45] pegar de graça, você pode criar uma
+[00:02:48] conta aí e pegar o plano plus ali no
+[00:02:50] gratuito, tá? Eu já ensinei aí no canal
+[00:02:51] como que faz isso, só você criar uma
+[00:02:53] conta, você cria um cartão virtual e é
+[00:02:54] isso, fechou? Então, vou mandar um áudio
+[00:02:55] aqui, vou falar o seguinte: "Ó, eu quero
+[00:02:57] que você faça para mim uma imagem em
+[00:02:59] primeira pessoa extremamente realista
+[00:03:03] desses 12 potes. Pode ser aí nessa
+[00:03:05] nesse estilo da segunda imagem que eu te
+[00:03:07] mandei, aonde tem a escrita em cima 12
+[00:03:09] potes por esse preço não pode ser real.
+[00:03:10] Basicamente, eu quero que você faça o
+[00:03:14] mais realista possível, uma das mãos ali
+[00:03:15] aparecendo, uma das mãos da pessoa
+[00:03:19] aparecendo na tela, é, e ela tocando no
+[00:03:21] produto, fechou? O produto extremamente
+[00:03:23] realista e tem que ser o mesmo produto,
+[00:03:25] eu tô mandando o produto exato aí também
+[00:03:28] a foto do produto exato, é, que são os
+[00:03:29] produtos de plástico, mas ele tem que
+[00:03:31] ficar muito realista, iluminação muito
+[00:03:33] realista também para parecer como se
+[00:03:35] fosse uma foto real. Faz em 9 por 16 aí
+[00:03:37] para mim, eu não quero escrita nem nada,
+[00:03:39] eu quero somente a mão ali e os potes um
+[00:03:41] em cima do outro, os 12 potes, tem que
+[00:03:42] ser os 12 potes, tá? Mano, eu vou mandar
+[00:03:44] ele fazer isso aqui por quê? Para a
+[00:03:46] gente criar a nossa imagem, tá? Porque
+[00:03:48] muito o que dá violação também é o
+[00:03:50] criativo, é a imagem, o tipo de vídeo
+[00:03:51] que tá aparecendo ali. Eu já vou te
+[00:03:53] mostrar como que você não toma violação,
+[00:03:55] como que a tua live roda durante horas
+[00:03:58] aí sem você se preocupar com pontuação,
+[00:04:00] com nada, porque não vai cair. O método
+[00:04:01] que eu te disse aqui não vai cair,
+[00:04:03] fechou? Mas vamos lá, ele tá fazendo
+[00:04:05] aqui a imagem para nós. Ó, fez a imagem
+[00:04:06] aqui para nós, fechou? Ficou muito bom,
+[00:04:08] ó, tá vendo? Perfeito, fez um ambiente
+[00:04:10] diferente do mais. Aqui tá a uma das
+[00:04:12] mãos, fechou? E agora o que que a gente
+[00:04:14] vai fazer? A gente precisa da do nosso
+[00:04:16] áudio, da nossa transição. Ó, agora o
+[00:04:18] que que a gente precisa fazer, tá? A
+[00:04:20] gente precisa fazer o vídeo. A gente
+[00:04:22] precisa animar essa imagem para fazer o
+[00:04:23] vídeo, que vai ser o nosso vídeo que a
+[00:04:25] gente vai usar para fazer em loop,
+[00:04:26] fechou? Então beleza, o que que eu vou
+[00:04:28] fazer aqui? Eu vou mandar um outro áudio
+[00:04:29] aqui pedindo para ele fazer a animação
+[00:04:31] de uma das mãos aqui pegando um dos
+[00:04:34] potes, principalmente o pote do topo
+[00:04:36] ali, e aproximando ele aqui na câmera,
+[00:04:38] tá? Mostrando os detalhes, os quatro
+[00:04:40] cantos dele e depois botando o pote no
+[00:04:41] lugar novamente. Então vou mandar um
+[00:04:43] áudio aqui para ele fazer isso. Ó, eu
+[00:04:44] preciso que você me dê um prompt de
+[00:04:46] animação para essa imagem aí,
+[00:04:47] basicamente extremamente realista, ela
+[00:04:49] vai pegar um dos potes, que é o pote que
+[00:04:52] ela já tá com a mão ali, só vai aparecer
+[00:04:54] nesse vídeo uma das mãos dela, que já é
+[00:04:56] a mão dela que tá aparecendo ali. Ela
+[00:04:58] vai pegar esse pote, que é o pote de 800
+[00:05:01] ml, e vai trazer aqui perto da câmera,
+[00:05:03] eh, e vai mostrar todos os detalhes do
+[00:05:06] pote, tá? Na lateral, do outro lado, e
+[00:05:07] depois, quando ela mostrar ali todos os
+[00:05:09] detalhes dele pertinho da câmera aqui,
+[00:05:11] ela vai botar o pote lá no lugar
+[00:05:12] novamente. Basicamente é isso. Me dê um
+[00:05:15] prompt completo, eh, realista falando
+[00:05:17] que não pode modificar e criar coisas
+[00:05:19] novas, o ambiente tem que manter do
+[00:05:21] mesmo jeito que ele já tá, e o pote tem
+[00:05:23] que ser exatamente no mesmo jeito que
+[00:05:25] ele que ele tá, que é o pote de 800 ml,
+[00:05:27] não pode ficar aparecendo escrita coisas
+[00:05:29] aleatórias na tela. Mano, basicamente
+[00:05:30] esse vídeo aqui, você pode usar em
+[00:05:33] vários lugares, no Omniflash, no VO3, no
+[00:05:36] Gring, no Grog. Eh, eu particularmente
+[00:05:38] tô gostando muito de usar o Grog, dá
+[00:05:40] para usar o Grog. Mas mano, qualquer IA
+[00:05:41] dá para fazer, até pelo VO3, ó, posso
+[00:05:43] fazer até um testezinho para vocês ver
+[00:05:45] que dentro do Flow vai ficar bom também.
+[00:05:46] Só que assim, dentro do Grog ele pegou
+[00:05:48] uma função que dá para fazer um vídeo de
+[00:05:50] 15 segundos, tá? Então, fica um vídeo um
+[00:05:52] pouco maior, fica melhor, tá? Ó, então,
+[00:05:53] fechou, ele entregou aqui para nós a
+[00:05:55] cópia completa, tá vendo? Só copiar. Eu
+[00:05:56] vou testar aqui dentro do Flow, para
+[00:05:58] vocês verem como é que fica, mas eu,
+[00:05:59] particularmente, gosto mais do Grock,
+[00:06:01] tá? Grock é melhor para fazer. Vou
+[00:06:02] copiar essa imagem que ele fez aqui para
+[00:06:04] nós, vou colar aqui também, esperar
+[00:06:05] subir, enquanto isso, eu já vou abrindo
+[00:06:07] o Grock, que é aonde eu estou usando,
+[00:06:08] né? Lembrando que em todas as
+[00:06:09] ferramentas que eu estou usando aqui, eu
+[00:06:10] vou deixar na descrição para vocês,
+[00:06:12] fechou? Ó, então, tá aqui, ó, vou colar
+[00:06:14] aqui a imagem, fechou? Ó, tá vendo que
+[00:06:16] dá para fazer vídeo de 15 segundos, por
+[00:06:18] mais que seja 720p, como a imagem é
+[00:06:20] muito boa, a imagem tá em HD, o vídeo
+[00:06:21] fica muito bom. Eu vou mostrar para
+[00:06:23] vocês já. Tá aqui, ó, vou vou fazer no
+[00:06:25] Flow, fechou? Botei essas configurações
+[00:06:27] aqui, ó, vídeo, frame, 9 por 16, 10
+[00:06:30] segundos, 1x, uma geração só e 10
+[00:06:32] segundos no Omniflash. E agora, eu vou
+[00:06:34] fazer aqui dentro do Grock, que é aonde
+[00:06:36] eu estou usando, particularmente, tá?
+[00:06:38] Estou fazendo mais aqui, fechou? Mas o
+[00:06:39] Flow aqui, ó, ele é de graça, tá? Então,
+[00:06:40] tá vendo, ó, eu estou usando o plano até
+[00:06:42] gratuito, não tem nem o Flow. Gastei 15
+[00:06:44] créditos, dá para você usar e fazer
+[00:06:46] vídeos todos do dia aí de graça. Então,
+[00:06:47] vamos ver. Ó, pode ver, eu mandei aqui
+[00:06:50] primeiro, ó, aqui dentro do Omniflash já
+[00:06:51] ficou pronto, vamos ver como é que
+[00:06:52] ficou, para ver se ele vai conseguir
+[00:06:54] fazer certinho, ó, fez, só que ele
+[00:06:55] modificou, tá vendo, ó? Aqui está de um
+[00:06:57] jeito, quando ele virou para cá, o pote
+[00:07:00] meio que modificou na mão dela.
+[00:07:00] Ó.
+[00:07:05] Só que isso aqui é coisa simples, sabe?
+[00:07:06] Tipo, na hora do vídeo ali em loop, nem
+[00:07:08] vai dar para perceber, tá?
+[00:07:14] O produto lá de trás também sumiu.
+[00:07:16] Então, vamos ver a diferença do Grock
+[00:07:17] aqui, vamos esperar finalizar. Então, tá
+[00:07:19] aqui, rapaziada, o vídeo do Grock, como
+[00:07:21] é que ficou.
+[00:07:21] Ó.
+[00:07:24] Muito mais realista, muito melhor do que
+[00:07:26] o do do Grock 3.
+[00:07:28] Fechou lá do Omniflash.
+[00:07:29] Cara, depende muito da imagem também,
+[00:07:31] mano. Tem imagem que, tipo assim, não
+[00:07:33] tem jeito, ele fica bugado, não fica o
+[00:07:35] mesmo produto. Esse aqui ainda, por
+[00:07:36] exemplo, ó, ele tá vendo que ele é um
+[00:07:37] produto um pouco mais largo. Então,
+[00:07:39] fechou, tá aqui, mano, o vídeo, a gente
+[00:07:40] vamos usar esse vídeo aqui, vou baixar
+[00:07:42] ele já. Ó, aqui dentro do Flow, eu até
+[00:07:44] tentei fazer mais uma geração para para
+[00:07:46] ver se ficava um pouco mais realista,
+[00:07:48] mas não teve jeito, mano. Pelo menos
+[00:07:49] essa imagem aqui, pelo menos não teve
+[00:07:51] jeito, ó, ele ficou desse jeito aí. Não
+[00:07:53] ficou ruim também, mas ó, pode ver que,
+[00:07:54] tipo assim, dá para ver que ele faz
+[00:07:57] muita mudança no produto durante aonde
+[00:07:59] ele tá mostrando ali. Esse daqui já
+[00:08:01] ficou melhor, ficou mais perfeito. O que
+[00:08:03] que eu vou fazer aqui agora, tá? Depois
+[00:08:04] que eu baixei esse vídeo aqui, a gente
+[00:08:06] vai lá no CapCut, vamos fazer uma
+[00:08:08] edição. Ó, aqui dentro do CapCut, cara,
+[00:08:09] basicamente é muito simples, mano. A
+[00:08:11] gente vai e, eh, pegar esse primeiro
+[00:08:12] frame aqui, ó. A gente vai cortar esse
+[00:08:15] primeiro frame para já tá em ação e,
+[00:08:17] basicamente, mano, todo o vídeo a gente
+[00:08:19] vai pegar, ó, vai copiar, vai colar
+[00:08:20] aqui, vai dar um reverse aqui, tá vendo,
+[00:08:22] ó? Clique em reverse para ele ficar meio
+[00:08:24] que em loop, né? Ele, ela botar o pote
+[00:08:25] lá e voltar aqui, ó, tá vendo, ó? Vai
+[00:08:27] botar, vai pegar o pote de novo, vai
+[00:08:28] mostrar aqui na frente da tela e,
+[00:08:30] basicamente, a gente só pega e copia
+[00:08:32] também esse primeiro aqui, tá? Aqui,
+[00:08:34] beleza, nosso vídeo ele já tá pronto.
+[00:08:35] Ah, Pedro, mas é um vídeo só de 44
+[00:08:38] segundos? Não, tá? Eu já vou mostrar
+[00:08:39] como é que vai ficar teu vídeo, o
+[00:08:41] tamanho que ele vai ficar. É muito
+[00:08:42] importante você prestar muita atenção
+[00:08:44] nisso aqui agora, tá? Então, fechou.
+[00:08:46] Aqui tá teu vídeo, fechou? Tem 44
+[00:08:47] segundos. Eh, basicamente, aqui ele já
+[00:08:49] tá em loop, ó, tá vendo, ó? O que que é
+[00:08:50] ficar em looping, ó? Ele bota e depois
+[00:08:52] ele reinicia, tá? O que que a gente
+[00:08:53] precisa fazer agora? A gente precisa
+[00:08:55] fazer o áudio, lá fala, tá? Como se a
+[00:08:57] pessoa que tivesse falando ali, tivesse
+[00:08:59] ao vivo mesmo e depois a gente vai
+[00:09:01] multiplicar esse vídeo aqui. Por
+[00:09:04] exemplo, ó, vou Ctrl C, Ctrl V, você só
+[00:09:05] precisa ficar fazendo isso aqui, ó. Ctrl
+[00:09:07] C, Ctrl V para deixar o vídeo gigante,
+[00:09:09] fechou? De novo, vou dar Ctrl C, Ctrl V,
+[00:09:12] fechou? 5 minutos, vou copiar tudo de
+[00:09:15] novo, Ctrl C, Ctrl V, 11 minutos. Ó,
+[00:09:17] aqui, 23 minutos, a gente já tem que
+[00:09:19] vídeo e, mais uma vez agora, para fazer
+[00:09:21] um videozinho de 40 minutos. Beleza, tá
+[00:09:23] aqui. Videozinho de praticamente 1 hora
+[00:09:25] aí, 40 minutos. Já é esse vídeo aqui já
+[00:09:26] vai ficar rodando na tua live, tá? O
+[00:09:28] vídeo em si, a parte que aparece, não
+[00:09:30] tem problema ficar em looping, tá? O que
+[00:09:32] eu não gosto de deixar em looping,
+[00:09:35] repetindo as mesmas coisas é a fala, é é
+[00:09:37] áudio. Isso é muito importante, fechou?
+[00:09:39] A fala, ela tem que ser grande, tá?
+[00:09:40] Pedro, como é que eu vou fazer
+[00:09:42] uma fala de 40 minutos no dia? Eu vou te
+[00:09:44] mostrar, pequena gafanhoto, calma,
+[00:09:46] calma, calma. Então, mano, vamos lá, o
+[00:09:47] que que a gente vai fazer aqui agora?
+[00:09:48] Beleza, a gente já tem um vídeo, mano,
+[00:09:49] eu vou diminuir um pouco o tamanho desse
+[00:09:51] vídeo aqui, vou botar como exemplo para
+[00:09:53] vocês ver, só de 15 minutos, fechou? 15
+[00:09:55] minutos aqui já tá bom para mim mostrar
+[00:09:56] para vocês o exemplo aí, para vocês
+[00:09:58] entender como é que funciona, tá? Ah,
+[00:10:00] beleza, aqui já posso fechar, é, Grok,
+[00:10:02] posso fechar, foi, beleza, beleza.
+[00:10:03] Agora, meus amigos, o que que a gente
+[00:10:05] vai fazer, tá? A gente precisa das
+[00:10:06] copies, tá? E o que que a gente vai
+[00:10:08] fazer aqui para pegar essas copies? Aqui
+[00:10:10] dentro da própria Viralize, fechou, que
+[00:10:11] eu tô usando aqui para vocês, se eu
+[00:10:13] clicar em cima desse vídeo e eu vim
+[00:10:15] aqui, ó, em transcrever vídeo, eu pego a
+[00:10:16] transcrição completa. Tem várias
+[00:10:18] ferramentas de transcrição, você pode
+[00:10:19] transcrever de qualquer forma que você
+[00:10:21] quiser, é, mas eu vou copiar aqui pela
+[00:10:23] Viralize, ó. Vou pegar essa transcrição,
+[00:10:25] vou colar aqui dentro do ChatGPT,
+[00:10:26] basicamente o que que você vai fazer,
+[00:10:29] tá? Você dá um espaço aqui, ó, do lado e
+[00:10:30] você vai pedir para o ChatGPT, vou
+[00:10:32] deixar esse pedido para vocês na
+[00:10:33] descrição, pode ficar tranquilo, mas
+[00:10:34] basicamente você vai pedir para o
+[00:10:37] ChatGPT me dê 10 transcrições para vocês
+[00:10:39] como se a pessoa tivesse em um, em uma
+[00:10:42] live ao vivo, uma live shop, falando
+[00:10:44] desses 12 pods, da promoção que tá no
+[00:10:45] carrinho, a oferta relâmpago, para
+[00:10:48] clicar no botão vermelho no carrinho, no
+[00:10:50] botão vermelho de comprar, para garantir
+[00:10:52] rápido, para meio que criar uma copy ali
+[00:10:53] como se ela tivesse ao vivo, ela
+[00:10:55] respondendo perguntas aleatórias ali.
+[00:10:57] Basicamente é isso, fechou? Eu vou pedir
+[00:10:59] para ele. Ó, usa essa transcrição que eu
+[00:11:00] coloquei aqui no chat, que é uma
+[00:11:02] transcrição de um vídeo desses 12 pods.
+[00:11:05] Eu quero que você faça para mim 10
+[00:11:07] roteiros como se essa pessoa tivesse em
+[00:11:09] uma live shop ao vivo, falando sobre
+[00:11:11] esses 12 pods, a oferta do carrinho, a
+[00:11:13] oferta relâmpago, para as pessoas
+[00:11:15] garantir rápido, porque tá acabando e
+[00:11:17] também criando uma copy, quebrando
+[00:11:19] objeção, falando das vantagens desses 12
+[00:11:21] pods, das vantagens de tá muito barato,
+[00:11:23] das vantagens de você comprar aqui no
+[00:11:26] TikTok e rápido enquanto a oferta não, a
+[00:11:28] oferta ainda tá no ar. Basicamente eu
+[00:11:30] quero que você faça para mim 10 roteiros
+[00:11:32] com 5.000 caracteres cada um, contando
+[00:11:35] com os espaços, tá? Cada um desses 10
+[00:11:38] roteiros não pode começar igual, ele
+[00:11:40] sempre tem que tá diferente, não pode
+[00:11:42] ser nenhum deles igual, parecer como se
+[00:11:44] fosse padronizado ou algo do tipo. Eu
+[00:11:47] quero sempre um dos roteiros novos, a
+[00:11:48] estrutura de falar nova, como se ela
+[00:11:51] tivesse ao vivo e no meio no meio desses
+[00:11:53] roteiros eu quero que ela se faça uma
+[00:11:55] pergunta pra ela mesma sobre
+[00:11:58] o produto, por exemplo, são 12 potes
+[00:12:00] mesmo? Aí ela pega e vai falar Sim,
+[00:12:02] amigos, são 12 potes, tal tal tal,
+[00:12:04] garante que é no carrinho laranja, é na
+[00:12:06] oferta relâmpago, enfim, é meio que ela
+[00:12:08] vai fazer umas perguntas pra ela mesma.
+[00:12:09] Me entrega esses esses 10 roteiros
+[00:12:11] prontos aí de 5000 caracteres.
+[00:12:12] Basicamente é isso, meus amigos. Eu sei
+[00:12:14] que é muita coisa, só que eu vou deixar
+[00:12:15] pronto e mastigado pra você na
+[00:12:17] descrição, pode ficar tranquilo. Fechou?
+[00:12:18] Então tá aqui, vencedores, terminou o
+[00:12:20] canal dos nossos 10 roteiros aqui. Ó, e
+[00:12:21] aqui ele fez, ó, roteiro um, tal tal
+[00:12:23] tal, ó. Gente, para tudo, olha aí.
+[00:12:25] Basicamente é só você copiar isso aqui,
+[00:12:27] tá? Copia, copia, fechou? E beleza.
+[00:12:28] Agora, o que que vocês vão fazer? Vocês
+[00:12:30] vão entrar dentro desse site aqui, que é
+[00:12:32] o MiniMax, tá? Aqui, ó, a gente pode
+[00:12:33] fazer tanto por aqui como por dentro do
+[00:12:36] ElevenLabs, fechou? ElevenLabs, a gente
+[00:12:38] entra nesse site, eu vou deixar os dois
+[00:12:40] aí pra vocês. Você ganha 10000 créditos
+[00:12:41] no MiniMax também, quando você cria uma
+[00:12:43] conta você ganha 10000 créditos, fechou?
+[00:12:44] E aí basicamente o que que vocês vão
+[00:12:46] fazer? Fechou? Vocês vão vir aqui, ó, eu
+[00:12:48] gosto de usar o voice clone, tipo, você
+[00:12:50] vai clonar uma voz real, fica muito mais
+[00:12:52] realista e muito mais natural do que
+[00:12:54] você usar vozes que já tem já tem pronta
+[00:12:56] aqui, porque às vezes vozes que já tem
+[00:12:59] pronta aqui outras pessoas já tão usando
+[00:13:00] e já tão fazendo isso. Ela tem live e aí
+[00:13:02] pode ser que você tome uma punição,
+[00:13:03] violação ou algo do tipo, porque já essa
+[00:13:05] esse estilo de voz tá muito repetitivo.
+[00:13:07] Então eu gosto de clonar uma voz aqui,
+[00:13:09] botar uma voz nova, tá? Como que você
+[00:13:10] faz isso? Você arrasta um vídeo aqui de
+[00:13:12] qualquer pessoa aí, você pode pegar tipo
+[00:13:14] três, quatro, até 10 vídeos aí de
+[00:13:15] qualquer pessoa e arrastar pra dentro,
+[00:13:16] você pode baixar lá do TikTok de algum
+[00:13:18] creator ali e o jogar aqui, não vai
+[00:13:20] ficar exatamente a mesma voz, vai ficar
+[00:13:22] uma voz realista. Eu já fiz isso,
+[00:13:23] fechou? Eu vou jogar aqui dentro os
+[00:13:24] quatro vídeos que eu tenho aqui. Ó, tô
+[00:13:26] com quatro vídeos aqui, ó, que eu já
+[00:13:28] baixei, tá? Você pode pegar aí vídeos
+[00:13:30] aleatórios no TikTok de uma pessoa só,
+[00:13:33] fica muito melhor de você recon, é, de
+[00:13:34] clonar uma voz ali, ficar uma voz mais
+[00:13:36] realista, fechou? Não vai ficar
+[00:13:38] exatamente a a mesma voz da pessoa, mas
+[00:13:39] vai ficar parecido para ficar melhor,
+[00:13:41] tá? Aqui, ó, você vem aqui, seleciona a
+[00:13:44] opção de português, aí fechou? Aqui você
+[00:13:45] pode escrever o que você quer que ela
+[00:13:46] fale na prévia aqui, mas pode deixar
+[00:13:49] assim mesmo. Confirme isso aqui e clica
+[00:13:51] em generate, beleza? Depois é só
+[00:13:52] esperar, tá? Vamos esperar ele ele
+[00:13:54] terminar, ele vai aparecer a prévia aqui
+[00:13:55] embaixo. Nossa. Então tá aqui,
+[00:13:57] rapaziada, a voz já foi clonada, ó.
+[00:13:58] Vamos ouvir a prévia dela aqui, ó.
+[00:14:01] &gt;&gt; Olá, é um prazer ajudá-lo no nosso
+[00:14:03] service de voz. Escolha a voz que mais
+[00:14:06] combina com você e vamos juntos criar
+[00:14:07] algo especial.
+[00:14:08] &gt;&gt; Fechou, essa aqui já ficou muito boa,
+[00:14:10] tá? Mas você pode regir, é, gerar
+[00:14:12] novamente aqui, se caso você aqui você
+[00:14:14] não gostou. Eu vou clicar em confirmar,
+[00:14:17] vou colocar um novo, tá? Vídeo YouTube,
+[00:14:20] beleza? Boto aqui o gênero e salvo essa
+[00:14:21] voz, tá? Depois
+[00:14:23] &gt;&gt; Olá, é um prazer ajudar.
+[00:14:25] &gt;&gt; Ó, já tá aqui, ó, vou clicar em no no
+[00:14:27] botãozinho de use aqui, tá vendo, ó?
+[00:14:28] Lateral, use.
+[00:14:30] Show? Beleza. Aí aqui dentro, tá? O que
+[00:14:31] que a gente vai fazer? Eu gosto de
+[00:14:34] aumentar esse esse speed aqui, ó, deixar
+[00:14:37] pelo menos 1.22 e é só a gente pegar
+[00:14:38] esse roteiro aqui, ó, o primeiro, vamos
+[00:14:40] pegar o primeiro aqui, copiar, colar
+[00:14:42] para cá e pedir para gerar, tá? Já era,
+[00:14:42] ó.
+[00:14:44] &gt;&gt; Gente, para tudo e olha isso aqui,
+[00:14:46] porque essa oferta tá fora do normal.
+[00:14:48] Não é um pote avulso, não são dois, não
+[00:14:50] são quatro. O que tá no carrinho laranja
+[00:14:53] é o kit completo com 12 potes de 800 ml.
+[00:14:55] Eu também achei que o valor fosse de uma
+[00:14:56] unidade, mas quando você abre a oferta e
+[00:14:59] confere a variação, tá lá o conjunto com
+[00:15:01] os 12. É pote suficiente para organizar
+[00:15:03] a geladeira, separar almoço, guardar
+[00:15:05] fruta, deixar molho pronto, dividir
+[00:15:07] porções da semana e ainda ter alguns
+[00:15:09] livres para levar comida para o
+[00:15:09] trabalho.
+[00:15:12] &gt;&gt; vendo? Então, basicamente, mano, ficou,
+[00:15:14] já ficou muito A gente só espera
+[00:15:16] ele terminar aqui, ó, de de gerar, a
+[00:15:18] gente clica no botãozinho de baixar aqui
+[00:15:19] embaixo, tá vendo? Ó, depois de
+[00:15:20] terminar, mano, é só clicar no
+[00:15:23] botãozinho de baixar aqui, ó, MP3, aí já
+[00:15:25] pega o o segundo do roteiro aqui, ó, de
+[00:15:27] novo. Fechou? Pego o segundo do roteiro
+[00:15:29] e joga para cá. Fechou? Você vai fazer
+[00:15:31] isso aqui com todos os áudios, com os
+[00:15:33] 10. Eu vou fazer somente com dois aqui
+[00:15:34] para mostrar para vocês
+[00:15:35] &gt;&gt; Tem que preparar a minha semana.
+[00:15:37] &gt;&gt; Vou mostrar para vocês como é que fica,
+[00:15:38] né, o exemplo, mais ou menos. Fechou? E
+[00:15:40] aí, basicamente, tá aqui, ó, estou com o
+[00:15:42] nosso vídeo. A gente vai adicionando os
+[00:15:44] áudios aqui, beleza? E, cara, quanto
+[00:15:46] maior o tamanho do teu áudio, tá?
+[00:15:47] Lembrando que só dá para fazer com 5.000
+[00:15:49] caracteres aqui dentro do MiniMax e
+[00:15:51] dentro do InVideo Labs, porém, quanto
+[00:15:52] maior o tamanho do áudio do teu áudio,
+[00:15:54] melhor, porque mais tempo vai rodar a
+[00:15:56] tua live, tá? Eu não gosto de deixar,
+[00:15:59] eh, a live repetindo as mesmas coisas
+[00:16:01] durante o Acaba o áudio e ele volta a
+[00:16:03] repetir as mesmas coisas, porque isso
+[00:16:05] faz tomar aviso, beleza? Quando é o
+[00:16:06] vídeo em looping aqui, ó, tá vendo que
+[00:16:09] aparece a mesma coisa, não tem problema.
+[00:16:11] Agora, quando é o áudio se repetindo
+[00:16:13] também junto com o vídeo, aí sim, ele
+[00:16:14] aparece violação. Fechou? Então, toma
+[00:16:16] cuidado com isso aí. Por isso que muita
+[00:16:17] gente toma violação, não sabe fazer da
+[00:16:19] maneira correta, beleza? Então, se tu
+[00:16:20] fizeres isso aqui com o vídeo que eu
+[00:16:21] estou fazendo, vai funcionar. Eu já vou
+[00:16:22] te ensinar como é que você vai rodar a
+[00:16:24] tua live infinita. Então, pô, Pedro, mas
+[00:16:26] como que eu vou rodar a a live infinita
+[00:16:27] se eu só tenho meia hora de live? Calma,
+[00:16:29] pequeno gafanhoto, eu já vou te mostrar.
+[00:16:31] Deixa eu vou te mostrar a ferramenta que
+[00:16:32] vai fazer isso aí para ti, para tu rodar
+[00:16:34] a tua live infinita, tá? Fechou? Tá aqui
+[00:16:36] o nosso segundo áudio, só baixar,
+[00:16:37] arrastar aqui para dentro do CapCut
+[00:16:39] novamente. Segundo áudio. E aí, beleza,
+[00:16:41] a gente já tem um áudio aí, ó, a gente
+[00:16:43] já tem um vídeo de, deixa eu ver, de 8
+[00:16:45] minutos. Fechou? Só que, lembrando que
+[00:16:47] eu mandei você fazer 10 roteiros, então,
+[00:16:48] quando você tem esses 10 aí, você vai
+[00:16:51] ter um vídeo praticamente de 50 minutos.
+[00:16:52] Fechou? E aí, por exemplo, como eu vou
+[00:16:54] dar o exemplo para vocês, eh, eu vou
+[00:16:56] fazer o meu vídeo até aqui somente, tá?
+[00:16:58] Um vídeo de 8 minutos só. Fechou? Ele
+[00:16:59] vai ficar rodando em looping até aqui,
+[00:17:01] até o 8 minutos. Então, tá lá, tá?
+[00:17:03] Basicamente, aqui o nosso vídeo já tá
+[00:17:05] pronto, ele já tá acelerado e já tá
+[00:17:06] aparecendo. Mano, você pode fazer até
+[00:17:08] três vídeos aí de iBolt da Conceptive.
+[00:17:10] Fechou? Não precisa ser somente um e
+[00:17:11] deixar ele em looping, pode fazer até
+[00:17:13] três de ângulos diferentes do produto.
+[00:17:14] Fechou? Então, ó, olha como é que ficou
+[00:17:14] aí.
+[00:17:16] &gt;&gt; Gente, para tudo e olha isso aqui,
+[00:17:18] porque essa oferta tá fora do normal.
+[00:17:20] Não é um pote avulso, não são dois, não
+[00:17:22] são quatro. O que tá no carrinho laranja
+[00:17:26] é o kit completo com 12 potes de 800 ml.
+[00:17:27] Eu também achei que o valor fosse de uma
+[00:17:28] unidade, mas quando você abre a oferta e
+[00:17:31] confere a variação, tá lá o conjunto com
+[00:17:33] os 12. É pote suficiente para organizar
+[00:17:35] a geladeira, separar almoço.
+[00:17:36] &gt;&gt; Mano, então basicamente o vídeo tá
+[00:17:38] pronto, tá? É um vídeo de 8 minutos,
+[00:17:40] fechou? É só baixar ele aqui agora e
+[00:17:41] agora, meus amigos, vamos clicar nesse
+[00:17:42] link que eu vou deixar na descrição para
+[00:17:44] vocês também ali no material, que é o
+[00:17:46] link de gerenciar lives aqui pelo
+[00:17:48] navegador, fechou? Então, baixei o vídeo
+[00:17:50] aqui já. Ó, então fechou, eu tô aqui
+[00:17:51] dentro já do gerenciador de live do
+[00:17:53] próprio TikTok, beleza? A extensão e a
+[00:17:54] ferramenta que eu tô usando é essa
+[00:17:56] daqui, ó, tá? É a live infinite, fechou?
+[00:17:58] Ela que vai fazer toda a automação, vai
+[00:18:00] fazer tua live rodar infinitamente. Essa
+[00:18:03] ferramenta, mano, é literalmente, cara,
+[00:18:05] a salvação para esse método. Se não
+[00:18:06] fosse isso aqui, eu não ia tá
+[00:18:07] conseguindo rodar, fechou? Como que
+[00:18:08] funciona? Você pode vir aqui, ó, na
+[00:18:12] própria web store, tá, do do Google e
+[00:18:14] pesquisar sobre ela, fechou, ó? Live
+[00:18:16] infinite, beleza? Ela já vai tá aqui, ó,
+[00:18:19] é a primeira, tá? Aqui, basicamente, tem
+[00:18:21] tem a ferramenta, você pode clicar aqui,
+[00:18:23] ó, em usar no Chrome. Eu já tô com ela
+[00:18:25] instalada aqui, então não tem problema.
+[00:18:27] A a partir do momento que você pega ela
+[00:18:29] aí, você instala, tá, a ferramenta,
+[00:18:31] beleza? Você você vai vir aqui, ó, nessa
+[00:18:34] parte de vídeo, tá? Antes de tudo, você
+[00:18:35] tem que atualizar essa tela, dar um
+[00:18:37] control R aqui nessa tela aqui do
+[00:18:38] próprio TikTok, tá? Antes de tudo, de
+[00:18:41] tudo mesmo, tá? Até perdão. Então, antes
+[00:18:42] de a gente começar a usar a ferramenta,
+[00:18:43] você precisa adicionar um produto.
+[00:18:45] Então, lá na tua conta no TikTok que
+[00:18:47] você precisa adicionar produtos na
+[00:18:48] vitrine. Eu tô com alguns produtos aqui,
+[00:18:51] eu vou pegar do esse kit mesmo de 10
+[00:18:52] potes, tá? Vamos fingir que aqueles 12
+[00:18:54] potes que a gente fez agora no vídeo. Eu
+[00:18:56] vou adicionar esses 10 potes aqui agora,
+[00:18:57] tá? Então, beleza, eu já tô aqui com o
+[00:18:59] produto, fechou? O produto já tá aqui.
+[00:19:00] Agora o que a gente precisa fazer? A
+[00:19:02] gente vem aqui, ó, na opção de vídeo
+[00:19:03] dentro da ferramenta e a gente pega e
+[00:19:05] clica aqui, ó, em clique para adicionar
+[00:19:07] um vídeo. Você coloca o vídeo que você
+[00:19:08] fez no cap cut aqui dentro, tá? Ó, então
+[00:19:10] fechou, eu tô aqui com com vídeo já, tá?
+[00:19:12] Tem que tá aparecendo acervo um aqui, tá
+[00:19:14] vendo, ó? O vídeo já tá adicionado.
+[00:19:15] Agora eu vou clicar aqui, ó, na opção de
+[00:19:17] conectar ao TikTok. Eu clico aqui, ó,
+[00:19:19] nessa primeira opção de ativar. Depois
+[00:19:21] que eu cliquei nessa opçãozinha aqui, eu
+[00:19:23] vou clicar aqui em cima, ó, em
+[00:19:25] live infinite aqui, tá vendo, ó? Live
+[00:19:27] infinite. Aí, basicamente aqui já vai
+[00:19:29] estar o teu o teu vídeo no no próprio
+[00:19:31] navegador. Você volta aqui dentro do do
+[00:19:33] TikTok aqui, ó, clica na opção de
+[00:19:35] prática aqui, tá vendo, ó? No do lado de
+[00:19:38] iniciar live, prática, e você adiciona a
+[00:19:40] live infinite camera e você adiciona a
+[00:19:43] live infinite áudio e clica em iniciar.
+[00:19:45] Aqui tá dando uma travadinha, por quê?
+[00:19:47] Por conta do meu da minha webcam.
+[00:19:49] Deixou? Então, como eu tô com a webcam
+[00:19:50] ligada, ele vai ele vai dar uma
+[00:19:52] travadinha. Vou fechar minha webcam
+[00:19:54] aqui, ó. Ó, então fechou, tá? Eu eu
+[00:19:55] fechei minha webcam porque com a webcam
+[00:19:58] gravada a ligada ele trava muito, porque
+[00:20:00] basicamente esse aplicativo ele simula
+[00:20:02] como se fosse tua própria webcam e teu
+[00:20:04] próprio microfone, tá? Então pode ver
+[00:20:05] que aqui, ó, como eu tô gravando ele tá
+[00:20:07] dando uma travadinha, mas o aplicativo
+[00:20:09] roda liso, liso mesmo, tá? É, inclusive
+[00:20:11] tem alguns vídeos que eu já fiz de
+[00:20:12] venda, vou deixar até aqui na tela para
+[00:20:14] vocês ver, da live rodando, de várias
+[00:20:16] live rodando aqui no computador normal e
+[00:20:17] sem gravar nada, mano, porque você não
+[00:20:19] precisa do TikTok Live Studio, né? Que é
+[00:20:21] aquele aplicativo do TikTok que você
+[00:20:22] roda a live tudo aqui por aqui por
+[00:20:24] dentro, beleza? A própria extensão ela
+[00:20:26] simula como se fosse tua webcam e teu
+[00:20:28] microfone. Não é é vídeo como se fosse
+[00:20:30] lá no Live Studio. E aqui você pode
+[00:20:32] abrir vários navegador e abrir várias
+[00:20:34] várias lives ao mesmo tempo. Você não
+[00:20:36] precisa de vários computador porque você
+[00:20:37] não vai precisar do aplicativo do do
+[00:20:39] Live do Live Studio lá do próprio
+[00:20:40] TikTok. Deixou? Então tá aqui, mano, a
+[00:20:42] minha live tá tá aqui já. Deixou? Só
+[00:20:44] clicar aqui, ó, iniciar live. A live já
+[00:20:45] vai iniciar. No começo quando clica
+[00:20:47] assim ela dá uma ela dá uma travadinha,
+[00:20:49] mas ó, live começou, tá vendo? Aqui eu
+[00:20:51] posso fixar o produto. Eu já venho aqui
+[00:20:54] no início, ó, eu posso clicar no modo
+[00:20:56] modo infinito. Deixou? Aqui, ó, na parte
+[00:20:59] de áudio, tá? Eu coloco ambiente, ativar
+[00:21:01] o efeito sonoro de ambiente e eu também
+[00:21:03] posso colocar umas pausas programadas. O
+[00:21:05] que que isso aqui faz? Isso Isso simula
+[00:21:07] uma live nova. É como se ele tivesse
+[00:21:10] abrindo várias, uma live nova, porque
+[00:21:12] ele vai botar efeitos sonoros
+[00:21:13] intercalados, não é padronizado, é
+[00:21:15] sempre uns efeitos sonoros diferentes e
+[00:21:18] em momentos diferentes da live. E
+[00:21:20] basicamente essas pausas aqui, ó, se
+[00:21:22] você tá usando muito mesmo áudio, é bom
+[00:21:23] você colocar essas pausas, porque ele
+[00:21:24] vai fazendo umas pausaszinhas e o
+[00:21:27] algoritmo do TikTok nunca vai conseguir
+[00:21:28] identificar que aquele áudio já foi
+[00:21:30] usado, entendeu? E aí basicamente o modo
+[00:21:32] infinito aqui, ó, ele tem uma sessão
+[00:21:34] ativa e ele vai rodar a tua live do
+[00:21:35] tamanho do teu áudio. Depois ele vai
+[00:21:37] fechar a live e vai abrir de novo, para
+[00:21:38] não acontecer aquilo, aquilo que eu
+[00:21:40] falei do áudio ficar em loop, deixou?
+[00:21:43] Então basicamente é assim que eu rodo.
+[00:21:45] Aqui, ó, ele fixa produtos automáticos,
+[00:21:46] então se eu clicar aqui, ó, em
+[00:21:48] sincronizar produto, ele já apareceu
+[00:21:50] aqui, tá vendo? Se eu ativar essa opção,
+[00:21:53] basicamente eu ativo essa opção, ele vai
+[00:21:55] fixando o produto automaticamente, então
+[00:21:57] se o TikTok aqui, é, desfixar aqui, ó,
+[00:21:59] ele vai pegar e vai fixando, aí já tem
+[00:22:00] gente entrando na live, já tem gente
+[00:22:03] vendo o vídeo, deixou? Mas aqui tem a
+[00:22:04] detecção, ó, tá vendo que quando ele vê
+[00:22:07] se aparecer algum sinal aqui na tela
+[00:22:09] aqui, algum lembrete, alguma coisa, se
+[00:22:11] aparecer isso aqui, basicamente ele já
+[00:22:12] vai fechar a tua live automaticamente,
+[00:22:14] então você nunca toma violação. E você
+[00:22:16] pode colocar para um determinado tempo,
+[00:22:18] então se você tomou uma violação, um
+[00:22:20] aviso, daqui 10 minutos a tua live vai
+[00:22:21] finalizar. Só que é quase impossível
+[00:22:22] tomar se você fizer dessa maneira que eu
+[00:22:24] ensinei vocês. Você pode colocar
+[00:22:25] comentário automático, mano, a
+[00:22:27] ferramenta é bizarra, bizarra, tá? Eu
+[00:22:29] vou mostrar alguns vídeos para vocês aí
+[00:22:31] de vendas que eu tô fazendo, que a
+[00:22:32] galera tá fazendo usando a ferramenta,
+[00:22:34] que eu tô lá no grupo de networking,
+[00:22:35] deixou? E o mais daora, mano, você
+[00:22:37] recebe umas notificações de venda no teu
+[00:22:39] próprio telefone quando a venda cai.
+[00:22:41] Quando a venda cai aqui no navegador,
+[00:22:42] você recebe a notificação da venda
+[00:22:44] aprovada, o valor ali certinho. E mano,
+[00:22:46] é bizarra essa ferramenta aqui, é
+[00:22:47] somente por aquilo que eu tô conseguindo
+[00:22:50] rodar, deixou? Porque ela simula uma
+[00:22:52] live nova e eu vou deixar o link da
+[00:22:53] ferramenta para você lá na descrição
+[00:22:54] também, mas se você for for lá na web
+[00:22:57] store, você já consegue colocar lá, é,
+[00:22:58] live infinite, conseguir usar aí,
+[00:23:00] deixou? Então é isso, meus amigos,
+[00:23:01] espero que tenha ajudado vocês aí a
+[00:23:03] conseguir entender sobre a live Shop com
+[00:23:05] Y. Se você quiser ser meu aluno, o
+[00:23:06] primeiro link da descrição tá aí, tá? O
+[00:23:08] link da ferramenta vai tá aí também na
+[00:23:09] descrição. Fechou? Não se esquece de se
+[00:23:11] inscrever, raipar esse vídeo, deixar o
+[00:23:12] like, compartilhar aí pra me ajudar. Me
+[00:23:14] segue nas redes sociais e é isso.
