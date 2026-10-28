@@ -9,7 +9,7 @@ desconhecida (nome, produto, endereço, valor), continua desfocada.
 
   python3 ocr.py            roda em paralelo e grava trab/ocr/*.json
 """
-import csv, io, json, os, subprocess, sys, unicodedata
+import csv, io, json, os, re, subprocess, sys, unicodedata
 from concurrent.futures import ProcessPoolExecutor
 import numpy as np, cv2
 
@@ -117,6 +117,95 @@ def caixas_nitidas(palavras):
             continue
         res.append([min(w[0] for w in ln) - 2, min(w[1] for w in ln) - 2,
                     max(w[2] for w in ln) + 2, max(w[3] for w in ln) + 2])
+    return res
+
+
+def estado_numero(t, c, ant):
+    """'n' = número que pode aparecer (data, contagem até 3 dígitos fora de dinheiro);
+    'x' = dinheiro, %, telefone, CEP, CPF, ID, ou leitura duvidosa."""
+    nucleo = t.strip('()[]{}.,;:·•-–')
+    if c < 80 or '%' in t or 'R$' in t or (ant or '').strip().upper() in ('R$', 'RS', 'R$.', '-R$'):
+        return 'x'
+    if re.fullmatch(r'\d{1,2}/\d{1,2}(/\d{2,4})?', nucleo):
+        return 'n'
+    if re.fullmatch(r'\d{1,3}', nucleo):
+        return 'n'
+    return 'x'
+
+
+def classifica(ln):
+    """Estado de cada palavra da linha (ordenada da esquerda p/ direita)."""
+    est = []
+    for i, (x0, y0, x1, y1, t, c) in enumerate(ln):
+        limpa = ''.join(ch for ch in t if ch.isalnum())
+        if any(ch.isdigit() for ch in limpa):
+            est.append(estado_numero(t, c, ln[i - 1][4] if i else None))
+            continue
+        ok = palavra_ok(t, c)
+        if ok is True and c >= 72 and len(limpa) >= 2:
+            est.append('p')
+        elif ok is None and len(limpa) == 1 and limpa.isalpha() and c >= 72:
+            est.append('l')
+        elif ok is None and not limpa:
+            est.append('-')                       # pontuação solta
+        else:
+            est.append('x')
+    return est
+
+
+def _vizinhos(est, ln, i):
+    """Estados das palavras vizinhas (ignora pontuação solta)."""
+    viz = []
+    for d in (-1, 1):
+        j = i + d
+        while 0 <= j < len(ln) and est[j] == '-':
+            j += d
+        if 0 <= j < len(ln):
+            viz.append(j)
+    return viz
+
+
+def classifica_seguro(ln):
+    """Como classifica(), mas número só fica se não encostar em outro número nem em
+    palavra borrada (telefone quebrado em pedaços, número de endereço)."""
+    est = classifica(ln)
+    for i, (x0, y0, x1, y1, t, c) in enumerate(ln):
+        if est[i] == 'n':
+            for j in _vizinhos(est, ln, i):
+                tj = ln[j][4]
+                if est[j] == 'x' or any(ch.isdigit() for ch in tj):
+                    est[i] = 'x'
+    return est
+
+
+def caixas_palavras(palavras):
+    """Nítidas: palavras de vocabulário genérico (app, fala, nome da loja) e números
+    liberados; letra solta só no meio de frase conhecida. A primeira palavra da
+    linha ganha espaço à esquerda para o ícone."""
+    res = []
+    for ln in linhas(palavras):
+        ln = sorted(ln, key=lambda w: w[0])
+        est = classifica_seguro(ln)
+        for i, (x0, y0, x1, y1, t, c) in enumerate(ln):
+            if est[i] in ('x', '-'):
+                continue
+            if est[i] == 'l' and not (0 < i < len(ln) - 1 and est[i - 1] in 'pn' and est[i + 1] in 'pn'):
+                continue
+            ex = int(1.3 * (y1 - y0)) if (i == 0 and est[i] == 'p') else 0
+            res.append([x0 - 2 - ex, y0 - 2, x1 + 2, y1 + 2])
+    return res
+
+
+def caixas_proibidas(palavras):
+    """Palavras desconhecidas lidas com alguma confiança (título de anúncio, nome,
+    endereço, valor): sempre desfocadas, mesmo dentro de foto liberada."""
+    res = []
+    for ln in linhas(palavras):
+        ln = sorted(ln, key=lambda w: w[0])
+        est = classifica_seguro(ln)
+        for i, (x0, y0, x1, y1, t, c) in enumerate(ln):
+            if est[i] == 'x' and c >= 40:
+                res.append([x0 - 4, y0 - 4, x1 + 4, y1 + 4])
     return res
 
 

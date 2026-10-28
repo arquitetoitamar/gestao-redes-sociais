@@ -27,6 +27,7 @@ NQ = 28577
 PASSO = 6
 WIN = (63, 100, 1652, 968)                 # janela do navegador abaixo da barra do macOS
 CAM = (1612, 772, 1876, 1036)              # balão da câmera
+URL = (165, 136, 1185, 168)                # barra de endereço (ID do comprador na URL)
 FONTE = '/Users/itamar/git/gestao-redes-sociais/output/reel-explica-marketplace-connect/assets/Inter.ttf'
 YEL, INK, BRANCO = (0, 196, 245), (12, 11, 11), (255, 255, 255)   # BGR
 DRIVE = os.path.expanduser('~/Library/CloudStorage/GoogleDrive-isantos.ads@gmail.com/Meu Drive/Fotos e videos de imersao')
@@ -173,6 +174,7 @@ class Privacidade:
         self.tpl = cv2.resize(cv2.cvtColor(tpl, cv2.COLOR_BGR2GRAY), None, fx=0.25, fy=0.25, interpolation=cv2.INTER_AREA)
         self.amostra = None           # (índice, cinza) do último quadro com OCR
         self.prontas = {}
+        self.proibidas = {}
         self.faltando = 0
 
     def ve_amostra(self, idx, quadro):
@@ -180,38 +182,102 @@ class Privacidade:
             self.amostra = (idx, cv2.cvtColor(quadro, cv2.COLOR_BGR2GRAY))
 
     def aplica(self, idx, q):
+        """Tela nítida; desfoca só o que tem textura (texto, foto) e não é rótulo conhecido."""
         x0, y0, x1, y1 = WIN
-        out = q.copy()
         reg = q[y0:y1, x0:x1]
-        peq = cv2.resize(reg, ((x1 - x0) // 10, (y1 - y0) // 10), interpolation=cv2.INTER_AREA)
-        peq = cv2.GaussianBlur(peq, (0, 0), 1.6)
-        out[y0:y1, x0:x1] = cv2.resize(peq, (x1 - x0, y1 - y0), interpolation=cv2.INTER_LINEAR)
         g = cv2.cvtColor(q, cv2.COLOR_BGR2GRAY)
-        # rótulos do app (só se o quadro não mudou desde a leitura do OCR)
+        gr = g[y0:y1, x0:x1].astype(np.float32)
+        m1 = cv2.boxFilter(gr, -1, (7, 7))
+        m2 = cv2.boxFilter(gr * gr, -1, (7, 7))
+        ocupado = (np.sqrt(np.maximum(m2 - m1 * m1, 0)) > 13).astype(np.uint8)
+        ocupado = cv2.dilate(ocupado, cv2.getStructuringElement(cv2.MORPH_RECT, (9, 5)))
         k = idx - idx % PASSO
-        caixas = self.ocr.get(k)
-        if caixas is not None and k not in self.prontas:
-            self.prontas[k] = ocr.caixas_nitidas(caixas)
-        caixas = self.prontas.get(k)
-        if caixas is None:
+        palavras = self.ocr.get(k)
+        # fotos de produto (liberadas): bloco grande com cor/textura e sem texto legível no miolo
+        hsv_s = cv2.cvtColor(q, cv2.COLOR_BGR2HSV)[:, :, 1]
+        meia = cv2.resize(reg, ((x1 - x0) // 2, (y1 - y0) // 2), interpolation=cv2.INTER_AREA)
+        gm = cv2.cvtColor(meia, cv2.COLOR_BGR2GRAY).astype(np.float32)
+        a1 = cv2.boxFilter(gm, -1, (3, 3)); a2 = cv2.boxFilter(gm * gm, -1, (3, 3))
+        tex = (np.sqrt(np.maximum(a2 - a1 * a1, 0)) > 10).astype(np.uint8)
+        cand = (tex | (cv2.resize(hsv_s[y0:y1, x0:x1], (meia.shape[1], meia.shape[0])) > 60)).astype(np.uint8)
+        cand = cv2.morphologyEx(cand, cv2.MORPH_CLOSE, np.ones((3, 3), np.uint8))
+        n, _, st, _ = cv2.connectedComponentsWithStats(cand, 8)
+        for j in range(1, n):
+            bx, by, bw, bh, ar = st[j]
+            if bw * 2 < 76 or bh * 2 < 76 or ar < 0.5 * bw * bh or not (0.4 <= bw / bh <= 2.5):
+                continue
+            fx0, fy0, fx1, fy1 = x0 + bx * 2, y0 + by * 2, x0 + (bx + bw) * 2, y0 + (by + bh) * 2
+            if palavras is None:
+                continue
+            miolo = 0
+            for wx0, wy0, wx1, wy1, t, c in palavras:
+                cx, cy = (wx0 + wx1) / 2, (wy0 + wy1) / 2
+                if c >= 70 and sum(ch.isalpha() for ch in t) >= 3 and fx0 <= cx <= fx1 and \
+                        fy0 + 0.1 * (fy1 - fy0) <= cy <= fy0 + 0.6 * (fy1 - fy0):
+                    miolo += 1
+            bloco = q[fy0:fy1, fx0:fx1].astype(np.float32)
+            rg = bloco[:, :, 2] - bloco[:, :, 1]
+            yb = 0.5 * (bloco[:, :, 2] + bloco[:, :, 1]) - bloco[:, :, 0]
+            cor = math.hypot(rg.std(), yb.std()) + 0.3 * math.hypot(rg.mean(), yb.mean())
+            sub = tex[by:by + bh, bx:bx + bw]                  # só textura: fundo colorido liso não conta
+            textura = sub.mean()
+            faixas = np.mean(sub.mean(axis=1) < 0.05)        # texto tem linhas vazias entre as linhas
+            com_num = any(sum(ch.isdigit() for ch in t) >= 2 and c >= 70 and
+                          fx0 <= (wx0 + wx1) / 2 <= fx1 and fy0 <= (wy0 + wy1) / 2 <= fy0 + 0.6 * (fy1 - fy0)
+                          for wx0, wy0, wx1, wy1, t, c in palavras)
+            if cor > 15 and textura > 0.25 and miolo < 3 and faixas < 0.25 and not com_num:
+                for wx0, wy0, wx1, wy1, t, c in palavras:          # corta antes do título embaixo da foto
+                    cx, cy = (wx0 + wx1) / 2, (wy0 + wy1) / 2
+                    if c >= 30 and fx0 <= cx <= fx1 and fy0 + 0.5 * (fy1 - fy0) <= cy <= fy1 + 4:
+                        fy1 = min(fy1, wy0 - 4)
+                if fy1 > fy0:
+                    ocupado[fy0 - y0:fy1 - y0, fx0 - x0:fx1 - x0] = 0
+        # rótulos do app lidos pelo OCR (só se o quadro não mudou desde a leitura)
+        if palavras is None:
             self.faltando += 1
-        elif self.amostra and self.amostra[0] == k:
-            ga = self.amostra[1]
-            for bx0, by0, bx1, by1 in caixas:
-                bx0, by0 = max(bx0, x0), max(by0, y0)
-                bx1, by1 = min(bx1, x1), min(by1, y1)
-                if bx1 <= bx0 or by1 <= by0:
-                    continue
-                if np.mean(cv2.absdiff(g[by0:by1, bx0:bx1], ga[by0:by1, bx0:bx1])) < 5:
-                    out[by0:by1, bx0:bx1] = q[by0:by1, bx0:bx1]
+        else:
+            if k not in self.prontas:
+                self.prontas[k] = ocr.caixas_palavras(palavras)
+            if self.amostra and self.amostra[0] == k:
+                ga = self.amostra[1]
+                sat = hsv_s
+                for bx0, by0, bx1, by1 in self.prontas[k]:
+                    bx0, by0 = max(bx0, x0), max(by0, y0)
+                    bx1, by1 = min(bx1, x1), min(by1, y1)
+                    if bx1 <= bx0 or by1 <= by0:
+                        continue
+                    if np.mean(sat[by0:by1, bx0:bx1]) > 45:
+                        continue                              # dentro de foto colorida: não é rótulo
+                    if np.mean(cv2.absdiff(g[by0:by1, bx0:bx1], ga[by0:by1, bx0:bx1])) < 5:
+                        ocupado[by0 - y0:by1 - y0, bx0 - x0:bx1 - x0] = 0
         # ilustração do escritório (sem a faixa de legenda, que cita produto)
         gp = cv2.resize(g[y0:y1, x0:x1], None, fx=0.25, fy=0.25, interpolation=cv2.INTER_AREA)
-        r = cv2.matchTemplate(gp, self.tpl, cv2.TM_CCOEFF_NORMED)
-        _, mx, _, loc = cv2.minMaxLoc(r)
-        if mx > 0.55:
-            ox, oy = x0 + loc[0] * 4, y0 + loc[1] * 4
-            th, tw = self.tpl.shape[0] * 4, self.tpl.shape[1] * 4
-            out[oy:oy + th, ox:ox + tw] = q[oy:oy + th, ox:ox + tw]
+        melhor = (0, None, None)
+        for esc in (1.0, 0.92, 0.85, 0.78, 0.7, 1.1):
+            tp = cv2.resize(self.tpl, None, fx=esc, fy=esc, interpolation=cv2.INTER_AREA)
+            if tp.shape[0] >= gp.shape[0] or tp.shape[1] >= gp.shape[1]:
+                continue
+            r = cv2.matchTemplate(gp, tp, cv2.TM_CCOEFF_NORMED)
+            _, mx, _, loc = cv2.minMaxLoc(r)
+            if mx > melhor[0]:
+                melhor = (mx, loc, tp.shape)
+        if melhor[0] > 0.72:
+            (lx, ly), (th, tw) = melhor[1], melhor[2]
+            mx_, my_ = int(tw * 4 * 0.04), int(th * 4 * 0.06)       # margem para dentro
+            ocupado[ly * 4 + my_:(ly + th) * 4 - my_, lx * 4 + mx_:(lx + tw) * 4 - mx_] = 0
+        # palavra desconhecida (título de anúncio, nome, endereço, valor): sempre desfocada
+        if palavras is not None:
+            if k not in self.proibidas:
+                self.proibidas[k] = ocr.caixas_proibidas(palavras)
+            for bx0, by0, bx1, by1 in self.proibidas[k]:
+                ocupado[max(0, by0 - y0):max(0, by1 - y0), max(0, bx0 - x0):max(0, bx1 - x0)] = 1
+        ocupado[URL[1] - y0:URL[3] - y0, URL[0] - x0:URL[2] - x0] = 1   # barra de endereço sempre
+        m = cv2.GaussianBlur(ocupado.astype(np.float32), (0, 0), 2.0)[:, :, None]
+        peq = cv2.resize(reg, ((x1 - x0) // 8, (y1 - y0) // 8), interpolation=cv2.INTER_AREA)
+        peq = cv2.GaussianBlur(peq, (0, 0), 1.0)
+        borr = cv2.resize(peq, (x1 - x0, y1 - y0), interpolation=cv2.INTER_LINEAR)
+        out = q.copy()
+        out[y0:y1, x0:x1] = (reg * (1 - m) + borr * m).astype(np.uint8)
         cx0, cy0, cx1, cy1 = CAM
         out[cy0:cy1, cx0:cx1] = q[cy0:cy1, cx0:cx1]
         return out

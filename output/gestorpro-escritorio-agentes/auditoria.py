@@ -36,7 +36,8 @@ def checa(args):
         if c < 80 or len(limpa) < 3:
             continue
         if any(ch.isdigit() for ch in limpa):
-            achados.append([round(tf, 1), t, c, [x0, y0]])
+            if ocr.estado_numero(t, c, None) == 'x':
+                achados.append([round(tf, 1), t, c, [x0, y0]])
         elif ocr.palavra_ok(t, c) is False and len(limpa) >= 4:
             achados.append([round(tf, 1), t, c, [x0, y0]])
     return achados
