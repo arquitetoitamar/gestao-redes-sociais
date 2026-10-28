@@ -45,7 +45,24 @@ CORTES = {
         'cartela': ['BUSCA NO YOUTUBE:', 'IMERSÃO IA PARA MARKETPLACES'],
         'corrige': {'YAPA': 'IA PARA'},
     },
+    'prova-phellipe': {
+        # prova social: o Phellipe agradecendo na frente da sala (IMG_9717)
+        'trechos': [
+            ('IMG_9717.MOV', 78.90, 82.18),    # já na primeira reunião conectou todas as minhas contas
+            ('IMG_9717.MOV', 94.35, 104.90),   # você criou um ecossistema... aí está o ouro
+            ('IMG_9717.MOV', 153.72, 162.86),  # queria agradecer ele, posso bater palmas, é nosso ouro
+        ],
+        'abertos': [],
+        'titulo': ['O QUE UM CLIENTE FALOU', 'NA FRENTE DE TODO MUNDO'],
+        'nome': ('PHELLIPE', 'cliente, fabricante e seller'),
+        'cartela': ['A IMERSÃO COMPLETA ESTÁ', 'DE GRAÇA NO YOUTUBE'],
+        'corrige': {},
+    },
 }
+# Stories: mesmo corte, título mais baixo (o topo fica sob a barra do perfil)
+# e a cartela leva para o depoimento completo, que sai no feed às 19h.
+CORTES['prova-phellipe-story'] = dict(CORTES['prova-phellipe'], titulo_y=340,
+                                      cartela=['O DEPOIMENTO COMPLETO', 'ESTÁ NO NOSSO PERFIL'])
 
 FONTE = 'Avenir Next Condensed Heavy'
 AMARELO, BRANCO, PRETO = '&H005EE4FF&', '&H00FFFFFF&', '&H00000000&'
@@ -141,8 +158,9 @@ def legenda(ws, c, dur, ass):
                 else:
                     partes.append('{\\alpha&HFF&}%s' % x['t'])
             L.append('Dialogue: 1,%s,%s,Leg,,0,0,0,,{\\an5\\pos(540,1270)}%s' % (ts(w['a']), ts(fim), ' '.join(partes)))
-    L.append('Dialogue: 2,%s,%s,Titulo,,0,0,0,,{\\an8\\pos(540,230)\\fscx60\\fscy60'
-             '\\t(0,180,\\fscx106\\fscy106)\\t(180,280,\\fscx100\\fscy100)}%s' % (ts(0), ts(dur), '\\N'.join(c['titulo'])))
+    L.append('Dialogue: 2,%s,%s,Titulo,,0,0,0,,{\\an8\\pos(540,%d)\\fscx60\\fscy60'
+             '\\t(0,180,\\fscx106\\fscy106)\\t(180,280,\\fscx100\\fscy100)}%s'
+             % (ts(0), ts(dur), c.get('titulo_y', 230), '\\N'.join(c['titulo'])))
     if c['nome']:
         L.append('Dialogue: 2,%s,%s,Nome,,0,0,0,,{\\an1\\move(-500,1580,70,1580,0,260)\\fad(0,250)}'
                  '%s{\\fs58\\c%s\\b0}\\N%s' % (ts(0.5), ts(5.2), c['nome'][0], BRANCO, c['nome'][1]))

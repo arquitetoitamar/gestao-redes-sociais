@@ -83,6 +83,26 @@ Bastidores da primeira Imersão IA para Marketplaces, 24/10, em São Paulo.""",
         'tags': ['tiops', 'ia para marketplaces', 'inteligência artificial', 'imersão ia',
                  'bastidores', 'ecommerce'],
     },
+    {
+        'id': 'prova-phellipe',
+        'video': os.path.join(AQUI, 'videos', 'prova-phellipe.mp4'),
+        'ig_em': '2026-10-31 18:00', 'yt_em': '2026-10-31 12:00', 'capa_ms': 21500,
+        'legenda': """"Posso bater palmas?" 👏
+
+Foi o Phellipe que pediu, no meio da Imersão IA para Marketplaces. Fabricante e seller, ele contou que na primeira reunião as contas dele já estavam conectadas, e que o ouro está em juntar empresários com a mesma dor.
+
+A Imersão completa (3 horas) está no YouTube, de graça.
+Comenta IMERSÃO que eu te mando o link na DM. 👇""",
+        'hashtags': '#depoimento #provasocial ' + HASH,
+        'titulo': '"Posso bater palmas?" O que um cliente falou na Imersão',
+        'descricao': """A Imersão IA para Marketplaces completa (3 horas, de graça): https://youtu.be/7VVhSzlHfdI
+
+O Phellipe é fabricante e seller. No meio da Imersão, pediu a palavra para agradecer: na primeira reunião da consultoria, as contas dele já estavam conectadas.
+
+#Shorts #InteligenciaArtificial #Marketplaces #Ecommerce""",
+        'tags': ['depoimento', 'prova social', 'ia para marketplaces', 'imersão ia',
+                 'inteligência artificial', 'ecommerce', 'mercado livre', 'shopee', 'sellers', 'tiops'],
+    },
 ]
 
 PARCEIRO = ''  # @ da Danzo Brindes, quando o Itamar mandar (não achei a conta)
