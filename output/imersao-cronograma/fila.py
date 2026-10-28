@@ -38,7 +38,8 @@ O Phellipe é fabricante, vende em marketplace há anos e achava que a IA ia dom
 
 No sábado ele contou essa história na Imersão IA para Marketplaces, na frente de todo mundo.
 
-Obrigado, Phellipe. É nosso ouro. 🙌""",
+Obrigado, Phellipe. É nosso ouro. 🙌
+@wearestampaholics @sublipaper""",
         'hashtags': '#depoimento #fabricante ' + HASH,
         'titulo': 'Ele achou meu vídeo com 24 visualizações',
         'descricao': """O Phellipe é fabricante, vende em marketplace há anos e achava que a IA ia dominar a gente. Viu um vídeo meu quando ele tinha 24 visualizações, me ligou e fez a consultoria. Na primeira reunião, as contas dele já estavam conectadas.
@@ -86,7 +87,7 @@ Bastidores da primeira Imersão IA para Marketplaces, 24/10, em São Paulo.""",
     {
         'id': 'prova-phellipe',
         'video': os.path.join(AQUI, 'videos', 'prova-phellipe.mp4'),
-        'ig_em': '2026-10-31 18:00', 'yt_em': '2026-10-31 12:00', 'capa_ms': 21500,
+        'ig_em': '2026-10-28 13:35', 'yt_em': '2026-10-31 12:00', 'capa_ms': 21500,  # Reel saiu antes, a pedido
         'legenda': """"Posso bater palmas?" 👏
 
 Foi o Phellipe que pediu, no meio da Imersão IA para Marketplaces. Fabricante e seller, ele contou que na primeira reunião as contas dele já estavam conectadas, e que o ouro está em juntar empresários com a mesma dor.
