@@ -103,7 +103,7 @@ O Phellipe é fabricante e seller. No meio da Imersão, pediu a palavra para agr
 #Shorts #InteligenciaArtificial #Marketplaces #Ecommerce""",
         'tags': ['depoimento', 'prova social', 'ia para marketplaces', 'imersão ia',
                  'inteligência artificial', 'ecommerce', 'mercado livre', 'shopee', 'sellers', 'tiops'],
-    },,
+    },
     {
         'id': 'cerebro-alberto',
         'video': os.path.join(AQUI, 'videos', 'cerebro-alberto.mp4'),
