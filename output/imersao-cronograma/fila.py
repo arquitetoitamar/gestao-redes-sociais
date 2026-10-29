@@ -103,7 +103,38 @@ O Phellipe é fabricante e seller. No meio da Imersão, pediu a palavra para agr
 #Shorts #InteligenciaArtificial #Marketplaces #Ecommerce""",
         'tags': ['depoimento', 'prova social', 'ia para marketplaces', 'imersão ia',
                  'inteligência artificial', 'ecommerce', 'mercado livre', 'shopee', 'sellers', 'tiops'],
-    },
+    },,
+    {
+        'id': 'cerebro-alberto',
+        'video': os.path.join(AQUI, 'videos', 'cerebro-alberto.mp4'),
+        'ig_em': '2026-10-28 22:50', 'yt_em': '2026-10-28 22:50', 'capa_ms': 19000,  # postado na hora, a pedido
+        'legenda': """Conectei a IA na conta de um seller e ela desenhou o cérebro da operação dele. 🧠
+
+    O Alberto vende no e-commerce desde 2018. Com a autorização dele, a skill puxou todas as lojas, todos os produtos e as vendas. Cada ponto é uma coisa da loja; cada linha, uma ligação que a IA enxerga.
+
+    Ficou tão grande que travou meu computador ao vivo. 😅
+
+    E a dica do meio vale ouro: peça para a IA gerar arquivo .md, não PDF. Ela entende melhor e gasta bem menos token.
+
+    Obrigado pela confiança, Alberto. 🙌
+
+    Foi na Imersão IA para Marketplaces, completa e de graça no YouTube. Comenta IMERSÃO que eu te mando o link na DM. 👇""",
+        'hashtags': '#obsidian #claude #segundocerebro ' + HASH,
+        'titulo': 'A IA desenhou o cérebro da operação de um seller 🧠',
+        'descricao': """A IA conectou na conta de um seller (no e-commerce desde 2018), puxou todas as lojas, todos os produtos e as vendas, e montou o cérebro da operação dele. Ficou tão grande que travou meu computador ao vivo.
+
+    Dica: peça para a IA gerar arquivo .md em vez de PDF. Ela entende melhor e gasta menos token.
+
+    Obrigado ao Alberto pela autorização. Trecho da Imersão IA para Marketplaces da Tiops (24/10, São Paulo).
+
+    🎥 Imersão completa (3 horas, de graça): https://youtu.be/7VVhSzlHfdI
+    🔗 Conecte suas lojas pelo Marketplace Connect: https://l.tiops.com.br/automatizar-loja?o=youtube
+
+    #Shorts #InteligenciaArtificial #Marketplaces #Ecommerce""",
+        'tags': ['cérebro da operação', 'ia para marketplaces', 'segundo cérebro', 'obsidian', 'claude',
+                 'inteligência artificial', 'imersão ia', 'ecommerce', 'mercado livre', 'shopee',
+                 'sellers', 'tiops'],
+    }
 ]
 
 PARCEIRO = ''  # @ da Danzo Brindes, quando o Itamar mandar (não achei a conta)
@@ -179,6 +210,8 @@ def short(p):
                          'defaultAudioLanguage': 'pt-BR'},
              'status': {'privacyStatus': 'private', 'selfDeclaredMadeForKids': False,
                         'publishAt': utc(p['yt_em']).strftime('%Y-%m-%dT%H:%M:%SZ')}}
+    if utc(p['yt_em']) <= datetime.datetime.utcnow():       # hora já passou: sai público na hora
+        corpo['status'] = {'privacyStatus': 'public', 'selfDeclaredMadeForKids': False}
     tipo = 'video/mp4' if p['video'].endswith('.mp4') else 'video/quicktime'
     req = urllib.request.Request(
         'https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status',
