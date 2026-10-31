@@ -7,18 +7,6 @@
     "period": "day",
     "values": [
      {
-      "value": 1775,
-      "end_time": "2026-09-29T07:00:00+0000"
-     },
-     {
-      "value": 270,
-      "end_time": "2026-09-30T07:00:00+0000"
-     },
-     {
-      "value": 198,
-      "end_time": "2026-10-01T07:00:00+0000"
-     },
-     {
       "value": 265,
       "end_time": "2026-10-02T07:00:00+0000"
      },
@@ -119,8 +107,20 @@
       "end_time": "2026-10-26T07:00:00+0000"
      },
      {
-      "value": 281,
+      "value": 321,
       "end_time": "2026-10-27T07:00:00+0000"
+     },
+     {
+      "value": 762,
+      "end_time": "2026-10-28T07:00:00+0000"
+     },
+     {
+      "value": 1173,
+      "end_time": "2026-10-29T07:00:00+0000"
+     },
+     {
+      "value": 1835,
+      "end_time": "2026-10-30T07:00:00+0000"
      }
     ],
     "title": "Alcance",
@@ -135,18 +135,6 @@
     "name": "follower_count",
     "period": "day",
     "values": [
-     {
-      "value": 22,
-      "end_time": "2026-09-29T07:00:00+0000"
-     },
-     {
-      "value": 4,
-      "end_time": "2026-09-30T07:00:00+0000"
-     },
-     {
-      "value": 7,
-      "end_time": "2026-10-01T07:00:00+0000"
-     },
      {
       "value": 4,
       "end_time": "2026-10-02T07:00:00+0000"
@@ -248,8 +236,20 @@
       "end_time": "2026-10-26T07:00:00+0000"
      },
      {
-      "value": 0,
+      "value": 1,
       "end_time": "2026-10-27T07:00:00+0000"
+     },
+     {
+      "value": 0,
+      "end_time": "2026-10-28T07:00:00+0000"
+     },
+     {
+      "value": 2,
+      "end_time": "2026-10-29T07:00:00+0000"
+     },
+     {
+      "value": 0,
+      "end_time": "2026-10-30T07:00:00+0000"
      }
     ],
     "title": "Número de seguidores",
@@ -266,7 +266,7 @@
     "title": "Contas alcançadas",
     "description": "O número de contas únicas que viram seu conteúdo pelo menos uma vez, inclusive anúncios. O conteúdo inclui posts, stories, reels, vídeos e vídeos ao vivo. O alcance é diferente das impressões, que podem incluir várias visualizações do seu conteúdo pelas mesmas contas. Essa métrica é estimada e está em desenvolvimento.",
     "total_value": {
-     "value": 29165
+     "value": 29803
     }
    },
    {
@@ -276,7 +276,7 @@
     "title": "Contas com engajamento",
     "description": "O número de contas que interagiram com seu conteúdo, inclusive em anúncios. O conteúdo inclui posts, stories, reels, vídeos e vídeos ao vivo. As interações podem ser ações como curtir, salvar, comentar, compartilhar ou responder. Essas métricas são estimadas e estão em desenvolvimento.",
     "total_value": {
-     "value": 306
+     "value": 263
     }
    },
    {
@@ -286,7 +286,7 @@
     "title": "Visitas ao perfil",
     "description": "O número de vezes que o seu perfil foi acessado.",
     "total_value": {
-     "value": 753
+     "value": 706
     }
    },
    {
@@ -296,7 +296,7 @@
     "title": "Visualizações",
     "description": "O número de vezes que seu conteúdo foi reproduzido ou exibido. O conteúdo inclui reels, posts e stories.",
     "total_value": {
-     "value": 44983
+     "value": 45842
     }
    },
    {
@@ -306,7 +306,7 @@
     "title": "Interações com o conteúdo",
     "description": "O número total de interações com posts, stories, reels, vídeos e vídeos ao vivo, incluindo todas as interações em conteúdo turbinado.",
     "total_value": {
-     "value": 670
+     "value": 600
     }
    }
   ]
@@ -330,13 +330,13 @@
          "dimension_values": [
           "FOLLOWER"
          ],
-         "value": 126
+         "value": 96
         },
         {
          "dimension_values": [
           "NON_FOLLOWER"
          ],
-         "value": 14
+         "value": 16
         }
        ]
       }
@@ -354,7 +354,7 @@
     "title": "Contas alcançadas",
     "description": "O número de contas únicas que viram seu conteúdo pelo menos uma vez, inclusive anúncios. O conteúdo inclui posts, stories, reels, vídeos e vídeos ao vivo. O alcance é diferente das impressões, que podem incluir várias visualizações do seu conteúdo pelas mesmas contas. Essa métrica é estimada e está em desenvolvimento.",
     "total_value": {
-     "value": 29165,
+     "value": 29803,
      "breakdowns": [
       {
        "dimension_keys": [
@@ -363,33 +363,33 @@
        "results": [
         {
          "dimension_values": [
-          "AD"
+          "POST"
          ],
-         "value": 24830
-        },
-        {
-         "dimension_values": [
-          "CAROUSEL_CONTAINER"
-         ],
-         "value": 129
-        },
-        {
-         "dimension_values": [
-          "REEL"
-         ],
-         "value": 3340
+         "value": 181
         },
         {
          "dimension_values": [
           "STORY"
          ],
-         "value": 923
+         "value": 925
         },
         {
          "dimension_values": [
-          "POST"
+          "AD"
          ],
-         "value": 192
+         "value": 26013
+        },
+        {
+         "dimension_values": [
+          "REEL"
+         ],
+         "value": 3206
+        },
+        {
+         "dimension_values": [
+          "CAROUSEL_CONTAINER"
+         ],
+         "value": 122
         }
        ]
       }
@@ -415,6 +415,18 @@
        "results": [
         {
          "dimension_values": [
+          "Ribeirão Pires, São Paulo (state)"
+         ],
+         "value": 3
+        },
+        {
+         "dimension_values": [
+          "São Caetano do Sul, São Paulo (state)"
+         ],
+         "value": 3
+        },
+        {
+         "dimension_values": [
           "Ribeirão Prêto, São Paulo (state)"
          ],
          "value": 5
@@ -423,7 +435,7 @@
          "dimension_values": [
           "São Paulo, São Paulo (state)"
          ],
-         "value": 140
+         "value": 141
         },
         {
          "dimension_values": [
@@ -447,13 +459,7 @@
          "dimension_values": [
           "São José dos Campos, São Paulo (state)"
          ],
-         "value": 11
-        },
-        {
-         "dimension_values": [
-          "Contagem, Minas Gerais"
-         ],
-         "value": 3
+         "value": 12
         },
         {
          "dimension_values": [
@@ -481,31 +487,19 @@
         },
         {
          "dimension_values": [
-          "Itumbiara, Goiás"
-         ],
-         "value": 3
-        },
-        {
-         "dimension_values": [
-          "Campo Grande, Mato Grosso do Sul"
-         ],
-         "value": 3
-        },
-        {
-         "dimension_values": [
           "Duque de Caxias, Rio de Janeiro (state)"
          ],
          "value": 4
         },
         {
          "dimension_values": [
-          "Londrina, Paraná"
+          "João Pessoa, Paraíba"
          ],
          "value": 4
         },
         {
          "dimension_values": [
-          "João Pessoa, Paraíba"
+          "Londrina, Paraná"
          ],
          "value": 4
         },
@@ -535,9 +529,9 @@
         },
         {
          "dimension_values": [
-          "Itaquaquecetuba, São Paulo (state)"
+          "Varginha, Minas Gerais"
          ],
-         "value": 4
+         "value": 3
         },
         {
          "dimension_values": [
@@ -547,21 +541,27 @@
         },
         {
          "dimension_values": [
+          "Itaquaquecetuba, São Paulo (state)"
+         ],
+         "value": 5
+        },
+        {
+         "dimension_values": [
           "Guarulhos, São Paulo (state)"
          ],
-         "value": 17
+         "value": 16
+        },
+        {
+         "dimension_values": [
+          "Palmas, Tocantins"
+         ],
+         "value": 3
         },
         {
          "dimension_values": [
           "Sorocaba, São Paulo (state)"
          ],
          "value": 8
-        },
-        {
-         "dimension_values": [
-          "Santos, São Paulo (state)"
-         ],
-         "value": 3
         },
         {
          "dimension_values": [
@@ -577,13 +577,7 @@
         },
         {
          "dimension_values": [
-          "Betim, Minas Gerais"
-         ],
-         "value": 3
-        },
-        {
-         "dimension_values": [
-          "Barueri, São Paulo (state)"
+          "Santa Bárbara d'Oeste, São Paulo (state)"
          ],
          "value": 3
         },
@@ -601,6 +595,12 @@
         },
         {
          "dimension_values": [
+          "Patos de Minas, Minas Gerais"
+         ],
+         "value": 3
+        },
+        {
+         "dimension_values": [
           "Mauá, São Paulo (state)"
          ],
          "value": 5
@@ -615,7 +615,7 @@
          "dimension_values": [
           "Fortaleza, Ceará"
          ],
-         "value": 12
+         "value": 11
         },
         {
          "dimension_values": [
@@ -631,7 +631,7 @@
         },
         {
          "dimension_values": [
-          "Campina Grande, Paraíba"
+          "Ananindeua, Pará"
          ],
          "value": 3
         },
@@ -657,7 +657,7 @@
          "dimension_values": [
           "Curitiba, Paraná"
          ],
-         "value": 10
+         "value": 9
         },
         {
          "dimension_values": [
@@ -675,7 +675,7 @@
          "dimension_values": [
           "Campinas, São Paulo (state)"
          ],
-         "value": 16
+         "value": 15
         },
         {
          "dimension_values": [
@@ -715,25 +715,25 @@
          "dimension_values": [
           "18-24"
          ],
-         "value": 65
+         "value": 64
         },
         {
          "dimension_values": [
           "25-34"
          ],
-         "value": 217
+         "value": 219
         },
         {
          "dimension_values": [
           "35-44"
          ],
-         "value": 265
+         "value": 263
         },
         {
          "dimension_values": [
           "45-54"
          ],
-         "value": 170
+         "value": 172
         },
         {
          "dimension_values": [
@@ -745,7 +745,7 @@
          "dimension_values": [
           "65+"
          ],
-         "value": 35
+         "value": 36
         }
        ]
       }
@@ -773,19 +773,19 @@
          "dimension_values": [
           "F"
          ],
-         "value": 121
+         "value": 124
         },
         {
          "dimension_values": [
           "M"
          ],
-         "value": 573
+         "value": 575
         },
         {
          "dimension_values": [
           "U"
          ],
-         "value": 114
+         "value": 111
         }
        ]
       }
