@@ -8,7 +8,8 @@ Duas peças para o @tiopstecnologia, a partir de https://nfe.tiops.com.br e do b
 | Reel 9:16, 42,7 s, voz clonada do Itamar (HeyGen) | `reel_nfe_tiops.mp4` (fora do git, 14 MB) + `capa.jpg` | `legenda.md`, DM em `dm.md` |
 | Post de novidade 4:5 | `novidade/post_novidade.jpg` | `novidade/legenda.md` |
 
-Uma peça por vez, com pelo menos 24 h entre elas: o Reel primeiro (16h–20h).
+Publicado: Reel em 31/10/2026 14:18 (https://www.instagram.com/reel/DfKrIZNib-Q/, `publicado_instagram.json`).
+Post de novidade (versão e-commerce) agendado na AWS para 01/11/2026 18:00 (`scripts/ig-agendado`, id `novidade-nfe-20261101`).
 
 ## Refazer o Reel
 ```

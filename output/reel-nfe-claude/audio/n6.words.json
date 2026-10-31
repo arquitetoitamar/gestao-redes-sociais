@@ -1,0 +1,68 @@
+[
+  {
+    "id": "w0",
+    "text": "Funciona",
+    "start": 0,
+    "end": 0.464
+  },
+  {
+    "id": "w1",
+    "text": "no",
+    "start": 0.511,
+    "end": 0.592
+  },
+  {
+    "id": "w2",
+    "text": "Claude,",
+    "start": 0.65,
+    "end": 0.952
+  },
+  {
+    "id": "w3",
+    "text": "no",
+    "start": 0.998,
+    "end": 1.08
+  },
+  {
+    "id": "w4",
+    "text": "ChatGPT,",
+    "start": 1.115,
+    "end": 1.73
+  },
+  {
+    "id": "w5",
+    "text": "e",
+    "start": 1.869,
+    "end": 1.927
+  },
+  {
+    "id": "w6",
+    "text": "pela",
+    "start": 1.985,
+    "end": 2.206
+  },
+  {
+    "id": "w7",
+    "text": "API",
+    "start": 2.229,
+    "end": 2.519
+  },
+  {
+    "id": "w8",
+    "text": "do",
+    "start": 2.554,
+    "end": 2.635
+  },
+  {
+    "id": "w9",
+    "text": "seu",
+    "start": 2.682,
+    "end": 2.786
+  },
+  {
+    "id": "w10",
+    "text": "sistema.",
+    "start": 2.833,
+    "end": 3.332
+  }
+]

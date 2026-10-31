@@ -1,0 +1,34 @@
+[
+ {
+  "id": "n0",
+  "txt": "Eu emiti uma nota fiscal só conversando com o Claude. Olha só."
+ },
+ {
+  "id": "n1",
+  "txt": "Passo o pedido da minha loja virtual: produto, valor, NCM e o cliente."
+ },
+ {
+  "id": "n2",
+  "txt": "Ele monta a prévia sem gastar número: CFOP, impostos e o total."
+ },
+ {
+  "id": "n3",
+  "txt": "E ainda me alerta antes de emitir: o CFOP, o frete, e até o CPF de exemplo."
+ },
+ {
+  "id": "n4",
+  "txt": "Eu confirmo, e a nota sai autorizada na SEFAZ, com número e protocolo."
+ },
+ {
+  "id": "n5",
+  "txt": "Aqui é homologação, o ambiente de teste. Produção, só quando você liberar."
+ },
+ {
+  "id": "n6",
+  "txt": "Funciona no Claude, no ChatGPT, e pela API do seu sistema."
+ },
+ {
+  "id": "n7",
+  "txt": "Comenta NOTA que eu te mando o link."
+ }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "w0",
+    "text": "Eu",
+    "start": 0,
+    "end": 0.244
+  },
+  {
+    "id": "w1",
+    "text": "emiti",
+    "start": 0.279,
+    "end": 0.499
+  },
+  {
+    "id": "w2",
+    "text": "uma",
+    "start": 0.534,
+    "end": 0.662
+  },
+  {
+    "id": "w3",
+    "text": "nota",
+    "start": 0.697,
+    "end": 0.882
+  },
+  {
+    "id": "w4",
+    "text": "fiscal",
+    "start": 0.917,
+    "end": 1.324
+  },
+  {
+    "id": "w5",
+    "text": "só",
+    "start": 1.405,
+    "end": 1.533
+  },
+  {
+    "id": "w6",
+    "text": "conversando",
+    "start": 1.591,
+    "end": 2.032
+  },
+  {
+    "id": "w7",
+    "text": "com",
+    "start": 2.078,
+    "end": 2.194
+  },
+  {
+    "id": "w8",
+    "text": "o",
+    "start": 2.229,
+    "end": 2.252
+  },
+  {
+    "id": "w9",
+    "text": "Claude.",
+    "start": 2.287,
+    "end": 2.67
+  },
+  {
+    "id": "w10",
+    "text": "Olha",
+    "start": 2.763,
+    "end": 2.937
+  },
+  {
+    "id": "w11",
+    "text": "só.",
+    "start": 3.007,
+    "end": 3.216
+  }
+]

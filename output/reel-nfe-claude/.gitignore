@@ -1,0 +1,9 @@
+captura/
+rolagem/
+quadros/
+stills/
+*.mp4
+audio/narracao_full.wav
+audio/narr_norm.wav
+audio/mus_norm.wav
+audio/mix_*.wav

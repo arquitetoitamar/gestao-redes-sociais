@@ -1,0 +1,74 @@
+[
+  {
+    "id": "w0",
+    "text": "Ele",
+    "start": 0,
+    "end": 0.325
+  },
+  {
+    "id": "w1",
+    "text": "monta",
+    "start": 0.383,
+    "end": 0.615
+  },
+  {
+    "id": "w2",
+    "text": "a",
+    "start": 0.639,
+    "end": 0.662
+  },
+  {
+    "id": "w3",
+    "text": "prévia",
+    "start": 0.72,
+    "end": 1.01
+  },
+  {
+    "id": "w4",
+    "text": "sem",
+    "start": 1.057,
+    "end": 1.207
+  },
+  {
+    "id": "w5",
+    "text": "gastar",
+    "start": 1.242,
+    "end": 1.556
+  },
+  {
+    "id": "w6",
+    "text": "número:",
+    "start": 1.602,
+    "end": 1.95
+  },
+  {
+    "id": "w7",
+    "text": "CFOP,",
+    "start": 2.206,
+    "end": 3.204
+  },
+  {
+    "id": "w8",
+    "text": "impostos",
+    "start": 3.448,
+    "end": 4.052
+  },
+  {
+    "id": "w9",
+    "text": "e",
+    "start": 4.098,
+    "end": 4.122
+  },
+  {
+    "id": "w10",
+    "text": "o",
+    "start": 4.156,
+    "end": 4.18
+  },
+  {
+    "id": "w11",
+    "text": "total.",
+    "start": 4.238,
+    "end": 4.609
+  }
+]

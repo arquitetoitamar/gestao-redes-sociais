@@ -1,0 +1,104 @@
+[
+  {
+    "id": "w0",
+    "text": "E",
+    "start": 0,
+    "end": 0.221
+  },
+  {
+    "id": "w1",
+    "text": "ainda",
+    "start": 0.279,
+    "end": 0.476
+  },
+  {
+    "id": "w2",
+    "text": "me",
+    "start": 0.522,
+    "end": 0.604
+  },
+  {
+    "id": "w3",
+    "text": "alerta",
+    "start": 0.627,
+    "end": 1.08
+  },
+  {
+    "id": "w4",
+    "text": "antes",
+    "start": 1.115,
+    "end": 1.335
+  },
+  {
+    "id": "w5",
+    "text": "de",
+    "start": 1.358,
+    "end": 1.428
+  },
+  {
+    "id": "w6",
+    "text": "emitir:",
+    "start": 1.451,
+    "end": 1.997
+  },
+  {
+    "id": "w7",
+    "text": "o",
+    "start": 2.287,
+    "end": 2.38
+  },
+  {
+    "id": "w8",
+    "text": "CFOP,",
+    "start": 2.438,
+    "end": 3.506
+  },
+  {
+    "id": "w9",
+    "text": "o",
+    "start": 3.727,
+    "end": 3.808
+  },
+  {
+    "id": "w10",
+    "text": "frete,",
+    "start": 3.889,
+    "end": 4.365
+  },
+  {
+    "id": "w11",
+    "text": "e",
+    "start": 4.435,
+    "end": 4.516
+  },
+  {
+    "id": "w12",
+    "text": "até",
+    "start": 4.563,
+    "end": 4.795
+  },
+  {
+    "id": "w13",
+    "text": "o",
+    "start": 4.853,
+    "end": 4.888
+  },
+  {
+    "id": "w14",
+    "text": "CPF",
+    "start": 4.957,
+    "end": 5.526
+  },
+  {
+    "id": "w15",
+    "text": "de",
+    "start": 5.654,
+    "end": 5.724
+  },
+  {
+    "id": "w16",
+    "text": "exemplo.",
+    "start": 5.747,
+    "end": 6.235
+  }
+]

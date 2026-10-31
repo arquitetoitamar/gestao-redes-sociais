@@ -1,0 +1,50 @@
+[
+  {
+    "id": "w0",
+    "text": "Comenta",
+    "start": 0,
+    "end": 0.534
+  },
+  {
+    "id": "w1",
+    "text": "NOTA",
+    "start": 0.615,
+    "end": 0.917
+  },
+  {
+    "id": "w2",
+    "text": "que",
+    "start": 0.952,
+    "end": 1.022
+  },
+  {
+    "id": "w3",
+    "text": "eu",
+    "start": 1.045,
+    "end": 1.115
+  },
+  {
+    "id": "w4",
+    "text": "te",
+    "start": 1.149,
+    "end": 1.219
+  },
+  {
+    "id": "w5",
+    "text": "mando",
+    "start": 1.277,
+    "end": 1.486
+  },
+  {
+    "id": "w6",
+    "text": "o",
+    "start": 1.509,
+    "end": 1.533
+  },
+  {
+    "id": "w7",
+    "text": "link.",
+    "start": 1.579,
+    "end": 1.869
+  }
+]

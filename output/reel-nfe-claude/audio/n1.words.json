@@ -1,0 +1,80 @@
+[
+  {
+    "id": "w0",
+    "text": "Passo",
+    "start": 0,
+    "end": 0.476
+  },
+  {
+    "id": "w1",
+    "text": "o",
+    "start": 0.534,
+    "end": 0.557
+  },
+  {
+    "id": "w2",
+    "text": "pedido",
+    "start": 0.615,
+    "end": 0.952
+  },
+  {
+    "id": "w3",
+    "text": "da",
+    "start": 1.01,
+    "end": 1.08
+  },
+  {
+    "id": "w4",
+    "text": "minha",
+    "start": 1.126,
+    "end": 1.3
+  },
+  {
+    "id": "w5",
+    "text": "loja",
+    "start": 1.358,
+    "end": 1.591
+  },
+  {
+    "id": "w6",
+    "text": "virtual:",
+    "start": 1.637,
+    "end": 2.171
+  },
+  {
+    "id": "w7",
+    "text": "produto,",
+    "start": 2.415,
+    "end": 3.007
+  },
+  {
+    "id": "w8",
+    "text": "valor,",
+    "start": 3.065,
+    "end": 3.495
+  },
+  {
+    "id": "w9",
+    "text": "NCM",
+    "start": 3.587,
+    "end": 4.214
+  },
+  {
+    "id": "w10",
+    "text": "e",
+    "start": 4.307,
+    "end": 4.377
+  },
+  {
+    "id": "w11",
+    "text": "o",
+    "start": 4.412,
+    "end": 4.458
+  },
+  {
+    "id": "w12",
+    "text": "cliente.",
+    "start": 4.493,
+    "end": 5.004
+  }
+]
