@@ -1,0 +1,145 @@
+{
+ "fps": 30,
+ "total": 42.667,
+ "scenes": [
+  {
+   "id": "s0",
+   "kind": "scene",
+   "narr": "n0",
+   "start": 0.0,
+   "dur": 3.571,
+   "nstart": 0.15,
+   "ndur": 3.021,
+   "cues": {
+    "copia": 0.707,
+    "pedido": 1.125,
+    "marketplace": 1.613,
+    "emitir": 2.344,
+    "nota fiscal": 2.658
+   }
+  },
+  {
+   "id": "i1",
+   "kind": "inter",
+   "word": "NOVIDADE.",
+   "style": "blue",
+   "start": 3.571,
+   "dur": 0.8
+  },
+  {
+   "id": "s1",
+   "kind": "scene",
+   "narr": "n1",
+   "start": 4.371,
+   "dur": 6.866,
+   "nstart": 4.571,
+   "ndur": 6.216,
+   "cues": {
+    "Emissor": 5.128,
+    "Tiops": 6.487,
+    "direto": 7.787,
+    "SEFAZ": 8.333,
+    "certificado": 9.273,
+    "sua empresa": 10.434
+   }
+  },
+  {
+   "id": "s2",
+   "kind": "scene",
+   "narr": "n2",
+   "start": 11.237,
+   "dur": 5.002,
+   "nstart": 11.437,
+   "ndur": 4.252,
+   "cues": {
+    "prévia": 12.842,
+    "imposto": 13.527,
+    "frete": 14.119,
+    "desconto": 14.502,
+    "sem gastar": 15.024
+   }
+  },
+  {
+   "id": "s3",
+   "kind": "scene",
+   "narr": "n3",
+   "start": 16.239,
+   "dur": 7.593,
+   "nstart": 16.439,
+   "ndur": 6.893,
+   "cues": {
+    "intermediador": 16.718,
+    "Mercado": 18.587,
+    "Shopee": 19.55,
+    "Amazon": 20.363,
+    "Magalu": 20.99,
+    "SHEIN": 21.722,
+    "TikTok": 22.604
+   }
+  },
+  {
+   "id": "s4",
+   "kind": "scene",
+   "narr": "n4",
+   "start": 23.832,
+   "dur": 4.99,
+   "nstart": 24.032,
+   "ndur": 4.04,
+   "cues": {
+    "XML": 24.508,
+    "DANFE": 25.657,
+    "dez": 26.47,
+    "colar": 27.376
+   }
+  },
+  {
+   "id": "i2",
+   "kind": "inter",
+   "word": "E TEM MAIS.",
+   "style": "dark",
+   "start": 28.822,
+   "dur": 0.75
+  },
+  {
+   "id": "s5",
+   "kind": "scene",
+   "narr": "n5",
+   "start": 29.572,
+   "dur": 4.689,
+   "nstart": 29.772,
+   "ndur": 3.439,
+   "cues": {
+    "português": 31.107,
+    "Claude": 31.85,
+    "ChatGPT": 32.524
+   }
+  },
+  {
+   "id": "s6",
+   "kind": "scene",
+   "narr": "n6",
+   "start": 34.262,
+   "dur": 3.94,
+   "nstart": 34.462,
+   "ndur": 2.89,
+   "cues": {
+    "homologação": 35.228,
+    "Só vale": 36.076,
+    "liberar": 37.063
+   }
+  },
+  {
+   "id": "s7",
+   "kind": "scene",
+   "narr": "n7",
+   "start": 38.202,
+   "dur": 4.465,
+   "nstart": 38.552,
+   "ndur": 1.715,
+   "cues": {
+    "NOTA": 39.167,
+    "link": 40.131
+   }
+  }
+ ]
+}

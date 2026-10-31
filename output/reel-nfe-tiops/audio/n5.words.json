@@ -1,0 +1,80 @@
+[
+  {
+    "id": "w0",
+    "text": "E",
+    "start": 0,
+    "end": 0.221
+  },
+  {
+    "id": "w1",
+    "text": "dá",
+    "start": 0.313,
+    "end": 0.406
+  },
+  {
+    "id": "w2",
+    "text": "pra",
+    "start": 0.464,
+    "end": 0.569
+  },
+  {
+    "id": "w3",
+    "text": "pedir",
+    "start": 0.604,
+    "end": 0.859
+  },
+  {
+    "id": "w4",
+    "text": "a",
+    "start": 0.882,
+    "end": 0.906
+  },
+  {
+    "id": "w5",
+    "text": "nota",
+    "start": 0.975,
+    "end": 1.219
+  },
+  {
+    "id": "w6",
+    "text": "em",
+    "start": 1.242,
+    "end": 1.289
+  },
+  {
+    "id": "w7",
+    "text": "português,",
+    "start": 1.335,
+    "end": 1.869
+  },
+  {
+    "id": "w8",
+    "text": "pro",
+    "start": 1.916,
+    "end": 2.02
+  },
+  {
+    "id": "w9",
+    "text": "Claude",
+    "start": 2.078,
+    "end": 2.485
+  },
+  {
+    "id": "w10",
+    "text": "ou",
+    "start": 2.519,
+    "end": 2.577
+  },
+  {
+    "id": "w11",
+    "text": "pro",
+    "start": 2.624,
+    "end": 2.728
+  },
+  {
+    "id": "w12",
+    "text": "ChatGPT.",
+    "start": 2.752,
+    "end": 3.425
+  }
+]

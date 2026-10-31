@@ -1,0 +1,86 @@
+[
+  {
+    "id": "w0",
+    "text": "Antes",
+    "start": 0,
+    "end": 0.453
+  },
+  {
+    "id": "w1",
+    "text": "de",
+    "start": 0.476,
+    "end": 0.534
+  },
+  {
+    "id": "w2",
+    "text": "emitir,",
+    "start": 0.557,
+    "end": 0.917
+  },
+  {
+    "id": "w3",
+    "text": "você",
+    "start": 0.964,
+    "end": 1.138
+  },
+  {
+    "id": "w4",
+    "text": "vê",
+    "start": 1.207,
+    "end": 1.289
+  },
+  {
+    "id": "w5",
+    "text": "a",
+    "start": 1.312,
+    "end": 1.347
+  },
+  {
+    "id": "w6",
+    "text": "prévia:",
+    "start": 1.405,
+    "end": 1.834
+  },
+  {
+    "id": "w7",
+    "text": "imposto,",
+    "start": 2.09,
+    "end": 2.624
+  },
+  {
+    "id": "w8",
+    "text": "frete",
+    "start": 2.682,
+    "end": 2.972
+  },
+  {
+    "id": "w9",
+    "text": "e",
+    "start": 2.995,
+    "end": 3.019
+  },
+  {
+    "id": "w10",
+    "text": "desconto,",
+    "start": 3.065,
+    "end": 3.541
+  },
+  {
+    "id": "w11",
+    "text": "sem",
+    "start": 3.587,
+    "end": 3.715
+  },
+  {
+    "id": "w12",
+    "text": "gastar",
+    "start": 3.738,
+    "end": 4.075
+  },
+  {
+    "id": "w13",
+    "text": "número.",
+    "start": 4.133,
+    "end": 4.447
+  }
+]

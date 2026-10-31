@@ -1,0 +1,62 @@
+[
+  {
+    "id": "w0",
+    "text": "Você",
+    "start": 0,
+    "end": 0.313
+  },
+  {
+    "id": "w1",
+    "text": "ainda",
+    "start": 0.337,
+    "end": 0.511
+  },
+  {
+    "id": "w2",
+    "text": "copia",
+    "start": 0.557,
+    "end": 0.929
+  },
+  {
+    "id": "w3",
+    "text": "pedido",
+    "start": 0.975,
+    "end": 1.3
+  },
+  {
+    "id": "w4",
+    "text": "do",
+    "start": 1.335,
+    "end": 1.405
+  },
+  {
+    "id": "w5",
+    "text": "marketplace",
+    "start": 1.463,
+    "end": 2.032
+  },
+  {
+    "id": "w6",
+    "text": "pra",
+    "start": 2.067,
+    "end": 2.171
+  },
+  {
+    "id": "w7",
+    "text": "emitir",
+    "start": 2.194,
+    "end": 2.485
+  },
+  {
+    "id": "w8",
+    "text": "nota",
+    "start": 2.508,
+    "end": 2.705
+  },
+  {
+    "id": "w9",
+    "text": "fiscal?",
+    "start": 2.74,
+    "end": 3.158
+  }
+]

@@ -1,0 +1,10 @@
+[
+ {"id": "n0", "txt": "Você ainda copia pedido do marketplace pra emitir nota fiscal?"},
+ {"id": "n1", "txt": "Chegou o Emissor NF-e da Tiops. Ele emite direto na SEFAZ, com o certificado A1 da sua empresa."},
+ {"id": "n2", "txt": "Antes de emitir, você vê a prévia: imposto, frete e desconto, sem gastar número."},
+ {"id": "n3", "txt": "O intermediador já vem certo: Mercado Livre, Shopee, Amazon, Magalu, SHEIN e TikTok Shop."},
+ {"id": "n4", "txt": "Sai o XML e o DANFE etiqueta, dez por quinze, pra colar no pacote."},
+ {"id": "n5", "txt": "E dá pra pedir a nota em português, pro Claude ou pro ChatGPT."},
+ {"id": "n6", "txt": "Tudo começa em homologação. Só vale quando você liberar."},
+ {"id": "n7", "txt": "Comenta NOTA que eu te mando o link."}
+]
