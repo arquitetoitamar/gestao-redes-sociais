@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang='pt-BR'><head><meta charset='utf-8'><style>
+:root{--ink:#14161F;--cinza:#5B6170;--ml:#FFE600;--mlazul:#2D3277;--claude:#D97757;--verde:#18A957;--creme:#FFF8E8}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{font-family:-apple-system,"SF Pro Display","Helvetica Neue",Arial,sans-serif;color:var(--ink);
+ background:radial-gradient(1100px 900px at 75% 18%,#FFF1C2 0%,rgba(255,241,194,0) 60%),var(--creme);
+ padding:84px 76px 0;display:flex;flex-direction:column;position:relative}
+.cont{position:absolute;top:44px;right:60px;font-size:24px;font-weight:800;color:#9AA0AC;letter-spacing:1px}
+.cont b{color:var(--claude)}
+h1{font-size:84px;font-weight:900;line-height:1.03;letter-spacing:-2.5px}
+h1.m{font-size:76px}
+.hl{background:linear-gradient(transparent 10%,var(--ml) 10%,var(--ml) 90%,transparent 90%);padding:0 10px;border-radius:12px;
+ -webkit-box-decoration-break:clone;box-decoration-break:clone}
+.sub{font-size:36px;line-height:1.3;font-weight:600;color:#2A2E3A;margin-top:26px}
+.sp{flex:1}
+.card{background:#fff;border-radius:30px;box-shadow:0 14px 40px rgba(60,40,0,.10);padding:34px 38px}
+.rod{height:96px;margin:0 -76px;padding:0 60px;display:flex;align-items:center;gap:16px;font-size:24px;font-weight:800;color:var(--cinza)}
+.rod img{height:50px}
+.rod .dir{margin-left:auto;color:var(--ink)}
+.tag{display:inline-block;background:#F2443A;color:#fff;font-weight:900;font-size:28px;letter-spacing:2px;padding:12px 30px;border-radius:999px;margin-bottom:30px}
+.bolha{background:#fff;border-radius:28px 28px 28px 8px;padding:24px 30px;font-size:30px;font-weight:600;box-shadow:0 10px 30px rgba(60,40,0,.10);display:inline-block}
+.bolha.eu{background:var(--ink);color:#fff;border-radius:28px 28px 8px 28px}
+.ck{display:flex;align-items:center;gap:18px;font-size:36px;font-weight:700;margin:18px 0}
+.ck i{width:48px;height:48px;border-radius:50%;background:var(--verde);display:inline-flex;align-items:center;justify-content:center;flex:none}
+.ck i:after{content:"";width:14px;height:8px;border:4px solid #fff;border-top:0;border-right:0;transform:rotate(-45deg) translate(1px,-2px)}
+.chip{display:inline-flex;align-items:center;gap:12px;background:#fff;border-radius:999px;padding:20px 30px;font-size:32px;font-weight:800;box-shadow:0 6px 18px rgba(60,40,0,.08)}
+.logo-ml{width:200px;height:auto;border-radius:34px;box-shadow:0 16px 40px rgba(200,170,0,.35)}
+.logo-cl{width:200px;height:200px;border-radius:44px;object-fit:cover;box-shadow:0 16px 40px rgba(217,119,87,.35)}
+.rodape-txt{font-size:34px;font-weight:800;text-align:center;line-height:1.3;margin:26px 0 8px}
+.raio{position:absolute;width:46px;height:9px;border-radius:9px;background:var(--claude);opacity:.9}
+</style></head><body><div class='cont'><b>02</b> / 08</div>
+<h1 class='m'>Você pergunta em português. <span class='hl'>Ele responde com os seus números.</span></h1>
+<div class='sp'></div>
+<div style='text-align:right'><span class='bolha eu' style='font-size:34px'>Quais foram meus 5 mais vendidos em outubro?</span></div>
+<div style='height:22px'></div>
+<div class='card'>
+  <div style='display:flex;align-items:center;gap:16px;margin-bottom:18px'>
+    <img src='../assets/claude.png' style='width:64px;height:64px;border-radius:16px'>
+    <b style='font-size:36px'>Seus mais vendidos</b>
+    <img src='../assets/ml.png' style='height:72px;margin-left:auto;border-radius:14px'>
+  </div>
+  <div style='display:grid;grid-template-columns:56px 86px 1fr 250px;row-gap:28px;align-items:center;font-size:36px;font-weight:700'>
+    <span>1</span><span style='font-size:44px'>🎧</span><span>Fone sem fio</span><div style='height:22px;border-radius:11px;background:var(--ml);width:100%'></div>
+    <span>2</span><span style='font-size:44px'>🍟</span><span>Fritadeira elétrica</span><div style='height:22px;border-radius:11px;background:var(--ml);width:82%'></div>
+    <span>3</span><span style='font-size:44px'>👟</span><span>Tênis de corrida</span><div style='height:22px;border-radius:11px;background:var(--ml);width:68%'></div>
+    <span>4</span><span style='font-size:44px'>🥤</span><span>Garrafa térmica</span><div style='height:22px;border-radius:11px;background:var(--ml);width:55%'></div>
+    <span>5</span><span style='font-size:44px'>⌚</span><span>Relógio inteligente</span><div style='height:22px;border-radius:11px;background:var(--ml);width:41%'></div>
+  </div>
+</div>
+<div class='sp'></div>
+<p class='rodape-txt'>Vendas, visitas, pedidos e anúncios<br><span class='hl'>numa conversa só.</span></p>
+<div class='rod'><img src='../assets/tiops-robo.png'>@tiopstecnologia<span class='dir'>Marketplace Connect</span></div></body></html>
