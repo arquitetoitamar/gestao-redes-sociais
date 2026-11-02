@@ -1,0 +1,8 @@
+[
+ {"id": "n0", "txt": "Você ainda paga alguém só pra emitir nota fiscal?"},
+ {"id": "n1", "txt": "Preencher campo, calcular imposto, mandar XML e subir a nota no pedido. Todo dia, a mesma coisa."},
+ {"id": "n2", "txt": "No Emissor da Tiops, a venda vira nota em segundos. Ele calcula CFOP, ICMS e DIFAL e manda direto pra SEFAZ."},
+ {"id": "n3", "txt": "Se a venda foi no Mercado Livre ou na Shopee, a nota vai sozinha pro pedido."},
+ {"id": "n4", "txt": "E dá pra emitir pelo painel, pela API ou só pedindo pro ChatGPT ou pro Claude."},
+ {"id": "n5", "txt": "Testar é grátis e sem cartão. Comenta NOTA que eu te mando o link."}
+]

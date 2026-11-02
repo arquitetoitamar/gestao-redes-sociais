@@ -1,0 +1,98 @@
+[
+  {
+    "id": "w0",
+    "text": "E",
+    "start": 0,
+    "end": 0.209
+  },
+  {
+    "id": "w1",
+    "text": "dá",
+    "start": 0.302,
+    "end": 0.43
+  },
+  {
+    "id": "w2",
+    "text": "pra",
+    "start": 0.488,
+    "end": 0.604
+  },
+  {
+    "id": "w3",
+    "text": "emitir",
+    "start": 0.627,
+    "end": 0.987
+  },
+  {
+    "id": "w4",
+    "text": "pelo",
+    "start": 1.022,
+    "end": 1.207
+  },
+  {
+    "id": "w5",
+    "text": "painel,",
+    "start": 1.254,
+    "end": 1.707
+  },
+  {
+    "id": "w6",
+    "text": "pela",
+    "start": 1.765,
+    "end": 1.985
+  },
+  {
+    "id": "w7",
+    "text": "API",
+    "start": 2.009,
+    "end": 2.461
+  },
+  {
+    "id": "w8",
+    "text": "ou",
+    "start": 2.554,
+    "end": 2.659
+  },
+  {
+    "id": "w9",
+    "text": "só",
+    "start": 2.728,
+    "end": 2.844
+  },
+  {
+    "id": "w10",
+    "text": "pedindo",
+    "start": 2.914,
+    "end": 3.228
+  },
+  {
+    "id": "w11",
+    "text": "pro",
+    "start": 3.274,
+    "end": 3.402
+  },
+  {
+    "id": "w12",
+    "text": "ChatGPT",
+    "start": 3.437,
+    "end": 4.168
+  },
+  {
+    "id": "w13",
+    "text": "ou",
+    "start": 4.296,
+    "end": 4.354
+  },
+  {
+    "id": "w14",
+    "text": "pro",
+    "start": 4.412,
+    "end": 4.551
+  },
+  {
+    "id": "w15",
+    "text": "Claude.",
+    "start": 4.598,
+    "end": 5.039
+  }
+]

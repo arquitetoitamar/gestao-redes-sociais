@@ -1,0 +1,56 @@
+[
+  {
+    "id": "w0",
+    "text": "Você",
+    "start": 0,
+    "end": 0.348
+  },
+  {
+    "id": "w1",
+    "text": "ainda",
+    "start": 0.372,
+    "end": 0.569
+  },
+  {
+    "id": "w2",
+    "text": "paga",
+    "start": 0.627,
+    "end": 0.882
+  },
+  {
+    "id": "w3",
+    "text": "alguém",
+    "start": 0.906,
+    "end": 1.173
+  },
+  {
+    "id": "w4",
+    "text": "só",
+    "start": 1.242,
+    "end": 1.358
+  },
+  {
+    "id": "w5",
+    "text": "pra",
+    "start": 1.416,
+    "end": 1.533
+  },
+  {
+    "id": "w6",
+    "text": "emitir",
+    "start": 1.567,
+    "end": 1.892
+  },
+  {
+    "id": "w7",
+    "text": "nota",
+    "start": 1.916,
+    "end": 2.148
+  },
+  {
+    "id": "w8",
+    "text": "fiscal?",
+    "start": 2.194,
+    "end": 2.705
+  }
+]
