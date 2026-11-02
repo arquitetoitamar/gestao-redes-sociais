@@ -1,0 +1,8 @@
+trab/
+quadros/
+stills/
+*.mp4
+audio/*_raw.wav
+audio/narracao_full.wav
+audio/narr_norm.wav
+audio/mix_pre.wav
