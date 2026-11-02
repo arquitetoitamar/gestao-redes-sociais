@@ -4,6 +4,7 @@ Não depende do Mac ligado na hora de publicar.
 
   python3 agenda.py infra                      cria/atualiza segredo, papéis e a Lambda
   python3 agenda.py agenda <id> reel|imagem <arquivo> <legenda.md> "AAAA-MM-DD HH:MM" [capa_ms]
+  python3 agenda.py agenda <id> carrossel <pasta-com-JPEGs> <legenda.md> "AAAA-MM-DD HH:MM"
   python3 agenda.py lista                      agendamentos pendentes e resultados
   python3 agenda.py cancela <id>
 
@@ -92,10 +93,23 @@ def textos(md):
 def agenda(pid, tipo, arquivo, md, quando, capa=None):
     legenda, comentario = textos(md)
     assert len(legenda) <= 2200 and legenda.count('#') <= 30
-    key = 'temp/agendados/%s%s' % (pid, os.path.splitext(arquivo)[1])
-    s3.upload_file(arquivo, BUCKET, key, ExtraArgs={'ContentType': 'video/mp4' if tipo == 'reel' else 'image/jpeg'})
-    url = 'https://%s.s3.amazonaws.com/%s' % (BUCKET, key)
-    ev = {'id': pid, 'tipo': tipo, 'url': url, 'key': key, 'caption': legenda, 'comentario': comentario, 'apagar_midia': True}
+    if tipo == 'carrossel':
+        # arquivo = pasta com os slides em JPEG; a ordem é a ordem alfabética dos nomes
+        fotos = sorted(f for f in os.listdir(arquivo) if f.lower().endswith(('.jpg', '.jpeg')))
+        assert 2 <= len(fotos) <= 10, 'carrossel precisa de 2 a 10 JPEGs, achei %d' % len(fotos)
+        keys = []
+        for i, f in enumerate(fotos, 1):
+            k = 'temp/agendados/%s/%02d.jpg' % (pid, i)
+            s3.upload_file(os.path.join(arquivo, f), BUCKET, k, ExtraArgs={'ContentType': 'image/jpeg'})
+            keys.append(k)
+        urls = ['https://%s.s3.amazonaws.com/%s' % (BUCKET, k) for k in keys]
+        ev = {'id': pid, 'tipo': tipo, 'url': urls[0], 'urls': urls, 'keys': keys, 'caption': legenda,
+              'comentario': comentario, 'apagar_midia': True}
+    else:
+        key = 'temp/agendados/%s%s' % (pid, os.path.splitext(arquivo)[1])
+        s3.upload_file(arquivo, BUCKET, key, ExtraArgs={'ContentType': 'video/mp4' if tipo == 'reel' else 'image/jpeg'})
+        url = 'https://%s.s3.amazonaws.com/%s' % (BUCKET, key)
+        ev = {'id': pid, 'tipo': tipo, 'url': url, 'key': key, 'caption': legenda, 'comentario': comentario, 'apagar_midia': True}
     if capa is not None:
         ev['thumb_offset'] = int(capa)
     teste = json.loads(lam.invoke(FunctionName=FN, Payload=json.dumps(dict(ev, teste=True)).encode())['Payload'].read())

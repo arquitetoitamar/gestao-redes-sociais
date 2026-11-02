@@ -1,7 +1,8 @@
 """Publica um post agendado no Instagram (@tiopstecnologia) — Lambda tiops-ig-agendado.
 
 Chamada pelo EventBridge Scheduler na hora marcada, sem depender do Mac. Evento:
-  {"id": "reel-nfe-claude-20261031", "tipo": "reel"|"imagem", "url": "<mídia pública no S3>",
+  {"id": "reel-nfe-claude-20261031", "tipo": "reel"|"imagem"|"carrossel", "url": "<mídia pública no S3>",
+   "urls": [...] e "keys": [...] (só carrossel, JPEGs na ordem dos slides),
    "key": "temp/agendados/...", "caption": "...", "comentario": "...", "thumb_offset": 2500,
    "apagar_midia": true, "teste": false}
 Com "teste": true só confere o token e se a mídia está acessível; não publica nada.
@@ -54,11 +55,15 @@ def handler(event, context):
 
     if event.get('teste'):
         conta = http('GET', '%s/%s?%s' % (G, ig, urllib.parse.urlencode({'fields': 'username', 'access_token': tok})))
-        try:
-            with urllib.request.urlopen(urllib.request.Request(event['url'], method='HEAD'), timeout=30) as r:
-                midia = r.status
-        except urllib.error.HTTPError as e:
-            midia = e.code
+        midia = 200
+        for u in event.get('urls') or [event['url']]:
+            try:
+                with urllib.request.urlopen(urllib.request.Request(u, method='HEAD'), timeout=30) as r:
+                    status = r.status
+            except urllib.error.HTTPError as e:
+                status = e.code
+            if status != 200:
+                midia = status
         return {'conta': conta.get('username', conta), 'midia_http': midia, 'ja_rodou': ja_rodou(pid)}
 
     if ja_rodou(pid):
@@ -71,6 +76,14 @@ def handler(event, context):
             dados.update(media_type='REELS', video_url=event['url'], share_to_feed='true')
             if event.get('thumb_offset') is not None:
                 dados['thumb_offset'] = str(int(event['thumb_offset']))
+        elif event['tipo'] == 'carrossel':
+            filhos = []
+            for u in event['urls']:
+                f = http('POST', '%s/%s/media' % (G, ig), {'access_token': tok, 'image_url': u, 'is_carousel_item': 'true'})
+                if 'id' not in f:
+                    raise RuntimeError('slide recusado (%s): %s' % (u, f))
+                filhos.append(f['id'])
+            dados.update(media_type='CAROUSEL', children=','.join(filhos))
         else:
             dados['image_url'] = event['url']
         r = http('POST', '%s/%s/media' % (G, ig), dados)
@@ -95,8 +108,9 @@ def handler(event, context):
         if event.get('comentario'):
             c = http('POST', '%s/%s/comments' % (G, mid), {'message': event['comentario'], 'access_token': tok})
             res['comentario'] = c.get('id', c)
-        if event.get('apagar_midia') and event.get('key'):
-            S3.delete_object(Bucket=BUCKET, Key=event['key'])
+        if event.get('apagar_midia'):
+            for k in event.get('keys') or ([event['key']] if event.get('key') else []):
+                S3.delete_object(Bucket=BUCKET, Key=k)
         estado(pid, res)
         print(json.dumps(res))
         return res
