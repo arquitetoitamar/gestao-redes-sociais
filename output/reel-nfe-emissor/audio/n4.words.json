@@ -2,97 +2,97 @@
   {
     "id": "w0",
     "text": "E",
-    "start": 0,
-    "end": 0.209
+    "start": 0.256,
+    "end": 0.384
   },
   {
     "id": "w1",
     "text": "dá",
-    "start": 0.302,
-    "end": 0.43
+    "start": 0.427,
+    "end": 0.597
   },
   {
     "id": "w2",
     "text": "pra",
-    "start": 0.488,
-    "end": 0.604
+    "start": 0.64,
+    "end": 0.725
   },
   {
     "id": "w3",
     "text": "emitir",
-    "start": 0.627,
-    "end": 0.987
+    "start": 0.768,
+    "end": 0.981
   },
   {
     "id": "w4",
     "text": "pelo",
-    "start": 1.022,
-    "end": 1.207
+    "start": 1.024,
+    "end": 1.1947
   },
   {
     "id": "w5",
     "text": "painel,",
-    "start": 1.254,
-    "end": 1.707
+    "start": 1.237,
+    "end": 1.749
   },
   {
     "id": "w6",
     "text": "pela",
-    "start": 1.765,
-    "end": 1.985
+    "start": 1.877,
+    "end": 2.048
   },
   {
     "id": "w7",
     "text": "API",
-    "start": 2.009,
-    "end": 2.461
+    "start": 2.091,
+    "end": 2.475
   },
   {
     "id": "w8",
     "text": "ou",
-    "start": 2.554,
-    "end": 2.659
+    "start": 2.603,
+    "end": 2.9867
   },
   {
     "id": "w9",
     "text": "só",
-    "start": 2.728,
-    "end": 2.844
+    "start": 3.029,
+    "end": 3.2
   },
   {
     "id": "w10",
     "text": "pedindo",
-    "start": 2.914,
-    "end": 3.228
+    "start": 3.243,
+    "end": 3.4987
   },
   {
     "id": "w11",
     "text": "pro",
-    "start": 3.274,
-    "end": 3.402
+    "start": 3.541,
+    "end": 3.669
   },
   {
     "id": "w12",
     "text": "ChatGPT",
-    "start": 3.437,
-    "end": 4.168
+    "start": 3.712,
+    "end": 4.437
   },
   {
     "id": "w13",
     "text": "ou",
-    "start": 4.296,
-    "end": 4.354
+    "start": 4.608,
+    "end": 4.693
   },
   {
     "id": "w14",
     "text": "pro",
-    "start": 4.412,
-    "end": 4.551
+    "start": 4.736,
+    "end": 4.821
   },
   {
     "id": "w15",
     "text": "Claude.",
-    "start": 4.598,
-    "end": 5.039
+    "start": 4.864,
+    "end": 5.456825396825397
   }
 ]

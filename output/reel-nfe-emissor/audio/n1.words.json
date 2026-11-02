@@ -2,103 +2,103 @@
   {
     "id": "w0",
     "text": "Preencher",
-    "start": 0,
-    "end": 0.569
+    "start": 0.299,
+    "end": 0.725
   },
   {
     "id": "w1",
     "text": "campo,",
-    "start": 0.627,
-    "end": 1.08
+    "start": 0.768,
+    "end": 1.28
   },
   {
     "id": "w2",
     "text": "calcular",
-    "start": 1.138,
-    "end": 1.649
+    "start": 1.451,
+    "end": 1.749
   },
   {
     "id": "w3",
     "text": "imposto,",
-    "start": 1.695,
-    "end": 2.241
+    "start": 1.92,
+    "end": 2.581
   },
   {
     "id": "w4",
     "text": "mandar",
-    "start": 2.287,
-    "end": 2.566
+    "start": 2.773,
+    "end": 3.1147
   },
   {
     "id": "w5",
     "text": "XML",
-    "start": 2.612,
-    "end": 3.204
+    "start": 3.157,
+    "end": 3.7547
   },
   {
     "id": "w6",
     "text": "e",
-    "start": 3.32,
-    "end": 3.402
+    "start": 3.883,
+    "end": 4.1387
   },
   {
     "id": "w7",
     "text": "subir",
-    "start": 3.46,
-    "end": 3.727
+    "start": 4.181,
+    "end": 4.437
   },
   {
     "id": "w8",
     "text": "a",
-    "start": 3.773,
-    "end": 3.796
+    "start": 4.48,
+    "end": 4.565
   },
   {
     "id": "w9",
     "text": "nota",
-    "start": 3.855,
-    "end": 4.052
+    "start": 4.608,
+    "end": 4.7787
   },
   {
     "id": "w10",
     "text": "no",
-    "start": 4.087,
-    "end": 4.156
+    "start": 4.821,
+    "end": 4.9067
   },
   {
     "id": "w11",
     "text": "pedido.",
-    "start": 4.203,
-    "end": 4.621
+    "start": 4.949,
+    "end": 5.504
   },
   {
     "id": "w12",
     "text": "Todo",
-    "start": 4.911,
-    "end": 5.224
+    "start": 5.717,
+    "end": 5.9307
   },
   {
     "id": "w13",
     "text": "dia,",
-    "start": 5.294,
-    "end": 5.642
+    "start": 5.973,
+    "end": 6.293
   },
   {
     "id": "w14",
     "text": "a",
-    "start": 5.886,
-    "end": 5.944
+    "start": 6.4,
+    "end": 6.4427
   },
   {
     "id": "w15",
     "text": "mesma",
-    "start": 6.002,
-    "end": 6.304
+    "start": 6.485,
+    "end": 6.741
   },
   {
     "id": "w16",
     "text": "coisa.",
-    "start": 6.362,
-    "end": 6.769
+    "start": 6.784,
+    "end": 7.249750566893424
   }
 ]

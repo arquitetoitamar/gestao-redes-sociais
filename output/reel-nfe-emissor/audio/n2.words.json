@@ -2,127 +2,127 @@
   {
     "id": "w0",
     "text": "No",
-    "start": 0,
-    "end": 0.255
+    "start": 0.256,
+    "end": 0.469
   },
   {
     "id": "w1",
     "text": "Emissor",
-    "start": 0.29,
-    "end": 0.557
+    "start": 0.512,
+    "end": 0.725
   },
   {
     "id": "w2",
     "text": "da",
-    "start": 0.615,
-    "end": 0.685
+    "start": 0.768,
+    "end": 0.853
   },
   {
     "id": "w3",
     "text": "Tiops,",
-    "start": 0.743,
-    "end": 1.068
+    "start": 0.896,
+    "end": 1.323
   },
   {
     "id": "w4",
     "text": "a",
-    "start": 1.138,
-    "end": 1.173
+    "start": 1.536,
+    "end": 1.7067
   },
   {
     "id": "w5",
     "text": "venda",
-    "start": 1.231,
-    "end": 1.451
+    "start": 1.749,
+    "end": 1.9627
   },
   {
     "id": "w6",
     "text": "vira",
-    "start": 1.498,
-    "end": 1.683
+    "start": 2.005,
+    "end": 2.133
   },
   {
     "id": "w7",
     "text": "nota",
-    "start": 1.753,
-    "end": 1.985
+    "start": 2.219,
+    "end": 2.432
   },
   {
     "id": "w8",
     "text": "em",
-    "start": 2.009,
-    "end": 2.055
+    "start": 2.475,
+    "end": 2.517
   },
   {
     "id": "w9",
     "text": "segundos.",
-    "start": 2.113,
-    "end": 2.577
+    "start": 2.56,
+    "end": 3.285
   },
   {
     "id": "w10",
     "text": "Ele",
-    "start": 2.868,
-    "end": 3.053
+    "start": 3.499,
+    "end": 3.6267
   },
   {
     "id": "w11",
     "text": "calcula",
-    "start": 3.088,
-    "end": 3.495
+    "start": 3.712,
+    "end": 4.1387
   },
   {
     "id": "w12",
     "text": "CFOP,",
-    "start": 3.541,
-    "end": 4.18
+    "start": 4.224,
+    "end": 4.949
   },
   {
     "id": "w13",
     "text": "ICMS",
-    "start": 4.505,
-    "end": 5.248
+    "start": 5.077,
+    "end": 5.973
   },
   {
     "id": "w14",
     "text": "e",
-    "start": 5.306,
-    "end": 5.329
+    "start": 6.144,
+    "end": 6.272
   },
   {
     "id": "w15",
     "text": "DIFAL",
-    "start": 5.375,
-    "end": 5.793
+    "start": 6.315,
+    "end": 6.656
   },
   {
     "id": "w16",
     "text": "e",
-    "start": 5.851,
-    "end": 5.933
+    "start": 6.741,
+    "end": 7.0827
   },
   {
     "id": "w17",
     "text": "manda",
-    "start": 5.991,
-    "end": 6.188
+    "start": 7.125,
+    "end": 7.253
   },
   {
     "id": "w18",
     "text": "direto",
-    "start": 6.235,
-    "end": 6.502
+    "start": 7.296,
+    "end": 7.5947
   },
   {
     "id": "w19",
     "text": "pra",
-    "start": 6.536,
-    "end": 6.653
+    "start": 7.68,
+    "end": 7.808
   },
   {
     "id": "w20",
     "text": "SEFAZ.",
-    "start": 6.699,
-    "end": 7.129
+    "start": 7.808,
+    "end": 8.374
   }
 ]

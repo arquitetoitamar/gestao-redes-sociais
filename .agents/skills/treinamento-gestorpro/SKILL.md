@@ -28,7 +28,7 @@ Defina `S=.agents/skills/treinamento-gestorpro` e `A=output/aula-gestorpro-<tema
 1. **Pasta**: `mkdir -p $A/{capturas,trab,videos}`; `.gitignore` com `videos/ trab/ capturas/ *.mp4 *.wav`;
    copie `$S/modelo/roteiro.py` e escreva `$A/narracao.md` (uma seção por `## N. Título`, fala corrida,
    primeira pessoa, frases curtas; ~5 a 8 min no total). Preencha `AULA` e `CAPITULOS` no roteiro.
-2. **Avatar e voz** (HeyGen, gêmeo digital `fcd7fefe…` + voz "nova voz" `8bed0b17…`):
+2. **Avatar e voz** (HeyGen, gêmeo digital `fcd7fefe…` + voz "Itamar natural nov26" (voz oficial desde 02/11/2026) `c463ef5b…`):
    `python3 $S/motor/heygen.py $A saldo` → custo ≈ US$ 0,62/min (avatar_iii; a aula de 6 min custou US$ 3,71).
    Avise o custo, depois `heygen.py $A cria todas` e `heygen.py $A espera` (repita até todas prontas;
    baixa `videos/av-N.mp4` e grava o tempo por palavra em `trab/pal-N.json`). Carteira zerada → peça recarga

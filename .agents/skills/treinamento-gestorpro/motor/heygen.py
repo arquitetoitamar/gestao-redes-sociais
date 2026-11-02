@@ -13,7 +13,7 @@ REPO = os.path.expanduser('~/git/gestao-redes-sociais')
 WHISPER = os.path.expanduser('~/.cache/whisper-cpp/ggml-large-v3-turbo-q5_0.bin')
 EST = os.path.join(AQUI, 'trab', 'heygen.json')
 AVATAR = 'fcd7fefe06494ca9802154d07e4d4cd7'
-VOZ = '8bed0b172a10497cb244a2bd4fb73503'
+VOZ = 'c463ef5bf11146d49bf754fa1e515401'
 
 
 def chave():

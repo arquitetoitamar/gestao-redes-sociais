@@ -1,0 +1,128 @@
+[
+  {
+    "id": "w0",
+    "text": "No",
+    "start": 0,
+    "end": 0.255
+  },
+  {
+    "id": "w1",
+    "text": "Emissor",
+    "start": 0.29,
+    "end": 0.557
+  },
+  {
+    "id": "w2",
+    "text": "da",
+    "start": 0.615,
+    "end": 0.685
+  },
+  {
+    "id": "w3",
+    "text": "Tiops,",
+    "start": 0.743,
+    "end": 1.068
+  },
+  {
+    "id": "w4",
+    "text": "a",
+    "start": 1.138,
+    "end": 1.173
+  },
+  {
+    "id": "w5",
+    "text": "venda",
+    "start": 1.231,
+    "end": 1.451
+  },
+  {
+    "id": "w6",
+    "text": "vira",
+    "start": 1.498,
+    "end": 1.683
+  },
+  {
+    "id": "w7",
+    "text": "nota",
+    "start": 1.753,
+    "end": 1.985
+  },
+  {
+    "id": "w8",
+    "text": "em",
+    "start": 2.009,
+    "end": 2.055
+  },
+  {
+    "id": "w9",
+    "text": "segundos.",
+    "start": 2.113,
+    "end": 2.577
+  },
+  {
+    "id": "w10",
+    "text": "Ele",
+    "start": 2.868,
+    "end": 3.053
+  },
+  {
+    "id": "w11",
+    "text": "calcula",
+    "start": 3.088,
+    "end": 3.495
+  },
+  {
+    "id": "w12",
+    "text": "CFOP,",
+    "start": 3.541,
+    "end": 4.18
+  },
+  {
+    "id": "w13",
+    "text": "ICMS",
+    "start": 4.505,
+    "end": 5.248
+  },
+  {
+    "id": "w14",
+    "text": "e",
+    "start": 5.306,
+    "end": 5.329
+  },
+  {
+    "id": "w15",
+    "text": "DIFAL",
+    "start": 5.375,
+    "end": 5.793
+  },
+  {
+    "id": "w16",
+    "text": "e",
+    "start": 5.851,
+    "end": 5.933
+  },
+  {
+    "id": "w17",
+    "text": "manda",
+    "start": 5.991,
+    "end": 6.188
+  },
+  {
+    "id": "w18",
+    "text": "direto",
+    "start": 6.235,
+    "end": 6.502
+  },
+  {
+    "id": "w19",
+    "text": "pra",
+    "start": 6.536,
+    "end": 6.653
+  },
+  {
+    "id": "w20",
+    "text": "SEFAZ.",
+    "start": 6.699,
+    "end": 7.129
+  }
+]

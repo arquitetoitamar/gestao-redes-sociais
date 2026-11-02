@@ -2,85 +2,85 @@
   {
     "id": "w0",
     "text": "Testar",
-    "start": 0,
-    "end": 0.522
+    "start": 0.299,
+    "end": 0.6827
   },
   {
     "id": "w1",
     "text": "é",
-    "start": 0.58,
-    "end": 0.604
+    "start": 0.811,
+    "end": 1.024
   },
   {
     "id": "w2",
     "text": "grátis",
-    "start": 0.662,
-    "end": 1.045
+    "start": 1.067,
+    "end": 1.536
   },
   {
     "id": "w3",
     "text": "e",
-    "start": 1.103,
-    "end": 1.126
+    "start": 1.664,
+    "end": 1.92
   },
   {
     "id": "w4",
     "text": "sem",
-    "start": 1.184,
-    "end": 1.312
+    "start": 1.963,
+    "end": 2.2187
   },
   {
     "id": "w5",
     "text": "cartão.",
-    "start": 1.358,
-    "end": 1.765
+    "start": 2.261,
+    "end": 2.859
   },
   {
     "id": "w6",
     "text": "Comenta",
-    "start": 1.881,
-    "end": 2.264
+    "start": 3.072,
+    "end": 3.456
   },
   {
     "id": "w7",
     "text": "NOTA",
-    "start": 2.334,
-    "end": 2.577
+    "start": 3.541,
+    "end": 3.925
   },
   {
     "id": "w8",
     "text": "que",
-    "start": 2.624,
-    "end": 2.694
+    "start": 4.096,
+    "end": 4.139
   },
   {
     "id": "w9",
     "text": "eu",
-    "start": 2.717,
-    "end": 2.775
+    "start": 4.181,
+    "end": 4.267
   },
   {
     "id": "w10",
     "text": "te",
-    "start": 2.81,
-    "end": 2.902
+    "start": 4.309,
+    "end": 4.352
   },
   {
     "id": "w11",
     "text": "mando",
-    "start": 2.961,
-    "end": 3.181
+    "start": 4.48,
+    "end": 4.693
   },
   {
     "id": "w12",
     "text": "o",
-    "start": 3.204,
-    "end": 3.228
+    "start": 4.736,
+    "end": 4.7787
   },
   {
     "id": "w13",
     "text": "link.",
-    "start": 3.262,
-    "end": 3.518
+    "start": 4.821,
+    "end": 5.044761904761905
   }
 ]

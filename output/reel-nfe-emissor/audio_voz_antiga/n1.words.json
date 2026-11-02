@@ -1,0 +1,104 @@
+[
+  {
+    "id": "w0",
+    "text": "Preencher",
+    "start": 0,
+    "end": 0.569
+  },
+  {
+    "id": "w1",
+    "text": "campo,",
+    "start": 0.627,
+    "end": 1.08
+  },
+  {
+    "id": "w2",
+    "text": "calcular",
+    "start": 1.138,
+    "end": 1.649
+  },
+  {
+    "id": "w3",
+    "text": "imposto,",
+    "start": 1.695,
+    "end": 2.241
+  },
+  {
+    "id": "w4",
+    "text": "mandar",
+    "start": 2.287,
+    "end": 2.566
+  },
+  {
+    "id": "w5",
+    "text": "XML",
+    "start": 2.612,
+    "end": 3.204
+  },
+  {
+    "id": "w6",
+    "text": "e",
+    "start": 3.32,
+    "end": 3.402
+  },
+  {
+    "id": "w7",
+    "text": "subir",
+    "start": 3.46,
+    "end": 3.727
+  },
+  {
+    "id": "w8",
+    "text": "a",
+    "start": 3.773,
+    "end": 3.796
+  },
+  {
+    "id": "w9",
+    "text": "nota",
+    "start": 3.855,
+    "end": 4.052
+  },
+  {
+    "id": "w10",
+    "text": "no",
+    "start": 4.087,
+    "end": 4.156
+  },
+  {
+    "id": "w11",
+    "text": "pedido.",
+    "start": 4.203,
+    "end": 4.621
+  },
+  {
+    "id": "w12",
+    "text": "Todo",
+    "start": 4.911,
+    "end": 5.224
+  },
+  {
+    "id": "w13",
+    "text": "dia,",
+    "start": 5.294,
+    "end": 5.642
+  },
+  {
+    "id": "w14",
+    "text": "a",
+    "start": 5.886,
+    "end": 5.944
+  },
+  {
+    "id": "w15",
+    "text": "mesma",
+    "start": 6.002,
+    "end": 6.304
+  },
+  {
+    "id": "w16",
+    "text": "coisa.",
+    "start": 6.362,
+    "end": 6.769
+  }
+]

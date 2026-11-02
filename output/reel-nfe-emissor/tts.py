@@ -1,7 +1,7 @@
 """Narração com a voz clonada do Itamar na HeyGen ("nova voz"), uma fala por arquivo.
 uso: python3 tts.py [ids...]   -> audio/<id>.wav (48 kHz, sem silêncio nas pontas) + audio/<id>.words.json"""
 import json, os, subprocess, sys
-VOZ = '8bed0b172a10497cb244a2bd4fb73503'
+VOZ = 'c463ef5bf11146d49bf754fa1e515401'
 TTS = os.path.expanduser('~/git/gestao-redes-sociais/.agents/skills/media-use/audio/scripts/heygen-tts.mjs')
 env = dict(os.environ)
 for l in open(os.path.expanduser('~/git/gestao-redes-sociais/.env')):
