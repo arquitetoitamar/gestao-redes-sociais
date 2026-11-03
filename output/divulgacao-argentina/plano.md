@@ -1,4 +1,4 @@
-# Plano de divulgação na Argentina: Instagram, YouTube e Meta Ads
+# Plano de divulgação na Argentina e no México: Instagram, YouTube e Meta Ads
 
 **Data:** 03/11/2026 · Pedido do Itamar, também encaminhado pela sessão DEV-MC.
 Base: `meli-oauth-buddy/docs/tech/2026-11-03-plano-expansao-america-do-sul.md` e
@@ -74,6 +74,75 @@ Instagram (você já segue o perfil):
 Consultor certificado que atende Platinum pode usar o Marketplace Connect como
 infraestrutura. Ele pode recusar, porque tem produto próprio (TRAID), mas uma
 DM sua de fundador para fundador custa pouco. Só com o seu OK.
+
+## México (liberado no código em 03/11)
+
+**Situação:**
+
+- `_shared/meli-paises.ts` já tem `MLM: "MX"`: mesmo app, login no domínio do
+  país.
+- O México é o maior Mercado Libre depois do Brasil.
+- Com AR e MX, o plano vale para os dois e ganha estas mudanças.
+
+### Idioma: base em espanhol neutro com "tú"
+
+- Mexicano não fala "vos". "Conectá" soa argentino para ele.
+- A base passa a ser espanhol neutro com "tú", que serve ao México e à onda 1
+  (Chile, Colômbia, Peru).
+- O "vos" fica só nas versões da Argentina: anúncio AR e narração e legenda AR.
+- **Gravação de tela:** uma vez só, com o pedido à IA em espanhol neutro ("lista
+  mis publicaciones sin stock").
+- **Narração e texto na tela:** duas versões, `-ar` (vos) e `-mx` (tú). A
+  narração por TTS custa centavos.
+- **Vocabulário MX:** "meses sin intereses" (AR: "cuotas sin interés"), Buen
+  Fin, "Mercado Envíos Full".
+
+### Datas do México
+
+| Data | Evento | Peça |
+|---|---|---|
+| 13 a 17/11 (sex a ter; 16/11 é feriado) | **Buen Fin** | **R4-MX "Buen Fin: revisa tu tienda antes"**, publicar até qua 11/11 |
+| 27/11 | Black Friday | R4 e L3 servem aos dois países |
+
+**Horário:** Cidade do México é UTC-6, então 18h lá = 21h em Brasília. O
+orgânico para o México sai das 18h às 20h no horário deles. O anúncio a Meta
+entrega no fuso de quem vê.
+
+### Concorrência no México (busca em 03/11)
+
+- Só servidores MCP técnicos:
+  - comunitário (lumile/mercadolibre-mcp, instala por `npx` e pede `SITE_ID`);
+  - AnythingMCP (cola credenciais);
+  - Vinkius (só pedidos).
+- Nenhum é pensado para o vendedor comum.
+- **Mensagem:** "Sin instalar nada y sin credenciales de desarrollador: una
+  autorización y tu IA ya opera tu tienda."
+- **Não dizer** que somos "el único" ou "el oficial".
+
+### Canal
+
+- Com o México, o perfil próprio em espanhol (`@tiops.latam`, com "tú") fica
+  mais justificado, porque a audiência potencial dobra.
+- Mesmas condições da etapa 2 (seção 1).
+- O YouTube continua no mesmo canal, com os vídeos longos em espanhol neutro:
+  a busca serve aos dois países.
+
+### Outros canais no México
+
+- Amazon MX, TikTok Shop MX e Shein MX existem.
+- **Não prometer** antes de testar conta mexicana em cada um. O plano de
+  expansão marca "médio" nos outros canais.
+- No conteúdo do México, só Mercado Libre por enquanto.
+
+### Pendências para o México
+
+| Item | Quem |
+|---|---|
+| Página em espanhol para o México (`/es/mercado-libre-mexico-ia.html`, hreflang `es-MX`, "tú") | DEV-MC |
+| A landing em espanhol usa "vos" ("conectá"). Mexicano lê como argentino: criar variante `es-MX` ou neutra | DEV-MC |
+| Usuário de teste MLM conectado + publicações em MXN para as demos | DEV-MC |
+| Slug `mx` → página MX (até ela existir, a landing) | esta sessão, com OK |
+| Moeda e cobrança: o primeiro cartão mexicano no Stripe em BRL ainda não foi testado | Itamar |
 
 ## 1. Canal: mesma conta ou perfil próprio em espanhol?
 
@@ -358,6 +427,28 @@ pré-paga `1322329366662228`; recarga pede o seu 2FA.
 
 **4. Revisar → Publicar.** Só com o seu OK, porque é gasto.
 
+### México: segundo conjunto de anúncios
+
+Pode ficar na mesma campanha: `MX | Trafego | Connect | nov26`.
+
+- **Localização:** México, opção "Pessoas que moram neste local".
+- **Idade:** 25–55. **Idioma:** espanhol.
+- **Interesses:** os mesmos, trocando Tiendanube por Mercado Libre México e
+  e-commerce.
+- **Orçamento:** R$ 30/dia por 14 dias = R$ 420 (o mesmo da AR, para comparar
+  os países).
+- **Vídeo:** versão `-mx` do R1.
+- **Texto principal:** "Tu IA ya puede operar tu tienda de Mercado Libre: lista
+  tus publicaciones, ajusta precios y pausa lo que no tiene stock, todo desde
+  una conversación con ChatGPT o Claude."
+- **Título:** "Conecta tu Mercado Libre a tu IA". **Botão:** Más información.
+- **URL:** `https://l.tiops.com.br/mx?o=meta-mx`.
+- **Mesma regra de parada da Argentina**, contando lojas com
+  `site_id = MLM`.
+
+**Total dos dois testes: R$ 840 em 14 dias.** Se quiser gastar menos, roda AR
+primeiro e o México só depois do checkpoint do dia 5.
+
 ### Métricas e regra de parada
 
 - **Métrica de sucesso (a que importa):** lojas MLA novas conectadas no
@@ -450,3 +541,6 @@ O que achamos (03/11/2026):
    pago depois de 14/11).
 6. Mandar DM ao @ignaciooleo propondo parceria, ou tratá-lo só como
    concorrente.
+7. México em paralelo com a Argentina (R$ 840 no total) ou depois do
+   checkpoint da Argentina.
+8. Produzir a peça do Buen Fin para o México até 11/11.
