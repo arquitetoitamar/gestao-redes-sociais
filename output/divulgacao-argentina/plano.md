@@ -138,11 +138,11 @@ entrega no fuso de quem vê.
 
 | Item | Quem |
 |---|---|
-| Página em espanhol para o México (`/es/mercado-libre-mexico-ia.html`, "tú", hreflang es-MX ↔ es-AR ↔ pt-BR): **aprovada, PR #497, sai antes de 10/11** | DEV-MC |
+| Página em espanhol para o México (`/es/mercado-libre-mexico-ia.html`, "tú", hreflang es-MX ↔ es-AR ↔ pt-BR): **no ar desde 03/11**: 200 sem redirecionar, "tú" conferido no texto (conecta, puedes), hreflang es-MX/es-AR/pt-BR | DEV-MC |
 | Espanhol do site: **decidido em 03/11 que o padrão é neutro com "tú"** para os 19 países (conversão do `es.ts` em andamento). Só a página da Argentina mantém "vos" | DEV-MC |
 | Usuário de teste MLM conectado + publicações em MXN para as demos: **criado `3813915584` em 03/11**; falta autorizar e criar as publicações | DEV-MC |
 | Login `auth.mercadolibre.com.mx`, card Brasil/Argentina/México, tag `mexico` no CRM (PR #496, a caminho do ar) | DEV-MC |
-| Slug `mx` → `/es/mercado-libre-mexico-ia.html` quando o #497 publicar | esta sessão, com OK |
+| Slug `mx` → `/es/mercado-libre-mexico-ia.html` (página já no ar) | esta sessão, com OK |
 | Moeda e cobrança: o primeiro cartão mexicano no Stripe em BRL ainda não foi testado | Itamar |
 
 ## 1. Canal: mesma conta ou perfil próprio em espanhol?
