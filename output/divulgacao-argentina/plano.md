@@ -138,11 +138,11 @@ entrega no fuso de quem vê.
 
 | Item | Quem |
 |---|---|
-| Página em espanhol para o México (`/es/mercado-libre-mexico-ia.html`, hreflang `es-MX`, "tú") | DEV-MC |
-| A landing em espanhol usa "vos" ("conectá"). Mexicano lê como argentino: criar variante `es-MX` ou neutra | DEV-MC |
+| Página em espanhol para o México (`/es/mercado-libre-mexico-ia.html`, "tú", hreflang es-MX ↔ es-AR ↔ pt-BR): **aprovada, PR #497, sai antes de 10/11** | DEV-MC |
+| Espanhol do site: **decidido em 03/11 que o padrão é neutro com "tú"** para os 19 países (conversão do `es.ts` em andamento). Só a página da Argentina mantém "vos" | DEV-MC |
 | Usuário de teste MLM conectado + publicações em MXN para as demos: **criado `3813915584` em 03/11**; falta autorizar e criar as publicações | DEV-MC |
 | Login `auth.mercadolibre.com.mx`, card Brasil/Argentina/México, tag `mexico` no CRM (PR #496, a caminho do ar) | DEV-MC |
-| Slug `mx` → página MX (até ela existir, a landing) | esta sessão, com OK |
+| Slug `mx` → `/es/mercado-libre-mexico-ia.html` quando o #497 publicar | esta sessão, com OK |
 | Moeda e cobrança: o primeiro cartão mexicano no Stripe em BRL ainda não foi testado | Itamar |
 
 ## 1. Canal: mesma conta ou perfil próprio em espanhol?
@@ -191,7 +191,12 @@ entrega no fuso de quem vê.
   depois de cada vídeo.
 - Canal separado só se o espanhol virar metade da produção.
 
-## 2. Pilares de conteúdo (espanhol rioplatense, "vos")
+## 2. Pilares de conteúdo
+
+**Regra de idioma (decisão de 03/11):** espanhol neutro com "tú" no México e
+no conteúdo geral (YouTube, perfil em espanhol). "Vos" só no conteúdo
+exclusivo da Argentina (anúncio AR, versão `-ar`). Os exemplos abaixo estão em
+"vos" porque nasceram para a Argentina; a versão `-mx` troca para "tú".
 
 | Pilar | Mensagem | Por quê |
 |---|---|---|
@@ -323,7 +328,8 @@ entrega no fuso de quem vê.
 
 - **Gancho:** "Así conectás tu Mercado Libre a ChatGPT o Claude."
 - **Roteiro:**
-  - Card "Mercado Libre Argentina".
+  - Caminho na tela nova (PR #496): Conectar → Mercado Livre → Argentina (ou
+    México).
   - Autorizar.
   - Primeira pergunta à IA.
 - **Quando:** só depois que cadastro e autorização estiverem em espanhol.
@@ -352,7 +358,7 @@ entrega no fuso de quem vê.
 **L1 · Cómo conectar Mercado Libre con ChatGPT y Claude (paso a paso)** (8–12 min)
 
 - Feito para a busca.
-- **Capítulos:** qué es MCP · crear cuenta · autorizar Mercado Libre Argentina ·
+- **Capítulos:** qué es MCP · crear cuenta · Conectar → Mercado Livre → país ·
   conectar en Claude · conectar en ChatGPT · primeras 5 preguntas.
 - **Quando:** depois do espanhol no cadastro. Até lá, gravar com legenda
   explicando a tela em português.
