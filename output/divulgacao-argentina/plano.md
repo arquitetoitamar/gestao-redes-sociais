@@ -75,6 +75,54 @@ Consultor certificado que atende Platinum pode usar o Marketplace Connect como
 infraestrutura. Ele pode recusar, porque tem produto próprio (TRAID), mas uma
 DM sua de fundador para fundador custa pouco. Só com o seu OK.
 
+## Concorrente 2: VBI Consultora (Candela Vaccari)
+
+O Itamar achou em 03/11. Página: `vbiconsultora.com/mcp-mercadolibre`, lida
+em 03/11.
+
+- **Oferta:**
+  - "MCP de Mercado Libre gratis", só com o Claude, falando em castelhano;
+  - "se conecta en 3 minutos · funciona con el plan gratuito de Claude";
+  - atende Argentina, Uruguai, México e Chile.
+- **Teste grátis:** 300 operações por mês ("60 a 100 preguntas"), renovando
+  no dia 1. Para uso diário: "escribime y lo ampliamos".
+- **Isca:**
+  - guia grátis por e-mail, num formulário com nome, WhatsApp e e-mail;
+  - o carrossel que o Itamar mandou ("¿Y si tu Mercado Libre te respondiera?
+    · 5 preguntas… · Guardá esta guía") segue a mesma linha.
+- **O que faz:**
+  - reputação e termômetro;
+  - publicações e estoque;
+  - dinheiro (faturamento, ticket, quanto sobra depois de comissão e frete);
+  - envios do dia;
+  - perguntas e visitas;
+  - mudanças com aprovação (estoque, preço, pausar, ativar, responder).
+- **O que ela mesma diz que ainda não faz:**
+  - Mercado Ads (gasto, ROAS, ACOS);
+  - publicar produto novo;
+  - mensagens de pós-venda.
+
+### Onde nos diferenciamos
+
+Só usar depois de testar no usuário de teste MLA/MLM:
+
+- **Claude e ChatGPT** (ela: só Claude).
+- **Publicar produto novo, Mercado Ads e pós-venda:** as três lacunas que ela
+  assume. Temos as ferramentas (`create_item`, `ml_ads_*`, `ml_messages_*`).
+  Confirmar que funcionam no MLA e no MLM antes de prometer.
+- **Produto, não consultoria:** sem "escribime para ampliar".
+- **Não comparar preço:** o nosso para AR/MX ainda não está decidido.
+
+### O que copiar do formato
+
+- Página com exemplos de perguntas reais ("¿Qué tengo que despachar hoy?").
+- Seção honesta "lo que todavía no hace".
+- Isca salvável ("Guardá esta guía").
+
+Os dois concorrentes (Ignacio e VBI) usam isca com guia ou vídeo em troca de
+contato. Isso reforça a prioridade do ManyChat em espanhol e de uma guia
+própria.
+
 ## México (liberado no código em 03/11)
 
 **Situação:**

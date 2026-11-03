@@ -1,0 +1,70 @@
+[
+ {
+  "id": "n0",
+  "txt": "Usás la IA para preguntar sobre tu tienda. ¿Y si ella operara tu tienda?",
+  "cues": {
+   "pivot": "¿Y si",
+   "opera": "operara"
+  }
+ },
+ {
+  "id": "n1",
+  "txt": "Hoy es abrir Mercado Libre: publicaciones, preguntas, ventas, stock... y cuando te das cuenta, ya es mediodía.",
+  "cues": {
+   "t0": "Mercado Libre",
+   "t1": "publicaciones",
+   "t2": "preguntas",
+   "t3": "ventas",
+   "quando": "y cuando",
+   "meio": "mediodía"
+  }
+ },
+ {
+  "id": "n2",
+  "txt": "Marketplace Connect conecta Claude o ChatGPT directo a tu cuenta de Mercado Libre. Una autorización, sin código.",
+  "cues": {
+   "mc": "Marketplace Connect",
+   "claude": "Claude",
+   "gpt": "ChatGPT",
+   "contas": "tu cuenta",
+   "clique": "Una autorización",
+   "codigo": "sin código"
+  }
+ },
+ {
+  "id": "n3",
+  "txt": "Le pedís en español, y te responde con los datos reales de tu cuenta.",
+  "cues": {
+   "idioma": "en español",
+   "responde": "y te responde",
+   "dado": "datos reales",
+   "conta": "de tu cuenta"
+  }
+ },
+ {
+  "id": "n4",
+  "txt": "Y nada cambia sin vos: la IA prepara, vos aprobás, y ella ejecuta.",
+  "cues": {
+   "muda": "nada cambia",
+   "prepara": "prepara",
+   "aprova": "vos aprobás",
+   "executa": "ejecuta"
+  }
+ },
+ {
+  "id": "n6",
+  "txt": "Ya está disponible en Mercado Libre Argentina y México. Autorizás tu cuenta, pegás una dirección, y listo.",
+  "cues": {
+   "disp": "Argentina y México",
+   "passos": "Autorizás"
+  }
+ },
+ {
+  "id": "n7",
+  "txt": "Tocá en Más información y conectá tu Mercado Libre.",
+  "cues": {
+   "cta": "Más información",
+   "link": "conectá"
+  }
+ }
+]

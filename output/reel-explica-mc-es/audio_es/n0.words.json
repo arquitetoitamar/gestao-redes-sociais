@@ -1,0 +1,86 @@
+[
+ {
+  "id": "w0",
+  "text": "Usas",
+  "start": 0,
+  "end": 0.237
+ },
+ {
+  "id": "w1",
+  "text": "la",
+  "start": 0.28,
+  "end": 0.408
+ },
+ {
+  "id": "w2",
+  "text": "IA",
+  "start": 0.451,
+  "end": 0.664
+ },
+ {
+  "id": "w3",
+  "text": "para",
+  "start": 0.835,
+  "end": 1.048
+ },
+ {
+  "id": "w4",
+  "text": "preguntar",
+  "start": 1.091,
+  "end": 1.475
+ },
+ {
+  "id": "w5",
+  "text": "sobre",
+  "start": 1.518,
+  "end": 1.731
+ },
+ {
+  "id": "w6",
+  "text": "tu",
+  "start": 1.774,
+  "end": 1.901
+ },
+ {
+  "id": "w7",
+  "text": "tienda.",
+  "start": 1.944,
+  "end": 2.428
+ },
+ {
+  "id": "w8",
+  "text": "¿Y",
+  "start": 2.613,
+  "end": 2.84
+ },
+ {
+  "id": "w9",
+  "text": "si",
+  "start": 2.883,
+  "end": 3.011
+ },
+ {
+  "id": "w10",
+  "text": "ella",
+  "start": 3.054,
+  "end": 3.224
+ },
+ {
+  "id": "w11",
+  "text": "operara",
+  "start": 3.267,
+  "end": 3.565
+ },
+ {
+  "id": "w12",
+  "text": "tu",
+  "start": 3.651,
+  "end": 3.736
+ },
+ {
+  "id": "w13",
+  "text": "tienda?",
+  "start": 3.779,
+  "end": 4.135
+ }
+]

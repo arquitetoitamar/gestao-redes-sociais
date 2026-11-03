@@ -1,0 +1,86 @@
+[
+ {
+  "id": "w0",
+  "text": "Le",
+  "start": 0,
+  "end": 0.126
+ },
+ {
+  "id": "w1",
+  "text": "pedís",
+  "start": 0.169,
+  "end": 0.382
+ },
+ {
+  "id": "w2",
+  "text": "en",
+  "start": 0.425,
+  "end": 0.468
+ },
+ {
+  "id": "w3",
+  "text": "español,",
+  "start": 0.511,
+  "end": 1.108
+ },
+ {
+  "id": "w4",
+  "text": "y",
+  "start": 1.321,
+  "end": 1.492
+ },
+ {
+  "id": "w5",
+  "text": "te",
+  "start": 1.535,
+  "end": 1.62
+ },
+ {
+  "id": "w6",
+  "text": "responde",
+  "start": 1.663,
+  "end": 1.961
+ },
+ {
+  "id": "w7",
+  "text": "con",
+  "start": 2.047,
+  "end": 2.132
+ },
+ {
+  "id": "w8",
+  "text": "los",
+  "start": 2.175,
+  "end": 2.26
+ },
+ {
+  "id": "w9",
+  "text": "datos",
+  "start": 2.303,
+  "end": 2.558
+ },
+ {
+  "id": "w10",
+  "text": "reales",
+  "start": 2.601,
+  "end": 2.857
+ },
+ {
+  "id": "w11",
+  "text": "de",
+  "start": 2.943,
+  "end": 2.985
+ },
+ {
+  "id": "w12",
+  "text": "tu",
+  "start": 3.028,
+  "end": 3.113
+ },
+ {
+  "id": "w13",
+  "text": "cuenta.",
+  "start": 3.156,
+  "end": 3.514
+ }
+]

@@ -1,0 +1,56 @@
+[
+ {
+  "id": "w0",
+  "text": "Tocá",
+  "start": 0,
+  "end": 0.258
+ },
+ {
+  "id": "w1",
+  "text": "en",
+  "start": 0.301,
+  "end": 0.343
+ },
+ {
+  "id": "w2",
+  "text": "Más",
+  "start": 0.386,
+  "end": 0.514
+ },
+ {
+  "id": "w3",
+  "text": "información",
+  "start": 0.557,
+  "end": 1.197
+ },
+ {
+  "id": "w4",
+  "text": "y",
+  "start": 1.325,
+  "end": 1.581
+ },
+ {
+  "id": "w5",
+  "text": "conectá",
+  "start": 1.624,
+  "end": 2.093
+ },
+ {
+  "id": "w6",
+  "text": "tu",
+  "start": 2.349,
+  "end": 2.519
+ },
+ {
+  "id": "w7",
+  "text": "Mercado",
+  "start": 2.562,
+  "end": 2.903
+ },
+ {
+  "id": "w8",
+  "text": "Libre.",
+  "start": 2.946,
+  "end": 3.219
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "id": "w0",
+  "text": "Conecta",
+  "start": 0,
+  "end": 0.418
+ },
+ {
+  "id": "w1",
+  "text": "tu",
+  "start": 0.461,
+  "end": 0.546
+ },
+ {
+  "id": "w2",
+  "text": "Mercado",
+  "start": 0.589,
+  "end": 0.973
+ },
+ {
+  "id": "w3",
+  "text": "Libre:",
+  "start": 1.015,
+  "end": 1.378
+ },
+ {
+  "id": "w4",
+  "text": "el",
+  "start": 1.485,
+  "end": 1.826
+ },
+ {
+  "id": "w5",
+  "text": "link",
+  "start": 1.869,
+  "end": 2.039
+ },
+ {
+  "id": "w6",
+  "text": "está",
+  "start": 2.167,
+  "end": 2.338
+ },
+ {
+  "id": "w7",
+  "text": "en",
+  "start": 2.381,
+  "end": 2.423
+ },
+ {
+  "id": "w8",
+  "text": "la",
+  "start": 2.466,
+  "end": 2.509
+ },
+ {
+  "id": "w9",
+  "text": "descripción.",
+  "start": 2.551,
+  "end": 3.127
+ }
+]

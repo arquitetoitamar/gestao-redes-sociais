@@ -1,0 +1,80 @@
+[
+ {
+  "id": "w0",
+  "text": "Y",
+  "start": 0,
+  "end": 0.063
+ },
+ {
+  "id": "w1",
+  "text": "nada",
+  "start": 0.106,
+  "end": 0.233
+ },
+ {
+  "id": "w2",
+  "text": "cambia",
+  "start": 0.362,
+  "end": 0.617
+ },
+ {
+  "id": "w3",
+  "text": "sin",
+  "start": 0.66,
+  "end": 0.788
+ },
+ {
+  "id": "w4",
+  "text": "vos:",
+  "start": 0.831,
+  "end": 1.215
+ },
+ {
+  "id": "w5",
+  "text": "la",
+  "start": 1.471,
+  "end": 1.599
+ },
+ {
+  "id": "w6",
+  "text": "IA",
+  "start": 1.642,
+  "end": 1.812
+ },
+ {
+  "id": "w7",
+  "text": "prepara,",
+  "start": 1.855,
+  "end": 2.41
+ },
+ {
+  "id": "w8",
+  "text": "vos",
+  "start": 2.538,
+  "end": 2.708
+ },
+ {
+  "id": "w9",
+  "text": "aprobás,",
+  "start": 2.751,
+  "end": 3.348
+ },
+ {
+  "id": "w10",
+  "text": "y",
+  "start": 3.519,
+  "end": 3.604
+ },
+ {
+  "id": "w11",
+  "text": "ella",
+  "start": 3.647,
+  "end": 3.817
+ },
+ {
+  "id": "w12",
+  "text": "ejecuta.",
+  "start": 3.86,
+  "end": 4.294
+ }
+]

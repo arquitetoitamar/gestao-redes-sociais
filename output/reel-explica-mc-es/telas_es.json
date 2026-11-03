@@ -1,0 +1,57 @@
+{
+ "repl": [
+  [
+   ">CONECTÁ.<",
+   ">CONECTA.<"
+  ],
+  [
+   ">PEDÍ.<",
+   ">PIDE.<"
+  ],
+  [
+   ">APROBÁ.<",
+   ">APRUEBA.<"
+  ],
+  [
+   ">EMPEZÁ.<",
+   ">EMPIEZA.<"
+  ],
+  [
+   "el asistente que ya usás",
+   "el asistente que ya usas"
+  ],
+  [
+   "programás.",
+   "programas."
+  ],
+  [
+   "pedís.",
+   "pides."
+  ],
+  [
+   "sin vos.",
+   "sin ti."
+  ],
+  [
+   "aprobado por vos",
+   "aprobado por ti"
+  ],
+  [
+   "Autorizá tu cuenta",
+   "Autoriza tu cuenta"
+  ],
+  [
+   "Pegá una dirección",
+   "Pega una dirección"
+  ],
+  [
+   "Listo. Pedile en español.",
+   "Listo. Pídele en español."
+  ]
+ ],
+ "html": {
+  "#e4": "Link en la <span class=\"kw\">descripción</span>",
+  "#e5": "y conecta tu Mercado Libre",
+  "#e6": "l.tiops.com.br/ar · l.tiops.com.br/mx"
+ }
+}

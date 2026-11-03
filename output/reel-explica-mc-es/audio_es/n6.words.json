@@ -1,0 +1,104 @@
+[
+ {
+  "id": "w0",
+  "text": "Ya",
+  "start": 0,
+  "end": 0.148
+ },
+ {
+  "id": "w1",
+  "text": "está",
+  "start": 0.191,
+  "end": 0.319
+ },
+ {
+  "id": "w2",
+  "text": "disponible",
+  "start": 0.362,
+  "end": 0.746
+ },
+ {
+  "id": "w3",
+  "text": "en",
+  "start": 0.874,
+  "end": 0.916
+ },
+ {
+  "id": "w4",
+  "text": "Mercado",
+  "start": 0.959,
+  "end": 1.3
+ },
+ {
+  "id": "w5",
+  "text": "Libre",
+  "start": 1.343,
+  "end": 1.556
+ },
+ {
+  "id": "w6",
+  "text": "Argentina",
+  "start": 1.642,
+  "end": 2.026
+ },
+ {
+  "id": "w7",
+  "text": "y",
+  "start": 2.111,
+  "end": 2.154
+ },
+ {
+  "id": "w8",
+  "text": "México.",
+  "start": 2.196,
+  "end": 2.751
+ },
+ {
+  "id": "w9",
+  "text": "Autorizas",
+  "start": 3.007,
+  "end": 3.476
+ },
+ {
+  "id": "w10",
+  "text": "tu",
+  "start": 3.519,
+  "end": 3.604
+ },
+ {
+  "id": "w11",
+  "text": "cuenta,",
+  "start": 3.647,
+  "end": 4.074
+ },
+ {
+  "id": "w12",
+  "text": "pegas",
+  "start": 4.244,
+  "end": 4.458
+ },
+ {
+  "id": "w13",
+  "text": "una",
+  "start": 4.543,
+  "end": 4.671
+ },
+ {
+  "id": "w14",
+  "text": "dirección,",
+  "start": 4.714,
+  "end": 5.29
+ },
+ {
+  "id": "w15",
+  "text": "y",
+  "start": 5.439,
+  "end": 5.524
+ },
+ {
+  "id": "w16",
+  "text": "listo.",
+  "start": 5.567,
+  "end": 5.92
+ }
+]

@@ -1,0 +1,104 @@
+[
+ {
+  "id": "w0",
+  "text": "Hoy",
+  "start": 0,
+  "end": 0.148
+ },
+ {
+  "id": "w1",
+  "text": "es",
+  "start": 0.191,
+  "end": 0.276
+ },
+ {
+  "id": "w2",
+  "text": "abrir",
+  "start": 0.319,
+  "end": 0.575
+ },
+ {
+  "id": "w3",
+  "text": "Mercado",
+  "start": 0.618,
+  "end": 1.001
+ },
+ {
+  "id": "w4",
+  "text": "Libre:",
+  "start": 1.044,
+  "end": 1.343
+ },
+ {
+  "id": "w5",
+  "text": "publicaciones,",
+  "start": 1.471,
+  "end": 2.452
+ },
+ {
+  "id": "w6",
+  "text": "preguntas,",
+  "start": 2.623,
+  "end": 3.348
+ },
+ {
+  "id": "w7",
+  "text": "ventas,",
+  "start": 3.519,
+  "end": 4.159
+ },
+ {
+  "id": "w8",
+  "text": "stock...",
+  "start": 4.33,
+  "end": 5.108
+ },
+ {
+  "id": "w9",
+  "text": "y",
+  "start": 5.268,
+  "end": 5.311
+ },
+ {
+  "id": "w10",
+  "text": "cuando",
+  "start": 5.354,
+  "end": 5.567
+ },
+ {
+  "id": "w11",
+  "text": "te",
+  "start": 5.61,
+  "end": 5.652
+ },
+ {
+  "id": "w12",
+  "text": "das",
+  "start": 5.695,
+  "end": 5.78
+ },
+ {
+  "id": "w13",
+  "text": "cuenta,",
+  "start": 5.866,
+  "end": 6.271
+ },
+ {
+  "id": "w14",
+  "text": "ya",
+  "start": 6.42,
+  "end": 6.591
+ },
+ {
+  "id": "w15",
+  "text": "es",
+  "start": 6.634,
+  "end": 6.676
+ },
+ {
+  "id": "w16",
+  "text": "mediodía.",
+  "start": 6.719,
+  "end": 7.188
+ }
+]
