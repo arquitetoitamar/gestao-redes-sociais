@@ -168,10 +168,11 @@ DM sua de fundador para fundador custa pouco. Só com o seu OK.
 - **Slug a criar:** `ar`, campanha `argentina-nov26`. Destino:
   - `https://marketplaces.tiops.com.br/es/mercado-libre-argentina-ia.html`, a
     página em espanhol da DEV-MC (PR #495, com FAQ e hreflang);
-  - em 03/11 essa URL ainda devolvia o site padrão, então até ela ir ao ar o
-    destino é a landing `https://marketplaces.tiops.com.br/`, que já abre em
-    espanhol para navegador `es-*`;
-  - troca de destino sem mudar o link: é só editar o slug.
+  - **no ar desde 03/11:** conferido 200 sem redirecionar, título "Cómo
+    conectar ChatGPT o Claude a Mercado Libre Argentina", hreflang `es-AR`,
+    `es` e `pt-BR`;
+  - quando o cadastro estiver em espanhol, dá para trocar o destino sem mudar
+    o link: é só editar o slug.
 - **Origens:** `meta-ar`, `ig-ar`, `yt-ar`, `bio-ar`, `manychat-ar`.
 
 **CTA orgânico.**
