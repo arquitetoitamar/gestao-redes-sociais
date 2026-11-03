@@ -165,8 +165,13 @@ DM sua de fundador para fundador custa pouco. Só com o seu OK.
 
 **Link de destino de todos:** `https://l.tiops.com.br/ar?o=<origem>`.
 
-- **Slug a criar:** `ar` → `https://marketplaces.tiops.com.br/`, campanha
-  `argentina-nov26`.
+- **Slug a criar:** `ar`, campanha `argentina-nov26`. Destino:
+  - `https://marketplaces.tiops.com.br/es/mercado-libre-argentina-ia.html`, a
+    página em espanhol da DEV-MC (PR #495, com FAQ e hreflang);
+  - em 03/11 essa URL ainda devolvia o site padrão, então até ela ir ao ar o
+    destino é a landing `https://marketplaces.tiops.com.br/`, que já abre em
+    espanhol para navegador `es-*`;
+  - troca de destino sem mudar o link: é só editar o slug.
 - **Origens:** `meta-ar`, `ig-ar`, `yt-ar`, `bio-ar`, `manychat-ar`.
 
 **CTA orgânico.**
@@ -263,12 +268,13 @@ DM sua de fundador para fundador custa pouco. Só com o seu OK.
     tienda.
 - **CTA:** link en la bio.
 
-**R0 · Condicional: extensão do Chrome**
+**R0 · Extensão do Chrome: fora por enquanto**
 
-- Se a extensão do Reel viral (14/08) funcionar em `mercadolibre.com.ar`, ela
-  vira a primeira peça: "Tu publicación tiene nota. ¿La viste?"
-- Ferramenta grátis é o que mais viralizou na conta.
-- A DEV-MC confere.
+- A DEV-MC conferiu em 03/11: o manifest só casa `*.mercadolivre.com.br` e
+  `*.mercadolibre.com`, então ela não roda em `mercadolibre.com.ar`.
+- O repositório é público e está somente leitura por decisão do Itamar.
+- Só vira peça ("Tu publicación tiene nota. ¿La viste?") se ele decidir
+  liberar o `.com.ar`.
 
 ### Vídeos longos (YouTube)
 
@@ -425,7 +431,8 @@ O que achamos (03/11/2026):
 | Revisor nativo de espanhol (peças + landing) | Itamar decide quem |
 | Cadastro, planos e autorização em espanhol (fase 2 dos idiomas) | DEV-MC |
 | Pixel da Meta na landing e evento "conta conectada" | DEV-MC |
-| Extensão do Chrome funciona em `.com.ar`? | DEV-MC |
+| Extensão do Chrome em `.com.ar`: não funciona hoje; repositório somente leitura | Itamar decide se libera |
+| Página em espanhol `/es/mercado-libre-argentina-ia.html` + llms.txt em espanhol (PR #495) | DEV-MC, publicando |
 | Segundo usuário de teste MLA + 4 ou 5 publicações realistas | DEV-MC ou esta sessão |
 | Slug `ar` no encurtador | esta sessão, com OK |
 | ManyChat em espanhol (palavra CONECTAR) — **prioridade**, é a isca que funcionou para o concorrente; exige decidir o plano pago (teste acaba 14/11) | esta sessão, com OK |
