@@ -45,3 +45,25 @@ Criado em 03/11/2026 no Gerenciador de Anúncios, conta `1322329366662228`. O It
 - Lojas MLA novas conectadas no período (`site_id = MLA`, tag argentina no CRM).
 - Custo por visualização da página no Gerenciador.
 - Se acabar sem nenhuma loja MLA, consertar o funil (cadastro em espanhol) antes de gastar mais.
+
+## Leitura 1: 03/11, 20:45 (cerca de 4 h no ar)
+
+| Métrica | Valor |
+|---|---|
+| Gasto | R$ 5,50 de R$ 90 |
+| Impressões / alcance | 843 / 695 (frequência 1,21) |
+| CPM | R$ 6,52 |
+| Cliques no link | 16 (CTR 1,90%, CPC R$ 0,34) |
+| Visualizações da página de destino | 13 (R$ 0,42 cada) |
+
+- **Encurtador:** `ar` registrou 40 cliques "humanos" com `o=meta-ar`, mais 219 robôs. O
+  número fica acima dos 16 do Meta porque a revisão e as pré-visualizações do Meta também
+  batem no link. Vale o número do Meta.
+- **Comparação:** a campanha BR do Reel do Claude custava R$ 0,20 por visita. A da Argentina
+  sai pelo dobro, mas com impressão barata e CTR alto.
+- **Orgânico:**
+  - Short no YouTube: 4 visualizações.
+  - Cliques `o=youtube`: 6 no `ar` e 5 no `mx`, mais que as visualizações, então
+    provavelmente são o verificador de links do YouTube.
+  - Instagram: não foi possível ler os números (o Chrome mostrou página de erro).
+- **Lojas MLA conectadas:** contagem pedida à DEV-MC.
