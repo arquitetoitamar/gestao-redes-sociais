@@ -66,4 +66,8 @@ Criado em 03/11/2026 no Gerenciador de Anúncios, conta `1322329366662228`. O It
   - Cliques `o=youtube`: 6 no `ar` e 5 no `mx`, mais que as visualizações, então
     provavelmente são o verificador de links do YouTube.
   - Instagram: não foi possível ler os números (o Chrome mostrou página de erro).
-- **Lojas MLA conectadas:** contagem pedida à DEV-MC.
+- **Lojas conectadas** (DEV-MC, de 16:41 a 20:47, sem os usuários de teste):
+  - 0 lojas MLA e 0 lojas MLM;
+  - 2 cadastros novos, de qualquer origem.
+
+  O cadastro não guarda a origem do link curto, então não dá para atribuir os 2 ao anúncio.
