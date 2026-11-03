@@ -140,7 +140,8 @@ entrega no fuso de quem vê.
 |---|---|
 | Página em espanhol para o México (`/es/mercado-libre-mexico-ia.html`, hreflang `es-MX`, "tú") | DEV-MC |
 | A landing em espanhol usa "vos" ("conectá"). Mexicano lê como argentino: criar variante `es-MX` ou neutra | DEV-MC |
-| Usuário de teste MLM conectado + publicações em MXN para as demos | DEV-MC |
+| Usuário de teste MLM conectado + publicações em MXN para as demos: **criado `3813915584` em 03/11**; falta autorizar e criar as publicações | DEV-MC |
+| Login `auth.mercadolibre.com.mx`, card Brasil/Argentina/México, tag `mexico` no CRM (PR #496, a caminho do ar) | DEV-MC |
 | Slug `mx` → página MX (até ela existir, a landing) | esta sessão, com OK |
 | Moeda e cobrança: o primeiro cartão mexicano no Stripe em BRL ainda não foi testado | Itamar |
 
