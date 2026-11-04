@@ -111,8 +111,8 @@ INDICAÇÃO "Indique e ganhe" no painel
 | C | **Meio: remarketing** | Tráfego, otimizando visita à página | viu 50% de vídeo (IG, 90 d) + engajou no IG (90 d) + visitou `/comece` ou a isca (30 d), excluindo quem pagou | demo "criando anúncio no ChatGPT", depoimento do Danilo, segurança (autorização oficial, nunca vemos a senha) | `/comece?o=meta-rmk` | R$ 10 |
 | D | **Fundo: conversão** (depois dos consertos) | Vendas, otimizando compra (ou cadastro enquanto houver menos de 50 por semana) | visitou `/planos` e não comprou (14 d) + C | "2 meses grátis no anual", "sessão de implantação com o Itamar" | `/planos?o=meta-fundo` | R$ 10 (sai da A) |
 
-**Total: R$ 30/dia** (R$ 900/mês), igual ao ritmo do anúncio da Argentina. Nada sobe sem o seu
-OK, e cobrança e saldo continuam com você.
+A verba de cada campanha e o criativo usado estão em **"Orçamento de R$ 1.000"**, logo abaixo.
+Nada sobe sem o seu OK, e cobrança e saldo continuam com você.
 
 Referência de custo na conta: visita à página custou R$ 0,19 (MC Sellers 300k), R$ 0,20 (Reel
 do Claude) e R$ 0,38 (Argentina). Com R$ 20/dia de topo, a expectativa é de 50 a 100 visitas por
@@ -130,17 +130,58 @@ dia na VSL.
 - **Objeções que apareceram nos comentários** (LGPD, certificado digital, "ilegalidade") viram
   pauta de Reel explicativo, sem citar quem comentou e sem responder no post.
 
-### Orçamento de R$ 1.000 em 30 dias
+### O que já converteu (só Marketplace Connect)
 
-A verba sobe em degraus, conforme a medição fica pronta:
+Anúncios da conta, histórico completo (conector Meta ADS, 04/11):
 
-| Campanha | Dias | Por dia | Total |
+| Conteúdo | Gasto | CTR | Custo por visita | Veredito |
+|---|---|---|---|---|
+| **Vídeo "Claude + Mercado Livre + Shopee"** (post IG `18097413965173557`, 10/09), em 3 anúncios | R$ 25,27 | **6,6% a 9,7%** | **R$ 0,19 a R$ 0,26** | **vencedor**: vira o anúncio principal |
+| Reel explica MC em espanhol (Argentina) | R$ 9,42 | 2,0% | R$ 0,39 | médio. A versão em PT entra como teste |
+| Reel "Qual IA usar no meu e-commerce" | R$ 17,69 | 1,25% | R$ 0,47 | corta (além disso, promete "5 minutos") |
+| Post estático "Claude trabalhando 24h" | R$ 4,88 | 6,5% | R$ 0,70 | corta: imagem não leva à página |
+
+Orgânico (análise de 27/10, `output/instagram-insights/`):
+
+| Conteúdo | Alcance | Compartilhamentos | Salvamentos |
 |---|---|---|---|
-| A: topo, VSL | 1 a 30 | R$ 15 | R$ 450 |
-| B: isca grátis | 1 a 30 | R$ 5 | R$ 150 |
-| C: remarketing | 8 a 30 | R$ 10 | R$ 230 |
-| D: conversão (otimizando cadastro) | 15 a 30 | R$ 10 | R$ 160 |
-| **Total** | | R$ 20 → 30 → 40 | **R$ 990** |
+| **Reel "Seu anúncio no Mercado Livre tem nota"** (14/08, `18020078531879388`) | **25.710** | **760** | **694** |
+| Reel "Conecte o ChatGPT no seu marketplace" (18/08) | 384 | 7 | 2 |
+
+O 2º melhor post da conta teve 1.606 de alcance. A fórmula do viral foi:
+
+- gancho sobre algo do próprio seller;
+- lista do que a ferramenta mostra;
+- grátis.
+
+**Origem dos cliques no `/comece` (60 dias):** 50 de 78 vieram do YouTube (vídeo do conector), 1
+do Instagram. O YouTube orgânico é hoje o canal que mais leva gente à VSL.
+
+### Orçamento de R$ 1.000 em 30 dias (só Marketplace Connect)
+
+Cada campanha leva o conteúdo que já provou resultado. Os posts existentes rodam como "usar
+publicação existente", para manter curtidas e comentários.
+
+| Campanha | Criativo | Destino | Dias | Por dia | Total |
+|---|---|---|---|---|---|
+| A: topo, VSL | **80%** "Claude + ML + Shopee" e **20%** Reel explicativo PT (teste) | `/comece?o=meta-br` | 1 a 30 | R$ 15 | **R$ 450** |
+| B: isca grátis | Reel viral "Seu anúncio no ML tem nota" | `/avaliar-anuncio-meli-com-ia?o=meta-isca` | 1 a 30 | R$ 6,70 | **R$ 200** |
+| C: remarketing | demo criando anúncio no ChatGPT/Claude, segurança (autorização oficial) e depoimento do Danilo, se ele autorizar | `/comece?o=meta-rmk` | 8 a 30 | R$ 8,70 | **R$ 200** |
+| D: conversão (otimizando cadastro) | o melhor de A e C até ali | `/comece?o=meta-conv` | 15 a 30 | R$ 9,40 | **R$ 150** |
+| **Total** | | | | R$ 22 → 30 → 40 | **R$ 1.000** |
+
+Ficam de fora: o Reel da NF-e (é outro produto), "Qual IA usar", posts estáticos e o curso da Udemy.
+
+**Alcance esperado com R$ 1.000**, usando o CPM da conta (R$ 6,50 a R$ 7,60):
+
+- 130 a 155 mil impressões;
+- cerca de **70 a 90 mil contas** alcançadas, a maior parte no topo (A e B). O remarketing
+  repete as mesmas pessoas;
+- visitas: A, com o criativo vencedor a R$ 0,19 a R$ 0,30 cada, dá 1.500 a 2.350 visitas à VSL;
+  B dá 500 a 1.000 avaliações; C dá 330 a 500 retornos.
+
+Regra durante o mês: depois de R$ 15 gastos num criativo, se a visita passar de R$ 0,45, ele
+sai e a verba vai para o vencedor.
 
 A campanha D otimiza **cadastro**, não compra. Com R$ 1.000/mês não sai a média de 50 compras
 por semana de que o Meta precisa para aprender a achar comprador. Cadastro dá volume.
