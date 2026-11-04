@@ -11,7 +11,16 @@ sem erro de pagamento.
 | (mesma) | `120255061329580007` A2 (teste) | `120255061346580007` Reel explicativo PT (post 29/09 `18025844813858148`) | R$ 90 | 03/11 23h20 a 18/11 |
 | `120255061318320007` MC \| Isca avaliar anúncio grátis | `120255061330480007` B | `120255061346810007` Reel viral "nota do anúncio" (post 14/08 `18020078531879388`) | R$ 200 (no nível da campanha) | 03/11 23h20 a 04/12 |
 
-Total no ar: **R$ 650**. Faltam R$ 350:
+**México** (criada em 04/11 às 13h, a pedido do Itamar, no mesmo molde da Argentina):
+
+| Campanha | Conjunto | Anúncio | Verba total | Período |
+|---|---|---|---|---|
+| `120255074686820007` MX \| Trafego \| Connect ES | `120255074690090007` México, 25+ (sugestão 25–55), MercadoLivre E (donos de pequenas empresas OU administradores de página) | `120255074694310007` Reel em espanhol "tú" (post 03/11 `17865776925694327`) → `l.tiops.com.br/mx?o=meta-mx` | R$ 90 (no nível da campanha) | 04/11 13h10 a 07/11 13h10 |
+
+A página principal abre em espanhol para quem está no México (testado com navegador `es-MX`). A
+verba do México fica fora do plano de R$ 1.000 do Brasil, assim como a da Argentina.
+
+Total do Brasil no ar: **R$ 650**. Faltam R$ 350:
 
 - C, remarketing: R$ 200 a partir de 11/11;
 - D, conversão por cadastro: R$ 150 a partir de 18/11.
