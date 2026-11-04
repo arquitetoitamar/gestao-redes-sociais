@@ -50,20 +50,40 @@ Eventos no pixel (últimos 28 dias, pelo conector Meta ADS):
 
 ## 2. Consertos antes de pôr dinheiro em conversão
 
-Em ordem. Os itens 1, 2, 3 e 5 são da DEV-MC; o 4 é meu.
+Situação em 04/11, madrugada, segundo a DEV-MC
+(registro em `docs/tech/2026-11-04-meta-purchase-e-conectou-canal.md`):
 
-1. **Deploy do PR #503**, que volta a enviar o `CompleteRegistration` e grava a origem no perfil.
-   Depois disso, eu testo o evento chegando no Meta.
-2. **Compra pela CAPI no webhook da Stripe** (`checkout.session.completed` e
-   `invoice.paid`), com `event_id` igual ao do navegador para deduplicar. Mandar valor e moeda.
-3. **Levar a origem até a Stripe.** Nos botões do `/planos`, acrescentar
-   `?client_reference_id=<origem>` (e `prefilled_email` quando o cliente já estiver logado).
-   Com isso, cada venda fica atribuída ao canal.
-4. **Página de obrigado.** Mudar o redirect dos 4 links de plano para
-   `marketplaces.tiops.com.br/?checkout=sucesso&plano=plus` (já existe esse padrão em outro
-   link). A página orienta o próximo passo, que é entrar com o mesmo e-mail e conectar a loja, e
-   dispara a compra no navegador.
-5. **ConectouCanal uma vez por loja**, para servir de conversão "loja conectada".
+| # | Conserto | Situação | Depende de |
+|---|---|---|---|
+| 0 | **Token da API de Conversões (CAPI)** na Lambda `mc-verde-fn-meta-capi` | ❌ falta: há 14 dias o log só diz "token ausente". Tudo o que o Meta recebeu veio do pixel do navegador | **Itamar** gerar o token no Gerenciador de Eventos |
+| 1 | `CompleteRegistration` volta, e a origem é gravada no perfil | ✅ PR #503 mergeado, deploy em andamento. Sai também pelo navegador, então não depende do token | eu testar quando a DEV-MC avisar |
+| 2 | Compra (`Purchase`) pelo webhook da Stripe na 1ª fatura paga (`event_id = stripe_inv_<fatura>`). O checkout grava ua, ip, _fbp e _fbc | 🔶 PR #504 aberto. Só sai pelo servidor | token (item 0) |
+| 3 | `ConectouCanal` uma vez por conta e canal (`event_id = conectou_<uid>_<canal>`) | 🔶 PR #504 | — |
+| 4 | Origem do clique até a venda | 🔶 decisão do Itamar (abaixo) | — |
+| 5 | Página de obrigado com compra no navegador (mesmo `event_id`) | depois da decisão do item 4 | — |
+
+**Item 4: por que não `client_reference_id`.** O webhook lê esse campo como id da conta, e é ele
+que ativa o plano de quem paga com outro e-mail. Pôr a origem ali quebraria a ativação. Opções:
+
+- **A: exigir cadastro (e-mail + código) antes do checkout.** O pagamento passa a sair pela
+  Checkout Session, que já leva a origem e os dados do navegador.
+- **B: manter o checkout sem login** e levar a origem por outro campo do Payment Link.
+
+**Minha recomendação para o tráfego pago: A.**
+
+- O cadastro custa um passo curto (e-mail e código, sem senha).
+- Em troca, o Meta passa a ter um evento de cadastro para otimizar enquanto há poucas vendas.
+- A venda fica presa à conta, e a origem chega inteira.
+- Quem desiste entre o cadastro e o pagamento vira público de remarketing com e-mail.
+
+**Pix:** assinatura na Stripe exige mandato; hoje só o pagamento avulso aceita Pix. Fica como está.
+
+**Como gerar o token (item 0):**
+
+1. No Gerenciador de Eventos, abra o conjunto de dados `626514493772417`.
+2. Vá em Configurações → API de Conversões → "Gerar token de acesso".
+3. Grave o token direto onde a DEV-MC indicar, no Secrets Manager ou na variável `META_CAPI_TOKEN`
+   da Lambda. Não cole o token no chat.
 
 Até lá, a conversão provisória para remarketing é o `SubscribedButtonClick` no `/planos`.
 Ele já dispara no clique em "Assinar".
@@ -117,6 +137,7 @@ Todos levam à VSL e marcam a origem. Não precisa criar link novo: basta trocar
 | Onde | Link |
 |---|---|
 | Bio do Instagram | `l.tiops.com.br/comece?o=bio` |
+| Destaque "Comece" | `l.tiops.com.br/comece?o=destaque` |
 | Stories (figurinha de link) | `l.tiops.com.br/comece?o=stories` |
 | DM do ManyChat (CONNECT) | `l.tiops.com.br/comece?o=manychat` |
 | Descrição do YouTube | `l.tiops.com.br/comece?o=youtube` |
@@ -131,7 +152,48 @@ dos consertos 1 e 3.
 
 ## 5. Instagram: links e botão do site no perfil
 
-(preenchido na próxima seção, a partir da pesquisa)
+Pesquisa de 03/11/2026, com as fontes oficiais listadas no fim.
+
+**Não existe botão grátis de "Site" para SaaS.** Os perfis com botão abaixo da bio usam um destes:
+
+- **botão de ação de parceiro**: Reservar agora, Reservar ou Pedir refeição;
+- **"Ver loja"**: só para produto físico. A política da Meta proíbe vender assinatura e produto
+  digital na loja, então o Marketplace Connect não é elegível;
+- **Meta One**: recursos pagos, a página de links por R$ 59/mês e o "perfil aprimorado" por
+  R$ 199/mês.
+
+O que fazer no @tiopstecnologia, em ordem (os passos no app são seus):
+
+1. **Link principal no perfil** (grátis, 2 minutos):
+   - Editar perfil → Links → Adicionar link externo → `l.tiops.com.br/comece?o=bio`, com o
+     título "Marketplace Connect – Saiba mais";
+   - depois, em Links → ⋯ → **Reordenar links**, deixe esse link em 1º. Só o primeiro aparece
+     direto no perfil;
+   - termine a bio apontando para ele, por exemplo "👇 Conecte sua loja do ML e da Shopee à IA".
+2. **Destaque "Comece"**, o mais perto de uma "aba do site" que existe de graça:
+   - publique um story com a figurinha **Link** para `l.tiops.com.br/comece?o=destaque`, com o
+     texto "Saiba mais";
+   - salve num destaque "Comece", com capa da marca, e deixe-o em 1º lugar.
+3. **Reel fixado**: o Reel explicativo do Marketplace Connect, terminando com "comente CONNECT".
+   Para fixar, abra o post → ⋯ → Fixar no perfil (cabem até 3 fixados).
+4. **Contato visível**: Editar perfil → Informações comerciais públicas → e-mail e WhatsApp.
+5. **Não agora**:
+   - botão de ação: o rótulo é "Reservar agora", só funciona com parceiros como Acuity ou
+     Setmore, e o Calendly não está na lista;
+   - Meta One: é pago e, com cerca de 675 seguidores, o ganho não justifica.
+
+Fontes:
+
+- help.instagram.com:
+  - [links no perfil](https://help.instagram.com/iphone-app/362497417173378);
+  - [botões de ação](https://help.instagram.com/122793804938499);
+  - [parceiros](https://help.instagram.com/313280685976255).
+- [Políticas Comerciais da Meta](https://www.facebook.com/policies_center/commerce).
+- [Planos do Meta One](https://www.meta.com/pt-br/help/subscriptions/960854640235758/), atualizado
+  no fim de outubro de 2026.
+
+Não deu para confirmar o "formulário de cadastro" como botão de ação no Brasil (a liberação é
+gradual).
 
 ## 6. Como medir (toda semana)
 
@@ -165,7 +227,6 @@ Decisão em 7 dias com a verba de topo:
 
 - **Depoimento do Danilo em anúncio:** confirmar com ele o uso pago. Está na página, mas
   anúncio é outro uso.
-- **Pix no plano:** os links de assinatura aceitam só cartão. Vale avaliar com a DEV-MC.
 - **Cliques de teste para descontar:** `o=teste-funil` (este teste), além dos de antes.
 - **Regras:** CTA "Saiba mais", nunca "teste grátis"; nada é publicado sem o seu OK; checagem de
   5 perguntas antes de cada peça.
