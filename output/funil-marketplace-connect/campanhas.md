@@ -1,6 +1,6 @@
 # Campanhas do funil Marketplace Connect (Brasil)
 
-Criadas em 04/11/2026, 00h40, pelo conector Meta ADS, com o OK do Itamar ao plano de R$ 1.000
+Criadas em 03/11/2026, por volta de 23h, pelo conector Meta ADS, com o OK do Itamar ao plano de R$ 1.000
 (`estrategia.md`). Todas começam em 04/11 às 08h.
 
 | Campanha | Conjunto | Anúncio | Verba total | Período |
