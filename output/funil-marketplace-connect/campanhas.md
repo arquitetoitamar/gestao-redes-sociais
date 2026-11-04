@@ -43,4 +43,7 @@ obrigatória fora do Brasil.
 
 ## Leituras
 
-(a primeira será no fim do dia 04/11)
+**Rotina diária:** tarefa agendada `resumo-campanhas-mc-whatsapp` no Claude desktop, todo dia por
+volta de 08h10. Ela lê o dia anterior pelo conector Meta ADS, o pixel (só navegador), o link
+curto e a Stripe, manda o resumo no WhatsApp do Itamar e anota a leitura aqui. Só roda com o app
+aberto.
