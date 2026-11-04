@@ -71,3 +71,12 @@ Criado em 03/11/2026 no Gerenciador de Anúncios, conta `1322329366662228`. O It
   - 2 cadastros novos, de qualquer origem.
 
   O cadastro não guarda a origem do link curto, então não dá para atribuir os 2 ao anúncio.
+
+## 03/11, 21h: destino trocado
+
+- **Pedido do Itamar:** levar para a página principal em vez da página da Argentina.
+- **Slugs `ar` e `mx`:** apontam para `https://marketplaces.tiops.com.br/` (sem `?o=` fixo).
+- **O link do anúncio não mudou**, então não houve nova revisão.
+- **Origem até o cadastro** (DEV-MC):
+  - PR #502: o redirect anexa `o`, `ind` e `utm_*` do clique ao destino;
+  - PR #500: o cadastro grava `customer_profiles.origem`.
