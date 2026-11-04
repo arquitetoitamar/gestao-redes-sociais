@@ -47,3 +47,26 @@ obrigatória fora do Brasil.
 volta de 08h10. Ela lê o dia anterior pelo conector Meta ADS, o pixel (só navegador), o link
 curto e a Stripe, manda o resumo no WhatsApp do Itamar e anota a leitura aqui. Só roda com o app
 aberto.
+
+### 03/11/2026 (lida em 04/11 às 12h20)
+
+Plano BR entrou no ar às 23h20; o Meta não registrou gasto dele em 03/11. O acumulado abaixo vai até
+a hora da leitura (inclui a manhã de 04/11).
+
+| Anúncio | Gasto ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 0,00 | R$ 2,09 | 6 | R$ 0,35 | ativo |
+| A2 Explicativo | R$ 0,00 | R$ 1,51 | 1 | R$ 1,51 | ativo |
+| B Isca grátis | R$ 0,00 | R$ 0,98 | 3 | R$ 0,33 | ativo |
+| AR Argentina | R$ 12,08 (29 visitas, R$ 0,42) | R$ 26,11 | 42 | R$ 0,62 | ativo |
+
+- Plano R$ 1.000: R$ 4,58 gastos até a leitura.
+- Pixel em 03/11, só navegador: CompleteRegistration 0, SubscribedButtonClick 0, ViewContent 9, Lead 1
+  (InitiateCheckout 4). Purchase pelo servidor: 0.
+- Link curto, pessoas em 03/11: /comece 5, /ar 48. Na janela de 2 dias, meta-br soma 39 cliques no
+  /comece, quase todos em 04/11.
+- Stripe: 11 assinaturas Plus criadas em 03/11 (1 já pediu cancelamento).
+- ⚠️ Argentina passou de R$ 15 com R$ 0,62/visita no acumulado. Termina em 06/11, então não vale
+  trocar o criativo.
+- ⚠️ O pixel não registrou cadastro nem clique em Assinar, mas a Stripe teve 11 assinaturas.
+  Conferir se esses eventos estão disparando.
