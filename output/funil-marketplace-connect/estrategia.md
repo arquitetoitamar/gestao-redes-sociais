@@ -59,7 +59,7 @@ Situação em 04/11, madrugada, segundo a DEV-MC
 | 1 | `CompleteRegistration` volta, e a origem é gravada no perfil | ✅ PR #503 mergeado, deploy em andamento. Sai também pelo navegador, então não depende do token | eu testar quando a DEV-MC avisar |
 | 2 | Compra (`Purchase`) pelo webhook da Stripe na 1ª fatura paga (`event_id = stripe_inv_<fatura>`). O checkout grava ua, ip, _fbp e _fbc | 🔶 PR #504 aberto. Só sai pelo servidor | token (item 0) |
 | 3 | `ConectouCanal` uma vez por conta e canal (`event_id = conectou_<uid>_<canal>`) | 🔶 PR #504 | — |
-| 4 | Origem do clique até a venda | 🔶 decisão do Itamar (abaixo) | — |
+| 4 | Origem do clique até a venda | ✅ Itamar aprovou a opção A. PR #505 mergeado: sem login, "Assinar" na `/planos` leva ao login (`/?login=1`) e depois aos Planos do painel (Checkout Session com conta, origem, indicador e navegador). Build do Amplify rodando em 03/11, 23h30 | eu refazer o teste do `/comece` quando subir |
 | 5 | Página de obrigado com compra no navegador (mesmo `event_id`) | depois da decisão do item 4 | — |
 
 **Item 4: por que não `client_reference_id`.** O webhook lê esse campo como id da conta, e é ele
