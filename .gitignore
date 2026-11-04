@@ -4,3 +4,6 @@
 client_secret*.json
 instagram_config.json
 .DS_Store
+
+# base de empresas (dados pesados e com dado pessoal: nunca no git)
+output/base-empresas/dados/
