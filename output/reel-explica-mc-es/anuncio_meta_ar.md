@@ -80,3 +80,8 @@ Criado em 03/11/2026 no Gerenciador de Anúncios, conta `1322329366662228`. O It
 - **Origem até o cadastro** (DEV-MC):
   - PR #502: o redirect anexa `o`, `ind` e `utm_*` do clique ao destino;
   - PR #500: o cadastro grava `customer_profiles.origem`.
+- **#502 no ar (03/11, noite):** `l.tiops.com.br/ar?o=meta-ar` redireciona para
+  `https://marketplaces.tiops.com.br/?o=meta-ar`. Daqui em diante, o cadastro vindo do anúncio
+  grava `customer_profiles.origem = meta-ar`.
+- **Na medição, descontar os cliques de teste** da DEV-MC e meus: `o=teste`, `o=teste-ajuste`,
+  `o=teste-deploy` e `o=teste-final`.
