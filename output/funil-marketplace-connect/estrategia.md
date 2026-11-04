@@ -130,6 +130,52 @@ dia na VSL.
 - **Objeções que apareceram nos comentários** (LGPD, certificado digital, "ilegalidade") viram
   pauta de Reel explicativo, sem citar quem comentou e sem responder no post.
 
+### Orçamento de R$ 1.000 em 30 dias
+
+A verba sobe em degraus, conforme a medição fica pronta:
+
+| Campanha | Dias | Por dia | Total |
+|---|---|---|---|
+| A: topo, VSL | 1 a 30 | R$ 15 | R$ 450 |
+| B: isca grátis | 1 a 30 | R$ 5 | R$ 150 |
+| C: remarketing | 8 a 30 | R$ 10 | R$ 230 |
+| D: conversão (otimizando cadastro) | 15 a 30 | R$ 10 | R$ 160 |
+| **Total** | | R$ 20 → 30 → 40 | **R$ 990** |
+
+A campanha D otimiza **cadastro**, não compra. Com R$ 1.000/mês não sai a média de 50 compras
+por semana de que o Meta precisa para aprender a achar comprador. Cadastro dá volume.
+
+Projeção. **As taxas de conversão são hipóteses**: a conta nunca mediu uma venda vinda de anúncio.
+
+| | Pessimista | Médio | Bom |
+|---|---|---|---|
+| Custo por visita (história da conta: R$ 0,19 a R$ 0,47) | R$ 0,45 | R$ 0,30 | R$ 0,20 |
+| Visitas à VSL (campanha A) | 1.000 | 1.500 | 2.250 |
+| Visitas à isca (campanha B) | 330 | 500 | 750 |
+| Clicam em "Assinar" (5% a 8% da VSL) | 50 | 100 | 180 |
+| Assinaturas (0,3% a 0,7% das visitas à VSL) | 3 | 8 | 15 |
+| Custo por assinante | R$ 330 | R$ 125 | R$ 67 |
+
+No cenário médio, o custo de cada assinante (R$ 125) se paga no 1º mês do Plus (R$ 149,90).
+
+**Pontos de parada:**
+
+- **Por volta de R$ 150 (dia 7):**
+  - se a visita custar mais de R$ 0,45, troco o criativo;
+  - se menos de 5% da VSL clicar em "Assinar", o problema é a página. Pauso o topo e ajusto a
+    VSL antes de gastar mais.
+- **Por volta de R$ 500 (dia 18):**
+  - se não houver nenhuma assinatura e menos de 15 cadastros com origem Meta, paro e reviso a
+    oferta (por exemplo, sessão de implantação ou anual com 2 meses grátis em destaque).
+
+**Antes de colocar os R$ 1.000:**
+
+1. Crédito na conta pré-paga. A cobrança é sua, com confirmação de identidade.
+2. Token da CAPI gerado e o #503 no ar, para medir cadastro e venda por origem.
+
+Sem os dois, faz sentido começar só com R$ 300 de topo (A + B), que não dependem de medir
+cadastro, e liberar o resto depois.
+
 ## 4. Links rápidos (já funcionam, testados)
 
 Todos levam à VSL e marcam a origem. Não precisa criar link novo: basta trocar o `?o=`.
