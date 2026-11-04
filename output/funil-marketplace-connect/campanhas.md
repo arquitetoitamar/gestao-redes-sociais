@@ -1,13 +1,15 @@
 # Campanhas do funil Marketplace Connect (Brasil)
 
 Criadas em 03/11/2026, por volta de 23h, pelo conector Meta ADS, com o OK do Itamar ao plano de R$ 1.000
-(`estrategia.md`). Todas começam em 04/11 às 08h.
+(`estrategia.md`). O início estava marcado para 04/11 às 08h; a pedido do Itamar, foi antecipado
+para **03/11 às 23h20**. Às 23h23 os três anúncios estavam aprovados e com entrega "preparing",
+sem erro de pagamento.
 
 | Campanha | Conjunto | Anúncio | Verba total | Período |
 |---|---|---|---|---|
-| `120255061318190007` MC \| Topo VSL /comece \| Tráfego LPV | `120255061320240007` A1 (80%) | `120255061346410007` Reel "Claude + ML + Shopee" (post 26/06 `18103749911014452`) | R$ 360 | 04/11 a 04/12 |
-| (mesma) | `120255061329580007` A2 (teste) | `120255061346580007` Reel explicativo PT (post 29/09 `18025844813858148`) | R$ 90 | 04/11 a 18/11 |
-| `120255061318320007` MC \| Isca avaliar anúncio grátis | `120255061330480007` B | `120255061346810007` Reel viral "nota do anúncio" (post 14/08 `18020078531879388`) | R$ 200 (no nível da campanha) | 04/11 a 04/12 |
+| `120255061318190007` MC \| Topo VSL /comece \| Tráfego LPV | `120255061320240007` A1 (80%) | `120255061346410007` Reel "Claude + ML + Shopee" (post 26/06 `18103749911014452`) | R$ 360 | 03/11 23h20 a 04/12 |
+| (mesma) | `120255061329580007` A2 (teste) | `120255061346580007` Reel explicativo PT (post 29/09 `18025844813858148`) | R$ 90 | 03/11 23h20 a 18/11 |
+| `120255061318320007` MC \| Isca avaliar anúncio grátis | `120255061330480007` B | `120255061346810007` Reel viral "nota do anúncio" (post 14/08 `18020078531879388`) | R$ 200 (no nível da campanha) | 03/11 23h20 a 04/12 |
 
 Total no ar: **R$ 650**. Faltam R$ 350:
 
