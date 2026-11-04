@@ -55,7 +55,7 @@ Situação em 04/11, madrugada, segundo a DEV-MC
 
 | # | Conserto | Situação | Depende de |
 |---|---|---|---|
-| 0 | **Token da API de Conversões (CAPI)** nas Lambdas `meta-capi` e `stripe-webhook` (SSM `/tiops/meta/META_CAPI_TOKEN`) | ✅ ligado em 03/11 ~23h30; evento de teste `TesteCapi` aceito (events_received 1). ⚠️ O dataset já tinha uma fonte SERVER espelhando o navegador 1:1 antes do token (GTM server ou CAPI Gateway?): conferir a desduplicação | DEV-MC |
+| 0 | **Token da API de Conversões (CAPI)** nas Lambdas `meta-capi` e `stripe-webhook` (SSM `/tiops/meta/META_CAPI_TOKEN`) | ✅ ligado em 03/11 ~23h30; evento de teste `TesteCapi` aceito (events_received 1). A fonte SERVER que já existia é a **API de Conversões hospedada pela Meta** ("Somente web", ativada em 29/09). Ela copia o pixel com o mesmo eventID e desduplica sozinha. **Na leitura do dataset, contar só BROWSER**: o total bruto soma as duas vias | DEV-MC |
 | 1 | `CompleteRegistration` volta, e a origem é gravada no perfil | ✅ PR #503 mergeado, deploy em andamento. Sai também pelo navegador, então não depende do token | eu testar quando a DEV-MC avisar |
 | 2 | Compra (`Purchase`) pelo webhook da Stripe na 1ª fatura paga (`event_id = stripe_inv_<fatura>`). O checkout grava ua, ip, _fbp e _fbc | ✅ #504 no ar e token ligado: a próxima assinatura paga deve aparecer no Meta | — |
 | 3 | `ConectouCanal` uma vez por conta e canal (`event_id = conectou_<uid>_<canal>`) | ✅ #504 no ar | — |
