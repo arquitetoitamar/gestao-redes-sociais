@@ -1,0 +1,72 @@
+<!DOCTYPE html><html lang='pt-BR'><head><meta charset='utf-8'><style>
+:root{--bg:#0B1D33;--bg2:#10294A;--linha:rgba(120,190,255,.10);--ciano:#6CC6FF;--ml:#FFE600;--claude:#E58A66;
+ --verde:#3DDC84;--branco:#F4F7FB;--cinza:#9FB0C6;--ink:#0B1D33}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{font-family:-apple-system,"SF Pro Display","Helvetica Neue",Arial,sans-serif;color:var(--branco);
+ background:
+  linear-gradient(var(--linha) 1px,transparent 1px) 0 0/54px 54px,
+  linear-gradient(90deg,var(--linha) 1px,transparent 1px) 0 0/54px 54px,
+  radial-gradient(900px 700px at 80% 10%,#16406E 0%,rgba(22,64,110,0) 70%),var(--bg);
+ padding:120px 72px 0;display:flex;flex-direction:column;position:relative}
+.mono{font-family:"SF Mono",Menlo,Consolas,monospace}
+.topo{position:absolute;top:44px;left:72px;right:72px;display:flex;align-items:center;justify-content:space-between;
+ font-family:"SF Mono",Menlo,monospace;font-size:22px;letter-spacing:3px;color:var(--ciano);font-weight:600}
+.topo .n{color:var(--branco)} .topo .n b{color:var(--ml)}
+.topo:after{content:"";position:absolute;left:0;right:0;bottom:-16px;height:1px;background:rgba(108,198,255,.35)}
+.etq{display:inline-block;font-family:"SF Mono",Menlo,monospace;font-size:24px;font-weight:700;letter-spacing:3px;color:var(--ink);
+ background:var(--ciano);padding:10px 22px;border-radius:8px;margin-bottom:26px}
+h1{font-size:86px;font-weight:900;line-height:1.02;letter-spacing:-2.5px}
+h1.m{font-size:78px}
+.y{color:var(--ml)}
+.c{color:var(--claude)}
+.sub{font-size:34px;line-height:1.32;font-weight:500;color:#D5DEEA;margin-top:24px}
+.sp{flex:1}
+.caixa{border:2px solid rgba(108,198,255,.45);background:rgba(16,41,74,.75);border-radius:22px;position:relative}
+.caixa:before,.caixa:after{content:"";position:absolute;width:18px;height:18px;border:3px solid var(--ciano)}
+.caixa:before{top:-3px;left:-3px;border-right:0;border-bottom:0;border-radius:6px 0 0 0}
+.caixa:after{bottom:-3px;right:-3px;border-left:0;border-top:0;border-radius:0 0 6px 0}
+.card{background:var(--branco);color:var(--ink);border-radius:24px;box-shadow:0 18px 50px rgba(0,0,0,.35)}
+.rot{font-family:"SF Mono",Menlo,monospace;font-size:22px;letter-spacing:2px;color:var(--ciano);font-weight:700}
+.rod{height:100px;margin:0 -72px;padding:0 60px;display:flex;align-items:center;gap:16px;font-size:24px;font-weight:800;
+ color:var(--cinza);border-top:1px solid rgba(108,198,255,.25);background:rgba(8,22,40,.6)}
+.rod img{height:48px}
+.rod .dir{margin-left:auto;color:var(--branco)}
+.bolha{display:inline-block;background:var(--branco);color:var(--ink);border-radius:26px 26px 8px 26px;padding:22px 30px;font-size:31px;font-weight:700;box-shadow:0 12px 30px rgba(0,0,0,.3)}
+.prompt{font-family:"SF Mono",Menlo,monospace;background:#061325;border:2px solid rgba(108,198,255,.4);border-radius:18px;padding:22px 26px;font-size:28px;color:var(--branco)}
+.prompt .p{color:var(--ml);margin-right:12px}
+.num{width:64px;height:64px;border-radius:50%;border:3px solid var(--ml);color:var(--ml);font-weight:900;font-size:34px;
+ display:flex;align-items:center;justify-content:center;flex:none}
+.chip{display:inline-flex;align-items:center;gap:12px;background:rgba(244,247,251,.08);border:2px solid rgba(244,247,251,.25);border-radius:999px;
+ padding:14px 26px;font-size:28px;font-weight:700}
+.ok{display:inline-flex;align-items:center;gap:14px;background:var(--ml);color:var(--ink);font-weight:900;font-size:32px;padding:18px 32px;border-radius:16px}
+.passo{font-family:"SF Mono",Menlo,monospace;font-size:28px;font-weight:700;letter-spacing:4px;color:var(--claude);margin-bottom:10px}
+.lista{display:grid;row-gap:22px}
+.li{display:flex;align-items:center;gap:20px;font-size:32px;font-weight:600;color:#E4EAF2}
+.li i{width:16px;height:16px;border-radius:4px;background:var(--ml);flex:none;transform:rotate(45deg)}
+.tag{font-size:22px;font-weight:800;padding:6px 14px;border-radius:8px}
+.alta{background:#FFD9D2;color:#B3261E}.media{background:#FFF1B8;color:#7A5B00}.baixa{background:#DDF5E6;color:#1E7A45}
+</style></head><body><div class='topo'><span>◧ PLANTA DO SISTEMA</span><span class='n'><b>05</b> / 10</span></div>
+<div class='passo'>PASSO 1</div>
+<h1 class='m'>Conecte as <span class='y'>suas lojas.</span></h1>
+<div style='height:40px'></div>
+<div class='caixa' style='padding:34px 34px'>
+  <div style='display:grid;row-gap:34px'>
+    <div style='display:flex;gap:24px;align-items:center'><div class='num'>1</div><div><b style='font-size:36px'>Autorize a sua conta</b><div style='font-size:28px;color:#C7D2E0;margin-top:4px'>Login oficial do marketplace, um clique.</div></div></div>
+    <div style='display:flex;gap:24px;align-items:center'><div class='num'>2</div><div><b style='font-size:36px'>Cole o conector no Claude</b><div style='font-size:28px;color:#C7D2E0;margin-top:4px'>Configurações → Conectores.</div></div></div>
+    <div style='display:flex;gap:24px;align-items:center'><div class='num'>3</div><div><b style='font-size:36px'>Pergunte em português</b><div style='font-size:28px;color:#C7D2E0;margin-top:4px'>“Me mostra o que mais vendeu esta semana.”</div></div></div>
+  </div>
+</div>
+<div class='sp'></div>
+<div style='display:grid;grid-template-columns:repeat(3,1fr);gap:20px'>
+  <div class='card' style='height:150px;display:flex;align-items:center;justify-content:center'><img src='../assets/ml.png' style='height:104px'></div>
+  <div class='card' style='height:150px;display:flex;align-items:center;justify-content:center'><img src='../assets/shopee.png' style='height:108px'></div>
+  <div class='card' style='height:150px;display:flex;align-items:center;justify-content:center'><img src='../assets/amazon.png' style='height:84px'></div>
+</div>
+<div style='height:20px'></div>
+<div style='display:flex;gap:14px;flex-wrap:wrap;justify-content:center'>
+  <span class='chip'>Magalu</span><span class='chip'>TikTok Shop</span><span class='chip'>Shein</span><span class='chip'>Bling</span><span class='chip'>Olist</span>
+</div>
+<div class='sp'></div>
+<p style='text-align:center;font-size:30px;font-weight:700;color:#C7D2E0;margin-bottom:36px'>Uns <span class='y'>2 minutos</span> por loja. Funciona também no ChatGPT.</p>
+<div class='rod'><img src='../assets/tiops-robo.png'>@tiopstecnologia<span class='dir'>Marketplace Connect</span></div></body></html>
