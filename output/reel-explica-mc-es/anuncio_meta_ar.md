@@ -85,3 +85,20 @@ Criado em 03/11/2026 no Gerenciador de Anúncios, conta `1322329366662228`. O It
   grava `customer_profiles.origem = meta-ar`.
 - **Na medição, descontar os cliques de teste** da DEV-MC e meus: `o=teste`, `o=teste-ajuste`,
   `o=teste-deploy` e `o=teste-final`.
+
+## Leitura 2: 03/11, 22:41 (cerca de 6 h no ar)
+
+| Métrica | Valor |
+|---|---|
+| Gasto | R$ 9,04 de R$ 90 |
+| Impressões / alcance | 1.384 / 1.173 (frequência 1,18) |
+| CPM | R$ 6,53 |
+| Cliques no link | 27 (CTR 1,95%, CPC R$ 0,33) |
+| Cliques (todos) | 28 (CTR 2,02%) |
+| Visualizações da página de destino | 24 (R$ 0,38 cada) |
+
+- **Ritmo:** cerca de R$ 1,50 por hora, dentro do orçamento de R$ 30/dia.
+- **Custo por visita caiu** de R$ 0,42 (leitura 1) para R$ 0,38.
+- **Encurtador `ar`:** 52 cliques humanos com `o=meta-ar` (mais que os 27 do Meta: revisão e
+  pré-visualizações também batem). `o=youtube`: 6. O `mx` tem 6 (5 do YouTube).
+- **Cadastros e lojas:** pedido à DEV-MC (`origem = meta-ar`, lojas MLA/MLM).
