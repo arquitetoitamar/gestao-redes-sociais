@@ -312,7 +312,7 @@ Decisão em 7 dias com a verba de topo:
 
 ## 8. Pendências e cuidados
 
-- **Depoimento do Danilo em anúncio:** confirmar com ele o uso pago. Está na página, mas
+- **Depoimento do Danilo em anúncio:** autorizado (Itamar, 04/11). Está na página, e
   anúncio é outro uso.
 - **Cliques de teste para descontar:** `o=teste-funil` (este teste), além dos de antes.
 - **Regras:** CTA "Saiba mais", nunca "teste grátis"; nada é publicado sem o seu OK; checagem de
