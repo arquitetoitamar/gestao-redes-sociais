@@ -8,9 +8,10 @@ from multiprocessing import Process
 from playwright.sync_api import sync_playwright
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-URL = 'file://' + os.path.join(AQUI, 'build', 'index.html')
+PAGINA = os.environ.get('PAGINA', 'index')
+URL = 'file://' + os.path.join(AQUI, 'build', PAGINA + '.html')
 FPS, TOTAL = 30, 9.0
-FR = os.path.join(AQUI, 'quadros')
+FR = os.path.join(AQUI, 'quadros-' + os.environ.get('PAGINA', 'index'))
 
 
 def abre(p):
@@ -37,14 +38,14 @@ if __name__ == '__main__':
             b, pg = abre(p)
             for t in [float(x) for x in sys.argv[sys.argv.index('--stills') + 1].split(',')]:
                 pg.evaluate(f'window.__seek({t})')
-                pg.screenshot(path=os.path.join(AQUI, 'stills', f'still_{t:05.2f}.jpg'), type='jpeg', quality=85)
+                pg.screenshot(path=os.path.join(AQUI, 'stills', f'{PAGINA}_{t:05.2f}.jpg'), type='jpeg', quality=85)
             b.close()
         sys.exit()
     os.makedirs(FR, exist_ok=True)
     n = int(math.ceil(TOTAL * FPS))
     ps = [Process(target=trabalha, args=(list(range(n))[k::2],)) for k in range(2)]
     [q.start() for q in ps]; [q.join() for q in ps]
-    saida = os.path.join(AQUI, 'animacao_connect_2min.mp4')
+    saida = os.path.join(AQUI, 'animacao_connect_2min.mp4' if PAGINA == 'index' else f'animacao_connect_{PAGINA}.mp4')
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-framerate', str(FPS), '-i', f'{FR}/f%05d.jpg',
                     '-i', os.path.join(AQUI, 'audio', 'trilha.wav'), '-c:v', 'libx264', '-pix_fmt', 'yuv420p',
                     '-crf', '18', '-preset', 'medium', '-c:a', 'aac', '-b:a', '160k', '-shortest',

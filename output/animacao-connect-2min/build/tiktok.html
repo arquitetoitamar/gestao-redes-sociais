@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Animação curta (9 s, 1080x1920) do Marketplace Connect, versão TikTok Shop (pedido do Itamar 05/11: "sua loja TikTok dentro do Claude ou do ChatGPT em 5 minutos", com logo do TikTok Shop). Pedido do Itamar em 04/11/2026:
+     "faça outro post como esse" (anúncio animado do Radar Scout para Amazon), com identidade própria. -->
+<style>
+@font-face{font-family:Inter;src:url(../assets/Inter.ttf);font-weight:100 900}
+:root{--bg:#0B1D33;--linha:rgba(120,190,255,.10);--ciano:#6CC6FF;--ml:#FFE600;--claude:#E58A66;--branco:#F4F7FB;--ink:#0B1D33}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{font-family:Inter,-apple-system,Arial,sans-serif;color:var(--branco);background:var(--bg);position:relative}
+#grade{position:absolute;inset:-60px;background:
+  linear-gradient(var(--linha) 1px,transparent 1px) 0 0/60px 60px,
+  linear-gradient(90deg,var(--linha) 1px,transparent 1px) 0 0/60px 60px}
+#brilho{position:absolute;width:1300px;height:1300px;left:-110px;top:-260px;border-radius:50%;
+  background:radial-gradient(circle,rgba(30,90,160,.55) 0%,rgba(30,90,160,0) 65%)}
+.mono{font-family:"SF Mono",Menlo,monospace}
+#topo{position:absolute;top:150px;left:90px;right:90px;display:flex;justify-content:space-between;
+  font-family:"SF Mono",Menlo,monospace;font-size:26px;letter-spacing:4px;color:var(--ciano);font-weight:700}
+#selo{position:absolute;top:225px;left:90px;display:flex;align-items:center;gap:18px}
+#selo .logos{display:flex;gap:10px}
+#selo .logos div{width:78px;height:78px;border-radius:18px;background:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+#selo .logos img{max-width:62px;max-height:56px}
+#selo span{font-size:38px;font-weight:700;margin-left:8px}
+#titulo{position:absolute;top:400px;left:90px;right:70px;font-size:118px;font-weight:900;line-height:1.0;letter-spacing:-4px}
+#titulo .l{display:block;overflow:hidden}
+#titulo .l>span{display:inline-block}
+.y{color:var(--ml)}
+.tt{color:#fff;text-shadow:-4px -3px 0 #25F4EE,4px 3px 0 #FE2C55}
+#tempo{position:absolute;top:910px;left:90px;font-size:52px;font-weight:800}
+#tempo b{color:var(--ml)}
+#risco{position:absolute;top:980px;left:90px;height:10px;width:330px;background:var(--ml);border-radius:5px;transform-origin:left center}
+#passos{position:absolute;top:1070px;left:90px;right:90px}
+.p{display:flex;align-items:center;gap:26px;margin-bottom:34px;font-size:44px;font-weight:700}
+.p .ck{width:62px;height:62px;border-radius:14px;border:4px solid var(--ciano);display:flex;align-items:center;justify-content:center;flex:none;position:relative}
+.p .ck i{position:absolute;inset:-4px;border-radius:14px;background:var(--ml);transform:scale(0)}
+.p .ck svg{position:relative;width:38px;height:38px}
+.p .ck path{stroke:var(--ink);stroke-width:6;fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:60;stroke-dashoffset:60}
+#sem{position:absolute;top:1340px;left:90px;font-size:40px;font-weight:600;color:#C7D2E0}
+#ia{position:absolute;top:893px;right:80px;display:flex;gap:14px;align-items:center;background:#fff;border-radius:22px;padding:12px 20px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+#ia img{height:64px;border-radius:14px}
+#cta{position:absolute;left:70px;right:70px;top:1450px;border:3px solid var(--ml);background:rgba(255,230,0,.10);border-radius:28px;padding:34px 40px;
+  display:flex;align-items:center;justify-content:space-between}
+#cta .t1{font-size:34px;font-weight:700;color:#C7D2E0}
+#cta .t2{font-size:78px;font-weight:900;letter-spacing:-2px;line-height:1}
+#cta .t3{font-size:32px;font-weight:600;margin-top:8px}
+#cta .marca{display:flex;flex-direction:column;align-items:center;gap:8px;font-size:24px;font-weight:800;color:var(--ciano)}
+#cta .marca img{height:84px}
+#varredura{position:absolute;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,var(--ciano),transparent);opacity:.7;top:0}
+</style></head><body>
+<div id="grade"></div><div id="brilho"></div><div id="varredura"></div>
+<div id="topo"><span>◧ MARKETPLACE CONNECT</span><span>@tiopstecnologia</span></div>
+<div id="selo"><div class="logos"><div style="width:150px;height:150px;background:none;box-shadow:0 12px 34px rgba(0,0,0,.5);border-radius:34px"><img src="../assets/tiktokshop.svg" style="max-width:150px;max-height:150px"></div></div><span style="font-size:46px;line-height:1.15">Vende no<br><b style="font-size:58px">TikTok Shop</b>?</span></div>
+<div id="titulo">
+  <span class="l"><span>Sua loja <span class="tt">TikTok</span></span></span>
+  <span class="l"><span>dentro do <span class="y">Claude</span></span></span>
+  <span class="l"><span>ou do <span class="y">ChatGPT.</span></span></span>
+</div>
+<div id="tempo">Em <b>5 minutos</b>.</div>
+<div id="risco"></div>
+<div id="passos">
+  <div class="p"><div class="ck"><i></i><svg viewBox="0 0 40 40"><path d="M8 21 L17 30 L33 11"/></svg></div><span>Autoriza a sua TikTok Shop</span></div>
+  <div class="p"><div class="ck"><i></i><svg viewBox="0 0 40 40"><path d="M8 21 L17 30 L33 11"/></svg></div><span>Cola o conector</span></div>
+  <div class="p"><div class="ck"><i></i><svg viewBox="0 0 40 40"><path d="M8 21 L17 30 L33 11"/></svg></div><span>Pede em português</span></div>
+</div>
+<div id="sem">Sem código, sem planilha, sem TI.</div>
+<div id="ia"><img src="../assets/claude.png"><img src="../assets/chatgpt.png" style="height:44px;border-radius:0"></div>
+<div id="cta">
+  <div><div class="t1">Quer o passo a passo?</div><div class="t2">Comenta <span class="y">CONNECT</span></div><div class="t3">que eu te mando o link no direct.</div></div>
+  <div class="marca"><img src="../assets/tiops-robo.png">TIOPS</div>
+</div>
+<script src="../assets/gsap.min.js"></script>
+<script>
+// Linha do tempo determinística: window.__seek(t) posiciona tudo no instante t (render quadro a quadro).
+const TOTAL = 9.0;
+const tl = gsap.timeline({paused:true});
+const E = 'power3.out';
+tl.set('#selo,#tempo,#risco,#sem,#ia,#cta', {opacity:0})
+  .set('#titulo .l>span', {yPercent:110})
+  .set('#risco', {scaleX:0})
+  .set('.p', {opacity:0, x:-40})
+  .fromTo('#varredura', {top:-10}, {top:1930, duration:1.2, ease:'power1.inOut'}, 0)
+  .fromTo('#topo', {opacity:0, y:-20}, {opacity:1, y:0, duration:.5, ease:E}, 0.1)
+  .to('#selo', {opacity:1, duration:.01}, 0.25)
+  .from('#selo .logos div', {scale:0, rotation:-12, stagger:.08, duration:.45, ease:'back.out(2)'}, 0.25)
+  .from('#selo span', {opacity:0, x:-20, duration:.4, ease:E}, 0.5)
+  .to('#titulo .l>span', {yPercent:0, stagger:.16, duration:.6, ease:E}, 0.75)
+  .fromTo('#tempo', {opacity:0, y:20}, {opacity:1, y:0, duration:.45, ease:E}, 1.75)
+  .to('#risco', {opacity:1, duration:.01}, 2.0)
+  .to('#risco', {scaleX:1, duration:.45, ease:'power2.inOut'}, 2.0);
+['.p:nth-child(1)','.p:nth-child(2)','.p:nth-child(3)'].forEach((s,k)=>{
+  const t0 = 2.6 + k*0.55;
+  tl.to(s, {opacity:1, x:0, duration:.35, ease:E}, t0)
+    .to(s+' .ck i', {scale:1, duration:.25, ease:'back.out(2.5)'}, t0+.18)
+    .to(s+' .ck path', {strokeDashoffset:0, duration:.25, ease:'power2.out'}, t0+.3);
+});
+tl.fromTo('#sem', {opacity:0, y:20}, {opacity:1, y:0, duration:.4, ease:E}, 4.4)
+  .fromTo('#ia', {opacity:0, scale:.7}, {opacity:1, scale:1, duration:.45, ease:'back.out(2)'}, 2.15)
+  .fromTo('#cta', {opacity:0, y:120}, {opacity:1, y:0, duration:.6, ease:E}, 5.3)
+  .fromTo('#cta .t2', {scale:.9}, {scale:1, duration:.5, ease:'back.out(3)'}, 5.55)
+  .to('#cta', {boxShadow:'0 0 60px rgba(255,230,0,.45)', duration:.4, yoyo:true, repeat:3}, 6.3)
+  .to('#grade', {y:60, duration:TOTAL, ease:'none'}, 0)
+  .to({}, {duration:.01}, TOTAL);
+window.__seek = t => { tl.seek(t, false); };
+window.__total = TOTAL;
+document.fonts.ready.then(()=>{ window.__seek(0); window.__ready = true; });
+</script></body></html>
