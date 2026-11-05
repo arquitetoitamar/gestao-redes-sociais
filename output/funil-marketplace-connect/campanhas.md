@@ -20,6 +20,25 @@ sem erro de pagamento.
 A página principal abre em espanhol para quem está no México (testado com navegador `es-MX`). A
 verba do México fica fora do plano de R$ 1.000 do Brasil, assim como a da Argentina.
 
+**Alcance** (criada em 04/11 às 22h, a pedido do Itamar: "quero aparecer pra 100 mil empresas, pelo menos";
+verba de R$ 700 aprovada por ele, fora do plano de R$ 1.000):
+
+| Campanha | Conjunto | Anúncios | Verba | Período |
+|---|---|---|---|---|
+| `120255079974880007` MC \| Alcance 100 mil sellers \| Instagram (objetivo alcance, frequência máx. 2 a 3 em 7 dias) | `120255079984050007` BR, perfil seller (LAL clientes + LAL engajados + MercadoLivre, sem clientes atuais) | `120255079997560007` carrossel "sistema de IA" (post 04/11 `18576817813077656`) e `120255079997870007` Reel nota do anúncio | R$ 700 total (CBO) | 04/11 22h a 11/11 22h |
+| (mesma) | `120255079985570007` Polos: Franca, Nova Serrana, Ibitinga, Gaspar e Apucarana (raio de 12 a 15 km) | `120255079998970007` carrossel e `120255079999490007` Reel | (CBO) | (mesmo) |
+
+- Link dos anúncios: `l.tiops.com.br/comece?o=meta-alcance`, com botão "Saiba mais".
+- Os polos saíram da base da Receita (`output/base-empresas/`): cidades onde um nicho de marketplace concentra de 46% a 60% das empresas.
+- Meta: 100 mil pessoas, estimadas a R$ 5–7 por mil alcançadas.
+
+**ManyChat** (04/11): duas automações respondem a **qualquer comentário** desses dois posts:
+
+- `COMECE - Carrossel sistema de IA (anúncio alcance)`;
+- `COMECE - Reel nota do anúncio (anúncio alcance)`.
+
+Cada uma faz uma resposta pública, manda uma DM de boas-vindas com o botão "Quero o link" e depois o botão "Ver o vídeo", que leva a `l.tiops.com.br/comece?o=manychat-anuncio`.
+
 Total do Brasil no ar: **R$ 650**. Faltam R$ 350:
 
 - C, remarketing: R$ 200 a partir de 11/11;
