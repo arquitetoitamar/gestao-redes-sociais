@@ -99,3 +99,32 @@ a hora da leitura (inclui a manhã de 04/11).
   trocar o criativo.
 - ⚠️ O pixel não registrou cadastro nem clique em Assinar, mas a Stripe teve 11 assinaturas.
   Conferir se esses eventos estão disparando.
+
+### 04/11/2026 (lida em 05/11 às 08h15)
+
+Acumulado vai até a hora da leitura (inclui a manhã de 05/11). Alcance entrou no ar às 22h de 04/11.
+
+| Anúncio | Gasto ontem | Visitas ontem | R$/visita ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 11,80 | 59 | R$ 0,20 | R$ 13,71 | 67 | R$ 0,20 | ativo |
+| A2 Explicativo | R$ 6,70 | 7 | R$ 0,96 | R$ 7,47 | 8 | R$ 0,93 | ativo |
+| B Isca grátis | R$ 5,97 | 15 | R$ 0,40 | R$ 7,73 | 20 | R$ 0,39 | ativo |
+| AR Argentina | R$ 31,12 | 45 | R$ 0,69 | R$ 50,68 | 84 | R$ 0,60 | ativo |
+| MX México | R$ 13,79 | 47 | R$ 0,29 | R$ 25,32 | 89 | R$ 0,28 | ativo |
+| Alcance (3 anúncios com gasto) | R$ 9,84 | — | — | R$ 23,56 | — | — | ativo |
+
+- Gasto total ontem: R$ 79,22. Plano R$ 1.000 (A1+A2+B): R$ 28,91 até a leitura.
+- VSL (A1+A2) ontem: 66 visitas, R$ 0,28/visita, 0 cliques em Assinar no pixel (0%).
+- Alcance (campanha): 16.398 pessoas alcançadas de 100 mil, R$ 1,44 por mil, frequência 1,04, 12 cliques no
+  link pelo Meta. Link curto (janela 05/11 inclusa): meta-alcance 67, manychat-anuncio 0.
+- Pixel em 04/11, só navegador: CompleteRegistration 3, SubscribedButtonClick 0, ViewContent 4, Lead 0
+  (InitiateCheckout 2, ConectouCanal 44). Purchase pelo servidor: 1.
+- Link curto, pessoas em 04/11: /comece 114, /ar 107, /mx 64. Janela de 3 dias no /comece: meta-br 137,
+  meta-alcance 67.
+- Stripe: 7 assinaturas criadas em 04/11; 1 do Marketplace Connect (Agência), 6 do GestorPro.
+- ⚠️ Fora do MC: o anúncio "Reel Claude emite NF-e" (`120255026953690007`) está com erro de entrega.
+- ⚠️ Argentina segue acima de R$ 0,45/visita (R$ 0,60 acum.); termina em 06/11. México rende melhor
+  (R$ 0,28/visita).
+- ⚠️ A2 a R$ 0,93/visita, mas ainda abaixo de R$ 15 gastos. A1 bem na frente.
+- ⚠️ Segundo dia sem SubscribedButtonClick no pixel, mesmo com assinatura MC e Purchase pelo servidor.
+- WhatsApp enviado às 08h15.
