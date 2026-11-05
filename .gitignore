@@ -7,3 +7,6 @@ instagram_config.json
 
 # base de empresas (dados pesados e com dado pessoal: nunca no git)
 output/base-empresas/dados/
+output/reel-startup-pandemia/trab/
+output/reel-startup-pandemia/*.mp4
+output/animacao-connect-2min/quadros/
