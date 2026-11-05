@@ -29,6 +29,7 @@ verba de R$ 700 aprovada por ele, fora do plano de R$ 1.000):
 | (mesma) | `120255079985570007` Polos: Franca, Nova Serrana, Ibitinga, Gaspar e Apucarana (raio de 12 a 15 km) | `120255079998970007` carrossel e `120255079999490007` Reel | (CBO) | (mesmo) |
 
 - Link dos anúncios: `l.tiops.com.br/comece?o=meta-alcance`, com botão "Saiba mais".
+- 05/11, por volta de 0h15: entrou o Reel da animação "Sua loja dentro do Claude ou do ChatGPT" (post `17914921251520580`, publicado às 00h06) como terceiro anúncio nos dois conjuntos: `120255081843930007` (BR) e `120255081843990007` (polos). Saiu sem verba extra, dentro dos R$ 700, no lugar de uma campanha separada de R$ 6 por dia.
 - Os polos saíram da base da Receita (`output/base-empresas/`): cidades onde um nicho de marketplace concentra de 46% a 60% das empresas.
 - Meta: 100 mil pessoas, estimadas a R$ 5–7 por mil alcançadas.
 
