@@ -14,7 +14,7 @@ FR = os.path.join(AQUI, 'quadros')
 
 
 def abre(p):
-    b = p.chromium.launch(channel='chrome', headless=True, args=['--force-color-profile=srgb'])
+    b = p.chromium.launch(args=['--force-color-profile=srgb'])
     pg = b.new_page(viewport={'width': 1080, 'height': 1920}, device_scale_factor=1)
     pg.goto(URL)
     pg.wait_for_function('window.__ready === true', timeout=30000)
