@@ -128,3 +128,33 @@ Acumulado vai até a hora da leitura (inclui a manhã de 05/11). Alcance entrou 
 - ⚠️ A2 a R$ 0,93/visita, mas ainda abaixo de R$ 15 gastos. A1 bem na frente.
 - ⚠️ Segundo dia sem SubscribedButtonClick no pixel, mesmo com assinatura MC e Purchase pelo servidor.
 - WhatsApp enviado às 08h15.
+
+### 05/11/2026 (lida em 06/11 às 10h)
+
+Acumulado vai até a hora da leitura (inclui a manhã de 06/11).
+
+| Anúncio | Gasto ontem | Visitas ontem | R$/visita ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 12,28 | 69 | R$ 0,18 | R$ 27,86 | 150 | R$ 0,19 | ativo |
+| A2 Explicativo | R$ 7,67 | 13 | R$ 0,59 | R$ 15,61 | 20 | R$ 0,78 | ativo |
+| B Isca grátis | R$ 7,11 | 19 | R$ 0,37 | R$ 14,49 | 35 | R$ 0,41 | ativo |
+| AR Argentina | R$ 30,52 | 55 | R$ 0,55 | R$ 83,90 | 152 | R$ 0,55 | ativo |
+| MX México | R$ 38,96 | 109 | R$ 0,36 | R$ 65,07 | 183 | R$ 0,36 | ativo |
+| Alcance (6 anúncios) | R$ 104,58 | 25 | R$ 4,18 | R$ 133,77 | — | — | ativo |
+
+- Gasto total ontem: R$ 201,12. Plano R$ 1.000 (A1+A2+B): R$ 57,96 até a leitura.
+- VSL (A1+A2) ontem: 82 visitas, R$ 0,24/visita, 0 cliques em Assinar no pixel (0%).
+- Alcance (campanha, acumulado): 90.668 pessoas de 100 mil, R$ 1,48 por mil, frequência 1,01, 81 cliques
+  no link pelo Meta. Ontem o "BR | Carrossel sistema de IA" levou R$ 54,18 dos R$ 104,58.
+  Link curto (janela 04 a 06/11): meta-alcance 156, manychat-anuncio 0.
+- Pixel em 05/11, só navegador: CompleteRegistration 9, SubscribedButtonClick 0, ViewContent 4, Lead 3
+  (InitiateCheckout 5, ConectouCanal 33). Purchase pelo servidor: 2.
+- Link curto, pessoas em 05/11: /comece 262, /ar 129, /mx 204. Janela 04 a 06/11 no /comece: meta-br 276,
+  meta-alcance 156.
+- Stripe: 3 assinaturas criadas em 05/11, todas do Marketplace Connect (Plus).
+- ⚠️ A2 passou de R$ 15 com R$ 0,78/visita: sugerido trocar o criativo; A1 segue a R$ 0,19.
+- ⚠️ Terceiro dia sem SubscribedButtonClick no pixel, com 3 assinaturas MC e 2 Purchase pelo servidor.
+- Argentina x México (acumulado): AR R$ 0,55/visita e 129 cliques no /ar ontem; MX R$ 0,36/visita e
+  204 cliques no /mx ontem. Argentina termina hoje (06/11); leitura final amanhã.
+- Nenhum anúncio MC com erro de entrega; nenhum anúncio novo (C ou D) na conta.
+- WhatsApp enviado às 10h.
