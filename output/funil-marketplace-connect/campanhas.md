@@ -70,6 +70,12 @@ cabe em 14 dias. No dia 18, o vencedor fica com a verba.
 **Declaração de IA:** não marcada. O vídeo explicativo usa voz sintética; a declaração só é
 obrigatória fora do Brasil.
 
+### Ajustes de 06/11/2026, às 10h50 (aprovados pelo Itamar)
+
+- **A2 pausado** (conjunto `120255061329580007`): R$ 15,81 gastos, R$ 0,79 por visita, acima do teto de R$ 0,45. Os R$ 74 restantes foram para o **A1**, que tem R$ 0,18 por visita: orçamento do A1 subiu de R$ 360 para R$ 434, até 04/12.
+- **Carrossel pausado no alcance** (`120255079997560007` BR e `120255079998970007` polos): levava metade da verba e só tinha 68 interações, contra 1.621 do Reel da nota e 785 da animação. Ficaram só os Reels. Alcance no momento: 91,9 mil pessoas com R$ 136,26 (R$ 1,48 por mil).
+- **Saldo:** a conta é pré-paga, com R$ 383,71 gastos em novembro e mais de R$ 1.100 ainda comprometidos. Se não entrar saldo novo, os anúncios param por volta de 10/11.
+
 ## Leituras
 
 **Rotina diária:** tarefa agendada `resumo-campanhas-mc-whatsapp` no Claude desktop, todo dia por
