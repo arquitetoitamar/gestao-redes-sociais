@@ -76,6 +76,12 @@ obrigatória fora do Brasil.
 - **Carrossel pausado no alcance** (`120255079997560007` BR e `120255079998970007` polos): levava metade da verba e só tinha 68 interações, contra 1.621 do Reel da nota e 785 da animação. Ficaram só os Reels. Alcance no momento: 91,9 mil pessoas com R$ 136,26 (R$ 1,48 por mil).
 - **Saldo:** a conta é pré-paga, com R$ 383,71 gastos em novembro e mais de R$ 1.100 ainda comprometidos. Se não entrar saldo novo, os anúncios param por volta de 10/11.
 
+### Ajuste de 07/11/2026, às 14h50 (pedido do Itamar: "reduz")
+
+- **Alcance reduzido de R$ 700 para R$ 300 no total**, para caber no saldo pré-pago. Já tinha gasto R$ 257,78 e alcançado 158 mil pessoas; sobram uns R$ 42 até 11/11. A meta de 100 mil foi batida em 06/11.
+- Saldo: se só entraram os R$ 1.000, restam uns R$ 438. A1 e B ainda podem gastar uns R$ 560 até 04/12 (cerca de R$ 20 por dia), então falta saldo no fim do mês. O C (R$ 200) e o D (R$ 150) não cabem sem dinheiro novo.
+- Argentina e México encerrados (R$ 89,91 e R$ 89,46).
+
 ## Leituras
 
 **Rotina diária:** tarefa agendada `resumo-campanhas-mc-whatsapp` no Claude desktop, todo dia por
