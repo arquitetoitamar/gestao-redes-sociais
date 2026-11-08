@@ -170,3 +170,33 @@ Acumulado vai até a hora da leitura (inclui a manhã de 06/11).
   204 cliques no /mx ontem. Argentina termina hoje (06/11); leitura final amanhã.
 - Nenhum anúncio MC com erro de entrega; nenhum anúncio novo (C ou D) na conta.
 - WhatsApp enviado às 10h.
+
+### 07/11/2026 (lida em 08/11 às 12h25)
+
+Acumulado vai até a hora da leitura. Não há leitura de 06/11 registrada aqui.
+
+| Anúncio | Gasto ontem | Visitas ontem | R$/visita ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 16,96 | 101 | R$ 0,17 | R$ 62,15 | 346 | R$ 0,18 | ativo |
+| A2 Explicativo | — | — | — | R$ 15,81 | 20 | R$ 0,79 | pausado (06/11) |
+| B Isca grátis | R$ 7,49 | 21 | R$ 0,36 | R$ 29,93 | 78 | R$ 0,38 | ativo |
+| AR Argentina | — | — | — | R$ 89,95 | 168 | R$ 0,54 | concluído (06/11) |
+| MX México | R$ 10,16 | 26 | R$ 0,39 | R$ 89,47 | 248 | R$ 0,36 | concluído (07/11) |
+| Alcance (4 anúncios com gasto) | R$ 42,04 | 7 | R$ 6,01 | R$ 262,20 | — | — | ativo |
+
+- Gasto total ontem: R$ 76,65. Plano R$ 1.000 (A1+A2+B): R$ 107,89 até a leitura.
+- VSL (só A1) ontem: 101 visitas, R$ 0,17/visita, 0 cliques em Assinar no pixel (0%).
+- Alcance (campanha, acumulado): 160.982 pessoas, meta de 100 mil batida; R$ 1,63 por mil, frequência 1,09,
+  135 cliques no link pelo Meta. Ontem "BR | Reel animação 2 min" levou R$ 32,47 dos R$ 42,04.
+  Link curto (janela 06 a 08/11): meta-alcance 96, manychat-anuncio 0.
+- Pixel em 07/11, só navegador: CompleteRegistration 5, SubscribedButtonClick 0, ViewContent 6, Lead 2
+  (ConectouCanal 13, PageView 436). Purchase pelo servidor: 2.
+- Link curto, pessoas em 07/11: /comece 226, /mx 83. Janela 06 a 08/11 no /comece: meta-br 340, meta-alcance 96.
+- Stripe: 2 assinaturas criadas em 07/11, ambas do Marketplace Connect (Plus); 1 cancelada no mesmo dia
+  com pedido de reembolso.
+- Leitura final Argentina x México: AR R$ 89,95, 168 visitas, R$ 0,54/visita; MX R$ 89,47, 248 visitas,
+  R$ 0,36/visita e 108 cliques no /mx nos últimos 2 dias. México rendeu melhor.
+- ⚠️ Quarto dia sem SubscribedButtonClick no pixel, com 2 Purchase pelo servidor.
+- Nenhum anúncio MC com erro de entrega; nenhum anúncio novo (C ou D) na conta.
+- Próximo: 10/11 decisão dos R$ 150; 11/11 remarketing C precisa do OK.
+- WhatsApp enviado às 12h25.
