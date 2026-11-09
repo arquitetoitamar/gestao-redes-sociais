@@ -256,3 +256,10 @@ Critério: custo por visita à página no acumulado de novembro. Só o A1 ficou 
 - Campanha `120255061318190007` (Topo VSL) ativa; só o conjunto do A1 (`120255061320240007`) entrega, porque o A2 está pausado no próprio conjunto.
 - Verba restante do A1: R$ 362,08 de R$ 434, até 04/12 (cerca de R$ 14 por dia).
 - Saldo pré-pago não lido (precisa do 2FA do Itamar). Se acabar, o anúncio para sozinho.
+
+### 09/11 — anúncio A3 (Reel MadeiraMadeira) no conjunto do A1 (pedido do Itamar: "já inclui na campanha")
+
+- Anúncio `120255161364750007` "A3 | Reel MadeiraMadeira | Saiba mais", criativo `1323447106514680` a partir do Reel orgânico
+  publicado às 15h21 (instagram.com/reel/Dfh9npuCk_Z), botão Saiba mais → `l.tiops.com.br/madeira?o=meta-madeira` (cai em /comece).
+- Fica no conjunto `120255061320240007` e divide a verba do A1 (R$ 362 restantes até 04/12). Criativo novo, não é Reel antigo.
+- Ativado às 15h25; entrou em revisão da Meta.

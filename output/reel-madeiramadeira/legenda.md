@@ -19,6 +19,10 @@ Exemplo ilustrativo, com números fictícios. #madeiramadeira #moveis #decoracao
 # YouTube Shorts
 Título: Novidade: MadeiraMadeira no Claude com o Marketplace Connect #shorts
 Descrição e tags: ver sobe_youtube.py (link l.tiops.com.br/madeira?o=youtube)
+Publicado em 09/11 às 15h17: https://youtube.com/shorts/Xxb1-k8yxRA (o envio anterior, ZrAzw8In4eU, com a trilha antiga, ficou não listado)
+
+# Música
+Trilha tech house (trilha_house.py). A "impressionado" (coral + sininhos) foi trocada a pedido do Itamar em 09/11 ("tá chata").
 
 # ManyChat
 Automação "MADEIRA - MadeiraMadeira no Marketplace Connect" (conta fb5874087), duplicada da CONNECT em 09/11/2026:

@@ -1,5 +1,5 @@
 """Sobe reel_madeiramadeira.mp4 como Short, agendado (publishAt), com capa.
-uso: python3 sobe_youtube.py "2026-11-09T21:00:00Z"   (horário em UTC; 21:00Z = 18:00 BRT)"""
+uso: python3 sobe_youtube.py agora | "2026-11-09T21:00:00Z"   (horário em UTC; 21:00Z = 18:00 BRT)"""
 import json, os, sys, urllib.request, urllib.error
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../scripts/trilha'))
 import yt
@@ -23,6 +23,8 @@ corpo = {
     'status': {'privacyStatus': 'private', 'publishAt': QUANDO, 'selfDeclaredMadeForKids': False,
                'containsSyntheticMedia': False},
 }
+if QUANDO == 'agora':
+    corpo['status'].pop('publishAt'); corpo['status']['privacyStatus'] = 'public'
 assert '<' not in DESC and '>' not in DESC and len(corpo['snippet']['title']) <= 100
 tok = yt.refresh()
 tam = os.path.getsize(ARQ)
@@ -44,5 +46,5 @@ try:
 except urllib.error.HTTPError as e:
     capa = 'falhou %s %s' % (e.code, e.read().decode()[:200])
 print('capa', capa)
-json.dump({'id': vid, 'url': 'https://youtube.com/shorts/' + vid, 'status': 'agendado ' + QUANDO, 'capa': capa},
+json.dump({'id': vid, 'url': 'https://youtube.com/shorts/' + vid, 'status': 'publico' if QUANDO == 'agora' else 'agendado ' + QUANDO, 'capa': capa},
           open(os.path.join(AQUI, 'youtube_publicado.json'), 'w'), indent=1)
