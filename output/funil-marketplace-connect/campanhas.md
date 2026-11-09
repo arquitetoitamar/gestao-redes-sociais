@@ -209,3 +209,32 @@ Acumulado vai até a hora da leitura. Não há leitura de 06/11 registrada aqui.
 - Gasto de novembro até a pausa: R$ 608,14. Saldo pré-pago não lido (tela de cobrança pede 2FA do Itamar).
 - Regra nova: não impulsionar Reels antigos.
 - Para retomar, o A1 é o candidato (R$ 0,17 por visita); reativar só com OK do Itamar.
+
+### 08/11/2026 (lida em 09/11 às 08h20)
+
+Dia da pausa: houve gasto até as campanhas serem pausadas. Acumulado = total da vida do anúncio.
+
+| Anúncio | Gasto ontem | Visitas ontem | R$/visita ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 15,41 | 104 | R$ 0,15 | R$ 71,92 | 418 | R$ 0,17 | pausado (08/11) |
+| A2 Explicativo | — | — | — | R$ 15,81 | 20 | R$ 0,79 | pausado (06/11) |
+| B Isca grátis | R$ 6,26 | 12 | R$ 0,52 | R$ 33,88 | 88 | R$ 0,39 | pausado (08/11) |
+| AR Argentina | — | — | — | R$ 89,95 | 168 | R$ 0,54 | concluído (06/11) |
+| MX México | — | — | — | R$ 89,47 | 248 | R$ 0,36 | concluído (07/11) |
+| Alcance (campanha) | R$ 11,05 | 2 | — | R$ 270,37 | — | — | pausado (08/11) |
+
+- Gasto total ontem: R$ 32,72. Plano R$ 1.000 (A1+A2+B): R$ 121,61 no total.
+- VSL (só A1) ontem: 104 visitas, R$ 0,15/visita.
+- Alcance (acumulado final): 165.548 pessoas (meta 100 mil batida), R$ 1,63 por mil, frequência 1,10,
+  138 cliques no link pelo Meta. Ontem "BR | Reel animação 2 min" levou R$ 8,23 dos R$ 11,05.
+- Pixel em 08/11, só navegador: CompleteRegistration 3, SubscribedButtonClick 0, ViewContent 2, Lead 1
+  (InitiateCheckout 3, ConectouCanal 8, ClicouAssinar 2, PageView 437). Purchase pelo servidor: 2.
+- Achado: o clique em Assinar aparece como evento personalizado "ClicouAssinar" (2 ontem → 1,9% das
+  visitas da VSL), não como SubscribedButtonClick. Taxa ainda abaixo da meta de 5%.
+- Link curto /comece: 197 pessoas em 08/11. Janela 07 a 09/11: meta-br 337, meta-alcance 28,
+  manychat-anuncio 1, direto 2.
+- Stripe: 2 assinaturas criadas em 08/11, ambas Marketplace Connect (Plus), ativas.
+- Nenhum anúncio com erro de entrega; nenhum anúncio novo (C ou D) na conta.
+- Próximo: 10/11 decisão dos R$ 150; retomar o A1 só com OK do Itamar. Se seguir tudo pausado, a
+  leitura de 10/11 manda o resumo final e a rotina diária pode ser desligada.
+- WhatsApp enviado às 08h20.
