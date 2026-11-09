@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>motions afiliados shopee</title>
+<style>
+@font-face { font-family: "Inter"; src: url("../reel-explica-marketplace-connect/assets/Inter.ttf") format("truetype"); font-weight: 100 900; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1920px; height: 1080px; background: transparent; overflow: hidden; font-family: "Inter", sans-serif; -webkit-font-smoothing: antialiased; }
+.v { display: none; }
+:root { --or: #EE4D2D; --or2: #ff7a3d; --nv: #0f1424; --ok: #16a34a; }
+/* ------- barra de capítulo (faixa de baixo, abaixo da tela gravada) ------- */
+.chap { position: absolute; left: 70px; top: 984px; height: 84px; display: flex; align-items: stretch; border-radius: 18px; overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,.28); }
+.chap .k { background: var(--or); color: #fff; font-weight: 900; font-size: 30px; letter-spacing: .06em; padding: 0 26px; display: flex; align-items: center; }
+.chap .t { background: var(--nv); color: #fff; font-weight: 700; font-size: 34px; padding: 0 32px; display: flex; align-items: center; white-space: nowrap; }
+/* ------- cartão de prompt (topo, sobre a barra do navegador) ------- */
+.prm { position: absolute; left: 50%; transform: translateX(-50%); top: 78px; height: 96px; max-width: 1500px; display: flex; align-items: center; gap: 20px;
+  background: #fff; border: 4px solid var(--or); border-radius: 22px; padding: 0 34px 0 22px; box-shadow: 0 16px 40px rgba(0,0,0,.35); white-space: nowrap; }
+.prm .ic { width: 58px; height: 58px; border-radius: 14px; background: var(--nv); display: grid; place-items: center; }
+.prm .ic img { width: 36px; filter: invert(1); }
+.prm .lb { font-size: 22px; font-weight: 800; color: var(--or); letter-spacing: .06em; text-transform: uppercase; }
+.prm .tx { font-size: 34px; font-weight: 700; color: #111; }
+/* ------- conector ------- */
+.con { position: absolute; left: 50%; transform: translateX(-50%); top: 70px; width: 1240px; height: 176px; background: var(--nv); border-radius: 28px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.45); border: 4px solid var(--or); display: flex; align-items: center; gap: 30px; padding: 0 40px; }
+.con .lg { width: 112px; height: 112px; border-radius: 26px; background: #fff; display: grid; place-items: center; flex: none; }
+.con .lg img { width: 72px; }
+.con .lb { color: var(--or2); font-size: 28px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.con .url { color: #fff; font-size: 58px; font-weight: 800; letter-spacing: -.01em; font-family: "SF Mono", Menlo, monospace; }
+.con .sub { color: #c7cbd6; font-size: 24px; font-weight: 500; margin-top: 4px; }
+/* ------- nome (faixa de baixo) ------- */
+.low { position: absolute; left: 70px; top: 984px; height: 84px; display: flex; align-items: center; gap: 22px; background: var(--nv); color: #fff;
+  border-radius: 18px; padding: 0 34px 0 14px; box-shadow: 0 10px 30px rgba(0,0,0,.28); }
+.low .bar { width: 10px; height: 56px; background: var(--or); border-radius: 6px; }
+.low .n { font-size: 36px; font-weight: 900; }
+.low .r { font-size: 26px; font-weight: 500; color: #c7cbd6; }
+/* ------- selo de acelerado ------- */
+.fast { position: absolute; left: 1430px; top: 196px; background: rgba(15,20,36,.92); color: #fff; font-size: 34px; font-weight: 900; padding: 14px 26px; border-radius: 16px;
+  border: 3px solid var(--or); }
+/* ------- chamada para a descrição ------- */
+.cta { position: absolute; left: 50%; transform: translateX(-50%); top: 78px; height: 96px; display: flex; align-items: center; gap: 20px; background: var(--or); color: #fff;
+  border-radius: 22px; padding: 0 36px; font-size: 36px; font-weight: 800; box-shadow: 0 16px 40px rgba(0,0,0,.35); white-space: nowrap; }
+.cta b { background: #fff; color: var(--or); padding: 6px 14px; border-radius: 10px; font-weight: 900; }
+/* ------- abertura ------- */
+#intro .bg { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; background: linear-gradient(90deg, rgba(10,13,24,.94) 0%, rgba(10,13,24,.86) 48%, rgba(10,13,24,0) 72%); }
+#intro .l1, #intro .l2, #intro .l3, #intro .l4 { position: absolute; left: 120px; font-weight: 900; letter-spacing: -.02em; line-height: 1; }
+#intro .l1 { top: 250px; font-size: 64px; color: #fff; letter-spacing: .08em; }
+#intro .l2 { top: 330px; font-size: 150px; color: var(--or); text-shadow: 0 0 40px rgba(238,77,45,.55); }
+#intro .l3 { top: 490px; font-size: 118px; color: #fff; }
+#intro .l4 { top: 640px; font-size: 42px; font-weight: 600; color: #d6d9e2; letter-spacing: 0; }
+#intro .logos { position: absolute; left: 120px; top: 740px; display: flex; gap: 26px; align-items: center; }
+.tile { width: 120px; height: 120px; border-radius: 28px; display: grid; place-items: center; box-shadow: 0 14px 30px rgba(0,0,0,.35); }
+.tile img { width: 74px; }
+.arrow { font-size: 64px; color: #ffd400; font-weight: 900; }
+/* ------- encerramento ------- */
+#outro { background: radial-gradient(120% 90% at 30% 30%, #1b2440 0%, #0a0d18 70%); width: 1920px; height: 1080px; }
+#outro .h1 { position: absolute; left: 140px; top: 170px; font-size: 92px; font-weight: 900; color: #fff; line-height: 1.02; letter-spacing: -.02em; }
+#outro .h1 span { color: var(--or); }
+#outro .card { position: absolute; left: 140px; width: 1040px; background: #fff; border-radius: 26px; padding: 28px 36px; box-shadow: 0 20px 50px rgba(0,0,0,.4); }
+#outro .card .lb { font-size: 24px; font-weight: 800; color: var(--or); letter-spacing: .06em; text-transform: uppercase; }
+#outro .card .u { font-size: 50px; font-weight: 900; color: #111; margin-top: 6px; font-family: "SF Mono", Menlo, monospace; letter-spacing: -.01em; }
+#outro .sub { position: absolute; left: 140px; top: 900px; font-size: 34px; color: #c7cbd6; font-weight: 600; }
+#outro .logos { position: absolute; left: 1300px; top: 330px; display: grid; grid-template-columns: 170px 170px; gap: 34px; }
+#outro .logos .tile { width: 170px; height: 170px; border-radius: 40px; }
+#outro .logos .tile img { width: 104px; }
+#outro .ins { position: absolute; left: 1300px; top: 780px; background: #ff0033; color: #fff; font-size: 40px; font-weight: 900; padding: 22px 40px; border-radius: 18px; }
+</style></head>
+<body>
+<div id="chap" class="v"><div class="chap"><div class="k" id="chapK">PASSO 1</div><div class="t" id="chapT">Título</div></div></div>
+<div id="prm" class="v"><div class="prm"><div class="ic"><img src="assets/chatgpt.svg"></div><div><div class="lb">Prompt usado</div><div class="tx" id="prmT">texto</div></div></div></div>
+<div id="con" class="v"><div class="con"><div class="lg"><img src="assets/shopee.svg"></div><div><div class="lb">Endereço do conector · Afiliados Shopee</div><div class="url">mcp.tiops.com.br/mcp/afiliados</div><div class="sub">ChatGPT: Plugins → Adicionar servidor MCP personalizado → cole este endereço</div></div></div></div>
+<div id="low" class="v"><div class="low"><div class="bar"></div><div><div class="n">Itamar Rocha</div></div><div class="r">Fundador da Tiops · Professor de IA na FIAP</div></div></div>
+<div id="fast" class="v"><div class="fast">⏩ 4x</div></div>
+<div id="cta" class="v"><div class="cta">🔗 Marketplace Connect e endereço do conector: <b>link na descrição</b></div></div>
+<div id="intro" class="v">
+  <div class="bg"></div>
+  <div class="l1">TUTORIAL 2026</div>
+  <div class="l2">AFILIADO SHOPEE</div>
+  <div class="l3">NO CHATGPT</div>
+  <div class="l4">Ache produtos, gere links e vídeos com IA</div>
+  <div class="logos">
+    <div class="tile" style="background:#0f9d77"><img src="assets/chatgpt.svg" style="filter:invert(1)"></div>
+    <div class="tile" style="background:#f5efe6"><img src="assets/claude.svg"></div>
+    <div class="arrow">➜</div>
+    <div class="tile" style="background:#EE4D2D"><img src="assets/shopee.svg" style="filter:brightness(0) invert(1)"></div>
+  </div>
+</div>
+<div id="outro" class="v">
+  <div class="h1">Afiliado Shopee<br>com <span>IA</span>, em português</div>
+  <div class="card" style="top:470px"><div class="lb">Marketplace Connect · crie sua conta</div><div class="u">l.tiops.com.br/shopee-afiliados</div></div>
+  <div class="card" style="top:660px"><div class="lb">Endereço do conector</div><div class="u">mcp.tiops.com.br/mcp/afiliados</div></div>
+  <div class="sub">Funciona no ChatGPT e no Claude · links na descrição</div>
+  <div class="logos">
+    <div class="tile" style="background:#0f9d77"><img src="assets/chatgpt.svg" style="filter:invert(1)"></div>
+    <div class="tile" style="background:#f5efe6"><img src="assets/claude.svg"></div>
+    <div class="tile" style="background:#EE4D2D"><img src="assets/shopee.svg" style="filter:brightness(0) invert(1)"></div>
+    <div class="tile" style="background:#fff"><span style="font-size:64px;font-weight:900;color:#0f1424">MC</span></div>
+  </div>
+  <div class="ins">▶ Inscreva-se</div>
+</div>
+<script>
+const $ = q => document.querySelector(q);
+const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
+const ease = p => 1 - Math.pow(1 - p, 3);
+const back = p => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(p - 1, 3) + c1 * Math.pow(p - 1, 2); };
+window.show = (id, data) => {
+  document.querySelectorAll('.v').forEach(e => e.style.display = 'none');
+  $('#' + id).style.display = 'block';
+  if (data && data.k !== undefined) { $('#chapK').textContent = data.k; $('#chapT').textContent = data.t; }
+  if (data && data.p !== undefined) $('#prmT').textContent = data.p;
+};
+// animação da abertura e do encerramento por tempo
+window.seekIntro = t => {
+  const D = 6.0, out = clamp((t - (D - 0.5)) / 0.5);
+  $('#intro .bg').style.opacity = clamp(t / 0.35) * (1 - out);
+  [['.l1', 0.15], ['.l2', 0.35], ['.l3', 0.6], ['.l4', 0.9]].forEach(([s, t0]) => {
+    const p = clamp((t - t0) / 0.45), e = $('#intro ' + s);
+    e.style.opacity = clamp(p * 2) * (1 - out); e.style.transform = `translateX(${(1 - ease(p)) * -120}px) scale(${0.9 + 0.1 * back(p)})`;
+  });
+  document.querySelectorAll('#intro .logos > *').forEach((e, i) => {
+    const p = clamp((t - 1.25 - i * 0.12) / 0.35);
+    e.style.opacity = clamp(p * 2) * (1 - out); e.style.transform = `scale(${0.4 + 0.6 * back(p)})`;
+  });
+};
+window.seekOutro = t => {
+  const el = [['#outro .h1', 0.1], ['#outro .card:nth-of-type(2)', 0.5], ['#outro .card:nth-of-type(3)', 0.8], ['#outro .sub', 1.1], ['#outro .ins', 1.4]];
+  el.forEach(([s, t0]) => { const p = clamp((t - t0) / 0.45), e = $(s); e.style.opacity = clamp(p * 2); e.style.transform = `translateY(${(1 - ease(p)) * 40}px)`; });
+  document.querySelectorAll('#outro .logos .tile').forEach((e, i) => {
+    const p = clamp((t - 0.4 - i * 0.12) / 0.35); e.style.opacity = clamp(p * 2);
+    e.style.transform = `scale(${0.5 + 0.5 * back(p)}) translateY(${Math.sin((t + i) * 2) * 6}px)`;
+  });
+};
+window.__ready = document.fonts.ready.then(() => true);
+</script>
+</body></html>
