@@ -20,6 +20,10 @@ Original: `~/Downloads/afiliados.mp4` (15min16s, gravação de tela). Editado: `
 ## Capa
 Higgsfield (gpt_image_2_6, 2k, alta), referência: capa aprovada "ChatGPT publica no Mercado Livre". `capa_a.jpg` publicada (escolha do Itamar), `capa_b.jpg` alternativa.
 
+## Depois da publicação
+- Título, tags e descrição refeitos no padrão dos primeiros colocados de "shopee afiliados": ver `analise_palavras_chave.md`.
+- 3 Shorts agendados (10, 12 e 14/11 às 18h): `shorts_publicados.json`. Arquivos em `~/Downloads/afiliados - shortN.mp4`.
+
 ## Pendências
 - Tela final e cards do YouTube: a API não permite; colocar no Studio (inscrever-se + vídeo do Marketplace Connect).
 - Comentário fixado com os links: o token não tem o escopo force-ssl; fixar à mão no Studio.
