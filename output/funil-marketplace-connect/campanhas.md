@@ -238,3 +238,21 @@ Dia da pausa: houve gasto até as campanhas serem pausadas. Acumulado = total da
 - Próximo: 10/11 decisão dos R$ 150; retomar o A1 só com OK do Itamar. Se seguir tudo pausado, a
   leitura de 10/11 manda o resumo final e a rotina diária pode ser desligada.
 - WhatsApp enviado às 08h20.
+
+### 09/11 — A1 religado (pedido do Itamar: "reiniciar somente o que tiver mais interesse")
+
+Critério: custo por visita à página no acumulado de novembro. Só o A1 ficou abaixo do teto de R$ 0,40.
+
+| Anúncio | Gasto | Visitas | R$/visita | Decisão |
+|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 71,92 | 418 | R$ 0,17 | **religado** |
+| NF-e Reel Claude | R$ 37,99 | 191 | R$ 0,20 | pausado: erro de entrega e venceu em 07/11 |
+| MX México | R$ 89,47 | 248 | R$ 0,36 | encerrado |
+| B Isca grátis | R$ 33,95 | 88 | R$ 0,39 | pausado |
+| AR Argentina | R$ 89,95 | 168 | R$ 0,54 | encerrado |
+| A2 Explicativo | R$ 15,81 | 20 | R$ 0,79 | pausado |
+| Alcance (Reels e carrossel) | R$ 270,37 | 61 | R$ 2,66 a R$ 7,63 | pausado |
+
+- Campanha `120255061318190007` (Topo VSL) ativa; só o conjunto do A1 (`120255061320240007`) entrega, porque o A2 está pausado no próprio conjunto.
+- Verba restante do A1: R$ 362,08 de R$ 434, até 04/12 (cerca de R$ 14 por dia).
+- Saldo pré-pago não lido (precisa do 2FA do Itamar). Se acabar, o anúncio para sozinho.
