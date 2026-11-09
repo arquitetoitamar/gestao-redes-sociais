@@ -67,7 +67,7 @@ v = json.load(urllib.request.urlopen(up, timeout=1800))
 vid = v['id']; print('video', vid, v['status'])
 try:
     th = urllib.request.Request('https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=' + vid,
-                                data=open(os.path.join(AQUI, 'capa_b.jpg'), 'rb').read(), method='POST',
+                                data=open(os.path.join(AQUI, 'capa_a.jpg'), 'rb').read(), method='POST',
                                 headers={'Authorization': 'Bearer ' + tok, 'Content-Type': 'image/jpeg'})
     urllib.request.urlopen(th); capa = 'ok'
 except urllib.error.HTTPError as e:
