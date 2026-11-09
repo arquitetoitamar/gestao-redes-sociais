@@ -200,3 +200,12 @@ Acumulado vai até a hora da leitura. Não há leitura de 06/11 registrada aqui.
 - Nenhum anúncio MC com erro de entrega; nenhum anúncio novo (C ou D) na conta.
 - Próximo: 10/11 decisão dos R$ 150; 11/11 remarketing C precisa do OK.
 - WhatsApp enviado às 12h25.
+
+### 08/11 — todas as campanhas pausadas (pedido do Itamar)
+
+- Pausadas: Alcance (`120255079974880007`, R$ 270 de R$ 300, 165,5 mil pessoas), Isca B (`120255061318320007`,
+  R$ 33,63 de R$ 200), Topo VSL A1 (`120255061318190007`, R$ 71,26 no A1), Argentina, México, NFE Reel Claude
+  e as duas campanhas de out-26 já encerradas. Nenhuma campanha ativa na conta.
+- Gasto de novembro até a pausa: R$ 608,14. Saldo pré-pago não lido (tela de cobrança pede 2FA do Itamar).
+- Regra nova: não impulsionar Reels antigos.
+- Para retomar, o A1 é o candidato (R$ 0,17 por visita); reativar só com OK do Itamar.
