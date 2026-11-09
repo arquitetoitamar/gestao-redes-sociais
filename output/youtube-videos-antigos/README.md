@@ -15,3 +15,10 @@ Pedido do Itamar: avisar quem chega nos vídeos antigos que já existe versão n
   título, tags e categoryId).
 - Scripts: `listar.py` (lista o canal) e `marcar.py dry|apply <backup> [ids]` (idempotente:
   pula quem já tem o aviso).
+
+## 09/11 — aviso retirado de 3 vídeos fora do tema marketplace
+
+gARgaonZkj8 (Claude Code 24h na nuvem), RhwBZeqLUac (Automatizei meu Instagram) e
+LlmvXuEu4F0 (IA como motor propulsor) voltaram à descrição original, pedido do Itamar: o
+link do aviso leva a um live de marketplace. Ficam **29** vídeos com aviso.
+Desfazer qualquer um: `python3 restaurar.py originais.json <ids>`.
