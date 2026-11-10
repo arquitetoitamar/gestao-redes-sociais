@@ -263,3 +263,23 @@ Critério: custo por visita à página no acumulado de novembro. Só o A1 ficou 
   publicado às 15h21 (instagram.com/reel/Dfh9npuCk_Z), botão Saiba mais → `l.tiops.com.br/madeira?o=meta-madeira` (cai em /comece).
 - Fica no conjunto `120255061320240007` e divide a verba do A1 (R$ 362 restantes até 04/12). Criativo novo, não é Reel antigo.
 - Ativado às 15h25; entrou em revisão da Meta.
+
+### 09/11/2026 (lida em 10/11 às 09h)
+
+| Anúncio | Gasto ontem | Visitas ontem | R$/visita ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 9,73 | 75 | R$ 0,13 | R$ 84,91 | 514 | R$ 0,17 | ativo |
+| A3 MadeiraMadeira | R$ 1,15 | 2 | R$ 0,58 | R$ 1,15 | 2 | R$ 0,58 | ativo (1º dia) |
+| A2 Explicativo | — | — | — | R$ 15,81 | 20 | R$ 0,79 | pausado |
+| B Isca grátis | — | — | — | R$ 33,95 | 88 | R$ 0,39 | pausado |
+
+- Gasto total ontem: R$ 10,88. Plano R$ 1.000 (A1+A2+A3+B): R$ 135,82.
+- VSL (A1+A3): 77 visitas, R$ 0,14/visita. ClicouAssinar 5 → 6,5% das visitas (inclui tráfego orgânico; acima da meta de 5%).
+- A3: CTR 0,45% contra 9,5% do A1; só R$ 1,15 gastos, cedo para julgar. Link /madeira em 09/11: 20 pessoas (meta-madeira 15, youtube 5).
+- Pixel em 09/11, só navegador: CompleteRegistration 4, SubscribedButtonClick 0, ViewContent 13, Lead 2
+  (ClicouAssinar 5, InitiateCheckout 1, ConectouCanal 49, PageView 847). Purchase pelo servidor: 3.
+- Link curto /comece: 98 pessoas em 09/11. Janela 08 a 10/11: meta-br 301, meta-alcance 7, direto 2, youtube 1, manychat-anuncio 1.
+- Stripe: 4 assinaturas criadas em 09/11, todas ativas: 3 Marketplace Connect Plus + 1 Starter PRO.
+- Nenhum anúncio com erro de entrega; nenhum anúncio novo (C ou D) na conta.
+- Lembretes: 10/11 decisão dos R$ 150; 11/11 remarketing C (R$ 200) precisa do OK do Itamar.
+- WhatsApp: envio deu timeout, sem confirmação; texto salvo em resumo-pendente.md, não reenviado.
