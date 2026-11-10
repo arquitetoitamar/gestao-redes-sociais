@@ -1,0 +1,13 @@
+0:00 Introdução: vídeo de produto com IA
+1:23 Passo 1: Google Flow e as imagens de referência
+2:16 Passo 2: Storyboard do produto no ChatGPT
+3:28 O que a IA precisa para gerar o vídeo
+4:28 Passo 3: Prompt do vídeo UGC vertical 9:16
+5:27 Passo 4: Gerando o vídeo no Google Flow
+5:58 Passo 5: Gerando o vídeo no ChatGPT
+8:27 Passo 6: Gerando o vídeo no Gemini
+10:19 Passo 7: Marketplace Connect puxa fotos e ficha do anúncio
+11:32 Passo 8: Storyboard e vídeo direto do anúncio
+12:47 Do anúncio ao vídeo, e em massa
+15:08 Conectar o Gemini ao Marketplace Connect
+15:29 Flow x ChatGPT x Gemini

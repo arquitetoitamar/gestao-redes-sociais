@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>motions vídeo de produto com IA</title>
+<style>
+@font-face { font-family: "Inter"; src: url("../reel-explica-marketplace-connect/assets/Inter.ttf") format("truetype"); font-weight: 100 900; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1920px; height: 1080px; background: transparent; overflow: hidden; font-family: "Inter", sans-serif; -webkit-font-smoothing: antialiased; }
+.v { display: none; }
+:root { --az: #1F6BFF; --az2: #6EA8FF; --am: #FFD400; --nv: #0d1426; }
+/* ------- barra de capítulo (margem cinza de cima, fora da tela gravada) ------- */
+.chap { position: absolute; left: 70px; top: 10px; height: 56px; display: flex; align-items: stretch; border-radius: 14px; overflow: hidden;
+  box-shadow: 0 8px 22px rgba(0,0,0,.22); }
+.chap .k { background: var(--az); color: #fff; font-weight: 900; font-size: 24px; letter-spacing: .06em; padding: 0 20px; display: flex; align-items: center; }
+.chap .t { background: var(--nv); color: #fff; font-weight: 700; font-size: 27px; padding: 0 24px; display: flex; align-items: center; white-space: nowrap; }
+/* ------- cartão de prompt (topo, sobre as abas do navegador) ------- */
+.prm { position: absolute; left: 50%; transform: translateX(-50%); top: 78px; height: 96px; max-width: 1500px; display: flex; align-items: center; gap: 20px;
+  background: #fff; border: 4px solid var(--az); border-radius: 22px; padding: 0 34px 0 22px; box-shadow: 0 16px 40px rgba(0,0,0,.35); white-space: nowrap; }
+.prm .ic { width: 58px; height: 58px; border-radius: 14px; background: var(--nv); display: grid; place-items: center; }
+.prm .ic img { width: 36px; }
+.prm .lb { font-size: 22px; font-weight: 800; color: var(--az); letter-spacing: .06em; text-transform: uppercase; }
+.prm .tx { font-size: 34px; font-weight: 700; color: #111; }
+/* ------- o que a IA precisa ------- */
+.req { position: absolute; left: 50%; transform: translateX(-50%); top: 78px; width: 1480px; background: var(--nv); border: 4px solid var(--az); border-radius: 26px;
+  padding: 24px 34px; box-shadow: 0 20px 60px rgba(0,0,0,.45); }
+.req .lb { color: var(--am); font-size: 24px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 16px; }
+.req .row { display: flex; gap: 16px; }
+.req .it { flex: 1; background: #17213d; border-radius: 18px; padding: 18px 18px; color: #fff; font-size: 28px; font-weight: 800; line-height: 1.15; }
+.req .it span { display: block; font-size: 40px; margin-bottom: 8px; }
+.req .it i { display: block; font-style: normal; font-size: 21px; font-weight: 500; color: #b9c3dc; margin-top: 6px; }
+/* ------- conector ------- */
+.con { position: absolute; left: 50%; transform: translateX(-50%); top: 70px; width: 1300px; height: 176px; background: var(--nv); border-radius: 28px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.45); border: 4px solid var(--az); display: flex; align-items: center; gap: 30px; padding: 0 40px; }
+.con .lg { width: 112px; height: 112px; border-radius: 26px; background: var(--az); display: grid; place-items: center; flex: none; color: #fff; font-size: 46px; font-weight: 900; }
+.con .lb { color: var(--az2); font-size: 26px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.con .url { color: #fff; font-size: 60px; font-weight: 800; letter-spacing: -.01em; font-family: "SF Mono", Menlo, monospace; }
+.con .sub { color: #c7cbd6; font-size: 23px; font-weight: 500; margin-top: 4px; }
+/* ------- nome (margem de cima, à direita) ------- */
+.low { position: absolute; right: 270px; top: 10px; height: 56px; display: flex; align-items: center; gap: 16px; background: var(--nv); color: #fff;
+  border-radius: 14px; padding: 0 26px 0 12px; box-shadow: 0 8px 22px rgba(0,0,0,.22); }
+.low .bar { width: 8px; height: 38px; background: var(--am); border-radius: 5px; }
+.low .n { font-size: 27px; font-weight: 900; }
+.low .r { font-size: 21px; font-weight: 500; color: #c7cbd6; }
+/* ------- selo de acelerado ------- */
+.fast { position: absolute; left: 1430px; top: 196px; background: rgba(13,20,38,.92); color: #fff; font-size: 34px; font-weight: 900; padding: 14px 26px; border-radius: 16px;
+  border: 3px solid var(--am); }
+/* ------- chamada para a descrição ------- */
+.cta { position: absolute; left: 50%; transform: translateX(-50%); top: 78px; height: 96px; display: flex; align-items: center; gap: 20px; background: var(--az); color: #fff;
+  border-radius: 22px; padding: 0 36px; font-size: 34px; font-weight: 800; box-shadow: 0 16px 40px rgba(0,0,0,.35); white-space: nowrap; }
+.cta b { background: #fff; color: var(--az); padding: 6px 14px; border-radius: 10px; font-weight: 900; }
+/* ------- abertura ------- */
+#intro .bg { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; background: linear-gradient(90deg, rgba(8,12,26,.95) 0%, rgba(8,12,26,.88) 50%, rgba(8,12,26,0) 74%); }
+#intro .l1, #intro .l2, #intro .l3, #intro .l4 { position: absolute; left: 120px; font-weight: 900; letter-spacing: -.02em; line-height: 1; }
+#intro .l1 { top: 240px; font-size: 60px; color: #fff; letter-spacing: .08em; }
+#intro .l2 { top: 320px; font-size: 138px; color: var(--am); text-shadow: 0 0 40px rgba(255,212,0,.45); }
+#intro .l3 { top: 470px; font-size: 128px; color: #fff; }
+#intro .l4 { top: 630px; font-size: 42px; font-weight: 600; color: #d6d9e2; letter-spacing: 0; }
+#intro .logos { position: absolute; left: 120px; top: 730px; display: flex; gap: 24px; align-items: center; }
+.tile { width: 120px; height: 120px; border-radius: 28px; display: grid; place-items: center; box-shadow: 0 14px 30px rgba(0,0,0,.35); }
+.tile img { width: 72px; }
+.arrow { font-size: 64px; color: var(--am); font-weight: 900; }
+/* ------- encerramento ------- */
+#outro { background: radial-gradient(120% 90% at 30% 30%, #18264a 0%, #080c1a 70%); width: 1920px; height: 1080px; }
+#outro .h1 { position: absolute; left: 140px; top: 160px; font-size: 92px; font-weight: 900; color: #fff; line-height: 1.02; letter-spacing: -.02em; }
+#outro .h1 span { color: var(--am); }
+#outro .card { position: absolute; left: 140px; width: 1060px; background: #fff; border-radius: 26px; padding: 28px 36px; box-shadow: 0 20px 50px rgba(0,0,0,.4); }
+#outro .card .lb { font-size: 24px; font-weight: 800; color: var(--az); letter-spacing: .06em; text-transform: uppercase; }
+#outro .card .u { font-size: 52px; font-weight: 900; color: #111; margin-top: 6px; font-family: "SF Mono", Menlo, monospace; letter-spacing: -.01em; }
+#outro .sub { position: absolute; left: 140px; top: 900px; font-size: 34px; color: #c7cbd6; font-weight: 600; }
+#outro .logos { position: absolute; left: 1320px; top: 330px; display: grid; grid-template-columns: 170px 170px; gap: 34px; }
+#outro .logos .tile { width: 170px; height: 170px; border-radius: 40px; }
+#outro .logos .tile img { width: 100px; }
+#outro .ins { position: absolute; left: 1320px; top: 780px; background: #ff0033; color: #fff; font-size: 40px; font-weight: 900; padding: 22px 40px; border-radius: 18px; }
+</style></head>
+<body>
+<div id="chap" class="v"><div class="chap"><div class="k" id="chapK">PASSO 1</div><div class="t" id="chapT">Título</div></div></div>
+<div id="prm" class="v"><div class="prm"><div class="ic"><img id="prmI" src="assets/chatgpt.svg"></div><div><div class="lb" id="prmL">Prompt usado</div><div class="tx" id="prmT">texto</div></div></div></div>
+<div id="req" class="v"><div class="req"><div class="lb">O que a IA precisa para gerar o vídeo do produto</div><div class="row">
+  <div class="it"><span>📷</span>Fotos do produto<i>2 ângulos, ou 8 para ficar fiel</i></div>
+  <div class="it"><span>📝</span>Descrição e ficha técnica<i>o que está no anúncio</i></div>
+  <div class="it"><span>🎬</span>Storyboard e prompt<i>as cenas, em texto</i></div>
+  <div class="it"><span>✨</span>Uma IA que gera vídeo<i>Flow, ChatGPT ou Gemini</i></div>
+</div></div></div>
+<div id="con" class="v"><div class="con"><div class="lg">MC</div><div><div class="lb">Conector do Marketplace Connect</div><div class="url">mcp.tiops.com.br/mcp</div><div class="sub">Gemini: Personalizar → Conectores → Personalizado · ChatGPT e Claude: conector personalizado</div></div></div></div>
+<div id="low" class="v"><div class="low"><div class="bar"></div><div class="n">Itamar Rocha</div><div class="r">Fundador da Tiops · Professor de IA na FIAP</div></div></div>
+<div id="fast" class="v"><div class="fast">⏩ 4x</div></div>
+<div id="cta" class="v"><div class="cta">🔗 Marketplace Connect, conector e prompt: <b>link na descrição</b></div></div>
+<div id="intro" class="v">
+  <div class="bg"></div>
+  <div class="l1">TUTORIAL 2026</div>
+  <div class="l2">VÍDEO DE PRODUTO</div>
+  <div class="l3">COM IA</div>
+  <div class="l4">Clipe para Mercado Livre, Shopee e TikTok Shop</div>
+  <div class="logos">
+    <div class="tile" style="background:#1F6BFF"><img src="assets/flow.svg"></div>
+    <div class="tile" style="background:#0f9d77"><img src="assets/chatgpt.svg"></div>
+    <div class="tile" style="background:#fff"><img src="assets/gemini.svg"></div>
+    <div class="arrow">➜</div>
+    <div class="tile" style="background:#FFE600"><img src="assets/ml.png" style="width:96px;border-radius:14px"></div>
+    <div class="tile" style="background:#fff"><img src="assets/shopee.png" style="width:84px"></div>
+  </div>
+</div>
+<div id="outro" class="v">
+  <div class="h1">Vídeo do seu produto<br>com <span>IA</span>, direto do anúncio</div>
+  <div class="card" style="top:470px"><div class="lb">Marketplace Connect · crie sua conta</div><div class="u">l.tiops.com.br/video-produto</div></div>
+  <div class="card" style="top:660px"><div class="lb">Conector para Gemini, ChatGPT e Claude</div><div class="u">mcp.tiops.com.br/mcp</div></div>
+  <div class="sub">Flow, ChatGPT e Gemini · links e prompt na descrição</div>
+  <div class="logos">
+    <div class="tile" style="background:#1F6BFF"><img src="assets/flow.svg"></div>
+    <div class="tile" style="background:#0f9d77"><img src="assets/chatgpt.svg"></div>
+    <div class="tile" style="background:#fff"><img src="assets/gemini.svg"></div>
+    <div class="tile" style="background:#fff"><span style="font-size:64px;font-weight:900;color:#0d1426">MC</span></div>
+  </div>
+  <div class="ins">▶ Inscreva-se</div>
+</div>
+<script>
+const $ = q => document.querySelector(q);
+const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
+const ease = p => 1 - Math.pow(1 - p, 3);
+const back = p => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(p - 1, 3) + c1 * Math.pow(p - 1, 2); };
+window.show = (id, data) => {
+  document.querySelectorAll('.v').forEach(e => e.style.display = 'none');
+  $('#' + id).style.display = 'block';
+  if (data && data.k !== undefined) { $('#chapK').textContent = data.k; $('#chapT').textContent = data.t; }
+  if (data && data.p !== undefined) { $('#prmT').textContent = data.p; $('#prmI').src = 'assets/' + (data.i || 'chatgpt') + '.svg';
+    $('#prmI').style.filter = "none"; $('#prmL').textContent = data.l || 'Prompt usado'; }
+};
+window.seekIntro = t => {
+  const D = 6.0, out = clamp((t - (D - 0.5)) / 0.5);
+  $('#intro .bg').style.opacity = clamp(t / 0.35) * (1 - out);
+  [['.l1', 0.15], ['.l2', 0.35], ['.l3', 0.6], ['.l4', 0.9]].forEach(([s, t0]) => {
+    const p = clamp((t - t0) / 0.45), e = $('#intro ' + s);
+    e.style.opacity = clamp(p * 2) * (1 - out); e.style.transform = `translateX(${(1 - ease(p)) * -120}px) scale(${0.9 + 0.1 * back(p)})`;
+  });
+  document.querySelectorAll('#intro .logos > *').forEach((e, i) => {
+    const p = clamp((t - 1.25 - i * 0.12) / 0.35);
+    e.style.opacity = clamp(p * 2) * (1 - out); e.style.transform = `scale(${0.4 + 0.6 * back(p)})`;
+  });
+};
+window.seekOutro = t => {
+  const el = [['#outro .h1', 0.1], ['#outro .card:nth-of-type(2)', 0.5], ['#outro .card:nth-of-type(3)', 0.8], ['#outro .sub', 1.1], ['#outro .ins', 1.4]];
+  el.forEach(([s, t0]) => { const p = clamp((t - t0) / 0.45), e = $(s); e.style.opacity = clamp(p * 2); e.style.transform = `translateY(${(1 - ease(p)) * 40}px)`; });
+  document.querySelectorAll('#outro .logos .tile').forEach((e, i) => {
+    const p = clamp((t - 0.4 - i * 0.12) / 0.35); e.style.opacity = clamp(p * 2);
+    e.style.transform = `scale(${0.5 + 0.5 * back(p)}) translateY(${Math.sin((t + i) * 2) * 6}px)`;
+  });
+};
+window.__ready = document.fonts.ready.then(() => true);
+</script>
+</body></html>
