@@ -304,3 +304,14 @@ Critério: custo por visita à página no acumulado de novembro. Só o A1 ficou 
 - Alertas: clique em Assinar caiu para 1%; A3 sem entrega no 2º dia.
 - Lembrete 11/11: ligar o remarketing C (R$ 200) precisa do OK do Itamar.
 - WhatsApp: enviado e confirmado ("✅ Mensagem enviada").
+
+### 11/11 — remarketing C ligado (OK do Itamar: "pode ligar ramarketign")
+
+- Campanha `120255193102880007` "MC | C Remarketing | VSL | nov26": Tráfego, orçamento total R$ 200 (CBO), até 04/12 23h59.
+- Conjunto `120255193103680007`: otimiza visita à página; Brasil; só públicos personalizados (Advantage+ Público desligado):
+  - incluídos: `120255193100940007` visitou /comece ou a isca (30 d) + `120255193101030007` engajou com @tiopstecnologia (90 d, inclui vídeo);
+  - excluídos: `120255193101300007` Purchase (180 d) + `120254244914420007` lista de clientes MC.
+- Anúncio `120255193108170007`, criativo `2948042878882699`: Reel de 04/11 "Sua loja dentro do Claude ou do ChatGPT"
+  (instagram.com/reel/DfWBtttDXfY), demo + "nada muda na loja sem o seu OK". Botão Saiba mais → `l.tiops.com.br/comece?o=meta-rmk`.
+- Status às 09h30: ativo, em revisão da Meta. Públicos novos podem levar algumas horas para encher.
+- Atenção ao saldo pré-pago: C soma ~R$ 8,70/dia ao A1 (~R$ 14/dia). Sem recarga, o saldo pode acabar antes de 04/12 e parar tudo.
