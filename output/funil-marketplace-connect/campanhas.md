@@ -283,3 +283,24 @@ Critério: custo por visita à página no acumulado de novembro. Só o A1 ficou 
 - Nenhum anúncio com erro de entrega; nenhum anúncio novo (C ou D) na conta.
 - Lembretes: 10/11 decisão dos R$ 150; 11/11 remarketing C (R$ 200) precisa do OK do Itamar.
 - WhatsApp: envio deu timeout, sem confirmação; texto salvo em resumo-pendente.md, não reenviado.
+
+### 10/11/2026 (lida em 11/11 às 09h)
+
+| Anúncio | Gasto ontem | Visitas ontem | R$/visita ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 14,79 | 100 | R$ 0,15 | R$ 99,60 | 614 | R$ 0,16 | ativo |
+| A3 MadeiraMadeira | R$ 0,00 | 0 | — | R$ 1,15 | 2 | R$ 0,58 | ativo, quase sem entrega (18 exibições) |
+| A2 Explicativo | — | — | — | R$ 15,81 | 20 | R$ 0,79 | pausado |
+| B Isca grátis | — | — | — | R$ 33,95 | 88 | R$ 0,39 | pausado |
+
+- Gasto total ontem: R$ 14,79. Plano R$ 1.000 (A1+A2+A3+B): R$ 150,51.
+- VSL: 100 visitas, R$ 0,15/visita. CTR do A1: 7,62%.
+- Pixel em 10/11, só navegador: CompleteRegistration 7, SubscribedButtonClick 0, ViewContent 4, Lead 0
+  (ClicouAssinar 1 → 1% das visitas, abaixo da meta de 5%; InitiateCheckout 1, ConectouCanal 22, PageView 617). Purchase pelo servidor: 3.
+- Link curto /comece: 200 pessoas em 10/11. Janela 09 a 11/11: meta-br 330, direto 4, meta-alcance 4, facebook 1, boas-vindas-cadastro 1, youtube 1.
+  Link /madeira: 1 pessoa em 10/11 (janela: meta-madeira 16, youtube 5).
+- Stripe: 3 assinaturas criadas em 10/11, todas ativas: 2 Marketplace Connect Plus + 1 de outro produto (R$ 49,90).
+- Nenhum anúncio novo (C ou D). Único com erro: "Reel Claude emite NF-e" (já conhecido, venceu em 07/11).
+- Alertas: clique em Assinar caiu para 1%; A3 sem entrega no 2º dia.
+- Lembrete 11/11: ligar o remarketing C (R$ 200) precisa do OK do Itamar.
+- WhatsApp: enviado e confirmado ("✅ Mensagem enviada").
