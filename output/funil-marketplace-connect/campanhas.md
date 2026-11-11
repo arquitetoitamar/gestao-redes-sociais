@@ -82,6 +82,23 @@ obrigatória fora do Brasil.
 - Saldo: se só entraram os R$ 1.000, restam uns R$ 438. A1 e B ainda podem gastar uns R$ 560 até 04/12 (cerca de R$ 20 por dia), então falta saldo no fim do mês. O C (R$ 200) e o D (R$ 150) não cabem sem dinheiro novo.
 - Argentina e México encerrados (R$ 89,91 e R$ 89,46).
 
+### C, remarketing: ligado em 11/11/2026, por volta de 10h30 (OK do Itamar: "pode ligar remarketing")
+
+| Campanha | Conjunto | Anúncios | Verba | Período |
+|---|---|---|---|---|
+| `120255193104840007` MC \| C Remarketing /comece \| Tráfego LPV | `120255193106230007` engajados no IG 365 d + visitantes do site 30 d, sem clientes | `120255193117080007` C1 Reel "Sua loja dentro do Claude ou do ChatGPT" (04/11) e `120255193117270007` C2 Reel Band/PqTec (07/11) | R$ 200 total (CBO) | 11/11 10h30 a 04/12 |
+
+- Públicos novos: `120255193103590007` "MC | Visitaram /comece, /planos ou isca | 30d" (pixel, URL contém /comece, /planos ou avaliar-anuncio) e
+  `120255193103970007` "MC | Compraram (Purchase) | 180d" (exclusão). Também exclui `120254244914420007` (lista de clientes set-26).
+  Inclui o público já existente `120255079746430007` (engajaram com o @tiopstecnologia, 365 d, ~12 mil).
+- Público Advantage+ **desligado** (só público personalizado, é remarketing), BR, 25+, posicionamentos automáticos.
+- Otimização: visita à página de destino; cobrança por impressão. Link: `l.tiops.com.br/comece?o=meta-rmk`, botão "Saiba mais".
+- Criativos: posts recentes (regra: nada de Reel antigo). O plano pedia demo + segurança + depoimento do Danilo; não há peça nova com
+  o Danilo, então entraram o passo a passo com "nada muda na loja sem o seu OK" (C1) e a reportagem da Band (C2, credibilidade).
+- /planos entrou no público do C (no plano original ficava para o D, que começa em 18/11). Quando o D subir, excluir /planos do C ou
+  usar o D só para quem clicou em Assinar.
+- Saldo pré-pago não lido (a tela pede 2FA do Itamar). Em 07/11 a conta ainda não tinha saldo para C e D sem dinheiro novo.
+
 ## Leituras
 
 **Rotina diária:** tarefa agendada `resumo-campanhas-mc-whatsapp` no Claude desktop, todo dia por
