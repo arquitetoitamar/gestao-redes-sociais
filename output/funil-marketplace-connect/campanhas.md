@@ -352,3 +352,8 @@ o dobro do plano, e os públicos se sobrepõem (engajados no IG + visitantes do 
 - A3: o Meta parou de entregar (679 exibições em 3 dias, CTR 0,45%). Não gasta; perdeu para o A1 no mesmo conjunto.
 - Alcance (encerrada): 165,5 mil pessoas alcançadas por R$ 270 (meta era 100 mil), mas só 61 visitas (R$ 4,43 cada).
 - Gasto de novembro no Brasil + AR + MX + NF-e: ~R$ 646. Com as duas C, o ritmo diário vai a ~R$ 31; com uma, ~R$ 23.
+- Assinaturas (Stripe, consulta às 20h): Marketplace Connect criadas de 04 a 10/11 = 19 (Plus 13, Pro Max 3, Starter PRO 2, Agência 1);
+  1 cancelada no mesmo dia (07/11) e 1 com cancelamento pedido (09/11). Por dia: 04→1, 05→3, 06→4, 07→2, 08→2, 09→4, 10→3, 11→0 até 20h.
+  Em 03/11, antes dos anúncios, foram 11. Hoje só entrou 1 teste do GestorPro (fora do MC).
+- O Meta atribui 0 cadastro e 0 compra a todas as campanhas de novembro: o Purchase chega pelo servidor, mas sem casar com o clique.
+  Não dá para dizer quantas das 19 vieram do anúncio. Pixel hoje: CompleteRegistration 6, ClicouAssinar 1, nenhum Purchase.
