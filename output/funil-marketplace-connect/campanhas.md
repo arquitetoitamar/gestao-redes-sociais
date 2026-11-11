@@ -332,3 +332,23 @@ Critério: custo por visita à página no acumulado de novembro. Só o A1 ficou 
   (instagram.com/reel/DfWBtttDXfY), demo + "nada muda na loja sem o seu OK". Botão Saiba mais → `l.tiops.com.br/comece?o=meta-rmk`.
 - Status às 09h30: ativo, em revisão da Meta. Públicos novos podem levar algumas horas para encher.
 - Atenção ao saldo pré-pago: C soma ~R$ 8,70/dia ao A1 (~R$ 14/dia). Sem recarga, o saldo pode acabar antes de 04/12 e parar tudo.
+
+### 11/11 — análise das campanhas, por volta de 12h (pedido do Itamar: "analise minhas campanhas")
+
+**Remarketing duplicado.** Hoje entraram duas campanhas de remarketing, de sessões diferentes, cada uma com R$ 200:
+`120255193102880007` (09h34, seção acima) e `120255193104840007` (10h30, seção "C, remarketing" no topo). Juntas somam R$ 400,
+o dobro do plano, e os públicos se sobrepõem (engajados no IG + visitantes do /comece), então uma disputa leilão com a outra.
+
+| Campanha / anúncio | Gasto hoje | Exibições | Cliques | Visitas | CTR |
+|---|---|---|---|---|---|
+| C 09h34, Reel "loja dentro do Claude" | R$ 2,22 | 201 | 2 | 0 | 1,0% |
+| C 10h30, C2 Reel Band/PqTec | R$ 1,49 | 144 | 13 | 8 | 9,0% |
+| C 10h30, C1 Reel "loja dentro do Claude" | — | — | — | — | ainda preparando |
+| A1 Claude+ML+Shopee (Topo) | R$ 7,09 | 916 | 93 | 59 | 10,5% |
+| A3 MadeiraMadeira (Topo) | R$ 0,00 | 2 | 0 | 0 | — |
+
+- Proposta ao Itamar: pausar `120255193102880007` (mesmo Reel do C1, CTR 1%, sem visita) e manter a de 10h30. Aguardando OK.
+- A1: 7 dias com CTR de 6,3% a 10,5% e R$ 0,12 a R$ 0,20 por visita, frequência ~1,0. Sem sinal de cansaço.
+- A3: o Meta parou de entregar (679 exibições em 3 dias, CTR 0,45%). Não gasta; perdeu para o A1 no mesmo conjunto.
+- Alcance (encerrada): 165,5 mil pessoas alcançadas por R$ 270 (meta era 100 mil), mas só 61 visitas (R$ 4,43 cada).
+- Gasto de novembro no Brasil + AR + MX + NF-e: ~R$ 646. Com as duas C, o ritmo diário vai a ~R$ 31; com uma, ~R$ 23.
