@@ -58,9 +58,10 @@ Como conectar o Gemini (vídeo completo): https://youtu.be/rirx1DWcSuk?t=908
 ## Calendário sugerido (Reels das 16h às 20h; peças diferentes com 24 a 48 h entre elas)
 | Quando | O quê |
 |---|---|
-| 12/11 (qua) 17h29 | **Peça B publicada** (Itamar: "o segundo pode postar", agora): Reel agendado na AWS + Short https://youtube.com/shorts/OQRqknxVPTE |
-| a partir de 14/11, 16h-20h | Peça A: Reel + Short (aguardando OK) |
+| 12/11 (qua) 17h29 | **Peça B publicada** (Itamar: "o segundo pode postar", agora): Reel https://www.instagram.com/reel/Dfp6rjLknTz/ + Short https://youtube.com/shorts/OQRqknxVPTE |
+| 14/11 (sex) 18h | Carrossel "Estúdio de Operação com IA" (aguardando OK) |
+| 16/11 (dom) 18h | Peça A: Reel + Short (aguardando OK) |
 
 Legenda que saiu no Reel B: `legenda_ig_pausa.md` (hashtags no primeiro comentário).
 
-Se o carrossel "Estúdio de Operação com IA" sair em 12/11 às 18h, a peça A fica com exatamente 24 h de intervalo.
+O carrossel "Estúdio de Operação com IA" não pode mais sair em 12/11 às 18h (mesmo dia do Reel B). Ordem sugerida: carrossel 14/11, peça A 16/11.
