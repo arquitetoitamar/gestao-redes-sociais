@@ -1,0 +1,115 @@
+0
+00:00:00,180 --> 00:00:01,480
+Assistentes virtuais,
+
+1
+00:00:01,490 --> 00:00:04,690
+como o ChatGPT ou o Cloud são geniais para conversar,
+
+2
+00:00:05,090 --> 00:00:07,449
+mas eles vivem isolados nas próprias telas.
+
+3
+00:00:07,849 --> 00:00:10,010
+Eles não conseguem entrar nos seus sistemas de
+
+4
+00:00:10,010 --> 00:00:12,489
+e-commerce e executar o trabalho braçal por você.
+
+5
+00:00:13,210 --> 00:00:16,090
+Imagine pedindo o chat para ir pausar um anúncio sem
+
+6
+00:00:16,090 --> 00:00:18,370
+estoque no mercado livre e na Shopee ao mesmo tempo.
+
+7
+00:00:18,879 --> 00:00:20,739
+A inteligência entende o que você quer,
+
+8
+00:00:20,950 --> 00:00:22,030
+mas barra no óbvio.
+
+9
+00:00:22,309 --> 00:00:23,540
+Ela não tem as senhas,
+
+10
+00:00:23,549 --> 00:00:25,030
+nem a permissão das suas lojas.
+
+11
+00:00:25,510 --> 00:00:26,750
+Para derrubar essa barreira,
+
+12
+00:00:26,909 --> 00:00:28,959
+você precisa de um servidor MCP,
+
+13
+00:00:29,229 --> 00:00:30,590
+como o Marketplace Connect.
+
+14
+00:00:31,030 --> 00:00:32,849
+Ele atua como uma ponte operacional,
+
+15
+00:00:33,189 --> 00:00:36,150
+guardando de forma segura as autorizações oficiais de
+
+16
+00:00:36,150 --> 00:00:37,630
+cada canal de venda no seu núcleo.
+
+17
+00:00:38,189 --> 00:00:39,909
+Mas o problema não é só o acesso,
+
+18
+00:00:40,130 --> 00:00:40,909
+é o idioma.
+
+19
+00:00:41,430 --> 00:00:42,669
+Há fala português,
+
+20
+00:00:42,830 --> 00:00:45,360
+enquanto as plataformas exigem códigos e
+
+21
+00:00:45,360 --> 00:00:47,549
+estruturas de dados extremamente rígidas.
+
+22
+00:00:48,310 --> 00:00:50,549
+A ponte traduz instantaneamente a sua intenção
+
+23
+00:00:50,549 --> 00:00:52,830
+em texto para a linguagem de máquina correta
+
+24
+00:00:52,990 --> 00:00:55,310
+e despacha a ordem exata de pausa para o
+
+25
+00:00:55,310 --> 00:00:57,790
+mercado livre e para a Shopee de forma simultânea.
+
+26
+00:00:58,459 --> 00:01:01,740
+E aquele produto esgotado que você pediu para tirar do ar no começo
+
+27
+00:01:01,950 --> 00:01:05,220
+foi desativado instantaneamente em todas as suas contas,
+
+28
+00:01:05,510 --> 00:01:07,809
+sem que você precisasse abrir um único painel.

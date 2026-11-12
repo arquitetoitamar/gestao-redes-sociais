@@ -1,0 +1,91 @@
+0
+00:00:00,200 --> 00:00:02,559
+Criar anúncios é um processo repetitivo,
+
+1
+00:00:02,799 --> 00:00:05,769
+exigindo o preenchimento manual de dezenas de campos,
+
+2
+00:00:06,599 --> 00:00:09,750
+mas com o Marketplace Connect inteligências artificiais
+
+3
+00:00:09,750 --> 00:00:11,760
+podem operar sua loja virtual sozinhas.
+
+4
+00:00:12,079 --> 00:00:16,430
+Imagine pedir ao chat GPT para criar um anúncio otimizado de um smartwatch.
+
+5
+00:00:16,879 --> 00:00:21,079
+A inteligência artificial até escreve um título persuasivo e gera boas imagens,
+
+6
+00:00:21,639 --> 00:00:24,069
+mas esse conteúdo fica preso na tela do chat.
+
+7
+00:00:24,709 --> 00:00:28,139
+Como essas informações atravessam o sistema de segurança da loja
+
+8
+00:00:28,350 --> 00:00:29,950
+sem você copiar e colar nada.
+
+9
+00:00:30,430 --> 00:00:32,470
+Um sistema intermediário entra em ação.
+
+10
+00:00:32,830 --> 00:00:37,549
+Ele recebe o seu texto e o converte instantaneamente nas instruções exatas da loja.
+
+11
+00:00:38,150 --> 00:00:41,139
+Essa ponte tecnológica é um servidor MCP.
+
+12
+00:00:41,549 --> 00:00:43,150
+Ele roteia as variações de cor,
+
+13
+00:00:43,430 --> 00:00:45,869
+os dados de estoque e as imagens tratadas,
+
+14
+00:00:46,150 --> 00:00:49,939
+preenchendo todos os campos da sua conta oficial de forma criptografada
+
+15
+00:00:50,400 --> 00:00:51,310
+e o sistema vai além.
+
+16
+00:00:51,709 --> 00:00:53,869
+A Y usa o link do novo produto
+
+17
+00:00:53,869 --> 00:00:56,840
+e consome créditos para encomendar um vídeo automaticamente.
+
+18
+00:00:57,400 --> 00:00:59,799
+E aquele relógio inteligente do nosso exemplo inicial.
+
+19
+00:01:00,400 --> 00:01:00,819
+Agora,
+
+20
+00:01:00,919 --> 00:01:03,599
+o relógio já tem um anúncio ativo no marketplace,
+
+21
+00:01:03,759 --> 00:01:04,720
+publicado do zero,
+
+22
+00:01:04,949 --> 00:01:07,000
+apenas com comandos em linguagem natural.
