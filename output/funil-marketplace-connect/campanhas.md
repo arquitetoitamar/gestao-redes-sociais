@@ -357,3 +357,29 @@ o dobro do plano, e os públicos se sobrepõem (engajados no IG + visitantes do 
   Em 03/11, antes dos anúncios, foram 11. Hoje só entrou 1 teste do GestorPro (fora do MC).
 - O Meta atribui 0 cadastro e 0 compra a todas as campanhas de novembro: o Purchase chega pelo servidor, mas sem casar com o clique.
   Não dá para dizer quantas das 19 vieram do anúncio. Pixel hoje: CompleteRegistration 6, ClicouAssinar 1, nenhum Purchase.
+
+### 11/11/2026 (lida em 12/11 pela rotina das 08h)
+
+| Anúncio | Gasto ontem | Visitas ontem | R$/visita ontem | CTR ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 14,16 | 103 | R$ 0,14 | 8,57% | R$ 113,28 | 713 | R$ 0,16 | ativo |
+| A3 MadeiraMadeira | R$ 0,00 | 0 | — | — | R$ 1,15 | 2 | R$ 0,58 | ativo, sem entrega |
+| C 09h34 Reel loja no Claude (`120255193108170007`) | R$ 5,15 | 2 | R$ 2,58 | 1,66% | R$ 6,30 | 2 | R$ 3,15 | ativo |
+| C2 Reel Band PqTec (`120255193117270007`) | R$ 5,48 | 26 | R$ 0,21 | 8,58% | R$ 7,23 | 28 | R$ 0,26 | ativo |
+| C1 Reel loja no Claude (`120255193117080007`) | R$ 0,00 | 0 | — | — | R$ 0,01 | 0 | — | ativo, quase sem entrega |
+| A2 Explicativo | — | — | — | — | R$ 15,81 | 20 | R$ 0,79 | pausado |
+| B Isca grátis | — | — | — | — | R$ 33,95 | 88 | R$ 0,39 | pausado |
+
+- Gasto total ontem: R$ 24,79. Plano R$ 1.000 (A1+A2+A3+B+as duas C): R$ 177,73.
+- Visitas à VSL ontem (A1 + C): 131, R$ 0,19/visita.
+- Pixel em 11/11, só navegador: CompleteRegistration 2, SubscribedButtonClick 0, ViewContent 0, Lead 0
+  (ConectouCanal 65, PageView 592+37). Clique em Assinar 0% (meta 5%). Purchase pelo servidor: 0.
+  Obs.: o conector agrupa por dia no fuso do Pacífico; a soma cobre 00h–23h59 BRT de 11/11.
+- Link curto /comece: 240 pessoas em 11/11. Janela 10 a 12/11: meta-br 333, meta-rmk 90, meta-alcance 4, direto 4,
+  facebook 1, boas-vindas-cadastro 1, youtube 1. Link /madeira: 2 pessoas em 11/11 (todas meta-madeira).
+- Stripe: 1 assinatura criada em 11/11, GestorPro em teste (fora do MC). Assinaturas novas do MC: 0.
+- Nenhum anúncio com erro de entrega. Nenhuma campanha D.
+- Alertas: remarketing duplicado segue (2 x R$ 200); o C das 09h34 está a R$ 2,58/visita com CTR 1,66%
+  (abaixo de R$ 15 gastos, mas muito acima do teto de R$ 0,45). C2 vai bem (R$ 0,21). Clique em Assinar zerou.
+- Pendente: OK do Itamar para pausar `120255193102880007`. Próximo marco: 18/11 (fim do teste A2, conversão D).
+- WhatsApp: enviado e confirmado ("✅ Mensagem enviada").
