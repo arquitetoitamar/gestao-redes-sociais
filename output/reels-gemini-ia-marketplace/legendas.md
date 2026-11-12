@@ -1,4 +1,4 @@
-# Textos para publicar (rascunho, nada publicado)
+# Textos para publicar
 
 Instagram: @tiopstecnologia. "Comente CONNECT" usa a automação `CONNECT - Marketplace Connect` do ManyChat, que vale para qualquer post.
 YouTube: Shorts no canal.
@@ -58,7 +58,9 @@ Como conectar o Gemini (vídeo completo): https://youtu.be/rirx1DWcSuk?t=908
 ## Calendário sugerido (Reels das 16h às 20h; peças diferentes com 24 a 48 h entre elas)
 | Quando | O quê |
 |---|---|
-| 13/11 (qui) 18h | Peça A: Reel + Short |
-| 15/11 (sáb) 18h | Peça B: Reel + Short |
+| 12/11 (qua) 17h29 | **Peça B publicada** (Itamar: "o segundo pode postar", agora): Reel agendado na AWS + Short https://youtube.com/shorts/OQRqknxVPTE |
+| a partir de 14/11, 16h-20h | Peça A: Reel + Short (aguardando OK) |
+
+Legenda que saiu no Reel B: `legenda_ig_pausa.md` (hashtags no primeiro comentário).
 
 Se o carrossel "Estúdio de Operação com IA" sair em 12/11 às 18h, a peça A fica com exatamente 24 h de intervalo.
