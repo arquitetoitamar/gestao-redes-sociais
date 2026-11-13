@@ -1,19 +1,18 @@
-# Resumo pendente — leitura de 09/11 (rotina de 10/11)
+# Resumo pendente — leitura de 12/11 (rotina de 13/11 08h)
 
-O envio pelo WhatsApp (Chatiops send_whatsapp) deu timeout às ~09h de 10/11 e a confirmação
-"✅ Mensagem enviada" não voltou; a busca de mensagens também deu timeout. Pode ter chegado ou não.
-Não reenviado para não duplicar. Texto:
+Envio pelo Chatiops falhou: `ERR_WAPP_NOT_INITIALIZED` (conexão do WhatsApp não inicializada). Texto abaixo, pronto para colar.
 
 ```
-📊 Campanhas MC — ontem (09/11)
-Gasto: R$ 10,88 (acumulado R$ 135,82 de R$ 1.000)
-VSL (A1+A3): 77 visitas · R$ 0,14/visita · 5 cliques em Assinar (6,5%) ✅ meta 5%
-• A1 Claude+ML+Shopee: R$ 9,73 · 75 visitas · R$ 0,13/visita (acum. R$ 0,17)
-• A3 MadeiraMadeira: R$ 1,15 · 2 visitas · R$ 0,58/visita (1º dia, ainda pouco dado) · link /madeira: 15 cliques do anúncio + 5 do YouTube
-• A2 Explicativo: pausado
-Isca grátis (B): pausada
-Link /comece ontem: 98 pessoas (quase todas do anúncio)
-Cadastros: 4 · Assinaturas novas: 3 Plus (+1 Starter PRO) · Compras no Meta: 3
-Sem erro de entrega.
-👉 Hoje é a decisão dos R$ 150. Amanhã (11/11) dá para ligar o remarketing C (R$ 200), precisa do seu OK.
+📊 Campanhas MC — ontem (12/11)
+Gasto: R$ 30,07 (acumulado R$ 209,32 de R$ 1.000)
+VSL (A1+remarketing): 105 visitas · R$ 0,29/visita · 4 cliques em Assinar (3,8%)
+• A1 Claude+ML+Shopee: R$ 14,63 · 84 visitas · R$ 0,17/visita · CTR 7,2%
+• C2 Reel Band PqTec: R$ 7,26 · 17 visitas · R$ 0,43/visita
+• C Reel loja no Claude (09h34): R$ 8,13 · 4 visitas · R$ 2,03/visita
+• A3 MadeiraMadeira: sem entrega (1 clique no link /madeira)
+• A2 e Isca grátis (B): pausados
+Link /comece: 219 pessoas em 12/11
+Cadastros: 7 · Assinaturas novas: 4 (Plus) · Compras no Meta: 2
+⚠️ O C das 09h34 passou de R$ 15 (R$ 15,30) a R$ 2,55/visita: sugiro pausar ou trocar o criativo (precisa do seu OK). Remarketing segue duplicado (2 x R$ 200).
+👉 Próximo marco: 18/11, fim do teste A2 e início da conversão D (precisa do OK).
 ```

@@ -383,3 +383,28 @@ o dobro do plano, e os públicos se sobrepõem (engajados no IG + visitantes do 
   (abaixo de R$ 15 gastos, mas muito acima do teto de R$ 0,45). C2 vai bem (R$ 0,21). Clique em Assinar zerou.
 - Pendente: OK do Itamar para pausar `120255193102880007`. Próximo marco: 18/11 (fim do teste A2, conversão D).
 - WhatsApp: enviado e confirmado ("✅ Mensagem enviada").
+
+### 12/11/2026 (lida em 13/11 pela rotina das 08h)
+
+| Anúncio | Gasto ontem | Visitas ontem | R$/visita ontem | CTR ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 14,63 | 84 | R$ 0,17 | 7,21% | R$ 128,45 | 795 | R$ 0,16 | ativo |
+| A3 MadeiraMadeira | R$ 0,00 | 0 | — | — | R$ 1,18 | 2 | R$ 0,59 | ativo, sem entrega |
+| C 09h34 Reel loja no Claude (`120255193108170007`) | R$ 8,13 | 4 | R$ 2,03 | 1,16% | R$ 15,30 | 6 | R$ 2,55 | ativo ⚠️ |
+| C2 Reel Band PqTec (`120255193117270007`) | R$ 7,26 | 17 | R$ 0,43 | 6,88% | R$ 14,52 | 48 | R$ 0,30 | ativo |
+| C1 Reel loja no Claude (`120255193117080007`) | R$ 0,05 | 0 | — | 0% | R$ 0,11 | 0 | — | ativo, quase sem entrega |
+| A2 Explicativo | — | — | — | — | R$ 15,81 | 20 | R$ 0,79 | pausado |
+| B Isca grátis | — | — | — | — | R$ 33,95 | 88 | R$ 0,39 | pausado |
+
+- Gasto total ontem: R$ 30,07. Plano R$ 1.000 (A1+A2+A3+B+as duas C): R$ 209,32.
+- Visitas à VSL ontem (A1 + C): 105, R$ 0,29/visita.
+- Pixel em 12/11 (00h–23h59 BRT), só navegador: CompleteRegistration 7, ClicouAssinar 4, ViewContent 11, Lead 0,
+  SubscribedButtonClick 0 (ConectouCanal 37, PageView 673). Clique em Assinar 4/105 = 3,8% (meta 5%). Purchase pelo servidor: 2.
+- Link curto /comece: 219 pessoas em 12/11. Janela 11 a 13/11: meta-br 330, meta-rmk 163, direto 4, youtube 1.
+  Link /madeira: 1 pessoa em 12/11 (meta-madeira).
+- Stripe: 4 assinaturas criadas em 12/11, todas Plus mensal (MC). Assinaturas novas do MC: 4.
+- Nenhum anúncio com erro de entrega. Nenhuma campanha D.
+- Alertas: C das 09h34 passou de R$ 15 (R$ 15,30) com R$ 2,55/visita → ⚠️ trocar criativo ou pausar (já proposto em 11/11).
+  Remarketing duplicado segue (2 x R$ 200). C2 subiu para R$ 0,43/visita ontem (acum. R$ 0,30). A1 estável.
+- Pendente: OK do Itamar para pausar `120255193102880007`. Próximo marco: 18/11 (fim do teste A2, conversão D).
+- WhatsApp: FALHOU (`ERR_WAPP_NOT_INITIALIZED` no Chatiops). Texto salvo em `resumo-pendente.md`.
