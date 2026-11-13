@@ -43,7 +43,11 @@ CTA_SISTEMA = (
   <div style='font-size:40px;font-weight:700;line-height:1.3'>Funciona no Claude e no ChatGPT,<br>sem código e em português.</div>""")
 
 DOCS = {
+    # slide 1: a arte original tinha uma pessoa parecida com o Itamar ao lado dos monitores;
+    # na página da TiOps entram só os 3 painéis (cartoes.py gera trab/heroi-estudio.png)
     'estudio-operacao-ia': dict(src='post-estudio-operacao-ia', n=6, cta=CTA_ESTUDIO,
+                                troca={1: [("<img class='foto' src='file://%s/post-estudio-operacao-ia/assets/inteira.png' style='width:1000px;margin:0 -32px'>" % OUT,
+                                            "<img src='file://%s/heroi-estudio.png' style='width:936px;display:block;margin:0 auto'>" % TRAB)]},
                                 tira="<p class='rodape-txt' style='color:var(--cinza);font-size:30px'>Saiba mais em marketplaces.tiops.com.br</p>"),
     'sistema-ia-marketplace': dict(src='carrossel-sistema-ia-connect', n=10, cta=CTA_SISTEMA, tira=None),
 }
@@ -60,6 +64,9 @@ def documento(nome, cfg):
         for i in range(1, cfg['n'] + 1):
             h = open(os.path.join(src, 'html', 'slide-%02d.html' % i), encoding='utf-8').read()
             h = h.replace("'../assets/", "'file://%s/assets/" % src).replace('@tiopstecnologia', 'TiOps Tecnologia')
+            for a, b_ in cfg.get('troca', {}).get(i, []):
+                assert a in h, (nome, i, a[:40])
+                h = h.replace(a, b_)
             if i == cfg['n']:
                 assert cfg['cta'][0] in h, 'CTA do último slide mudou em %s' % cfg['src']
                 h = h.replace(*cfg['cta'])
@@ -180,7 +187,6 @@ def gemini():
 if __name__ == '__main__':
     for nome, cfg in DOCS.items():
         print(documento(nome, cfg))
-    print(madeira())
-    print(nfe())
+    # madeira() e nfe() ficam só como registro: os vídeos têm rosto/voz do Itamar e não vão para a página da TiOps
     for s in gemini():
         print(s)

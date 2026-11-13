@@ -1,5 +1,7 @@
 # LinkedIn TiOps Tecnologia — diagnóstico e textos prontos (05/10/2026)
 
+> **Substituído em 13/11/2026** por `../linkedin-tiops-pagina/pagina.md`, que é o que foi aplicado. Regra nova: na página da TiOps o Itamar não aparece (a linha "Fundada por Itamar Rocha" abaixo não vale mais).
+
 Página: linkedin.com/company/tiops (id 36018387) · 263 seguidores
 
 ## Números reais (do próprio painel)

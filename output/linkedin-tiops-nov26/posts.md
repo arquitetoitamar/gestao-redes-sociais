@@ -2,25 +2,30 @@
 
 Página: linkedin.com/company/tiops (id 36018387). Nada publicado ainda; cada post espera o OK do Itamar.
 
+## Regra da página (13/11/2026)
+A página da TiOps fortalece a marca: o Itamar não aparece. Isso vale para nome, rosto, voz clonada e telas com "De volta, Itamar".
+Por isso:
+- os vídeos da MadeiraMadeira e da NF-e viraram imagem (`cartoes.py`);
+- a capa do documento do Estúdio ficou só com os três painéis da arte.
+
+A página foi atualizada em 13/11: banner, slogan, descrição, especialidades e botão. Detalhes em `../linkedin-tiops-pagina/pagina.md`.
+
 ## Situação em 12/11/2026
 - 263 seguidores.
 - Último post em 05/10.
 - Em 30 dias: 8 impressões, 0 reações.
-- O perfil continua o antigo:
-  - banner "Jira Automation";
-  - slogan "Ajudando clientes a construir e integrar seus sistemas";
-  - descrição só de cloud e microsserviços.
-- As correções de `../linkedin-tiops-analise/melhorias.md` (05/10) não entraram.
+- O perfil estava com o banner "Jira Automation" e a descrição só de cloud. Corrigido em 13/11.
 
 ## Calendário
 Terça e quinta às 9h.
 
 | # | Quando | Formato | Peça |
 |---|---|---|---|
+| 0 | qui 13/11 18h | Imagem | `agentic-commerce/card.jpg` + `agentic-commerce/post.md` (artigo do Artem Kalugin) |
 | 1 | ter 18/11 09h | Documento (6 págs) | `pecas/estudio-operacao-ia.pdf` |
-| 2 | qui 20/11 09h | Vídeo 16 s | `pecas/madeiramadeira-linkedin.mp4` |
+| 2 | qui 20/11 09h | Imagem | `pecas/madeiramadeira-linkedin.jpg` |
 | 3 | ter 25/11 09h | Vídeo 71 s | `pecas/pausa-ml-shopee-linkedin.mp4` |
-| 4 | qui 27/11 09h | Vídeo 35 s | `pecas/emissor-nfe-claude-linkedin.mp4` |
+| 4 | qui 27/11 09h | Imagem | `pecas/emissor-nfe-linkedin.jpg` |
 | 5 | ter 02/12 09h | Documento (10 págs) | `pecas/sistema-ia-marketplace.pdf` |
 | 6 | qui 04/12 09h | Vídeo 70 s | `pecas/publica-anuncio-linkedin.mp4` |
 
@@ -53,7 +58,7 @@ Telas ilustrativas.
 #inteligenciaartificial #ecommerce #marketplace #mercadolivre #shopee
 ```
 
-## 2. qui 20/11: MadeiraMadeira chegou (vídeo)
+## 2. qui 20/11: MadeiraMadeira chegou (imagem)
 Ao publicar, marcar a página da MadeiraMadeira: digitar @MadeiraMadeira e escolher a página oficial.
 
 ```
@@ -88,11 +93,11 @@ Saiba mais: https://l.tiops.com.br/connect-saiba-mais?o=linkedin
 #mcp #inteligenciaartificial #arquiteturadesoftware #ecommerce #marketplace
 ```
 
-## 4. qui 27/11: NF-e emitida conversando com o Claude (vídeo)
+## 4. qui 27/11: NF-e emitida conversando com o Claude (imagem)
 ```
 Emitimos uma NF-e só conversando com o Claude.
 
-Gravação real, no ambiente de homologação da SEFAZ:
+Teste real, no ambiente de homologação da SEFAZ:
 1. Passamos o pedido da loja virtual em português.
 2. O Claude montou a prévia sem gastar número: CFOP, ICMS, DIFAL e total.
 3. Antes de emitir, alertou sobre o CFOP, o frete e o CPF de exemplo.
@@ -102,7 +107,7 @@ O Emissor NF-e da TiOps funciona no Claude, no ChatGPT e pela API do seu sistema
 
 Saiba mais: https://l.tiops.com.br/nfe-saiba-mais?o=linkedin
 
-Cliente, pedido e valores do vídeo são de teste.
+Cliente, pedido e valores da imagem são de teste.
 #notafiscal #nfe #ecommerce #inteligenciaartificial #sefaz
 ```
 
