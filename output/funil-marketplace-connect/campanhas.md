@@ -408,3 +408,29 @@ o dobro do plano, e os públicos se sobrepõem (engajados no IG + visitantes do 
   Remarketing duplicado segue (2 x R$ 200). C2 subiu para R$ 0,43/visita ontem (acum. R$ 0,30). A1 estável.
 - Pendente: OK do Itamar para pausar `120255193102880007`. Próximo marco: 18/11 (fim do teste A2, conversão D).
 - WhatsApp: FALHOU (`ERR_WAPP_NOT_INITIALIZED` no Chatiops). Texto salvo em `resumo-pendente.md`.
+
+### 13/11/2026 (lida em 14/11 pela rotina das 08h, executada às 13h48)
+
+| Anúncio | Gasto ontem | Visitas ontem | R$/visita ontem | CTR ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 14,40 | 93 | R$ 0,15 | 7,70% | R$ 145,56 | 925 | R$ 0,16 | ativo |
+| A3 MadeiraMadeira | R$ 0,08 | 0 | — | 0% | R$ 1,69 | 4 | R$ 0,42 | ativo, quase sem entrega |
+| C 09h34 Reel loja no Claude (`120255193108170007`) | R$ 10,96 | 2 | R$ 5,48 | 0,86% | R$ 29,36 | 10 | R$ 2,94 | ativo ⚠️ |
+| C2 Reel Band PqTec (`120255193117270007`) | R$ 11,42 | 32 | R$ 0,36 | 8,14% | R$ 29,26 | 88 | R$ 0,33 | ativo |
+| C1 Reel loja no Claude (`120255193117080007`) | R$ 0,07 | 0 | — | 0% | R$ 0,12 | 0 | — | ativo, quase sem entrega |
+| A2 Explicativo | — | — | — | — | R$ 15,81 | 20 | R$ 0,79 | pausado |
+| B Isca grátis | — | — | — | — | R$ 33,95 | 88 | R$ 0,39 | pausado |
+
+- Gasto total ontem: R$ 36,93. Plano R$ 1.000 (A1+A2+A3+B+as duas C): R$ 255,75
+  (o acumulado "maximum" já inclui o gasto de 14/11 até ~13h48; a leitura de 13/11 também pegou 12/11 incompleto).
+- Visitas à VSL ontem (A1 + A3 + C): 127, R$ 0,29/visita.
+- Pixel em 13/11, só navegador: CompleteRegistration 5, ClicouAssinar 8, ViewContent 3, InitiateCheckout 2, Lead 0,
+  SubscribedButtonClick 0 (ConectouCanal 25, PageView 680+43). Clique em Assinar 8/127 = 6,3% (meta 5% ✅). Purchase pelo servidor: 4.
+- Link curto /comece: SEM LEITURA (conector ba46… respondeu "API key inválida ou revogada"; o conector 663a… diz que o link é de outra conta).
+  Link /madeira: 0 pessoas em 13/11 (3 em 14/11, meta-madeira).
+- Stripe: 6 assinaturas criadas em 13/11, todas Plus mensal (MC). Assinaturas novas do MC: 6.
+- Nenhum anúncio com erro de entrega. Nenhuma campanha D.
+- Alertas: C das 09h34 em R$ 29,36 a R$ 2,94/visita → ⚠️ trocar criativo ou pausar (proposto desde 11/11).
+  Remarketing duplicado segue. A1 estável (R$ 0,15). C2 R$ 0,36 ontem, dentro do teto.
+- Pendente: OK do Itamar para pausar `120255193102880007`; renovar a chave do conector do link curto. Próximo marco: 18/11.
+- WhatsApp: enviado e confirmado ("✅ Mensagem enviada").
