@@ -1,6 +1,6 @@
 # LinkedIn TiOps Tecnologia: 6 posts (18/11 a 04/12/2026)
 
-Página: linkedin.com/company/tiops (id 36018387). Nada publicado ainda; cada post espera o OK do Itamar.
+Página: linkedin.com/company/tiops (id 36018387). Posts 0 e 1 agendados em 15/11; os outros esperam data e OK do Itamar.
 
 ## Regra da página (13/11/2026)
 A página da TiOps fortalece a marca: o Itamar não aparece. Isso vale para nome, rosto, voz clonada e telas com "De volta, Itamar".
@@ -16,26 +16,26 @@ A página foi atualizada em 13/11: banner, slogan, descrição, especialidades e
 - Em 30 dias: 8 impressões, 0 reações.
 - O perfil estava com o banner "Jira Automation" e a descrição só de cloud. Corrigido em 13/11.
 
-## Calendário
-Terça e quinta às 9h.
+## Calendário (revisto em 15/11/2026, com OK do Itamar)
+Datas valem; os dias da semana do plano antigo estavam trocados (13/11/2026 foi sexta).
 
-| # | Quando | Formato | Peça |
-|---|---|---|---|
-| 0 | qui 13/11 18h | Imagem | `agentic-commerce/card.jpg` + `agentic-commerce/post.md` (artigo do Artem Kalugin) |
-| 1 | ter 18/11 09h | Documento (6 págs) | `pecas/estudio-operacao-ia.pdf` |
-| 2 | qui 20/11 09h | Imagem | `pecas/madeiramadeira-linkedin.jpg` |
-| 3 | ter 25/11 09h | Vídeo 71 s | `pecas/pausa-ml-shopee-linkedin.mp4` |
-| 4 | qui 27/11 09h | Imagem | `pecas/emissor-nfe-linkedin.jpg` |
-| 5 | ter 02/12 09h | Documento (10 págs) | `pecas/sistema-ia-marketplace.pdf` |
-| 6 | qui 04/12 09h | Vídeo 70 s | `pecas/publica-anuncio-linkedin.mp4` |
+| # | Quando | Formato | Peça | Situação |
+|---|---|---|---|---|
+| 0 | ter 17/11 18h | Imagem | `agentic-commerce/card.jpg` + `agentic-commerce/post.md` | **agendado no LinkedIn** |
+| 1 | sex 20/11 09h | Documento (6 págs) | `pecas/estudio-operacao-ia.pdf` | **agendado no LinkedIn** |
+| 2 | a definir | Imagem | `pecas/madeiramadeira-linkedin.jpg` | aguarda data |
+| 3 | a definir | Vídeo 71 s | `pecas/pausa-ml-shopee-linkedin.mp4` | aguarda data |
+| 4 | a definir | Imagem | `pecas/emissor-nfe-linkedin.jpg` | aguarda data |
+| 5 | a definir | Documento (10 págs) | `pecas/sistema-ia-marketplace.pdf` | aguarda data |
+| 6 | a definir | Vídeo 70 s | `pecas/publica-anuncio-linkedin.mp4` | aguarda data |
 
-Regra de não postar duas peças diferentes no mesmo dia: o Instagram fica fora das terças e quintas desse período.
+O agentic saiu das 9h para as 18h de 17/11: o carrossel do Instagram ficou para 16/11 18h (o horário de 15/11 passou) e as peças diferentes precisam de 24 h entre si.
 
-O Instagram já tem marcado:
-- 14/11: carrossel;
-- 16/11: vídeo A.
-
-Ambos aguardam OK e não colidem com o calendário acima.
+Agenda conjunta dos canais (peças diferentes com pelo menos 24 h entre si):
+- seg 16/11 18h: Instagram, carrossel "Estúdio de Operação com IA" (AWS, `ig-carrossel-estudio-20261116`)
+- ter 17/11 18h: LinkedIn, agentic commerce
+- qua 18/11 18h: Instagram Reel + YouTube Short da peça A, "A IA publica seu anúncio" (AWS `ig-reel-publica-anuncio-20261118`; Short JvH_NlK_8ac privado até a hora)
+- sex 20/11 09h: LinkedIn, documento do Estúdio (mesma peça do carrossel)
 
 ---
 

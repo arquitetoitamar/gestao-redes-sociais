@@ -55,13 +55,11 @@ Como conectar o Gemini (vídeo completo): https://youtu.be/rirx1DWcSuk?t=908
 #mercadolivre #shopee #ia
 ```
 
-## Calendário sugerido (Reels das 16h às 20h; peças diferentes com 24 a 48 h entre elas)
+## Calendário (revisto em 15/11/2026, com OK do Itamar)
 | Quando | O quê |
 |---|---|
-| 12/11 (qua) 17h29 | **Peça B publicada** (Itamar: "o segundo pode postar", agora): Reel https://www.instagram.com/reel/Dfp6rjLknTz/ + Short https://youtube.com/shorts/OQRqknxVPTE |
-| 14/11 (sex) 18h | Carrossel "Estúdio de Operação com IA" (aguardando OK) |
-| 16/11 (dom) 18h | Peça A: Reel + Short (aguardando OK) |
+| qui 12/11 17h29 | **Peça B publicada**: Reel https://www.instagram.com/reel/Dfp6rjLknTz/ + Short https://youtube.com/shorts/OQRqknxVPTE |
+| seg 16/11 18h | Carrossel "Estúdio de Operação com IA": **agendado** (AWS `ig-carrossel-estudio-20261116`) |
+| qua 18/11 18h | Peça A: Reel **agendado** (AWS `ig-reel-publica-anuncio-20261118`, capa em 1 s, legenda `legenda_ig_publica.md`) + Short **agendado** (https://youtube.com/shorts/JvH_NlK_8ac, privado até 18h) |
 
-Legenda que saiu no Reel B: `legenda_ig_pausa.md` (hashtags no primeiro comentário).
-
-O carrossel "Estúdio de Operação com IA" não pode mais sair em 12/11 às 18h (mesmo dia do Reel B). Ordem sugerida: carrossel 14/11, peça A 16/11.
+Legendas do Instagram: `legenda_ig_pausa.md` (B) e `legenda_ig_publica.md` (A), com as hashtags no primeiro comentário.

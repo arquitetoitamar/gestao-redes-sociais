@@ -1,5 +1,5 @@
-"""Sobe um Short público no YouTube, agora.
-uso: python3 sobe_short.py pausa-ml-shopee | publica-anuncio"""
+"""Sobe um Short no YouTube: público agora, ou privado com publicação agendada.
+uso: python3 sobe_short.py pausa-ml-shopee | publica-anuncio  [AAAA-MM-DDTHH:MM (horário de Brasília)]"""
 import json, os, sys, urllib.request
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../scripts/trilha'))
 import yt
@@ -27,12 +27,15 @@ SHORTS = {
 }
 
 chave = sys.argv[1]
+quando = sys.argv[2] if len(sys.argv) > 2 else None   # ex.: 2026-11-18T18:00
 s = SHORTS[chave]
 arq = os.path.join(AQUI, 'final', chave + '-short.mp4')
 assert len(s['titulo']) <= 100 and '<' not in s['desc'] and '>' not in s['desc']
 corpo = {'snippet': {'title': s['titulo'], 'description': s['desc'], 'tags': s['tags'], 'categoryId': '28',
                      'defaultLanguage': 'pt-BR', 'defaultAudioLanguage': 'pt-BR'},
          'status': {'privacyStatus': 'public', 'selfDeclaredMadeForKids': False}}
+if quando:
+    corpo['status'].update(privacyStatus='private', publishAt=quando + ':00-03:00')
 tok = yt.refresh()
 tam = os.path.getsize(arq)
 req = urllib.request.Request('https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status',
@@ -44,8 +47,9 @@ with open(arq, 'rb') as f:
     up = urllib.request.Request(loc, data=f.read(), method='PUT',
                                 headers={'Authorization': 'Bearer ' + tok, 'Content-Type': 'video/mp4', 'Content-Length': str(tam)})
     v = json.load(urllib.request.urlopen(up, timeout=1800))
-print('video', v['id'], v['status'].get('privacyStatus'), v['status'].get('uploadStatus'))
+print('video', v['id'], v['status'].get('privacyStatus'), v['status'].get('publishAt'), v['status'].get('uploadStatus'))
 reg = os.path.join(AQUI, 'publicados.json')
 dados = json.load(open(reg)) if os.path.exists(reg) else {}
-dados['short-' + chave] = {'id': v['id'], 'url': 'https://youtube.com/shorts/' + v['id'], 'titulo': s['titulo']}
+dados['short-' + chave] = {'id': v['id'], 'url': 'https://youtube.com/shorts/' + v['id'], 'titulo': s['titulo'],
+                           'publica_em': v['status'].get('publishAt')}
 json.dump(dados, open(reg, 'w'), indent=1, ensure_ascii=False)
