@@ -434,3 +434,27 @@ o dobro do plano, e os públicos se sobrepõem (engajados no IG + visitantes do 
   Remarketing duplicado segue. A1 estável (R$ 0,15). C2 R$ 0,36 ontem, dentro do teto.
 - Pendente: OK do Itamar para pausar `120255193102880007`; renovar a chave do conector do link curto. Próximo marco: 18/11.
 - WhatsApp: enviado e confirmado ("✅ Mensagem enviada").
+
+### 14/11/2026 (lida em 15/11 pela rotina das 08h, executada às 13h49)
+
+| Anúncio | Gasto ontem | Visitas ontem | R$/visita ontem | CTR ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 15,33 | 105 | R$ 0,15 | 7,65% | R$ 159,96 | 1.000 | R$ 0,16 | ativo |
+| A3 MadeiraMadeira | R$ 0,48 | 2 | R$ 0,24 | 1,23% | R$ 1,72 | 4 | R$ 0,43 | ativo, pouca entrega |
+| C 09h34 Reel loja no Claude (`120255193108170007`) | R$ 10,36 | 8 | R$ 1,30 | 1,24% | R$ 38,79 | 19 | R$ 2,04 | ativo ⚠️ |
+| C2 Reel Band PqTec (`120255193117270007`) | R$ 8,33 | 26 | R$ 0,32 | 6,73% | R$ 37,48 | 116 | R$ 0,32 | ativo |
+| C1 Reel loja no Claude (`120255193117080007`) | R$ 0,03 | 0 | — | 0% | R$ 0,21 | 1 | R$ 0,21 | ativo, quase sem entrega |
+| A2 Explicativo | — | — | — | — | R$ 15,81 | 20 | R$ 0,79 | pausado |
+| B Isca grátis | — | — | — | — | R$ 33,95 | 88 | R$ 0,39 | pausado |
+
+- Gasto total ontem: R$ 34,53. Plano R$ 1.000 (A1+A2+A3+B+as C): R$ 287,92 (o "maximum" inclui 15/11 até ~13h49).
+- Visitas à VSL ontem (A1 + A3 + C): 141, R$ 0,24/visita.
+- Pixel em 14/11 (00h–23h59 BRT), só navegador: CompleteRegistration 6, ClicouAssinar 4, ViewContent 3, Lead 0,
+  SubscribedButtonClick 0 (ConectouCanal 19, PageView 532). Clique em Assinar 4/141 = 2,8% (meta 5%). Purchase pelo servidor: 3.
+- Link curto /comece e /madeira: SEM LEITURA (conector ba46… segue com "API key inválida ou revogada").
+- Stripe: 3 assinaturas criadas em 14/11, todas Plus mensal (MC). Assinaturas novas do MC: 3.
+- Nenhum anúncio com erro de entrega. Nenhuma campanha D nem anúncio novo.
+- Alertas: C das 09h34 em R$ 38,79 a R$ 2,04/visita → ⚠️ trocar criativo ou pausar. Remarketing duplicado segue.
+  Clique em Assinar caiu para 2,8%. A1 estável (R$ 0,15), C2 R$ 0,32.
+- Pendente: OK do Itamar para pausar `120255193102880007`; renovar a chave do conector do link curto. Próximo marco: 18/11.
+- WhatsApp: enviado e confirmado ("✅ Mensagem enviada").
