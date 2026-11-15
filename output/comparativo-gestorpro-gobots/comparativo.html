@@ -1,0 +1,210 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>GestorPro × GoBots</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Inter+Tight:wght@700;800&family=JetBrains+Mono:wght@600;700&display=swap" rel="stylesheet"><style>
+@page { size: A4; margin: 0; }
+:root{
+  --accent:#3f5ee8; --accent2:#7d93ff; --soft:#eef1fd; --ink:#12141a; --muted:#59617a; --dim:#727b93;
+  --line:#e3e7f0; --line2:#cfd6e4; --bg:#f4f6fa; --other:#7a8197; --ok:#1f8a5b; --warn:#b46a00;
+  --font:"Inter",-apple-system,"Segoe UI",sans-serif; --display:"Inter Tight","Inter",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff;color:var(--ink);font-family:var(--font);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;height:297mm;padding:16mm 16mm 18mm;position:relative;overflow:hidden;page-break-after:always;break-after:page}
+.page:last-child{page-break-after:auto;break-after:auto}
+.foot{position:absolute;left:16mm;right:16mm;bottom:8mm;display:flex;justify-content:space-between;font-size:7.5pt;color:var(--dim);border-top:1px solid var(--line);padding-top:2.5mm}
+.kicker{font-family:var(--mono);font-size:7.5pt;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h1{font-family:var(--display);font-weight:800;letter-spacing:-.02em}
+h2{font-family:var(--display);font-size:19pt;line-height:1.15;font-weight:750;letter-spacing:-.015em;margin:2mm 0 3mm}
+h3{font-family:var(--display);font-size:11pt;font-weight:700;margin-bottom:1.5mm}
+p{font-size:9.6pt;line-height:1.5;color:var(--muted)}
+.lead{font-size:10.5pt;line-height:1.55;color:var(--muted);max-width:165mm}
+.small{font-size:8pt;color:var(--dim);line-height:1.45}
+b,strong{color:var(--ink)}
+
+/* capa */
+.capa{padding:0;background:var(--bg)}
+.capa .topo{padding:18mm 18mm 0}
+.capa h1{font-size:40pt;line-height:1;margin:5mm 0 4mm}
+.capa h1 span{color:var(--accent)}
+.capa .tese{font-family:var(--display);font-size:20pt;line-height:1.18;font-weight:700;max-width:160mm;margin-bottom:4mm}
+.capa .lead{max-width:168mm}
+.capa .hero{margin:8mm 18mm 0;border-radius:5mm;overflow:hidden;border:1px solid var(--line2);background:#fff}
+.capa .hero img{display:block;width:174mm;height:124mm;object-fit:cover}
+.chips{display:flex;flex-wrap:wrap;gap:2.2mm;margin-top:6mm}
+.chip{font-size:8.6pt;border:1px solid var(--line2);background:#fff;border-radius:20mm;padding:1.6mm 3.6mm;color:var(--muted)}
+.chip b{color:var(--accent)}
+.capa .rodape{position:absolute;left:18mm;right:18mm;bottom:12mm;display:flex;justify-content:space-between;align-items:flex-end;font-size:8.5pt;color:var(--dim)}
+.marca{font-family:var(--display);font-weight:800;font-size:13pt;color:var(--ink)}
+.marca span{color:var(--accent)}
+
+/* resumo */
+.cards3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:4mm;margin:5mm 0 7mm}
+.card{border:1px solid var(--line);border-radius:3.5mm;padding:4.5mm;background:#fff}
+.card.hl{border-color:var(--accent2);background:var(--soft)}
+.card .tag{font-family:var(--mono);font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin-bottom:2mm}
+.card.hl .tag{color:var(--accent)}
+.card p{font-size:9.2pt}
+
+/* tabelas */
+table{width:178mm;border-collapse:collapse;font-size:8.8pt}
+th{font-family:var(--mono);font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);text-align:left;font-weight:600;padding:0 2.5mm 2mm;border-bottom:1.5px solid var(--line2)}
+td{padding:2.6mm 2.5mm;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.4;color:var(--muted)}
+td:first-child{color:var(--ink);font-weight:600}
+td .nota{display:block;font-size:7.8pt;color:var(--dim);font-weight:400;margin-top:.6mm}
+tr.grupo td{font-family:var(--mono);font-size:7pt;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700;padding-top:4mm;border-bottom:1px solid var(--line2)}
+.v{font-weight:700}
+.v.sim{color:var(--ok)} .v.nao{color:var(--other)} .v.ia{color:var(--accent)} .v.meio{color:var(--warn)}
+.gp{background:#fafbff}
+
+.mapa td{padding:3.4mm 2.5mm}
+.dot{display:inline-block;width:3.1mm;height:3.1mm;border-radius:50mm;vertical-align:-0.5mm;margin-right:1.8mm;border:1.6px solid currentColor}
+.dot.f{background:currentColor}
+.dot.h{background:linear-gradient(90deg,currentColor 1.4mm,transparent 1.4mm)}
+.dot.e{opacity:.55}
+.c-gb{color:var(--other)} .c-gp{color:var(--accent)}
+.legenda{display:flex;gap:6mm;margin-top:3mm;font-size:8pt;color:var(--dim)}
+
+/* quem faz */
+.quem td{padding:3.2mm 2.5mm}
+.quem td b{display:block;margin-bottom:.6mm}
+.quem td.gpcol b{color:var(--accent)}
+
+.destaque{margin-top:7mm;border-radius:4mm;background:var(--ink);color:#fff;padding:7mm 8mm;display:grid;grid-template-columns:1fr;gap:2mm}
+.destaque .kicker{color:var(--accent2)}
+.destaque h2{color:#fff;font-size:16pt;margin:1mm 0 2mm}
+.destaque p{color:#c9cfdf;font-size:9.6pt}
+
+/* fluxo */
+.fluxo-top{display:grid;grid-template-columns:62mm 1fr;gap:6mm;align-items:center;margin-bottom:4mm}
+.fluxo-top img{width:62mm;height:35mm;object-fit:cover;border-radius:3mm;border:1px solid var(--line)}
+svg.fluxo{width:178mm;height:auto;display:block}
+.nota-gb{margin-top:3mm;border-left:3px solid var(--line2);padding:1.5mm 0 1.5mm 4mm}
+
+/* devolução */
+.formula{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;align-items:stretch;gap:2mm;margin:4mm 0 3mm}
+.formula .t{border:1px solid var(--line);border-radius:3mm;padding:3.2mm;background:#fff}
+.formula .t b{display:block;font-size:9.2pt;margin-bottom:.6mm}
+.formula .t span{font-size:7.8pt;color:var(--dim);line-height:1.35;display:block}
+.formula .op{align-self:center;font-family:var(--mono);font-size:15pt;color:var(--accent);font-weight:700}
+.hipo{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm}
+.hipo .t{border-radius:3mm;padding:3.5mm;background:var(--soft);border:1px solid var(--accent2)}
+.hipo .t.cinza{background:var(--bg);border-color:var(--line2)}
+.hipo .t b{display:block;font-size:9.4pt;margin-bottom:.8mm}
+.hipo .t span{font-size:8.4pt;color:var(--muted);line-height:1.4}
+
+/* travas */
+.travas{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3.5mm;margin-top:4mm}
+.trava{border:1px solid var(--line);border-radius:3mm;padding:4mm;background:#fff}
+.trava .n{font-family:var(--mono);font-size:7.5pt;color:var(--accent);font-weight:700;margin-bottom:1.5mm}
+.trava h3{font-size:10pt}
+.trava p{font-size:8.6pt;line-height:1.45}
+
+.conclusao{margin-top:7mm;display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.cta{margin-top:6mm;background:var(--accent);color:#fff;border-radius:4mm;padding:6mm 8mm;display:flex;justify-content:space-between;align-items:center}
+.cta .t{font-family:var(--display);font-size:15pt;font-weight:750;line-height:1.2}
+.cta .t span{display:block;font-family:var(--font);font-size:9pt;font-weight:400;color:#dfe5ff;margin-top:1mm}
+.cta a{background:#fff;color:var(--accent);text-decoration:none;font-weight:700;font-size:10.5pt;border-radius:20mm;padding:3mm 6mm;white-space:nowrap}
+.fontes{margin-top:6mm;font-size:7.6pt;color:var(--dim);line-height:1.5}
+.fontes b{color:var(--muted)}
+</style></head><body>
+<section class="page capa">
+  <div class="topo">
+    <div class="kicker">Comparativo · novembro de 2026</div>
+    <h1>GestorPro <span>×</span> GoBots</h1>
+    <div class="tese">Atendimento é uma parte da loja. O GestorPro cuida dela inteira.</div>
+    <p class="lead">O GoBots é uma boa ferramenta de atendimento com IA. O GestorPro é um time de agentes que atende o comprador e também cuida de margem, promoção, estoque, anúncios e anúncios pagos, com você decidindo só o que eles não podem decidir.</p>
+    <div class="chips">
+      <span class="chip"><b>Mercado Livre</b>, Shopee, Magalu, Amazon, Shein e TikTok</span>
+      <span class="chip"><b>10 agentes</b> num escritório</span>
+      <span class="chip">Tudo registrado e <b>desfazível</b></span>
+    </div>
+  </div>
+  <div class="hero"><img src="img/agentes-escritorio.jpg" alt="Agentes de IA trabalhando: preço, estoque, catálogo e atendimento"></div>
+  <div class="rodape"><span class="marca">Gestor<span>Pro</span> · TiOps</span><span>Agentes de IA cuidando de preço, estoque, catálogo e atendimento.</span></div>
+</section>
+<section class="page">
+  <div class="kicker">Em resumo</div>
+  <h2>Duas propostas diferentes para a mesma loja</h2>
+  <div class="cards3">
+    <div class="card"><div class="tag">GoBots</div><h3>Atendimento com IA</h3><p>Responde perguntas, faz a triagem do chat e organiza o pós-venda para a equipe atender.</p></div>
+    <div class="card hl"><div class="tag">GestorPro</div><h3>Time de agentes</h3><p>Atende o comprador e também cuida de margem, promoção, estoque, catálogo e anúncios pagos.</p></div>
+    <div class="card"><div class="tag">Quem decide</div><h3>Você, no que importa</h3><p>Os agentes resolvem o que podem. Troca, reembolso e devolução são sempre escolhidos por você.</p></div>
+  </div>
+  <div class="kicker">Mapa da operação da loja</div>
+  <h2 style="font-size:15pt">O que cada um cobre</h2>
+  <table class="mapa"><thead><tr><th>Área da loja</th><th>GoBots</th><th>GestorPro</th></tr></thead><tbody><tr><td style="width:46mm">Perguntas</td><td class="c-gb" style="width:62mm"><i class="dot f"></i><span style="color:var(--muted)">IA responde; a equipe revisa depois</span></td><td class="c-gp gp"><i class="dot f"></i><span style="color:var(--ink)">Atendente responde</span></td></tr><tr><td style="width:46mm">Chat do pedido</td><td class="c-gb" style="width:62mm"><i class="dot f"></i><span style="color:var(--muted)">IA faz a triagem</span></td><td class="c-gp gp"><i class="dot f"></i><span style="color:var(--ink)">Atendente responde no expediente escolhido</span></td></tr><tr><td style="width:46mm">Reclamações e mediação</td><td class="c-gb" style="width:62mm"><i class="dot h"></i><span style="color:var(--muted)">Painel para a equipe</span></td><td class="c-gp gp"><i class="dot f"></i><span style="color:var(--ink)">Atendente responde; você decide a solução</span></td></tr><tr><td style="width:46mm">Devoluções</td><td class="c-gb" style="width:62mm"><i class="dot h"></i><span style="color:var(--muted)">Lista com situação</span></td><td class="c-gp gp"><i class="dot f"></i><span style="color:var(--ink)">Mostra quanto a loja perde e o que fazer</span></td></tr><tr><td style="width:46mm">Anúncios pagos</td><td class="c-gb" style="width:62mm"><i class="dot h"></i><span style="color:var(--muted)">Sugestões</span></td><td class="c-gp gp"><i class="dot f"></i><span style="color:var(--ink)">Agente cuida</span></td></tr><tr><td style="width:46mm">Margem por pedido</td><td class="c-gb" style="width:62mm"><i class="dot e"></i><span style="color:var(--muted)">Fora do produto</span></td><td class="c-gp gp"><i class="dot f"></i><span style="color:var(--ink)">Agente cuida</span></td></tr><tr><td style="width:46mm">Promoções</td><td class="c-gb" style="width:62mm"><i class="dot e"></i><span style="color:var(--muted)">Fora do produto</span></td><td class="c-gp gp"><i class="dot f"></i><span style="color:var(--ink)">Agente cuida</span></td></tr><tr><td style="width:46mm">Estoque e ruptura</td><td class="c-gb" style="width:62mm"><i class="dot e"></i><span style="color:var(--muted)">Fora do produto</span></td><td class="c-gp gp"><i class="dot f"></i><span style="color:var(--ink)">Agentes cuidam</span></td></tr><tr><td style="width:46mm">Catálogo e anúncios</td><td class="c-gb" style="width:62mm"><i class="dot e"></i><span style="color:var(--muted)">Fora do produto</span></td><td class="c-gp gp"><i class="dot f"></i><span style="color:var(--ink)">Agentes cuidam</span></td></tr><tr><td style="width:46mm">Repasses e taxas</td><td class="c-gb" style="width:62mm"><i class="dot e"></i><span style="color:var(--muted)">Fora do produto</span></td><td class="c-gp gp"><i class="dot f"></i><span style="color:var(--ink)">Entram na margem de cada pedido</span></td></tr></tbody></table>
+  <div class="legenda">
+    <span><i class="dot f" style="color:var(--ink)"></i>IA ou agente faz</span>
+    <span><i class="dot h" style="color:var(--ink)"></i>organiza para a equipe ou sugere</span>
+    <span><i class="dot e" style="color:var(--ink)"></i>fora do produto</span>
+  </div>
+  <div class="foot"><span>GestorPro × GoBots · comparativo</span><span>TiOps · página 2</span></div>
+</section>
+<section class="page">
+  <div class="kicker">Quem faz o quê</div>
+  <h2>A sua equipe e os agentes trabalham como um time só</h2>
+  <p class="lead" style="margin-bottom:5mm">Cada tipo de trabalho tem dono: um agente, uma pessoa, ou o agente prepara e a pessoa decide. Quando um caso está com alguém da equipe, o agente não fala nele.</p>
+  <table class="quem"><thead><tr><th>Trabalho</th><th>GoBots</th><th>GestorPro</th></tr></thead><tbody><tr><td style="width:36mm">Pergunta no anúncio</td><td style="width:62mm"><b>IA responde</b>Responde e envia; a equipe revisa depois.</td><td class="gp gpcol"><b>Atendente responde</b>Usa a ficha, a tabela de compatibilidade e o que a equipe ensinou. Pergunta que é reclamação não vira resposta pública.</td></tr><tr><td style="width:36mm">Chat do pedido</td><td style="width:62mm"><b>IA faz a triagem</b>Menu de assuntos e mensagem de ausência; passa para a equipe.</td><td class="gp gpcol"><b>Atendente no expediente que você escolher</b>Responde dentro da janela que o canal permite, sem mensagem automática que o canal recusa.</td></tr><tr><td style="width:36mm">Reclamação e mediação</td><td style="width:62mm"><b>Painel para a equipe</b>Prazo, motivo e responsável organizados para quem atende.</td><td class="gp gpcol"><b>Atendente responde, você decide a solução</b>Escreve no prazo, nunca fala duas vezes seguidas e traz troca, reembolso ou devolução para você decidir com um clique.</td></tr><tr><td style="width:36mm">Devolução</td><td style="width:62mm"><b>Lista com situação</b>Selo de “custo não cadastrado”.</td><td class="gp gpcol"><b>Quanto a loja perde, e o que fazer</b>Custo, frete de ida e volta e o que o canal cobriu. Falta o custo? Cadastra ali mesmo.</td></tr><tr><td style="width:36mm">Margem, promoção, estoque</td><td style="width:62mm"><b>Fora do produto</b></td><td class="gp gpcol"><b>Agentes cuidam</b>Entram e saem de promoção pelo lucro medido da loja, apontam ruptura e o pedido que deu prejuízo.</td></tr></tbody></table>
+  <div class="destaque">
+    <div class="kicker">Pós-venda</div>
+    <h2>O pós-venda é onde a loja perde dinheiro. É lá que o Atendente do GestorPro trabalha sozinho.</h2>
+    <p>Reclamação e mediação têm prazo do canal e pesam na reputação. Numa conta real de um grande vendedor do Mercado Livre, o Atendente de pós-venda passou a responder no lugar do lojista, e só traz para a equipe o que precisa de decisão.</p>
+  </div>
+  <div class="foot"><span>GestorPro × GoBots · comparativo</span><span>TiOps · página 3</span></div>
+</section>
+<section class="page">
+  <div class="fluxo-top">
+    <img src="img/agente-atendimento.jpg" alt="Agente de atendimento respondendo mensagens">
+    <div>
+      <div class="kicker">Fluxo de atendimento automático</div>
+      <h2 style="margin-bottom:2mm">Da mensagem do comprador à resposta, sem a loja escrever</h2>
+      <p>Como o Atendente do GestorPro trata cada pergunta, mensagem e reclamação.</p>
+    </div>
+  </div>
+  <svg class="fluxo" viewBox="0 0 720 674" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, sans-serif"><defs><marker id="ponta" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3f5ee8"/></marker><marker id="pontac" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#727b93"/></marker></defs><rect x="10" y="8" width="215" height="40" rx="20" fill="#eef1fd" stroke="#3f5ee8" stroke-width="1.2"/><text x="117.5" y="33" text-anchor="middle" font-size="13.2" font-weight="600" fill="#12141a">Pergunta no anúncio</text><rect x="245" y="8" width="215" height="40" rx="20" fill="#eef1fd" stroke="#3f5ee8" stroke-width="1.2"/><text x="352.5" y="33" text-anchor="middle" font-size="13.2" font-weight="600" fill="#12141a">Mensagem no chat do pedido</text><rect x="480" y="8" width="230" height="40" rx="20" fill="#eef1fd" stroke="#3f5ee8" stroke-width="1.2"/><text x="595.0" y="33" text-anchor="middle" font-size="13.2" font-weight="600" fill="#12141a">Reclamação ou mediação</text><path d="M117,48 C117,66 200,62 225,84" fill="none" stroke="#3f5ee8" stroke-width="1.8" marker-end="url(#ponta)"/><path d="M352,48 C352,66 275,62 255,84" fill="none" stroke="#3f5ee8" stroke-width="1.8" marker-end="url(#ponta)"/><path d="M595,48 C595,70 330,58 270,86" fill="none" stroke="#3f5ee8" stroke-width="1.8" marker-end="url(#ponta)"/><rect x="10" y="88" width="470" height="82" rx="12" fill="#fff" stroke="#cfd6e4" stroke-width="1.4"/><circle cx="36" cy="112" r="12" fill="#3f5ee8"/><text x="36" y="116.5" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">1</text><text x="56" y="117" font-size="15.5" font-weight="700" fill="#12141a">Separa o caso</text><text x="28" y="142" font-size="12.6" fill="#59617a">Pergunta que é reclamação (“cadê meu pedido?”)</text><text x="28" y="161" font-size="12.6" fill="#59617a">não vira resposta pública no anúncio.</text><line x1="480" y1="129" x2="506" y2="129" stroke="#727b93" stroke-width="1.3" stroke-dasharray="4 4" marker-end="url(#pontac)"/><rect x="510" y="96" width="200" height="66" rx="10" fill="#f4f6fa" stroke="#cfd6e4" stroke-dasharray="5 4"/><text x="524" y="120" font-size="12" fill="#59617a">Caso já está com alguém</text><text x="524" y="138" font-size="12" fill="#59617a">da equipe? O agente</text><text x="524" y="156" font-size="12" fill="#59617a">não fala nele.</text><path d="M245,170 L245,194" fill="none" stroke="#3f5ee8" stroke-width="1.8" marker-end="url(#ponta)"/><rect x="10" y="198" width="470" height="112" rx="12" fill="#fff" stroke="#cfd6e4" stroke-width="1.4"/><circle cx="36" cy="222" r="12" fill="#3f5ee8"/><text x="36" y="226.5" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">2</text><text x="56" y="227" font-size="15.5" font-weight="700" fill="#12141a">Lê o contexto</text><rect x="28" y="239" width="198" height="25" rx="7" fill="#eef1fd"/><text x="39" y="256.5" font-size="12.4" fill="#12141a">Ficha do anúncio</text><rect x="236" y="239" width="226" height="25" rx="7" fill="#eef1fd"/><text x="247" y="256.5" font-size="12.4" fill="#12141a">Tabela de compatibilidade</text><rect x="28" y="271" width="198" height="25" rx="7" fill="#eef1fd"/><text x="39" y="288.5" font-size="12.4" fill="#12141a">O que a equipe ensinou</text><rect x="236" y="271" width="226" height="25" rx="7" fill="#eef1fd"/><text x="247" y="288.5" font-size="12.4" fill="#12141a">Histórico do comprador</text><line x1="480" y1="254" x2="506" y2="254" stroke="#727b93" stroke-width="1.3" stroke-dasharray="4 4" marker-end="url(#pontac)"/><rect x="510" y="221" width="200" height="66" rx="10" fill="#f4f6fa" stroke="#cfd6e4" stroke-dasharray="5 4"/><text x="524" y="245" font-size="12" fill="#59617a">Preço e estoque nunca</text><text x="524" y="263" font-size="12" fill="#59617a">viram “fato” no que</text><text x="524" y="281" font-size="12" fill="#59617a">o agente aprende.</text><path d="M245,310 L245,334" fill="none" stroke="#3f5ee8" stroke-width="1.8" marker-end="url(#ponta)"/><rect x="10" y="338" width="470" height="116" rx="12" fill="#fff" stroke="#cfd6e4" stroke-width="1.4"/><circle cx="36" cy="362" r="12" fill="#3f5ee8"/><text x="36" y="366.5" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">3</text><text x="56" y="367" font-size="15.5" font-weight="700" fill="#12141a">Passa pelas travas</text><text x="28" y="392" font-size="12.6" fill="#59617a">• Nunca fala duas vezes seguidas no mesmo caso.</text><text x="28" y="411" font-size="12.6" fill="#59617a">• Responde na janela do canal e no expediente escolhido.</text><text x="28" y="430" font-size="12.6" fill="#59617a">• Troca, reembolso e devolução nunca em texto livre.</text><line x1="480" y1="396" x2="506" y2="396" stroke="#727b93" stroke-width="1.3" stroke-dasharray="4 4" marker-end="url(#pontac)"/><rect x="510" y="363" width="200" height="66" rx="10" fill="#f4f6fa" stroke="#cfd6e4" stroke-dasharray="5 4"/><text x="524" y="387" font-size="12" fill="#59617a">No começo o agente</text><text x="524" y="405" font-size="12" fill="#59617a">prepara e você aprova.</text><text x="524" y="423" font-size="12" fill="#59617a">Age sozinho quando você liga.</text><path d="M245,454 C245,474 120,468 117,492" fill="none" stroke="#3f5ee8" stroke-width="1.8" marker-end="url(#ponta)"/><path d="M245,454 L360,492" fill="none" stroke="#3f5ee8" stroke-width="1.8" marker-end="url(#ponta)"/><path d="M245,454 C260,474 590,464 600,492" fill="none" stroke="#3f5ee8" stroke-width="1.8" marker-end="url(#ponta)"/><rect x="10" y="496" width="226" height="86" rx="12" fill="#fff" stroke="#3f5ee8" stroke-width="1.6"/><text x="26" y="524" font-size="14.5" font-weight="700" fill="#3f5ee8">Responde e publica</text><text x="26" y="548" font-size="12.2" fill="#59617a">Pergunta: em segundos.</text><text x="26" y="566" font-size="12.2" fill="#59617a">Chat: na janela do canal.</text><rect x="247" y="496" width="226" height="86" rx="12" fill="#fff" stroke="#3f5ee8" stroke-width="1.6"/><text x="263" y="524" font-size="14.5" font-weight="700" fill="#3f5ee8">Prepara a solução</text><text x="263" y="548" font-size="12.2" fill="#59617a">Troca, reembolso ou devolução:</text><text x="263" y="566" font-size="12.2" fill="#59617a">você decide com um clique.</text><rect x="484" y="496" width="226" height="86" rx="12" fill="#fff" stroke="#3f5ee8" stroke-width="1.6"/><text x="500" y="524" font-size="14.5" font-weight="700" fill="#3f5ee8">Avisa você</text><text x="500" y="548" font-size="12.2" fill="#59617a">O que precisa de você vira aviso.</text><text x="500" y="566" font-size="12.2" fill="#59617a">Prazo não vence calado.</text><path d="M360,582 L360,604" fill="none" stroke="#3f5ee8" stroke-width="1.8" marker-end="url(#ponta)"/><rect x="10" y="608" width="700" height="58" rx="12" fill="#12141a"/><text x="30" y="633" font-size="14" font-weight="700" fill="#fff">Tudo fica no histórico, com o motivo, e pode ser desfeito.</text><text x="30" y="654" font-size="12.2" fill="#c9cfdf">A equipe ensina pelas próprias respostas; o agente aprende com a sua aprovação.</text></svg>
+  <p class="small nota-gb">No GoBots, a IA responde perguntas no anúncio e faz a triagem do chat do pedido; reclamações e mediações vão para um painel organizado para a equipe atender.</p>
+  <div class="foot"><span>GestorPro × GoBots · comparativo</span><span>TiOps · página 4</span></div>
+</section>
+<section class="page">
+  <div class="kicker">Função por função</div>
+  <h2>O que cada um tem</h2>
+  <p class="small" style="margin-bottom:4mm">Conferido no GestorPro em novembro de 2026. Do GoBots, o que o site e o produto mostram.</p>
+  <table><thead><tr><th>Função</th><th>GoBots</th><th>GestorPro</th></tr></thead><tbody><tr class="grupo"><td colspan="3">Pré-venda</td></tr><tr><td style="width:72mm">Resposta automática de pergunta</td><td style="width:40mm"><span class="v ia">IA</span></td><td class="gp"><span class="v ia">IA</span><span class="nota">reativa, em segundos; só fora do expediente, se você quiser</span></td></tr><tr><td style="width:72mm">Separa pergunta que é reclamação<span class="nota">“cadê meu pedido?” no anúncio</span></td><td style="width:40mm"><span class="v nao">não informado</span></td><td class="gp"><span class="v sim">sim</span></td></tr><tr><td style="width:72mm">Aprende com as respostas da equipe, por anúncio</td><td style="width:40mm"><span class="v sim">sim</span></td><td class="gp"><span class="v sim">sim</span><span class="nota">com aprovação, origem e desfazer; preço e estoque nunca viram “fato”</span></td></tr><tr><td style="width:72mm">Tabela de compatibilidade decide a resposta</td><td style="width:40mm"><span class="v nao">não informado</span></td><td class="gp"><span class="v sim">sim</span></td></tr><tr><td style="width:72mm">Histórico do comprador ao lado da pergunta</td><td style="width:40mm"><span class="v sim">sim</span></td><td class="gp"><span class="v sim">sim</span></td></tr><tr><td style="width:72mm">Respostas prontas da equipe</td><td style="width:40mm"><span class="v sim">sim</span></td><td class="gp"><span class="v sim">sim</span><span class="nota">por anúncio ou família, e o agente segue como exemplo</span></td></tr><tr><td style="width:72mm">Testar a IA com uma pergunta livre</td><td style="width:40mm"><span class="v sim">sim</span></td><td class="gp"><span class="v sim">sim</span><span class="nota">mostra de onde saiu cada informação</span></td></tr><tr><td style="width:72mm">Quanto o time vendeu respondendo</td><td style="width:40mm"><span class="v sim">sim</span></td><td class="gp"><span class="v sim">sim</span><span class="nota">agentes e pessoas na mesma régua, com grupo de comparação</span></td></tr><tr><td style="width:72mm">Perguntas da Magalu</td><td style="width:40mm"><span class="v sim">sim</span></td><td class="gp"><span class="v meio">leitura</span><span class="nota">resposta em liberação</span></td></tr><tr class="grupo"><td colspan="3">Pós-venda</td></tr><tr><td style="width:72mm">Agente responde reclamação e mediação no prazo</td><td style="width:40mm"><span class="v meio">painel para a equipe</span></td><td class="gp"><span class="v ia">IA</span></td></tr><tr><td style="width:72mm">Fila com responsável, nota interna e “resolver e ir para o próximo”</td><td style="width:40mm"><span class="v sim">sim</span></td><td class="gp"><span class="v sim">sim</span><span class="nota">mostra só o que o agente não resolveu</span></td></tr><tr><td style="width:72mm">“Afeta a reputação?” em cada caso</td><td style="width:40mm"><span class="v sim">sim</span></td><td class="gp"><span class="v sim">sim</span><span class="nota">e até quando resolver tira o peso</span></td></tr><tr><td style="width:72mm">Perda por devolução</td><td style="width:40mm"><span class="v meio">selo de custo</span></td><td class="gp"><span class="v sim">sim</span><span class="nota">com o custo cadastrado na própria linha</span></td></tr><tr><td style="width:72mm">Nota fiscal de devolução e CT-e na reclamação</td><td style="width:40mm"><span class="v nao">não informado</span></td><td class="gp"><span class="v sim">sim</span></td></tr><tr><td style="width:72mm">Exportar listas em planilha</td><td style="width:40mm"><span class="v sim">sim</span></td><td class="gp"><span class="v sim">sim</span></td></tr></tbody></table>
+  <div class="foot"><span>GestorPro × GoBots · comparativo</span><span>TiOps · página 5</span></div>
+</section>
+<section class="page">
+  <div class="kicker" style="margin-bottom:4mm">Função por função · continuação</div>
+  <table><thead><tr><th>Função</th><th>GoBots</th><th>GestorPro</th></tr></thead><tbody><tr class="grupo"><td colspan="3">O resto da operação</td></tr><tr><td style="width:72mm">Margem real por pedido<span class="nota">taxa, frete, imposto, custo, repasse do canal</span></td><td style="width:40mm"><span class="v nao">não</span></td><td class="gp"><span class="v sim">sim</span></td></tr><tr><td style="width:72mm">Promoções decididas pelo lucro medido da loja</td><td style="width:40mm"><span class="v nao">não</span></td><td class="gp"><span class="v ia">agente</span></td></tr><tr><td style="width:72mm">Anúncios pagos</td><td style="width:40mm"><span class="v meio">sugestões</span></td><td class="gp"><span class="v ia">agente</span></td></tr><tr><td style="width:72mm">Estoque, ruptura e catálogo</td><td style="width:40mm"><span class="v nao">não</span></td><td class="gp"><span class="v ia">agentes</span></td></tr><tr><td style="width:72mm">Configurar pelo seu Claude ou ChatGPT</td><td style="width:40mm"><span class="v nao">não</span></td><td class="gp"><span class="v sim">sim</span></td></tr><tr class="grupo"><td colspan="3">O que o GestorPro não faz, de propósito</td></tr><tr><td style="width:72mm">Envio em massa para lista de CPF<span class="nota">o Mercado Livre só deixa a loja iniciar conversa uma vez, entre o pagamento e a entrega</span></td><td style="width:40mm"><span class="v sim">sim</span></td><td class="gp"><span class="v nao">não</span><span class="nota">mensagem por gatilho, na janela certa</span></td></tr><tr><td style="width:72mm">Mensagem de ausência no chat<span class="nota">o canal recusa mensagem automática, e a loja fala duas vezes seguidas</span></td><td style="width:40mm"><span class="v sim">sim</span></td><td class="gp"><span class="v nao">não</span><span class="nota">o agente responde no horário que você escolher</span></td></tr><tr><td style="width:72mm">Aviso sonoro a cada pergunta e venda</td><td style="width:40mm"><span class="v sim">sim</span></td><td class="gp"><span class="v nao">não</span><span class="nota">você é avisado só do que precisa decidir</span></td></tr></tbody></table>
+  <div style="margin-top:8mm">
+    <div class="kicker">Devolução sem chute</div>
+    <h2 style="font-size:15pt">“Custo não cadastrado” deixa de ser um selo e vira uma conta com saída</h2>
+    <p>Cada devolução mostra quanto a loja perde em duas hipóteses. O que o sistema não sabe, ele diz que falta. Nunca chuta um número.</p>
+    <div class="formula">
+      <div class="t"><b>Custo do produto</b><span>cadastrado por SKU</span></div><div class="op">+</div>
+      <div class="t"><b>Frete de ida</b><span>pago na venda</span></div><div class="op">+</div>
+      <div class="t"><b>Frete de volta</b><span>cobrado na devolução</span></div><div class="op">−</div>
+      <div class="t"><b>O que o canal cobriu</b><span>quando cobre</span></div>
+    </div>
+    <div class="hipo">
+      <div class="t"><b>Voltou vendável</b><span>A perda é o frete de ida e o de volta, menos o que o canal cobriu.</span></div>
+      <div class="t"><b>Não voltou vendável</b><span>Soma também o custo do produto.</span></div>
+      <div class="t cinza"><b>Sem custo cadastrado?</b><span>A tela diz que falta e mostra o campo para cadastrar na própria linha.</span></div>
+    </div>
+  </div>
+  <div class="foot"><span>GestorPro × GoBots · comparativo</span><span>TiOps · página 6</span></div>
+</section>
+<section class="page">
+  <div class="kicker">O que protege a sua conta</div>
+  <h2>Um agente útil é o modelo mais as travas em volta dele</h2>
+  <p class="lead">Trocar o modelo de IA não muda nada disto. É o que deixa um agente escrever no seu canal sem você ficar de olho.</p>
+  <div class="travas"><div class="trava"><div class="n">01</div><h3>Nunca fala duas vezes seguidas</h3><p>A vez de falar é de quem a conversa diz. Mensagem repetida no mesmo caso é bloqueada.</p></div><div class="trava"><div class="n">02</div><h3>Solução é sempre sua</h3><p>Troca, reembolso e devolução são escolhidos por você. O agente nunca oferece em texto livre.</p></div><div class="trava"><div class="n">03</div><h3>A tabela do anúncio decide</h3><p>“Serve no meu carro?” é respondido pela tabela de compatibilidade, nunca por suposição.</p></div><div class="trava"><div class="n">04</div><h3>Tudo registrado e desfazível</h3><p>Cada ação dos agentes fica no histórico, com o motivo, e pode ser desfeita.</p></div><div class="trava"><div class="n">05</div><h3>Começa sugerindo</h3><p>No início o agente prepara e você aprova. Ele só passa a agir sozinho quando você liga.</p></div><div class="trava"><div class="n">06</div><h3>Prazo não vence calado</h3><p>Caso que precisa de você chega como aviso, e só conta como avisado quando o aviso chegou.</p></div></div>
+  <div class="conclusao">
+    <div class="card"><div class="tag">Quando o GoBots atende bem</div><p>Para quem precisa de uma boa ferramenta de atendimento com IA: responder perguntas, fazer a triagem do chat e organizar o pós-venda para a equipe.</p></div>
+    <div class="card hl"><div class="tag">Onde o GestorPro vai além</div><p>Para quem quer agentes cuidando da loja inteira: pós-venda no prazo, margem por pedido, promoções, estoque, catálogo e anúncios pagos, com você decidindo só o que eles não podem decidir.</p></div>
+  </div>
+  <div class="cta">
+    <div class="t">Veja o escritório de agentes do GestorPro<span>Mercado Livre, Shopee, Magalu, Amazon, Shein e TikTok.</span></div>
+    <a href="https://l.tiops.com.br/gestorpro?o=pdf-comparativo-gobots">Saiba mais · l.tiops.com.br/gestorpro</a>
+  </div>
+  <div class="fontes"><b>Fontes.</b> Informações do GoBots: site público (gobots.ai) e produto, consultados em 15/11/2026. Funções do GestorPro conferidas no produto em novembro de 2026. O caso de pós-venda vem de uma conta de cliente acompanhada em setembro e outubro de 2026, com o nome omitido. Imagens ilustrativas geradas por IA. GestorPro é um produto da TiOps.</div>
+  <div class="foot"><span>GestorPro × GoBots · comparativo</span><span>TiOps · página 7</span></div>
+</section></body></html>
