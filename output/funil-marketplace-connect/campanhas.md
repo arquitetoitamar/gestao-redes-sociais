@@ -458,3 +458,30 @@ o dobro do plano, e os públicos se sobrepõem (engajados no IG + visitantes do 
   Clique em Assinar caiu para 2,8%. A1 estável (R$ 0,15), C2 R$ 0,32.
 - Pendente: OK do Itamar para pausar `120255193102880007`; renovar a chave do conector do link curto. Próximo marco: 18/11.
 - WhatsApp: enviado e confirmado ("✅ Mensagem enviada").
+
+### 15/11/2026 (lida em 16/11 pela rotina das 08h, executada às 08h37)
+
+| Anúncio | Gasto ontem | Visitas ontem | R$/visita ontem | CTR ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 15,63 | 77 | R$ 0,20 | 6,94% | R$ 173,31 | 1.079 | R$ 0,16 | ativo |
+| A3 MadeiraMadeira | R$ 0,02 | 0 | — | 0% | R$ 1,73 | 4 | R$ 0,43 | ativo, quase sem entrega |
+| C 09h34 Reel loja no Claude (`120255193108170007`) | R$ 9,25 | 9 | R$ 1,03 | 1,21% | R$ 45,82 | 28 | R$ 1,64 | ativo ⚠️ |
+| C2 Reel Band PqTec (`120255193117270007`) | R$ 10,61 | 32 | R$ 0,33 | 5,68% | R$ 44,55 | 134 | R$ 0,33 | ativo |
+| C1 Reel loja no Claude (`120255193117080007`) | R$ 0,07 | 1 | R$ 0,07 | 7,69% | R$ 0,22 | 1 | R$ 0,22 | ativo, quase sem entrega |
+| A2 Explicativo | — | — | — | — | R$ 15,81 | 20 | R$ 0,79 | pausado |
+| B Isca grátis | — | — | — | — | R$ 33,95 | 88 | R$ 0,39 | pausado |
+
+- Gasto total ontem: R$ 35,58. Plano R$ 1.000 (A1+A2+A3+B+as C): R$ 315,39 (o "maximum" inclui 16/11 até ~08h40).
+- Visitas à VSL ontem (A1 + A3 + C): 119, R$ 0,30/visita.
+- Pixel em 15/11 (00h–23h59 BRT), só navegador: CompleteRegistration 3, ViewContent 4, InitiateCheckout 1, Lead 1,
+  ClicouAssinar 0 (não apareceu na resposta), SubscribedButtonClick 0 (ConectouCanal 31, PageView 409).
+  Clique em Assinar 0/119 = 0% (meta 5%). Purchase pelo servidor: 0.
+- Link curto /comece e /madeira: SEM LEITURA, 3º dia (conectores ba46… e 23ff… com "API key inválida ou revogada"; d2d7… diz que o link é de outra conta).
+- Stripe: 3 assinaturas criadas em 15/11: 1 Plus mensal (MC) e 2 GestorPro (uma delas em teste, já com cancelamento pedido). Assinaturas novas do MC: 1.
+- Erro de entrega fora do MC: "Reel Claude emite NF-e" (`120255026953690007`, campanha NFE) está WITH_ISSUES:
+  o post orgânico do Instagram usado no anúncio foi apagado. Sem gasto ontem. Nenhuma campanha D nem anúncio novo do MC.
+- Alertas: C das 09h34 em R$ 45,82 a R$ 1,64/visita → ⚠️ trocar criativo ou pausar. Zero "clicou em Assinar" no pixel:
+  conferir se o evento segue disparando. A1 subiu para R$ 0,20 no dia (acumulado R$ 0,16). A1 x A2: R$ 0,16 x R$ 0,79, A1 na frente.
+- Pendente: OK do Itamar para pausar o C das 09h34; renovar a chave do conector do link curto. Próximo marco: 18/11.
+- WhatsApp: SEM CONFIRMAÇÃO. O conector Chatiops respondeu "Connection closed" no envio e nas buscas de conferência;
+  texto salvo em `resumo-pendente.md`.

@@ -1,18 +1,21 @@
-# Resumo pendente — leitura de 12/11 (rotina de 13/11 08h)
+# Resumo pendente — leitura de 15/11 (rotina de 16/11 08h)
 
-Envio pelo Chatiops falhou: `ERR_WAPP_NOT_INITIALIZED` (conexão do WhatsApp não inicializada). Texto abaixo, pronto para colar.
+Envio pelo Chatiops sem confirmação: a ferramenta respondeu `Connection closed` no `send_whatsapp` e nas duas buscas feitas depois para conferir.
+Não dá para saber se a mensagem saiu. Confira o WhatsApp antes de colar o texto abaixo, para não duplicar.
 
 ```
-📊 Campanhas MC — ontem (12/11)
-Gasto: R$ 30,07 (acumulado R$ 209,32 de R$ 1.000)
-VSL (A1+remarketing): 105 visitas · R$ 0,29/visita · 4 cliques em Assinar (3,8%)
-• A1 Claude+ML+Shopee: R$ 14,63 · 84 visitas · R$ 0,17/visita · CTR 7,2%
-• C2 Reel Band PqTec: R$ 7,26 · 17 visitas · R$ 0,43/visita
-• C Reel loja no Claude (09h34): R$ 8,13 · 4 visitas · R$ 2,03/visita
-• A3 MadeiraMadeira: sem entrega (1 clique no link /madeira)
-• A2 e Isca grátis (B): pausados
-Link /comece: 219 pessoas em 12/11
-Cadastros: 7 · Assinaturas novas: 4 (Plus) · Compras no Meta: 2
-⚠️ O C das 09h34 passou de R$ 15 (R$ 15,30) a R$ 2,55/visita: sugiro pausar ou trocar o criativo (precisa do seu OK). Remarketing segue duplicado (2 x R$ 200).
-👉 Próximo marco: 18/11, fim do teste A2 e início da conversão D (precisa do OK).
+📊 Campanhas MC — ontem (15/11)
+⚠️ Fora do MC: anúncio "Reel Claude emite NF-e" com erro de entrega (o post original do Instagram foi apagado). Sem gasto ontem.
+Gasto: R$ 35,58 (acumulado R$ 315,39 de R$ 1.000)
+VSL (A1+A3+remarketing): 119 visitas à página · R$ 0,30/visita · 0 cliques em Assinar (0%)
+• A1 Claude+ML+Shopee: R$ 15,63 · 77 visitas · R$ 0,20/visita (acum. R$ 0,16)
+• A3 MadeiraMadeira: R$ 0,02 · 0 visitas (quase sem entrega)
+• C2 Band PqTec: R$ 10,61 · 32 visitas · R$ 0,33/visita
+• C Reel loja no Claude (09h34): R$ 9,25 · 9 visitas · R$ 1,03/visita ⚠️ (acum. R$ 45,82 a R$ 1,64)
+• A2 Explicativo: pausado (acum. R$ 0,79/visita, A1 ganha com R$ 0,16)
+Isca grátis (B): pausada, sem gasto
+Cadastros: 3 · Assinaturas novas: 1 · Compras no Meta: 0
+Link curto: sem leitura (chave do conector inválida, 3º dia)
+⚠️ Nenhum "clicou em Assinar" no pixel ontem (eram 4 e 8 nos dias anteriores): vale conferir se o evento segue disparando.
+👉 C das 09h34 segue caro: trocar criativo ou pausar (preciso do seu OK). Dia 18/11: fim do teste A2 e início da conversão D (R$ 150), também com seu OK.
 ```
