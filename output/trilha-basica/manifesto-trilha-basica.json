@@ -323,25 +323,30 @@
     {
       "numero": 14,
       "modulo": "Crescer",
-      "titulo_curto": "Equipe: convidar e liberar loja por loja",
-      "titulo": "MC · Básico · Aula 14 — Equipe: convidar e liberar loja por loja",
-      "descricao": "Convidar por e-mail, liberar loja a loja, leitura contra escrita, e quem pode conectar loja nova.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
+      "titulo_curto": "Equipe: cargos, permissões e acesso por loja",
+      "titulo": "MC · Básico · Aula 14 — Equipe: cargos, permissões e acesso por loja",
+      "descricao": "Como montar a sua equipe no Marketplace Connect: escolher o cargo de cada pessoa, ajustar o que cada cargo pode fazer em cada módulo (leitura, edição, criação e exclusão), convidar por e-mail, liberar loja a loja e acompanhar o uso da equipe no painel de Gestão da Equipe.\n\nTrilha básica completa: https://www.youtube.com/playlist?list=PLW3upCIZHed4",
       "tags": [
         "marketplace connect",
         "trilha basica",
         "equipe",
         "permissao",
+        "cargos",
+        "gestao de equipe",
+        "controle de acesso",
         "aula 14"
       ],
       "categoria": "27",
       "playlist": "PLW3upCIZHed4",
-      "video_id_na_playlist": null,
-      "publicado_por_este_script": false,
-      "status": "voce grava",
+      "video_id_na_playlist": "vr4C_Uw9ba4",
+      "publicado_por_este_script": true,
+      "status": "publicado",
       "video_origem": null,
       "inicio": null,
       "fim": null,
-      "nota": "Fora desta rodada. O brief põe nas suas; o plano cogitava eu montar com captura de tela. Segui o brief."
+      "nota": "Gravada pelo Itamar no Google Vids (2m47), subida por ele em 16/11/2026 e adotada com --id.",
+      "video_id": "vr4C_Uw9ba4",
+      "substituiu": null
     },
     {
       "numero": 15,

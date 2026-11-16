@@ -54,9 +54,10 @@ AULAS = [
  (13, 'Operar', 'Criar as fotos e atualizar o anúncio',
   'Como gerar as fotos do produto e atualizar o anúncio sem sair do ChatGPT, com o Codex instalado.',
   ['fotos', 'codex', 'imagem de produto']),
- (14, 'Crescer', 'Equipe: convidar e liberar loja por loja',
-  'Convidar por e-mail, liberar loja a loja, leitura contra escrita, e quem pode conectar loja nova.',
-  ['equipe', 'permissao']),
+ (14, 'Crescer', 'Equipe: cargos, permissões e acesso por loja',
+  'Como montar a sua equipe no Marketplace Connect: escolher o cargo de cada pessoa, ajustar o que cada cargo pode fazer '
+  'em cada módulo (leitura, edição, criação e exclusão), convidar por e-mail, liberar loja a loja e acompanhar o uso da equipe no painel de Gestão da Equipe.',
+  ['equipe', 'permissao', 'cargos', 'gestao de equipe', 'controle de acesso']),
  (15, 'Crescer', 'Plano, limites e onde pedir ajuda',
   'O que o seu plano cobre, onde ficam os limites e por onde pedir ajuda quando travar.',
   ['plano', 'suporte']),
