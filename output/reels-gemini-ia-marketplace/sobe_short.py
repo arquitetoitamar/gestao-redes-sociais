@@ -28,8 +28,9 @@ SHORTS = {
 
 chave = sys.argv[1]
 quando = sys.argv[2] if len(sys.argv) > 2 else None   # ex.: 2026-11-18T18:00
+versao = sys.argv[3] if len(sys.argv) > 3 else ''      # ex.: curto -> final/<chave>-curto-short.mp4
 s = SHORTS[chave]
-arq = os.path.join(AQUI, 'final', chave + '-short.mp4')
+arq = os.path.join(AQUI, 'final', chave + ('-' + versao if versao else '') + '-short.mp4')
 assert len(s['titulo']) <= 100 and '<' not in s['desc'] and '>' not in s['desc']
 corpo = {'snippet': {'title': s['titulo'], 'description': s['desc'], 'tags': s['tags'], 'categoryId': '28',
                      'defaultLanguage': 'pt-BR', 'defaultAudioLanguage': 'pt-BR'},

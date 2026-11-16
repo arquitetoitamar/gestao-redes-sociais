@@ -60,6 +60,6 @@ Como conectar o Gemini (vídeo completo): https://youtu.be/rirx1DWcSuk?t=908
 |---|---|
 | qui 12/11 17h29 | **Peça B publicada**: Reel https://www.instagram.com/reel/Dfp6rjLknTz/ + Short https://youtube.com/shorts/OQRqknxVPTE |
 | seg 16/11 18h | Carrossel "Estúdio de Operação com IA": **agendado** (AWS `ig-carrossel-estudio-20261116`) |
-| qua 18/11 18h | Peça A: Reel **agendado** (AWS `ig-reel-publica-anuncio-20261118`, capa em 1 s, legenda `legenda_ig_publica.md`) + Short **agendado** (https://youtube.com/shorts/JvH_NlK_8ac, privado até 18h) |
+| qua 18/11 18h | Peça A em corte de 37 s (`final/publica-anuncio-curto-*.mp4`; a de 70 s ficou de fora em 16/11 porque o Reel B, no mesmo formato, reteve só 7 s em média): Reel **agendado** (AWS `ig-reel-publica-anuncio-20261118`, capa em 1 s, legenda `legenda_ig_publica.md`) + Short **agendado** (https://youtube.com/shorts/__8w3jAbLN0, privado até 18h; o upload de 70 s, JvH_NlK_8ac, ficou privado e sem data) |
 
 Legendas do Instagram: `legenda_ig_pausa.md` (B) e `legenda_ig_publica.md` (A), com as hashtags no primeiro comentário.

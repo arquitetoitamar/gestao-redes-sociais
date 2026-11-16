@@ -34,7 +34,7 @@ O agentic saiu das 9h para as 18h de 17/11: o carrossel do Instagram ficou para 
 Agenda conjunta dos canais (peças diferentes com pelo menos 24 h entre si):
 - seg 16/11 18h: Instagram, carrossel "Estúdio de Operação com IA" (AWS, `ig-carrossel-estudio-20261116`)
 - ter 17/11 18h: LinkedIn, agentic commerce
-- qua 18/11 18h: Instagram Reel + YouTube Short da peça A, "A IA publica seu anúncio" (AWS `ig-reel-publica-anuncio-20261118`; Short JvH_NlK_8ac privado até a hora)
+- qua 18/11 18h: Instagram Reel + YouTube Short da peça A, "A IA publica seu anúncio" (AWS `ig-reel-publica-anuncio-20261118`; corte de 37 s; Short __8w3jAbLN0 privado até a hora)
 - sex 20/11 09h: LinkedIn, documento do Estúdio (mesma peça do carrossel)
 
 ---
