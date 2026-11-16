@@ -9,7 +9,7 @@ Palavra do comentário: **PEÇA**. Em 16/11/2026 o ManyChat `fb5874087` está no
 | Peça | Quando | Situação |
 |---|---|---|
 | Reel (IG) | seg 16/11 14:51 | **publicado**: https://www.instagram.com/reel/Dfz7o0aEozq/ (id 18120876665105639), a pedido do Itamar ("agora") |
-| YouTube Short | junto com o Reel ou depois | pronto, não subido |
+| YouTube Short | seg 16/11 18:20 | **publicado**: https://youtube.com/shorts/bz8jGlXbXbg (`reel/short_youtube.json`, subido com `scripts/trilha/sobe_short.py`) |
 | Carrossel (IG) | a definir (≥ 24 h depois do Reel) | pronto |
 | LinkedIn TiOps (documento) | a definir | pronto |
 | Grupo WhatsApp | a definir | texto pronto |
