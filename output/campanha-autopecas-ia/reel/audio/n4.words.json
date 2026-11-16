@@ -1,0 +1,116 @@
+[
+  {
+    "id": "w0",
+    "text": "E",
+    "start": 0.256,
+    "end": 0.341
+  },
+  {
+    "id": "w1",
+    "text": "o",
+    "start": 0.427,
+    "end": 0.469
+  },
+  {
+    "id": "w2",
+    "text": "Atendente",
+    "start": 0.512,
+    "end": 0.853
+  },
+  {
+    "id": "w3",
+    "text": "prepara",
+    "start": 0.939,
+    "end": 1.28
+  },
+  {
+    "id": "w4",
+    "text": "a",
+    "start": 1.323,
+    "end": 1.365
+  },
+  {
+    "id": "w5",
+    "text": "resposta",
+    "start": 1.408,
+    "end": 1.792
+  },
+  {
+    "id": "w6",
+    "text": "da",
+    "start": 1.835,
+    "end": 1.92
+  },
+  {
+    "id": "w7",
+    "text": "reclamação",
+    "start": 1.963,
+    "end": 2.56
+  },
+  {
+    "id": "w8",
+    "text": "e",
+    "start": 2.645,
+    "end": 2.901
+  },
+  {
+    "id": "w9",
+    "text": "mostra",
+    "start": 2.944,
+    "end": 3.243
+  },
+  {
+    "id": "w10",
+    "text": "o",
+    "start": 3.285,
+    "end": 3.328
+  },
+  {
+    "id": "w11",
+    "text": "prazo.",
+    "start": 3.371,
+    "end": 3.84
+  },
+  {
+    "id": "w12",
+    "text": "A",
+    "start": 4.053,
+    "end": 4.224
+  },
+  {
+    "id": "w13",
+    "text": "sua",
+    "start": 4.267,
+    "end": 4.3947
+  },
+  {
+    "id": "w14",
+    "text": "equipe",
+    "start": 4.437,
+    "end": 4.608
+  },
+  {
+    "id": "w15",
+    "text": "aprova",
+    "start": 4.651,
+    "end": 4.992
+  },
+  {
+    "id": "w16",
+    "text": "antes",
+    "start": 5.163,
+    "end": 5.291
+  },
+  {
+    "id": "w17",
+    "text": "de",
+    "start": 5.333,
+    "end": 5.376
+  },
+  {
+    "id": "w18",
+    "text": "sair.",
+    "start": 5.461,
+    "end": 5.906
+  }
+]

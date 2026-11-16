@@ -1,0 +1,66 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@500;600;700;800;900&family=JetBrains+Mono:wght@600;700&display=swap');
+:root{--paper:#f7f6f2;--ink:#131417;--ink2:#4a4f5a;--ink3:#7b8190;--line:#e5e3dc;--green:#0a8f60;--green2:#e4f4ec;
+ --amber:#b45309;--amber2:#fdf1e2;--red:#c2410c;--red2:#fde8e1}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,system-ui,sans-serif;color:var(--ink)}
+.slide{width:1080px;height:1350px;overflow:hidden;position:relative;background:var(--paper);padding:92px 80px 0;display:flex;flex-direction:column}
+.serif{font-family:Fraunces,Georgia,serif}
+.mono{font-family:'JetBrains Mono',ui-monospace,Menlo,monospace}
+.cont{position:absolute;top:48px;right:64px;font:700 24px 'JetBrains Mono',monospace;color:var(--ink3)}
+.cont b{color:var(--green)}
+.kick{font:700 26px 'JetBrains Mono',monospace;letter-spacing:1px;color:var(--green);text-transform:uppercase;margin-bottom:22px}
+.kick.amb{color:var(--amber)}
+h1{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:78px;line-height:1.04;letter-spacing:-1.5px}
+h1.p{font-size:74px}
+h1 em{font-style:normal;color:var(--green)}
+h1 em.a{color:var(--amber)}
+.sub{font-size:37px;line-height:1.38;font-weight:600;color:var(--ink2);margin-top:26px}
+.sub b{color:var(--ink)}
+.sp{flex:1}
+.card{background:#fff;border:2px solid var(--line);border-radius:28px;padding:32px 36px;box-shadow:0 14px 40px rgba(20,20,23,.06)}
+.rod{height:100px;margin:0 -80px;padding:0 64px;display:flex;align-items:center;gap:16px;font-size:24px;font-weight:800;color:var(--ink2);border-top:2px solid var(--line)}
+.rod img{height:46px}
+.rod .dir{margin-left:auto;font-family:Fraunces,Georgia,serif;font-size:30px;color:var(--ink)}
+.rod .dir b{color:var(--green)}
+.num{display:inline-flex;align-items:center;justify-content:center;width:100px;height:100px;border-radius:50%;background:var(--ink);color:#fff;
+ font:800 48px Fraunces,Georgia,serif;margin-bottom:34px}
+.li{display:flex;gap:22px;font-size:39px;line-height:1.36;font-weight:600;margin:30px 0;color:var(--ink2)}
+.li b{color:var(--ink)}
+.li i{flex:none;width:44px;height:44px;border-radius:50%;margin-top:4px;background:var(--green2);border:3px solid var(--green);position:relative}
+.li i.x{background:var(--red2);border-color:var(--red)}
+.l7 .li{font-size:35px;margin:20px 0}
+.nota{font:600 26px/1.45 'JetBrains Mono',monospace;color:var(--ink3);margin-top:22px}
+/* anúncio + tabela */
+.an-l{font:700 22px 'JetBrains Mono',monospace;color:var(--ink3);letter-spacing:.5px}
+.an-t{font-size:38px;font-weight:800;margin:10px 0 14px}
+.an-d{font-size:30px;line-height:1.35;color:var(--ink2);background:var(--paper);border-radius:16px;padding:18px 22px}
+.an-d mark{background:#fff3c4;color:var(--ink);font-weight:800;padding:0 6px;border-radius:6px}
+table{width:100%;border-collapse:collapse;margin-top:20px;font-size:28px}
+th{font:700 20px 'JetBrains Mono',monospace;color:var(--ink3);text-align:left;padding:12px 10px;border-bottom:2px solid var(--line);text-transform:uppercase}
+td{padding:16px 10px;border-bottom:2px solid var(--line);font-weight:700}
+td.ok{color:var(--green)}
+td.no{color:var(--red)}
+tr.no td{background:var(--red2)}
+tr.no td:first-child{border-radius:12px 0 0 12px}
+tr.no td:last-child{border-radius:0 12px 12px 0}
+.pill{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:10px 20px;font-weight:800;font-size:24px}
+.pill.g{background:var(--green2);color:var(--green)}
+.pill.a{background:var(--amber2);color:var(--amber)}
+.pill.r{background:var(--red2);color:var(--red)}
+.btn{display:inline-block;background:var(--green);color:#fff;font-weight:800;font-size:28px;padding:16px 30px;border-radius:14px}
+.btn.o{background:#fff;color:var(--ink2);border:2px solid var(--line)}
+.ag{display:flex;align-items:center;gap:18px;margin-bottom:16px}
+.ag .av{width:64px;height:64px;border-radius:18px;display:flex;align-items:center;justify-content:center;font:800 26px 'JetBrains Mono',monospace;color:#fff;flex:none}
+.ag .nm{font-size:30px;font-weight:800}
+.ag .sb{font-size:22px;color:var(--ink3);font-weight:600}
+html,body{width:1080px;height:1350px;background:var(--paper)}</style></head><body><div class='slide'><div class='cont'><b>06</b> / 08</div>
+ <div class='num'>5</div>
+ <h1 class='p'>Reclamação tem prazo. <em class='a'>A solução é da loja.</em></h1>
+ <div style='margin-top:30px'>
+  <div class='li'><i></i><span>Leia a conversa <b>inteira, na ordem</b>: comprador, loja e mediador.</span></div>
+  <div class='li'><i></i><span>Responda <b>dentro do prazo do canal</b>. Perder prazo pesa na reputação.</span></div>
+  <div class='li'><i></i><span>Troca, devolução ou reembolso parcial: <b>decisão de quem conhece a peça</b>.</span></div>
+  <div class='li'><i></i><span>Depois do caso, <b>corrija o anúncio</b>. Senão a próxima reclamação já está a caminho.</span></div>
+ </div>
+ <div class='sp'></div><div class='rod'><img src='../../assets/tiops-icon.png'>TiOps Tecnologia<span class='dir'>Gestor<b>Pro</b></span></div></div></body></html>
