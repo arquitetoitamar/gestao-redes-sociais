@@ -1,0 +1,123 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Selo,Arial Black,40,&H00111111,&H00111111,&H0000D7FF,&H0000D7FF,0,0,0,0,100,100,1,0,3,14,0,8,60,60,110,1
+Style: Titulo,Arial Black,74,&H00FFFFFF,&H00FFFFFF,&H00331D0B,&HE6331D0B,0,0,0,0,100,100,0,0,3,22,0,8,60,60,200,1
+Style: Leg,Arial,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&HB4000000,1,0,0,0,100,100,0,0,3,14,0,2,70,70,400,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:00:05.20,Selo,,0,0,0,,{\fad(150,250)}NOVIDADE · MARKETPLACE CONNECT
+Dialogue: 2,0:00:00.15,0:00:05.20,Titulo,,0,0,0,,{\fad(200,250)}Gestão da Equipe:\Ncada ação da IA,\Nfuncionário por funcionário
+Dialogue: 1,0:00:00.00,0:00:02.14,Leg,,0,0,0,,{\fad(60,60)}Pessoal, novidade aqui no
+Dialogue: 1,0:00:02.14,0:00:03.33,Leg,,0,0,0,,{\fad(60,60)}Marketplace Connect.
+Dialogue: 1,0:00:04.04,0:00:05.38,Leg,,0,0,0,,{\fad(60,60)}Aqui na equipe a gente
+Dialogue: 1,0:00:05.38,0:00:07.31,Leg,,0,0,0,,{\fad(60,60)}melhorou a visualização.
+Dialogue: 1,0:00:07.90,0:00:08.45,Leg,,0,0,0,,{\fad(60,60)}Tá vendo aqui
+Dialogue: 1,0:00:08.45,0:00:09.62,Leg,,0,0,0,,{\fad(60,60)}você agora como gestor da
+Dialogue: 1,0:00:09.62,0:00:11.67,Leg,,0,0,0,,{\fad(60,60)}equipe vai poder ver cada
+Dialogue: 1,0:00:11.67,0:00:14.70,Leg,,0,0,0,,{\fad(60,60)}ação que é feita por
+Dialogue: 1,0:00:14.70,0:00:16.98,Leg,,0,0,0,,{\fad(60,60)}cada funcionário seu.
+Dialogue: 1,0:00:16.98,0:00:18.27,Leg,,0,0,0,,{\fad(60,60)}Por exemplo
+Dialogue: 1,0:00:18.27,0:00:20.85,Leg,,0,0,0,,{\fad(60,60)}assistente, gestor.
+Dialogue: 1,0:00:21.96,0:00:22.51,Leg,,0,0,0,,{\fad(60,60)}E ele vai separando aqui
+Dialogue: 1,0:00:22.51,0:00:23.79,Leg,,0,0,0,,{\fad(60,60)}tudo que os seus funcionários
+Dialogue: 1,0:00:23.79,0:00:24.73,Leg,,0,0,0,,{\fad(60,60)}estão fazendo
+Dialogue: 1,0:00:24.73,0:00:26.44,Leg,,0,0,0,,{\fad(60,60)}entendeu? Estão trabalhando
+Dialogue: 1,0:00:26.44,0:00:27.09,Leg,,0,0,0,,{\fad(60,60)}na IA.
+Dialogue: 1,0:00:27.62,0:00:28.66,Leg,,0,0,0,,{\fad(60,60)}Cada ação na IA é
+Dialogue: 1,0:00:28.66,0:00:29.99,Leg,,0,0,0,,{\fad(60,60)}rastreável.
+Dialogue: 1,0:00:30.56,0:00:31.94,Leg,,0,0,0,,{\fad(60,60)}Aqui a gente consegue fazer
+Dialogue: 1,0:00:31.94,0:00:33.75,Leg,,0,0,0,,{\fad(60,60)}o uso por membro.
+Dialogue: 1,0:00:34.40,0:00:34.95,Leg,,0,0,0,,{\fad(60,60)}Por exemplo
+Dialogue: 1,0:00:34.95,0:00:35.79,Leg,,0,0,0,,{\fad(60,60)}tá vendo aqui?
+Dialogue: 1,0:00:38.74,0:00:39.29,Leg,,0,0,0,,{\fad(60,60)}O que ele tá executando
+Dialogue: 1,0:00:39.29,0:00:42.56,Leg,,0,0,0,,{\fad(60,60)}dentro da operação.
+Dialogue: 1,0:00:42.56,0:00:43.73,Leg,,0,0,0,,{\fad(60,60)}Então quem é funcionário
+Dialogue: 1,0:00:43.73,0:00:44.99,Leg,,0,0,0,,{\fad(60,60)}de agência ou quem tem
+Dialogue: 1,0:00:44.99,0:00:45.60,Leg,,0,0,0,,{\fad(60,60)}uma loja
+Dialogue: 1,0:00:45.60,0:00:47.09,Leg,,0,0,0,,{\fad(60,60)}uma operação e tem vários
+Dialogue: 1,0:00:47.09,0:00:48.77,Leg,,0,0,0,,{\fad(60,60)}funcionários que trabalham
+Dialogue: 1,0:00:48.77,0:00:49.51,Leg,,0,0,0,,{\fad(60,60)}com a IA
+Dialogue: 1,0:00:49.98,0:00:51.81,Leg,,0,0,0,,{\fad(60,60)}você pode convidar os usuários
+Dialogue: 1,0:00:51.81,0:00:53.33,Leg,,0,0,0,,{\fad(60,60)}aqui e dar acesso pra
+Dialogue: 1,0:00:53.33,0:00:54.83,Leg,,0,0,0,,{\fad(60,60)}eles de acordo com o
+Dialogue: 1,0:00:54.83,0:00:56.46,Leg,,0,0,0,,{\fad(60,60)}cargo. O cargo é você
+Dialogue: 1,0:00:56.46,0:00:57.52,Leg,,0,0,0,,{\fad(60,60)}que monta.
+Dialogue: 1,0:00:57.52,0:00:58.73,Leg,,0,0,0,,{\fad(60,60)}Aqui já tem uns pré-definidos
+Dialogue: 1,0:00:58.73,0:00:59.91,Leg,,0,0,0,,{\fad(60,60)}mas você pode criar um
+Dialogue: 1,0:00:59.91,0:01:01.16,Leg,,0,0,0,,{\fad(60,60)}do zero e definir quais
+Dialogue: 1,0:01:01.16,0:01:02.26,Leg,,0,0,0,,{\fad(60,60)}os tipos de acesso que
+Dialogue: 1,0:01:02.26,0:01:03.34,Leg,,0,0,0,,{\fad(60,60)}eles vão ter.
+Dialogue: 1,0:01:03.34,0:01:04.21,Leg,,0,0,0,,{\fad(60,60)}Cada pessoa.
+Dialogue: 1,0:01:04.56,0:01:05.81,Leg,,0,0,0,,{\fad(60,60)}Cada tipo de pessoas aqui
+Dialogue: 1,0:01:05.81,0:01:06.78,Leg,,0,0,0,,{\fad(60,60)}por exemplo
+Dialogue: 1,0:01:06.78,0:01:07.90,Leg,,0,0,0,,{\fad(60,60)}vai ter um tipo de
+Dialogue: 1,0:01:07.90,0:01:09.29,Leg,,0,0,0,,{\fad(60,60)}acesso aqui.
+Dialogue: 1,0:01:10.30,0:01:10.85,Leg,,0,0,0,,{\fad(60,60)}E aí você lá no
+Dialogue: 1,0:01:10.85,0:01:12.13,Leg,,0,0,0,,{\fad(60,60)}MCP, quando você liberar
+Dialogue: 1,0:01:12.13,0:01:14.21,Leg,,0,0,0,,{\fad(60,60)}pro seu funcionário
+Dialogue: 1,0:01:15.12,0:01:15.84,Leg,,0,0,0,,{\fad(60,60)}ele vai ter
+Dialogue: 1,0:01:15.84,0:01:16.81,Leg,,0,0,0,,{\fad(60,60)}você vai saber qual é
+Dialogue: 1,0:01:16.81,0:01:18.21,Leg,,0,0,0,,{\fad(60,60)}o funcionário que tá usando
+Dialogue: 1,0:01:18.21,0:01:19.10,Leg,,0,0,0,,{\fad(60,60)}mais a IA aqui
+Dialogue: 1,0:01:19.10,0:01:19.65,Leg,,0,0,0,,{\fad(60,60)}ó.
+Dialogue: 1,0:01:20.12,0:01:20.67,Leg,,0,0,0,,{\fad(60,60)}O que que ele tá
+Dialogue: 1,0:01:20.67,0:01:21.45,Leg,,0,0,0,,{\fad(60,60)}usando, pra quê
+Dialogue: 1,0:01:21.45,0:01:23.04,Leg,,0,0,0,,{\fad(60,60)}qual que são a ação.
+Dialogue: 1,0:01:23.04,0:01:23.59,Leg,,0,0,0,,{\fad(60,60)}E se ele não tiver
+Dialogue: 1,0:01:23.59,0:01:24.64,Leg,,0,0,0,,{\fad(60,60)}permissão, por exemplo
+Dialogue: 1,0:01:24.64,0:01:25.44,Leg,,0,0,0,,{\fad(60,60)}se ele quiser ver a
+Dialogue: 1,0:01:25.44,0:01:27.08,Leg,,0,0,0,,{\fad(60,60)}parte financeira da sua empresa
+Dialogue: 1,0:01:27.08,0:01:28.43,Leg,,0,0,0,,{\fad(60,60)}ele não vai ter acesso.
+Dialogue: 1,0:01:29.38,0:01:29.93,Leg,,0,0,0,,{\fad(60,60)}E aí a gente tem
+Dialogue: 1,0:01:29.93,0:01:30.63,Leg,,0,0,0,,{\fad(60,60)}aqui vários cargos e várias
+Dialogue: 1,0:01:30.63,0:01:32.31,Leg,,0,0,0,,{\fad(60,60)}funções já pré-cadastradas
+Dialogue: 1,0:01:32.31,0:01:35.00,Leg,,0,0,0,,{\fad(60,60)}pra facilitar o desenvolvimento.
+Dialogue: 1,0:01:35.00,0:01:36.42,Leg,,0,0,0,,{\fad(60,60)}Quando você vai aqui adicionar
+Dialogue: 1,0:01:36.42,0:01:37.02,Leg,,0,0,0,,{\fad(60,60)}um usuário
+Dialogue: 1,0:01:37.02,0:01:37.95,Leg,,0,0,0,,{\fad(60,60)}por exemplo
+Dialogue: 1,0:01:39.10,0:01:40.31,Leg,,0,0,0,,{\fad(60,60)}ó, quando eu venho adicionar
+Dialogue: 1,0:01:40.31,0:01:40.93,Leg,,0,0,0,,{\fad(60,60)}um usuário
+Dialogue: 1,0:01:40.93,0:01:42.22,Leg,,0,0,0,,{\fad(60,60)}eu já tenho pré-definido
+Dialogue: 1,0:01:42.22,0:01:43.78,Leg,,0,0,0,,{\fad(60,60)}aqui vários perfis aqui de
+Dialogue: 1,0:01:43.78,0:01:44.88,Leg,,0,0,0,,{\fad(60,60)}funcionários que trabalham
+Dialogue: 1,0:01:44.88,0:01:45.69,Leg,,0,0,0,,{\fad(60,60)}na operação.
+Dialogue: 1,0:01:46.56,0:01:48.08,Leg,,0,0,0,,{\fad(60,60)}Então, quando você vai definir
+Dialogue: 1,0:01:48.08,0:01:48.63,Leg,,0,0,0,,{\fad(60,60)}aqui, ó
+Dialogue: 1,0:01:48.63,0:01:49.31,Leg,,0,0,0,,{\fad(60,60)}por exemplo
+Dialogue: 1,0:01:49.31,0:01:50.58,Leg,,0,0,0,,{\fad(60,60)}promoções, eu quero deixar
+Dialogue: 1,0:01:50.58,0:01:51.49,Leg,,0,0,0,,{\fad(60,60)}pra esse membro que eu
+Dialogue: 1,0:01:51.49,0:01:52.89,Leg,,0,0,0,,{\fad(60,60)}vou adicionar aqui em cima.
+Dialogue: 1,0:01:53.34,0:01:54.27,Leg,,0,0,0,,{\fad(60,60)}Então eu vou colocar aqui
+Dialogue: 1,0:01:54.27,0:01:55.25,Leg,,0,0,0,,{\fad(60,60)}o endereço do
+Dialogue: 1,0:01:55.25,0:01:57.01,Leg,,0,0,0,,{\fad(60,60)}né, eu vou adicionar nesse
+Dialogue: 1,0:01:57.01,0:01:58.02,Leg,,0,0,0,,{\fad(60,60)}cargo aqui
+Dialogue: 1,0:01:58.02,0:01:58.67,Leg,,0,0,0,,{\fad(60,60)}ou eu vou criar um
+Dialogue: 1,0:01:58.67,0:02:00.04,Leg,,0,0,0,,{\fad(60,60)}cargo que já tenha.
+Dialogue: 1,0:02:00.04,0:02:00.59,Leg,,0,0,0,,{\fad(60,60)}Eu tenho edição
+Dialogue: 1,0:02:00.59,0:02:02.19,Leg,,0,0,0,,{\fad(60,60)}criação e exclusão.
+Dialogue: 1,0:02:02.54,0:02:03.09,Leg,,0,0,0,,{\fad(60,60)}Por exemplo
+Dialogue: 1,0:02:03.09,0:02:03.89,Leg,,0,0,0,,{\fad(60,60)}um cara do financeiro
+Dialogue: 1,0:02:03.89,0:02:04.93,Leg,,0,0,0,,{\fad(60,60)}ele vai ter acesso só
+Dialogue: 1,0:02:04.93,0:02:06.78,Leg,,0,0,0,,{\fad(60,60)}a parte do financeiro.
+Dialogue: 1,0:02:06.78,0:02:07.70,Leg,,0,0,0,,{\fad(60,60)}E por aí vai.
+Dialogue: 1,0:02:07.70,0:02:08.62,Leg,,0,0,0,,{\fad(60,60)}Aí vai tendo acesso a
+Dialogue: 1,0:02:08.62,0:02:09.57,Leg,,0,0,0,,{\fad(60,60)}edição, leitura
+Dialogue: 1,0:02:09.57,0:02:10.40,Leg,,0,0,0,,{\fad(60,60)}tá vendo?
+Dialogue: 1,0:02:10.40,0:02:13.32,Leg,,0,0,0,,{\fad(60,60)}A cada cenário ali específico.
+Dialogue: 1,0:02:13.32,0:02:15.30,Leg,,0,0,0,,{\fad(60,60)}Então a gente consegue controlar
+Dialogue: 1,0:02:15.30,0:02:16.98,Leg,,0,0,0,,{\fad(60,60)}basicamente tudo que é feito
+Dialogue: 1,0:02:16.98,0:02:19.26,Leg,,0,0,0,,{\fad(60,60)}no e-commerce hoje por aqui
+Dialogue: 1,0:02:19.26,0:02:20.30,Leg,,0,0,0,,{\fad(60,60)}tá bom?
+Dialogue: 1,0:02:20.30,0:02:21.36,Leg,,0,0,0,,{\fad(60,60)}Pra você liberar o MCP
+Dialogue: 1,0:02:21.36,0:02:22.42,Leg,,0,0,0,,{\fad(60,60)}por funcionários
+Dialogue: 1,0:02:22.42,0:02:23.67,Leg,,0,0,0,,{\fad(60,60)}também pra sua equipe aí
+Dialogue: 1,0:02:23.67,0:02:25.19,Leg,,0,0,0,,{\fad(60,60)}quando você tem uma operação
+Dialogue: 1,0:02:25.19,0:02:26.13,Leg,,0,0,0,,{\fad(60,60)}grande.

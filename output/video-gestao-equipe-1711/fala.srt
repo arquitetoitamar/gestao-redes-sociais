@@ -1,0 +1,128 @@
+1
+00:00:00,000 --> 00:00:03,080
+ Pessoal, novidade aqui no Marketplace Connect.
+
+2
+00:00:04,040 --> 00:00:07,060
+ Aqui na equipe a gente melhorou a visualização.
+
+3
+00:00:07,900 --> 00:00:16,980
+ Tá vendo aqui, você agora como gestor da equipe vai poder ver cada ação que é feita por cada funcionário seu.
+
+4
+00:00:16,980 --> 00:00:20,600
+ Por exemplo, assistente, gestor.
+
+5
+00:00:21,960 --> 00:00:25,580
+ E ele vai separando aqui tudo que os seus funcionários estão fazendo, entendeu?
+
+6
+00:00:25,820 --> 00:00:26,840
+ Estão trabalhando na IA.
+
+7
+00:00:27,620 --> 00:00:29,740
+ Cada ação na IA é rastreável.
+
+8
+00:00:30,560 --> 00:00:33,500
+ Aqui a gente consegue fazer o uso por membro.
+
+9
+00:00:34,400 --> 00:00:35,540
+ Por exemplo, tá vendo aqui?
+
+10
+00:00:38,740 --> 00:00:42,260
+ O que ele tá executando dentro da operação.
+
+11
+00:00:42,560 --> 00:00:49,260
+ Então quem é funcionário de agência ou quem tem uma loja, uma operação e tem vários funcionários que trabalham com a IA,
+
+12
+00:00:49,980 --> 00:00:55,720
+ você pode convidar os usuários aqui e dar acesso pra eles de acordo com o cargo.
+
+13
+00:00:55,840 --> 00:00:57,000
+ O cargo é você que monta.
+
+14
+00:00:57,520 --> 00:01:03,140
+ Aqui já tem uns pré-definidos, mas você pode criar um do zero e definir quais os tipos de acesso que eles vão ter.
+
+15
+00:01:03,340 --> 00:01:03,960
+ Cada pessoa.
+
+16
+00:01:04,560 --> 00:01:09,040
+ Cada tipo de pessoas aqui, por exemplo, vai ter um tipo de acesso aqui.
+
+17
+00:01:10,300 --> 00:01:13,960
+ E aí você lá no MCP, quando você liberar pro seu funcionário,
+
+18
+00:01:15,120 --> 00:01:19,320
+ ele vai ter, você vai saber qual é o funcionário que tá usando mais a IA aqui, ó.
+
+19
+00:01:20,120 --> 00:01:22,860
+ O que que ele tá usando, pra quê, qual que são a ação.
+
+20
+00:01:23,040 --> 00:01:28,180
+ E se ele não tiver permissão, por exemplo, se ele quiser ver a parte financeira da sua empresa, ele não vai ter acesso.
+
+21
+00:01:29,380 --> 00:01:34,600
+ E aí a gente tem aqui vários cargos e várias funções já pré-cadastradas pra facilitar o desenvolvimento.
+
+22
+00:01:35,000 --> 00:01:37,700
+ Quando você vai aqui adicionar um usuário, por exemplo,
+
+23
+00:01:39,100 --> 00:01:45,440
+ ó, quando eu venho adicionar um usuário, eu já tenho pré-definido aqui vários perfis aqui de funcionários que trabalham na operação.
+
+24
+00:01:46,560 --> 00:01:52,640
+ Então, quando você vai definir aqui, ó, por exemplo, promoções, eu quero deixar pra esse membro que eu vou adicionar aqui em cima.
+
+25
+00:01:53,340 --> 00:01:59,480
+ Então eu vou colocar aqui o endereço do, né, eu vou adicionar nesse cargo aqui, ou eu vou criar um cargo que já tenha.
+
+26
+00:02:00,040 --> 00:02:01,940
+ Eu tenho edição, criação e exclusão.
+
+27
+00:02:02,540 --> 00:02:06,340
+ Por exemplo, um cara do financeiro, ele vai ter acesso só a parte do financeiro.
+
+28
+00:02:06,780 --> 00:02:07,500
+ E por aí vai.
+
+29
+00:02:07,700 --> 00:02:10,280
+ Aí vai tendo acesso a edição, leitura, tá vendo?
+
+30
+00:02:10,400 --> 00:02:13,060
+ A cada cenário ali específico.
+
+31
+00:02:13,320 --> 00:02:20,240
+ Então a gente consegue controlar basicamente tudo que é feito no e-commerce hoje por aqui, tá bom?
+
+32
+00:02:20,300 --> 00:02:25,880
+ Pra você liberar o MCP por funcionários, também pra sua equipe aí quando você tem uma operação grande.
+
