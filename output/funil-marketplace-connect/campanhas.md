@@ -485,3 +485,28 @@ o dobro do plano, e os públicos se sobrepõem (engajados no IG + visitantes do 
 - Pendente: OK do Itamar para pausar o C das 09h34; renovar a chave do conector do link curto. Próximo marco: 18/11.
 - WhatsApp: SEM CONFIRMAÇÃO. O conector Chatiops respondeu "Connection closed" no envio e nas buscas de conferência;
   texto salvo em `resumo-pendente.md`.
+
+### 16/11/2026 (lida em 17/11 pela rotina das 08h, executada às 08h49)
+
+| Anúncio | Gasto ontem | Visitas ontem | R$/visita ontem | CTR ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 16,08 | 97 | R$ 0,17 | 7,23% | R$ 189,40 | 1.167 | R$ 0,16 | ativo |
+| A3 MadeiraMadeira | R$ 0,05 | 0 | — | 0% | R$ 1,78 | 4 | R$ 0,45 | ativo, quase sem entrega |
+| C 09h34 Reel loja no Claude (`120255193108170007`) | R$ 8,71 | 13 | R$ 0,67 | 1,03% | R$ 54,61 | 40 | R$ 1,37 | ativo ⚠️ |
+| C2 Reel Band PqTec (`120255193117270007`) | R$ 8,54 | 29 | R$ 0,29 | 5,01% | R$ 53,39 | 169 | R$ 0,32 | ativo |
+| C1 Reel loja no Claude (`120255193117080007`) | R$ 0,01 | 0 | — | 0% | R$ 0,23 | 1 | R$ 0,23 | ativo, quase sem entrega |
+| A2 Explicativo | — | — | — | — | R$ 15,81 | 20 | R$ 0,79 | pausado |
+| B Isca grátis | — | — | — | — | R$ 33,95 | 88 | R$ 0,39 | pausado |
+
+- Gasto total ontem: R$ 33,39. Plano R$ 1.000 (A1+A2+A3+B+as C): R$ 349,17 (o "maximum" inclui 17/11 até ~08h50).
+- Visitas à VSL ontem (A1 + A3 + C): 139, R$ 0,24/visita.
+- Pixel em 16/11 (00h–23h59 BRT), só navegador: CompleteRegistration 7, ClicouAssinar 2, ViewContent 5, Lead 0,
+  SubscribedButtonClick 0. Clique em Assinar 2/139 = 1,4% (meta 5%). Purchase pelo servidor: 4.
+  Obs.: a consulta WEB_ONLY sem nome de evento voltou vazia; os números saíram consultando evento por evento.
+- Link curto /comece: SEM LEITURA, 4º dia (conector ba46… "API key inválida ou revogada").
+- Stripe: SEM LEITURA (conector desconectado: "connection was invalidated", precisa reconectar).
+- Nenhum anúncio do MC com erro de entrega. Nenhuma campanha D nem anúncio novo.
+- Alertas: C das 09h34 em R$ 54,61 a R$ 1,37/visita → ⚠️ trocar criativo ou pausar. Clique em Assinar 1,4%.
+  A1 x A2: R$ 0,16 x R$ 0,79, A1 vence. Amanhã 18/11: fim do teste A2 e início da conversão D (R$ 150), precisa do OK.
+- Pendente: OK do Itamar para pausar o C das 09h34; renovar a chave do link curto; reconectar o Stripe.
+- WhatsApp: FALHOU (`ERR_WAPP_NOT_INITIALIZED` no Chatiops); texto salvo em `resumo-pendente.md`.
