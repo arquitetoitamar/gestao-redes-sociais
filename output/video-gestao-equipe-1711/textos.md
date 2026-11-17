@@ -23,7 +23,10 @@ Pra agência e pra operação com equipe usando a IA. Fica no menu Equipe do pai
 Passo a passo completo (2 min): https://youtu.be/vr4C_Uw9ba4
 ```
 
-## Instagram Reel (@tiopstecnologia), depois
+## Instagram Reel (@tiopstecnologia)
+
+Agendado para ter 17/11/2026 18:00 BRT (`ig-reel-gestao-equipe-20261117`, capa em 1,5 s, legenda em `legenda_ig.md`).
+ManyChat está no FREE desde 16/11: a automação CONNECT pode não responder; conferir os comentários.
 
 ```
 Sua equipe já usa IA na operação? Agora dá pra saber quem fez o quê 👀
