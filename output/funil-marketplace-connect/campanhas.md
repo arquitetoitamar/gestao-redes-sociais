@@ -510,3 +510,28 @@ o dobro do plano, e os públicos se sobrepõem (engajados no IG + visitantes do 
   A1 x A2: R$ 0,16 x R$ 0,79, A1 vence. Amanhã 18/11: fim do teste A2 e início da conversão D (R$ 150), precisa do OK.
 - Pendente: OK do Itamar para pausar o C das 09h34; renovar a chave do link curto; reconectar o Stripe.
 - WhatsApp: FALHOU (`ERR_WAPP_NOT_INITIALIZED` no Chatiops); texto salvo em `resumo-pendente.md`.
+
+### 17/11/2026 (lida em 18/11 pela rotina das 08h, executada às 08h13)
+
+| Anúncio | Gasto ontem | Visitas ontem | R$/visita ontem | CTR ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 13,03 | 70 | R$ 0,19 | 7,21% | R$ 202,88 | 1.248 | R$ 0,16 | ativo |
+| A3 MadeiraMadeira | R$ 0,01 | 1 | R$ 0,01 | 0% | R$ 1,79 | 5 | R$ 0,36 | ativo, quase sem entrega |
+| C 09h34 Reel loja no Claude (`120255193108170007`) | R$ 8,61 | 8 | R$ 1,08 | 0,82% | R$ 62,68 | 48 | R$ 1,31 | ativo ⚠️ |
+| C2 Reel Band PqTec (`120255193117270007`) | R$ 6,94 | 28 | R$ 0,25 | 5,25% | R$ 59,82 | 192 | R$ 0,31 | ativo |
+| C1 Reel loja no Claude (`120255193117080007`) | R$ 0,02 | 0 | — | 0% | R$ 0,25 | 1 | R$ 0,25 | ativo, quase sem entrega |
+| A2 Explicativo | — | — | — | — | R$ 15,81 | 20 | R$ 0,79 | pausado (conjunto concluído) |
+| B Isca grátis | — | — | — | — | R$ 33,95 | 88 | R$ 0,39 | pausado |
+
+- Gasto total ontem: R$ 28,61. Plano R$ 1.000 (A1+A2+A3+B+as C): R$ 377,18 (o "maximum" inclui 18/11 até ~08h15).
+- Visitas à VSL ontem (A1 + A3 + C): 107, R$ 0,27/visita.
+- Pixel em 17/11 (00h–23h59 BRT), só navegador: CompleteRegistration 5, ViewContent 5, InitiateCheckout 2, Lead 1,
+  ClicouAssinar 0, SubscribedButtonClick 0 (ConectouCanal 46, PageView 632). Clique em Assinar 0/107 = 0% (meta 5%).
+  Purchase pelo servidor: 2.
+- Link curto /comece: SEM LEITURA, 5º dia (conector ba46… "API key inválida ou revogada").
+- Stripe: 3 assinaturas criadas em 17/11: 1 Plus mensal (MC) e 2 GestorPro em teste. Assinaturas novas do MC: 1.
+- Nenhum anúncio do MC com erro de entrega. Nenhuma campanha D nem anúncio novo.
+- Alertas: C das 09h34 em R$ 62,68 a R$ 1,31/visita → ⚠️ trocar criativo ou pausar. Clique em Assinar zerado
+  (conferir disparo do evento). A1 x A2 (fim do teste hoje): R$ 0,16 x R$ 0,79, A1 vence e já tem a verba.
+- Pendente: OK do Itamar para ligar a conversão D (R$ 150) e para pausar o C das 09h34; renovar a chave do link curto.
+- WhatsApp: enviado e confirmado ("✅ Mensagem enviada").
