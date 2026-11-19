@@ -535,3 +535,26 @@ o dobro do plano, e os públicos se sobrepõem (engajados no IG + visitantes do 
   (conferir disparo do evento). A1 x A2 (fim do teste hoje): R$ 0,16 x R$ 0,79, A1 vence e já tem a verba.
 - Pendente: OK do Itamar para ligar a conversão D (R$ 150) e para pausar o C das 09h34; renovar a chave do link curto.
 - WhatsApp: enviado e confirmado ("✅ Mensagem enviada").
+
+### 18/11/2026 (lida em 19/11 pela rotina das 08h, executada às 08h13)
+
+| Anúncio | Gasto ontem | Visitas ontem | R$/visita ontem | CTR ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 12,03 | 101 | R$ 0,12 | 8,48% | R$ 215,73 | 1.345 | R$ 0,16 | ativo |
+| A3 MadeiraMadeira | R$ 0,03 | 0 | — | 0% | R$ 1,84 | 5 | R$ 0,37 | ativo, quase sem entrega |
+| C 09h34 Reel loja no Claude (`120255193108170007`) | R$ 6,62 | 9 | R$ 0,74 | 1,54% | R$ 69,44 | 58 | R$ 1,20 | ativo ⚠️ |
+| C2 Reel Band PqTec (`120255193117270007`) | R$ 8,71 | 39 | R$ 0,22 | 6,37% | R$ 69,41 | 238 | R$ 0,29 | ativo |
+| C1 Reel loja no Claude (`120255193117080007`) | — | — | — | — | R$ 0,25 | 1 | R$ 0,25 | ativo, sem gasto ontem |
+| A2 Explicativo | — | — | — | — | R$ 15,81 | 20 | R$ 0,79 | conjunto concluído |
+| B Isca grátis | — | — | — | — | R$ 33,95 | 88 | R$ 0,39 | pausado |
+
+- Gasto total ontem (todos os anúncios com gasto na conta): R$ 27,39. Plano R$ 1.000 (A1+A2+A3+B+as C): R$ 406,43 (o "maximum" inclui 19/11 até ~08h15).
+- Visitas à VSL ontem (A1 + A3 + C): 149, R$ 0,18/visita.
+- Pixel em 18/11 (00h–23h59 BRT), só navegador: CompleteRegistration 10, ViewContent 15, ClicouAssinar 4, ConectouCanal 28,
+  PageView 719, SubscribedButtonClick 0, Lead 0. Clique em Assinar 4/149 = 2,7% (meta 5%). Purchase pelo servidor: 2.
+- Link curto /comece: SEM LEITURA, 6º dia (conector ba46… "API key inválida ou revogada").
+- Stripe: 5 assinaturas criadas em 18/11: 3 Plus mensal e 1 Pro Max mensal (MC) + 1 GestorPro em teste. Assinaturas novas do MC: 4.
+- Nenhum anúncio com erro de entrega. Nenhuma campanha D nem anúncio novo.
+- Alertas: C das 09h34 em R$ 69,44 a R$ 1,20/visita → ⚠️ trocar criativo ou pausar. A1 x A2 encerrado: A1 venceu (R$ 0,16 x R$ 0,79).
+- Pendente: OK do Itamar para ligar a conversão D (R$ 150) e para pausar o C das 09h34; renovar a chave do link curto.
+- WhatsApp: enviado e confirmado ("✅ Mensagem enviada").
