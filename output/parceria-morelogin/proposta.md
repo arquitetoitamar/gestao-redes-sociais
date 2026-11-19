@@ -1,7 +1,7 @@
 # Parceria MoreLogin (Ana, ana_santos@morelogin.com)
 
 Contato em 01/11/2026. O Itamar respondeu "Tenho interesse" em 05/11.
-Link de afiliado dele: https://www.morelogin.com/?from=AAF7cYpPRan2
+Link de afiliado dele: https://www.morelogin.com/register?from=AAF7cYpPRan2
 Um site de terceiros fala em 15% sobre as compras dos indicados. Não achei os termos oficiais: confirmar com a Ana.
 
 ## Antes de fechar: cuidado com o ângulo

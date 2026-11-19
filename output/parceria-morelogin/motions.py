@@ -9,7 +9,7 @@ from concurrent.futures import ProcessPoolExecutor
 AQUI = os.path.dirname(os.path.abspath(__file__))
 SAIDA = os.path.join(AQUI, 'trab', 'mot')
 FPS = 30
-LINK = 'morelogin.com/?from=AAF7cYpPRan2'
+LINK = 'morelogin.com/register?from=AAF7cYpPRan2'
 
 BASE = """<!doctype html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=block" rel="stylesheet">

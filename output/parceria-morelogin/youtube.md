@@ -9,7 +9,12 @@ Pelo brief da MoreLogin (PDF "MoreLogin for partners 2026"):
 
 Publicação: só depois do "sim" do Itamar e da aprovação da MoreLogin (os 70% restantes são pagos antes da publicação).
 
-**Subido NÃO LISTADO em 19/11/2026: https://youtu.be/c4CFjmaGg88** (capa ok). Falta no Studio, à mão:
+**Versão atual, NÃO LISTADA (19/11/2026): https://youtu.be/6p_TPYrAzy0** (capa ok).
+Título pedido pela MoreLogin (Ana não quis "Claude operando várias contas"): **MoreLogin: sua IA operando várias contas da Shopee**.
+Link de afiliado corrigido para `/register?from=AAF7cYpPRan2` na descrição, no comentário e no cartão final do vídeo; capa trocou "CLAUDE" por "SUA IA".
+Versão anterior, com link e título errados: https://youtu.be/c4CFjmaGg88 (não listada, apagar quando o Itamar mandar).
+
+Falta no Studio (vídeo novo), à mão:
 1. marcar "Inclui promoção paga";
 2. subir `legendas_youtube.srt` (o token da API não tem o escopo de legendas);
 3. fixar o comentário com o link (a API não fixa comentário).
@@ -26,7 +31,7 @@ Publicação: só depois do "sim" do Itamar e da aprovação da MoreLogin (os 70
 #publi Vídeo patrocinado pela MoreLogin.
 
 🎁 Teste a MoreLogin pelo meu link e ganhe 50 perfis grátis por 2 semanas + 15% de desconto:
-https://www.morelogin.com/?from=AAF7cYpPRan2
+https://www.morelogin.com/register?from=AAF7cYpPRan2
 
 Neste vídeo eu mostro como conectar o Claude ao MoreLogin para a IA operar navegadores separados, um para cada conta: loja da Shopee, chat de vendedor, WhatsApp, Instagram, TikTok. Cada perfil tem a própria sessão e a própria rede, então uma conta não se mistura com a outra. Também mostro o celular em nuvem, a automação de postagens, a CLI e a API local.
 
@@ -61,7 +66,7 @@ Use com responsabilidade: uma conta por cliente ou CNPJ, respostas no ritmo de u
 
 ```
 🎁 Link da MoreLogin com 50 perfis grátis por 2 semanas + 15% OFF:
-https://www.morelogin.com/?from=AAF7cYpPRan2
+https://www.morelogin.com/register?from=AAF7cYpPRan2
 (publicidade · parceria MoreLogin)
 ```
 
@@ -73,7 +78,7 @@ celular em nuvem, automação com IA, agência de marketplace, gestor de contas,
 ## Mensagem para a Ana (envio do vídeo para aprovação)
 
 ```
-Oi, Ana! Segue o vídeo para aprovação, não listado: https://youtu.be/c4CFjmaGg88
+Oi, Ana! Segue o vídeo para aprovação, não listado: https://youtu.be/6p_TPYrAzy0
 
 Tema: Claude + MoreLogin, a IA operando perfis isolados (Shopee, WhatsApp, TikTok/Instagram),
 com celular em nuvem, Sincronizador, CLI e API local.
