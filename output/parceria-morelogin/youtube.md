@@ -15,7 +15,7 @@ Link de afiliado corrigido para `/register?from=AAF7cYpPRan2` na descrição, no
 Versão anterior, com link e título errados: https://youtu.be/c4CFjmaGg88 (não listada, apagar quando o Itamar mandar).
 
 Falta no Studio (vídeo novo), à mão:
-1. marcar "Inclui promoção paga";
+1. ~~marcar "Inclui promoção paga"~~ feito pela API em 19/11 (paidProductPlacementDetails);
 2. subir `legendas_youtube.srt` (o token da API não tem o escopo de legendas);
 3. fixar o comentário com o link (a API não fixa comentário).
 
