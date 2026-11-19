@@ -1,0 +1,1731 @@
+1
+00:00:00,127 --> 00:00:05,693
+Olá, tudo bem? Nesse vídeo eu vou
+mostrar para você como que
+
+2
+00:00:05,693 --> 00:00:11,500
+a gente faz para trabalhar com um
+navegador, um navegador
+
+3
+00:00:11,500 --> 00:00:17,467
+ou um celular na nuvem para você
+trabalhar com a IA utilizando a
+
+4
+00:00:17,467 --> 00:00:23,737
+IA de segurança segura para operar multi contas
+de redes sociais, de marketplaces
+
+5
+00:00:23,737 --> 00:00:28,067
+dentro do seu próprio computador, mas
+com vários perfis diferentes.
+
+6
+00:00:28,067 --> 00:00:33,550
+Eu sou Itamar, especialista em inteligência
+artificial e eu vou te ajudar
+
+7
+00:00:33,550 --> 00:00:38,990
+a conectar a sua IA, o seu Claude, o ChatGPT
+em todas as suas redes sociais
+
+8
+00:00:38,990 --> 00:00:43,123
+para fazer uma opção para você
+gerenciar tudo.
+
+9
+00:00:43,123 --> 00:00:48,107
+Então vamos lá. Na minha empresa eu tenho
+uma questão que eu não consigo
+
+10
+00:00:48,107 --> 00:00:53,447
+resolver. Vocês que me acompanham sabem que
+eu faço conteúdo para empresários
+
+11
+00:00:53,447 --> 00:00:57,067
+que utilizam IA nos
+marketplaces, no e-commerce.
+
+12
+00:00:57,067 --> 00:01:00,807
+E um dos problemas que a gente tem aqui é
+que muitos empresários têm de
+
+13
+00:01:00,807 --> 00:01:06,057
+várias contas e eles não conseguem acessar
+essas contas e se tornam muito
+
+14
+00:01:06,057 --> 00:01:09,917
+difícil às vezes porque eles têm que fazer
+vários logins em vários navegadores
+
+15
+00:01:09,917 --> 00:01:11,957
+em vários perfis do Chrome separado.
+
+16
+00:01:11,957 --> 00:01:15,897
+E aqui a solução que eu vou apresentar
+para vocês hoje é para que vocês
+
+17
+00:01:15,897 --> 00:01:21,130
+automatizem utilizando a IA algumas
+operações dentro do marketplace.
+
+18
+00:01:21,130 --> 00:01:25,520
+Por exemplo, eu tenho aqui a minha loja da
+Shopee aberta, é uma loja de
+
+19
+00:01:25,520 --> 00:01:27,547
+teste né, eles sabem que eu
+não sou seller.
+
+20
+00:01:27,547 --> 00:01:32,187
+Mas nessa loja aqui a gente está cadastrando
+algumas coisas porque eu preciso
+
+21
+00:01:32,187 --> 00:01:36,043
+demonstrar para os meus clientes como
+que a gente faz as coisas.
+
+22
+00:01:36,043 --> 00:01:38,583
+Está vendo que não tem vendas porque a
+gente é uma loja de demonstração
+
+23
+00:01:38,583 --> 00:01:43,373
+aqui. Mas o que os meus clientes
+muitas vezes pedem?
+
+24
+00:01:43,373 --> 00:01:48,223
+Eles querem fazer um gerenciamento dos
+clientes que estão entrando em contato
+
+25
+00:01:48,223 --> 00:01:53,003
+no chat. Então o chat da Shopee fica aqui
+nesse cantinho, se você clicar
+
+26
+00:01:53,003 --> 00:01:57,280
+no webchat aqui, ele vai abrir essa
+tela do webchat aqui.
+
+27
+00:01:57,280 --> 00:01:59,830
+Por que que eles querem
+gerenciar os chats?
+
+28
+00:01:59,830 --> 00:02:05,500
+Porque quando o cliente ele tem vários CNPJs
+e várias contas, às vezes ele
+
+29
+00:02:05,500 --> 00:02:10,667
+tem que entrar em cada conta, em cada
+navegador para poder responder o cliente
+
+30
+00:02:10,667 --> 00:02:13,947
+ali naquele chat. Isso se torna
+complexo no dia a dia.
+
+31
+00:02:13,947 --> 00:02:18,347
+Às vezes algumas mensagens não são
+respondidas no prazo, ou às vezes acontece
+
+32
+00:02:18,347 --> 00:02:23,820
+de ele responder num navegador, ter que
+logar em outro, aí desloga, ele
+
+33
+00:02:23,820 --> 00:02:27,400
+precisa pegar o código e tem
+uma dificuldade ali.
+
+34
+00:02:27,400 --> 00:02:31,580
+E lá no nosso sistema, sistema que é o
+sistema que a gente integra o Claude
+
+35
+00:02:31,580 --> 00:02:37,320
+ChatGPT com a IA, a gente integra os
+marketplaces com a IA, inclusive
+
+36
+00:02:37,320 --> 00:02:41,920
+ele tem uma conexão com a Shopee, mas ele
+não tem como responder o chat
+
+37
+00:02:41,920 --> 00:02:45,930
+da Shopee. Tem algumas situações que não dá
+para fazer via API, não dá para
+
+38
+00:02:45,930 --> 00:02:49,580
+você fazer via uma conexão nativa
+ali de API por trás.
+
+39
+00:02:49,580 --> 00:02:55,997
+Então o que eu vou mostrar para vocês, aqui é
+basicamente o meu Claude atuando
+
+40
+00:02:55,997 --> 00:02:59,883
+aqui dentro da minha Shopee, dentro de um
+navegador, esse navegador foi
+
+41
+00:02:59,883 --> 00:03:03,977
+aberto, gente, é um navegador
+virtual aqui, tá?
+
+42
+00:03:03,977 --> 00:03:06,267
+E ele fica aberto e aí o que acontece?
+
+43
+00:03:06,267 --> 00:03:10,583
+Eu vou dar um acesso para o meu Claude para
+esse navegador e ele vai navegar.
+
+44
+00:03:10,583 --> 00:03:15,333
+Vocês já conhecem o Claude call work, aqui
+lá, work, ChatGPT, são IAs que
+
+45
+00:03:15,333 --> 00:03:20,073
+navegam ali no navegador. Mas eu vou
+mostrar para vocês uma solução muito
+
+46
+00:03:20,073 --> 00:03:24,433
+interessante, porque aqui dentro da minha
+loja da Shopee, por exemplo, eu
+
+47
+00:03:24,433 --> 00:03:28,423
+já estou conectado no Claude aqui, eu vou
+abrir para vocês aqui como que
+
+48
+00:03:28,423 --> 00:03:32,773
+eu configurei, como que eu já fiz aqui no
+Claude para vocês poderem entender
+
+49
+00:03:32,773 --> 00:03:36,483
+melhor aqui a situação. Então eu vou
+abrir aqui o meu Claude.
+
+50
+00:03:36,483 --> 00:03:38,893
+O que os clientes precisam
+fazer muitas vezes?
+
+51
+00:03:38,893 --> 00:03:43,967
+Eles precisam abrir o Claude aqui e fazer
+alguma coisa dentro da IA lá no
+
+52
+00:03:43,967 --> 00:03:49,947
+navegador. Só que quando a gente tem
+
+53
+00:03:49,947 --> 00:03:55,733
+essa conexão aqui da IA com o navegador, vocês
+sabem que ele abre um navegador
+
+54
+00:03:55,733 --> 00:04:01,393
+aqui na sua tela, né? Na sua máquina e ele
+fica usando lá seu navegador
+
+55
+00:04:01,393 --> 00:04:04,593
+e às vezes ele se perde naquela conexão.
+
+56
+00:04:04,593 --> 00:04:08,463
+Aqui nessa solução ele criou um tipo
+específico e abriu aqui para mim, onde
+
+57
+00:04:08,463 --> 00:04:10,313
+eu configurei a minha conta da Shopee.
+
+58
+00:04:10,313 --> 00:04:12,977
+Então eu fiz o login aqui e aí eu
+estou logado aqui na conta.
+
+59
+00:04:12,977 --> 00:04:14,867
+Por exemplo, eu quero operar na
+minha conta aqui.
+
+60
+00:04:14,867 --> 00:04:20,560
+Analise a descrição da minha
+loja no perfil 1
+
+61
+00:04:20,560 --> 00:04:23,580
+da Shopee, certo? Então o que acontece?
+
+62
+00:04:23,580 --> 00:04:27,990
+Primeiro eu vou mostrar com a descrição, mas
+você pode abrir o chat da Shopee
+
+63
+00:04:27,990 --> 00:04:29,730
+para você poder responder com o Claude.
+
+64
+00:04:29,730 --> 00:04:35,060
+Porque como o nosso Claude ele já está
+conectado no marketplace, conecte
+
+65
+00:04:35,060 --> 00:04:39,070
+a nossa ferramenta de IA que acessa os
+marketplaces, por exemplo, ele vai
+
+66
+00:04:39,070 --> 00:04:42,570
+cruzar os dados do que ele já tem de conta
+configurado lá no marketplace,
+
+67
+00:04:42,570 --> 00:04:47,760
+na sua IA. E aqui ele vai abrir a tela e vai
+verificar aqui o que eu preciso
+
+68
+00:04:47,760 --> 00:04:53,120
+configurar. Aí você vai fazer uma validação
+que vai precisar fazer, às vezes,
+
+69
+00:04:53,120 --> 00:04:55,717
+para ele acessar a
+configuração aqui da loja.
+
+70
+00:04:55,717 --> 00:05:01,253
+E aí ele já vai navegar aqui e analisar a
+minha analisar aqui a minha loja,
+
+71
+00:05:01,253 --> 00:05:05,950
+tá bom? Então você vê que ele está
+navegando aqui na loja e está fazendo
+
+72
+00:05:05,950 --> 00:05:09,820
+uma operação, que ele poderia utilizar
+isso para fazer também responder
+
+73
+00:05:09,820 --> 00:05:14,090
+os chats ali. Se eu tenho quatro lojas da
+Shopee para responder, acontece
+
+74
+00:05:14,090 --> 00:05:18,590
+também, gente, por exemplo, às vezes, você
+que é de agência, que é gestor
+
+75
+00:05:18,590 --> 00:05:22,660
+de contas, você precisa ter várias contas
+configuradas para ajudar os clientes,
+
+76
+00:05:22,660 --> 00:05:25,060
+vocês trabalham com os clientes, vocês são
+contratados pelo cliente para
+
+77
+00:05:25,060 --> 00:05:29,370
+gerenciar a conta. Então, isso acontece, é
+normal, vocês sabem que no mercado
+
+78
+00:05:29,370 --> 00:05:33,560
+tem esse tipo de serviço, né, que
+ajuda muito os vendedores.
+
+79
+00:05:33,980 --> 00:05:37,690
+Então, quando você vai conectar várias
+contas, às vezes, só o gerenciamento
+
+80
+00:05:37,690 --> 00:05:39,720
+do Chrome não funciona legal.
+
+81
+00:05:40,320 --> 00:05:42,200
+E também você tem uma outra questão.
+
+82
+00:05:42,200 --> 00:05:46,007
+Aqui nessa plataforma que eu vou mostrar
+para vocês, deixa eu ver o que
+
+83
+00:05:46,007 --> 00:05:49,127
+ele está mostrando aqui, que está
+pendente aqui de notificações.
+
+84
+00:05:49,387 --> 00:05:52,187
+Certo? Ele abriu a descrição aqui, eu posso
+pedir para o Claude editar a
+
+85
+00:05:52,187 --> 00:05:56,533
+descrição, por exemplo. Ele fala assim,
+aplica a nova descrição na loja?
+
+86
+00:05:56,533 --> 00:06:00,793
+Sim, aplica. Tá bom? Ele analisou a minha
+descrição e vai aplicar aqui.
+
+87
+00:06:01,233 --> 00:06:04,573
+Aí vocês podem me perguntar, mas eu tenho
+que ficar com o navegador aberto?
+
+88
+00:06:04,573 --> 00:06:07,253
+Não, isso aqui não vai afetar o
+navegador, o trabalho de vocês.
+
+89
+00:06:07,653 --> 00:06:11,260
+E aí eu posso automatizar as tarefas da IA,
+através da IA, né, automatizar
+
+90
+00:06:11,260 --> 00:06:15,920
+as tarefas aqui do dia a dia dentro da
+conta, fazendo dessa forma.
+
+91
+00:06:15,920 --> 00:06:19,960
+Então, tudo que vocês não conseguem fazer
+via MCP, via API, via um agente
+
+92
+00:06:19,960 --> 00:06:21,940
+nativo, vocês vão abrir aqui.
+
+93
+00:06:21,940 --> 00:06:25,440
+Por exemplo, eu posso conectar o meu perfil
+do Instagram aqui, para eu postar
+
+94
+00:06:25,440 --> 00:06:29,520
+o meu agente de vídeo, postar o meu
+Clawdbot, meu Duets.
+
+95
+00:06:29,520 --> 00:06:34,320
+Eu postar todo dia aqui no meu Instagram,
+através desse processo aqui, que
+
+96
+00:06:34,320 --> 00:06:35,480
+é o mesmo.
+
+97
+00:06:36,553 --> 00:06:40,733
+Então, mas por que você não fala assim, ah,
+porque não é simples você pegar
+
+98
+00:06:40,733 --> 00:06:42,973
+e já conectar direto no seu Chrome?
+
+99
+00:06:43,593 --> 00:06:46,863
+Então, quando você conecta direto no seu
+Chrome, para uma conta funciona
+
+100
+00:06:46,863 --> 00:06:50,653
+legal, mas quando você tem várias contas
+para você fazer a publicação, para
+
+101
+00:06:50,653 --> 00:06:56,163
+distribuir, o Claude não trabalha bem, e
+também o ChatGPT não abre de
+
+102
+00:06:56,163 --> 00:07:00,793
+uma maneira ilegal. Quem já tentou fazer
+isso sabe que é um pouco complexo,
+
+103
+00:07:00,793 --> 00:07:04,907
+tá bom? Então, ele já fez alteração
+aqui, já aplicou, tá vendo?
+
+104
+00:07:04,907 --> 00:07:08,647
+Deixou a loja bacaninha. Eu dei um exemplo
+simples, gente, mas porque eu
+
+105
+00:07:08,647 --> 00:07:11,567
+quero mostrar que é fácil, mas
+tem muita coisa.
+
+106
+00:07:11,567 --> 00:07:17,253
+Tem muita coisa que ele pode fazer aqui,
+com a conexão que a gente tem
+
+107
+00:07:17,253 --> 00:07:20,753
+aqui. Como que eu fiz essa
+instalação dessa conexão?
+
+108
+00:07:21,253 --> 00:07:24,393
+Se eu vir aqui, aí eu vou mostrar para vocês
+a plataforma que eu estou usando
+
+109
+00:07:24,393 --> 00:07:29,957
+aqui, tá gente? Essa daqui, eu vou
+mostrar essa plataforma aqui, que
+
+110
+00:07:29,957 --> 00:07:32,927
+faz a gestão dos navegadores.
+
+111
+00:07:33,540 --> 00:07:37,120
+Então, se eu abrir aqui esse navegador, que
+é o perfil que ele criou para
+
+112
+00:07:37,120 --> 00:07:40,200
+mim, tá vendo que ele tem um
+IP específico?
+
+113
+00:07:40,520 --> 00:07:46,300
+Isso é muito interessante, porque isso faz
+com que não tenha um acesso,
+
+114
+00:07:46,300 --> 00:07:47,560
+vamos dizer assim, por bot.
+
+115
+00:07:47,720 --> 00:07:52,940
+Porque muitas vezes, quando você faz um
+acesso pela IA, e às vezes por uns
+
+116
+00:07:52,940 --> 00:07:58,140
+scraper, alguma coisa desse tipo, ele é
+identificado como um bot, não é como
+
+117
+00:07:58,140 --> 00:08:03,200
+uma pessoa usando normal. Então, aqui não,
+você vai usar esse processo,
+
+118
+00:08:03,200 --> 00:08:07,550
+ele vai gerar um navegador para você
+normal, como você tivesse logado, e
+
+119
+00:08:07,550 --> 00:08:12,750
+ele vai usar isso em background também, para
+você, por trás, para você fazer
+
+120
+00:08:12,750 --> 00:08:18,600
+esse processo. Então, qual que é o nome dessa
+plataforma que eu estou usando?
+
+121
+00:08:18,980 --> 00:08:20,660
+É MoreLogin, que chama aqui.
+
+122
+00:08:20,873 --> 00:08:25,077
+Então, eu posso fazer o gerenciamento, eu vou
+abrir ela no próprio navegador
+
+123
+00:08:25,077 --> 00:08:30,653
+dela aqui. Se vocês abrirem esse MoreLogin
+aqui, é um site que tem aqui,
+
+124
+00:08:30,653 --> 00:08:33,813
+você vai fazer um cadastro, você pode
+colocar em português aqui, traduzir,
+
+125
+00:08:33,813 --> 00:08:35,413
+né, português.
+
+126
+00:08:36,033 --> 00:08:38,313
+E aí, ele já tem a ideia aqui do
+site, está vendo?
+
+127
+00:08:38,573 --> 00:08:42,033
+Ele tem essa ideia aqui de eu abrir várias
+contas, então eu posso configurar
+
+128
+00:08:42,033 --> 00:08:46,303
+Amazon, o meu Facebook, o meu Instagram,
+para ficar tudo gerenciado por
+
+129
+00:08:46,303 --> 00:08:50,813
+aqui. Eu também consigo criar, gente, um
+celular virtual, para eu configurar
+
+130
+00:08:50,813 --> 00:08:53,593
+minhas contas de Instagram, para
+ficar mais fácil.
+
+131
+00:08:53,833 --> 00:08:56,973
+De repente, você quer dar acesso para o
+marketing, lá você sabe que a central
+
+132
+00:08:56,973 --> 00:08:59,333
+da meta agora está muito
+complexa para mexer.
+
+133
+00:08:59,673 --> 00:09:04,023
+Em vez de você configurar o nosso celular do
+seu funcionário, você configura
+
+134
+00:09:04,023 --> 00:09:07,723
+esse celular virtual e você dá acesso ao
+celular virtual para ele, que você
+
+135
+00:09:07,723 --> 00:09:10,903
+tem o controle, você sabe a hora que ele
+vai utilizar para fazer aquelas
+
+136
+00:09:10,903 --> 00:09:14,453
+configurações, ele vai usar a IA para
+subir seus posts, por exemplo.
+
+137
+00:09:14,753 --> 00:09:19,693
+Porque eu sou da visão de que a IA não vai
+operar sozinha ali, ela vai trabalhar
+
+138
+00:09:19,693 --> 00:09:24,593
+uma pessoa, por exemplo, o seu assistente
+de marketing lá, que vai usar
+
+139
+00:09:24,593 --> 00:09:28,253
+a IA para fazer os seus criativos,
+fazer tudo o que você precisa.
+
+140
+00:09:29,033 --> 00:09:31,573
+Então, como que a gente
+configura essa plataforma?
+
+141
+00:09:31,833 --> 00:09:34,683
+É muito simples, vocês vão criar uma conta
+aqui, vão se inscrever e vai
+
+142
+00:09:34,683 --> 00:09:39,257
+baixar um programa. Então, quando eu baixei esse
+programa aqui, no meu computador,
+
+143
+00:09:39,257 --> 00:09:43,407
+no caso do meu Macbook, você pode baixar,
+funciona no Windows, no Linux,
+
+144
+00:09:43,407 --> 00:09:45,927
+em todos os sistemas operacionais.
+
+145
+00:09:45,967 --> 00:09:49,307
+Então, quando você baixa isso aqui, ela te
+dá essa primeira opção aqui,
+
+146
+00:09:49,307 --> 00:09:50,887
+já é criar os perfis do Chrome.
+
+147
+00:09:51,053 --> 00:09:55,920
+Quando você vai criar um perfil, você vai
+clicar aqui, você vai clicar aqui,
+
+148
+00:09:55,920 --> 00:10:00,243
+e aí você pode escolher o tipo de navegador
+que você vai utilizar de acordo
+
+149
+00:10:00,243 --> 00:10:02,233
+com a aplicação que você vai utilizar.
+
+150
+00:10:02,493 --> 00:10:08,240
+Ou um iOS, um Linux, Android, Windows,
+para você testar as aplicações.
+
+151
+00:10:08,240 --> 00:10:11,040
+Gente, isso aqui é muito interessante para
+quem é desenvolvedor também,
+
+152
+00:10:11,340 --> 00:10:14,260
+para quem faz teste de software, quer
+usar um ambiente real.
+
+153
+00:10:14,260 --> 00:10:18,500
+É muito melhor do que você instalar lá,
+aquele Playwright lá, que ele vai
+
+154
+00:10:18,500 --> 00:10:22,500
+ficar navegando no seu navegador, mistura
+todos os seus dados pessoais,
+
+155
+00:10:22,500 --> 00:10:25,100
+com o dado de teste. Aqui é um
+ambiente limpo.
+
+156
+00:10:25,220 --> 00:10:26,380
+Ele não tem acesso a nenhum.
+
+157
+00:10:26,380 --> 00:10:31,370
+É um cache, é um navegador zerado, para você
+testar a funcionalidade, limpinha,
+
+158
+00:10:31,370 --> 00:10:35,340
+sem nenhum cookie, sem nenhum
+cache, sem nada.
+
+159
+00:10:35,600 --> 00:10:39,073
+Então, aqui você tem a opção de
+limpar os caches também de...
+
+160
+00:10:39,073 --> 00:10:43,807
+Você pode criptografar toda a conexão,
+os dados não vazam, tá?
+
+161
+00:10:44,047 --> 00:10:47,677
+Então, assim, você vai ter um ambiente limpo
+aqui, num servidor que ninguém
+
+162
+00:10:47,677 --> 00:10:50,757
+tem acesso. Ele vai ter acesso à internet,
+mas ninguém vai acessar isso
+
+163
+00:10:50,757 --> 00:10:55,467
+aqui, só você. Se você pegar aqui e der um
+botão direito aqui, nesses três
+
+164
+00:10:55,467 --> 00:10:59,727
+pontinhos, você vai ver que dá para limpar
+o cache aqui do navegador, dá
+
+165
+00:10:59,727 --> 00:11:03,767
+para você fazer as operações, exportar o
+perfil, copiar o ambiente.
+
+166
+00:11:03,767 --> 00:11:07,317
+Então, quando você criou essa configuração
+de ambiente, você fez uma stack
+
+167
+00:11:07,317 --> 00:11:11,317
+lá, ou seja, uma pilha de funcionalidades
+ali, que você utiliza para fazer
+
+168
+00:11:11,317 --> 00:11:15,747
+aquele trabalho. Você consegue pegar e
+juntar todas essas ferramentas já,
+
+169
+00:11:15,907 --> 00:11:19,087
+para o seu funcionário, por exemplo, para
+ele já vir todo configurado para
+
+170
+00:11:19,087 --> 00:11:21,587
+ele trabalhar, ou para IA também, né?
+
+171
+00:11:21,607 --> 00:11:22,907
+Porque a gente fala muito de IA.
+
+172
+00:11:23,207 --> 00:11:27,847
+Então, tanto para IA, quanto para você
+utilizar também vários perfis ali,
+
+173
+00:11:27,847 --> 00:11:29,707
+gerenciar as contas dos seus clientes.
+
+174
+00:11:30,267 --> 00:11:34,477
+Então, depois que você fez isso, você
+instalou esse programa aqui, que é
+
+175
+00:11:34,477 --> 00:11:37,807
+muito simples, você vai logar na sua conta,
+vai ativar a sua conta, eu já
+
+176
+00:11:37,807 --> 00:11:42,560
+tenho ativo aqui, eu posso subir 50 perfis
+aqui, por exemplo, posso gerenciar
+
+177
+00:11:42,560 --> 00:11:47,060
+50 perfis aqui de navegador, eu posso fazer
+meus testes de aplicação, eu
+
+178
+00:11:47,060 --> 00:11:51,220
+posso subir meu Instagram, meu Facebook,
+para IA trabalhar, de uma maneira
+
+179
+00:11:51,220 --> 00:11:56,620
+que isso aqui, ele vai ficar logado, e eu vou
+poder reaproveitar isso, porque
+
+180
+00:11:56,620 --> 00:11:59,940
+eu crio meio que um template do que eu estou
+usando aqui, que é um modelo,
+
+181
+00:11:59,940 --> 00:12:03,840
+tá? Então, olha o tanto de opção que tem
+aqui, que eu achei interessante,
+
+182
+00:12:03,840 --> 00:12:07,293
+mas, como que eu vou ensinar vocês agora a
+integrar isso aqui no Claude?
+
+183
+00:12:07,293 --> 00:12:08,653
+Como é que eu fiz para integrar no Claude?
+
+184
+00:12:08,653 --> 00:12:13,173
+Por quê? A grande maioria aqui dos meus
+assuntos são como conectar a IA
+
+185
+00:12:13,173 --> 00:12:18,433
+nas coisas, você fazer automações, então
+ele já vem aqui com a parte de
+
+186
+00:12:18,433 --> 00:12:20,533
+desenvolvimento IA, tá vendo?
+
+187
+00:12:21,293 --> 00:12:25,893
+Agentes de IA, para você conectar no
+MoreLogin, ele vai te dar esse daqui,
+
+188
+00:12:25,933 --> 00:12:30,753
+se você clicar aqui, ele vai te dar esse
+comando aqui, para você copiar,
+
+189
+00:12:30,773 --> 00:12:34,913
+certo? Aí eu volto aqui no meu, eu vou voltar
+no meu Claude aqui, para mostrar
+
+190
+00:12:34,913 --> 00:12:37,293
+para vocês, então quando eu venho no meu
+Claude, o que eu fiz aqui?
+
+191
+00:12:37,293 --> 00:12:41,100
+Eu copiei esse comando, até abri uma sessão
+nova aqui, para gravar o vídeo,
+
+192
+00:12:41,100 --> 00:12:46,957
+para vocês verem, e configurando do
+zero, para mostrar o exemplo
+
+193
+00:12:46,957 --> 00:12:51,347
+aqui, que eu estava fazendo com vocês, eu
+colei esse comando, é esse aqui,
+
+194
+00:12:51,347 --> 00:12:56,437
+siga a instalação do Claude, verificação do
+uso do CLI também, você instala
+
+195
+00:12:56,437 --> 00:12:59,927
+o CLI dele, é um programinha que você
+instala também no computador, para
+
+196
+00:12:59,927 --> 00:13:04,563
+você operar os browsers via CLI, o que isso
+permite para você, se você estiver
+
+197
+00:13:04,563 --> 00:13:10,070
+dentro de uma VPS, instalar o MoreLogin
+lá dentro da VPS, colocar um
+
+198
+00:13:10,070 --> 00:13:15,480
+CLI, você consegue fazer com a IA, fazer as
+operações, utilizando o CLI,
+
+199
+00:13:15,760 --> 00:13:20,173
+então que é uma linha de comando, o CLI é
+um terminal, você vai usar ele
+
+200
+00:13:20,173 --> 00:13:23,730
+via terminal, então você não precisa ter
+nenhum programa instalado para
+
+201
+00:13:23,730 --> 00:13:28,020
+fazer, você vai operar via terminal, aí ele deu
+umas instruções aqui e instalou,
+
+202
+00:13:28,167 --> 00:13:31,187
+aí o que ele pediu aqui, quer que eu liste
+meus perfis de navegador, e faça
+
+203
+00:13:31,187 --> 00:13:35,267
+uma outra operação, aí eu falei, lista
+meus perfis, ele já trouxe aqui,
+
+204
+00:13:35,487 --> 00:13:40,527
+eu poderia colocar, em vez de P1, colocar
+o ambiente, conta 1, conta 2,
+
+205
+00:13:40,527 --> 00:13:45,607
+conta do Facebook, perfil é do cliente 2,
+perfil do cliente 3, então eu
+
+206
+00:13:45,607 --> 00:13:49,687
+conecto todos esses perfis, eu tenho o comando
+aqui, para eu listar os perfis,
+
+207
+00:13:49,687 --> 00:13:54,827
+e trabalhar dentro deles, ao invés de você
+pegar, e ficar fazendo, aí que
+
+208
+00:13:54,827 --> 00:13:59,427
+eu conectei minha conta, aí eu conectei no
+perfil, e pedi para ele olhar
+
+209
+00:13:59,427 --> 00:14:04,413
+a minha conta que estava logada, eu loguei
+lá dentro do Chrome, e aí, eu
+
+210
+00:14:04,413 --> 00:14:09,420
+coloquei, o acesso da Shopee ali, da conta
+da Shopee, então o que eu posso
+
+211
+00:14:09,420 --> 00:14:14,193
+fazer, conectar minhas 4 contas da Shopee,
+uma em cada perfil, certo, e
+
+212
+00:14:14,193 --> 00:14:19,867
+também, ou no mesmo perfil ali, separando
+certinho, eu conectei aqui minhas
+
+213
+00:14:19,867 --> 00:14:23,390
+contas, e eu pedi para ele revisar a minha
+loja, e fazer uma verificação
+
+214
+00:14:23,390 --> 00:14:28,670
+na descrição, mas poderia muito bem ser o
+chat, da Shopee, eu poderia ver
+
+215
+00:14:28,670 --> 00:14:33,287
+os chats pendentes, aí ele ia navegar aqui,
+ele vai navegar aqui, está vendo,
+
+216
+00:14:33,287 --> 00:14:36,443
+eu posso pedir para ele olhar, mas como não
+tem nada, gente, não vai trazer
+
+217
+00:14:36,443 --> 00:14:42,960
+efeito nenhum, olhe as mensagens
+pendentes no chat,
+
+218
+00:14:43,120 --> 00:14:47,860
+então eu consigo dentro do meu Claude, do meu
+ChatGPT, integrar o MoreLogin,
+
+219
+00:14:47,860 --> 00:14:52,287
+e ficar operando meus browsers ali, que
+ele economiza muito mais token,
+
+220
+00:14:52,287 --> 00:14:56,733
+gente, porque ele já tem os comandos por
+trás, que abre rapidinho, então
+
+221
+00:14:56,733 --> 00:15:00,393
+o Claude, ele dá muita volta, ele gasta muito
+token, quando você está navegando,
+
+222
+00:15:00,393 --> 00:15:05,950
+naquele navegador normal, você pode fazer
+esse processo, de uma forma bem
+
+223
+00:15:05,950 --> 00:15:10,247
+mais econômica, está vendo, ele vai estar
+rapidinho, já abriu aqui o chat,
+
+224
+00:15:10,433 --> 00:15:14,143
+bate papo com o vendedor, não tem nada
+pendente, então ele vai responder
+
+225
+00:15:14,143 --> 00:15:18,953
+aqui, como a nossa API, eu falei para vocês,
+a Shopee, ela não permite mais,
+
+226
+00:15:19,173 --> 00:15:22,860
+o integrador ter acesso ao chat da Shopee,
+então esse é um processo, que
+
+227
+00:15:22,860 --> 00:15:26,893
+dá para fazer, para responder, obviamente
+gente, não é para fazer isso aqui,
+
+228
+00:15:26,993 --> 00:15:31,420
+de maneira errada, é fazer do jeito certo,
+uma resposta por cliente ali,
+
+229
+00:15:31,420 --> 00:15:32,320
+não fazer as coisas,
+
+230
+00:15:33,060 --> 00:15:37,800
+aquela velocidade, não precisa ser em um
+segundo, responder mil clientes,
+
+231
+00:15:38,000 --> 00:15:41,960
+porque você vai ter um problema, de você
+ficar acessando muitas vezes, ele
+
+232
+00:15:41,960 --> 00:15:45,700
+vai identificar, que é um bot, que está
+fazendo aquilo, então a IA, quando
+
+233
+00:15:45,700 --> 00:15:48,730
+você for fazer esse processo, você tem que
+falar para ela, para responder
+
+234
+00:15:48,730 --> 00:15:52,543
+aos clientes, você tem lá 200 mensagens, né,
+estou torcendo, para que você
+
+235
+00:15:52,543 --> 00:15:55,953
+tenha 200 mensagens positivas, e não uma
+mensagem de reclamação, mas por
+
+236
+00:15:55,953 --> 00:15:59,423
+exemplo, em vez de você responder tudo de
+uma vez, que é legal, você vê
+
+237
+00:15:59,423 --> 00:16:02,483
+ele respondendo rápido, você fala assim,
+não, dá um tempo, como se fosse
+
+238
+00:16:02,483 --> 00:16:08,520
+uma pessoa, digita, dando um
+tempinho, para que não dê,
+
+239
+00:16:08,540 --> 00:16:13,270
+para a plataforma, uma impressão que aquilo
+é um bot, entendeu, e até mesmo
+
+240
+00:16:13,270 --> 00:16:16,760
+para você ir vendo as respostas, para o seu
+funcionário ver as respostas
+
+241
+00:16:16,760 --> 00:16:21,580
+ali, com calma, entendeu, aprova as
+mensagens, manda uma por uma no Claude,
+
+242
+00:16:21,940 --> 00:16:24,943
+ele falou aqui, dá uma mensagem pendente,
+está vendo, outra automação que
+
+243
+00:16:24,943 --> 00:16:29,853
+vocês podem fazer, gente, olha que
+interessante, você pode conectar aqui,
+
+244
+00:16:29,853 --> 00:16:34,603
+isso daqui, no browser, e você vai falar o
+seguinte, você conectou o WhatsApp
+
+245
+00:16:34,603 --> 00:16:36,233
+aqui no seu Claude,
+
+246
+00:16:36,913 --> 00:16:42,523
+aí você pode fazer o que, você pode
+pegar, conectar o seu WhatsApp
+
+247
+00:16:42,523 --> 00:16:47,603
+também, ou no web aqui, dentro do perfil
+do web, e ele vai operar o seu
+
+248
+00:16:47,603 --> 00:16:52,493
+WhatsApp aqui dentro, entende, você vai abrir
+aqui, vai integrar o seu WhatsApp
+
+249
+00:16:52,493 --> 00:16:55,523
+aqui, em um dos perfis, para deixar pronto
+para o seu WhatsApp, é a maneira
+
+250
+00:16:55,523 --> 00:16:58,973
+mais simples de integrar o WhatsApp, e
+operar pelo Claude, e aí em vez de
+
+251
+00:16:58,973 --> 00:17:04,053
+você, colocar dentro de qualquer aplicativo
+aí, que não seja seguro, você
+
+252
+00:17:04,053 --> 00:17:08,073
+vai colocar só dentro do seu ambiente aqui,
+e aí você vai falar o seguinte,
+
+253
+00:17:08,073 --> 00:17:13,970
+abre o perfil do WhatsApp aqui, para
+fazer, para trazer as mensagens
+
+254
+00:17:13,970 --> 00:17:17,760
+do chat de Shopee, então, o que que vai
+acontecer, o Claude pode monitorar
+
+255
+00:17:17,760 --> 00:17:22,500
+o seu WhatsApp, ali né, dentro de um WhatsApp
+da empresa, alguma coisa assim,
+
+256
+00:17:22,840 --> 00:17:26,270
+e falar o seguinte, é, trazer as mensagens
+do chat de Shopee, para o seu
+
+257
+00:17:26,270 --> 00:17:29,627
+WhatsApp, fazer um resumo e mandar, e já
+mandar os resumos, para você aprovar
+
+258
+00:17:29,627 --> 00:17:33,073
+dentro do WhatsApp, então assim, hoje eu
+tenho o WhatsApp aqui integrado,
+
+259
+00:17:33,073 --> 00:17:36,033
+dentro do meu, mas eu não vou mostrar esse
+ponto agora, mas é uma outra
+
+260
+00:17:36,033 --> 00:17:40,747
+forma de utilização, que a gente pode fazer
+a sua orquestração toda, então,
+
+261
+00:17:40,747 --> 00:17:44,060
+é muito legal isso daqui, que eu estou
+fazendo, tá bom, eu vou dar um exemplo
+
+262
+00:17:44,060 --> 00:17:50,167
+aqui, então você pode operar a sua loja de
+marketplace, o seu, o seu navegador,
+
+263
+00:17:50,167 --> 00:17:52,977
+está vendo que eu loguei no Shopee,
+tranquilamente aqui, trouxe todas as
+
+264
+00:17:52,977 --> 00:17:58,607
+informações, não teve nenhuma impressão,
+que aqueles navegadores ali,
+
+265
+00:17:58,607 --> 00:18:02,407
+que a IA monta, aquele navegador bem, bem
+fraquinho que ela monta, e aqui
+
+266
+00:18:02,407 --> 00:18:07,320
+ela montou para você, monta para você um
+processo bem organizado, mas eu
+
+267
+00:18:07,320 --> 00:18:12,030
+tenho o meu link, de acesso para essa
+plataforma, está aqui no vídeo, nos
+
+268
+00:18:12,030 --> 00:18:17,020
+comentários do vídeo aqui, e na descrição,
+para você já ter um desconto
+
+269
+00:18:17,020 --> 00:18:22,680
+nessa aquisição aqui, então se você
+adquirir esse perfis pelo meu
+
+270
+00:18:22,680 --> 00:18:27,000
+link, você vai ter um desconto já
+legal aqui, tá bom?
+
+271
+00:18:27,060 --> 00:18:29,810
+então você vai acompanhando meus canais,
+eu vou começar a utilizar essa
+
+272
+00:18:29,810 --> 00:18:33,920
+plataforma também, para outros cenários ali
+do marketplace, por exemplo,
+
+273
+00:18:34,080 --> 00:18:38,700
+eu posso até, como eu tenho acesso a
+vários perfis aqui, eu posso subir
+
+274
+00:18:38,700 --> 00:18:44,200
+algumas ferramentas dentro desses perfis,
+para disponibilizar para vocês,
+
+275
+00:18:44,340 --> 00:18:48,340
+também alguns templates para
+disponibilizar, olha que legal, se eu vier
+
+276
+00:18:48,340 --> 00:18:53,033
+aqui no menu automação, eu posso criar
+alguns templates, está vendo?
+
+277
+00:18:53,113 --> 00:18:56,453
+eu posso acessar o TikTok Shop, para
+postar um vídeo, vocês sabem que é
+
+278
+00:18:56,453 --> 00:19:01,523
+complicado, acessar o TikTok via browser, para
+postar um vídeo, para facilitar
+
+279
+00:19:01,523 --> 00:19:05,303
+a vida, de repente, que nem eu, eu tenho uma
+dificuldade aqui, eu faço vários
+
+280
+00:19:05,303 --> 00:19:08,753
+criativos aqui, eu tenho o meu agente de IA,
+que faz os criativos para mim,
+
+281
+00:19:09,113 --> 00:19:12,793
+só que ele não posta no TikTok hoje, então eu
+vou começar a postar por aqui,
+
+282
+00:19:13,053 --> 00:19:17,313
+porque como ele não consegue navegar, no
+direito lá no navegador, eu não
+
+283
+00:19:17,313 --> 00:19:20,653
+consigo fazer postagem, aqui eu também
+tenho o Instagram, está vendo?
+
+284
+00:19:20,653 --> 00:19:26,547
+Alguns templates do Instagram, e tenho alguns
+templates do YouTube e Facebook,
+
+285
+00:19:26,647 --> 00:19:30,007
+então eu posso integrar todos esses canais
+aqui, e fazer meu ecossistema
+
+286
+00:19:30,007 --> 00:19:33,557
+além dos Marketplace, que eu sei que tem
+muita gente aqui, que quer trazer
+
+287
+00:19:33,557 --> 00:19:38,447
+a loja para o digital, quer colocar automação
+e IA lá no, gerar os criativos
+
+288
+00:19:38,447 --> 00:19:42,837
+no Marketplace, aí ele já dá uma opção
+para você aqui de automação, mas
+
+289
+00:19:42,837 --> 00:19:48,500
+você consegue configurar várias coisas aqui, se
+eu clicar aqui, eu vou confirmar
+
+290
+00:19:48,500 --> 00:19:52,810
+aqui, adicionar um aplicativo, adicionar lá
+no aplicativo, para ele poder
+
+291
+00:19:52,810 --> 00:19:57,167
+utilizar, e eu também posso configurar a
+minha conta aqui, e posso adicionar
+
+292
+00:19:57,167 --> 00:20:01,927
+um cronograma de envio aqui, eu posso
+fazer um cronograma, mas eu posso
+
+293
+00:20:01,927 --> 00:20:05,487
+criar esse cronograma lá dentro do Claude,
+pedir para ele agendar por lá,
+
+294
+00:20:05,747 --> 00:20:09,613
+eu aciono o meu aplicativo, e eu faço o
+agendamento por aqui, tá bom?
+
+295
+00:20:10,080 --> 00:20:13,130
+Outras opções que a gente tem aqui,
+assistente de IA, para a gente criar
+
+296
+00:20:13,130 --> 00:20:17,300
+as coisas utilizando IA, então você tem um
+assistente aqui também para trabalhar,
+
+297
+00:20:17,620 --> 00:20:21,720
+vamos aqui, liste meus perfis, vamos pôr aqui
+para ver se ele funciona legal,
+
+298
+00:20:21,780 --> 00:20:27,513
+para listar os ambientes, precisa saber
+qual o ambiente devo executar
+
+299
+00:20:27,513 --> 00:20:31,513
+essa ação, ele pediu qual é o ambiente que
+quer executar aqui, aí tem que
+
+300
+00:20:31,513 --> 00:20:33,053
+configurar aqui, tá vendo?
+
+301
+00:20:33,113 --> 00:20:37,703
+Os ambientes ficam aqui, eu posso criar uns
+ambientes aqui, eu posso criar
+
+302
+00:20:37,703 --> 00:20:43,253
+um ambiente específico aqui, separar
+ambiente do cliente X, ambiente de
+
+303
+00:20:43,253 --> 00:20:47,813
+testes, ambiente de desenvolvimento, para
+liberar para o meu time, eu posso,
+
+304
+00:20:47,853 --> 00:20:51,293
+assim, por exemplo, preciso liberar as
+aplicações, e fazer os logins, para
+
+305
+00:20:51,293 --> 00:20:56,740
+as aplicações do meu time, para eles fazerem
+todos o QA, o teste, o desenvolvimento,
+
+306
+00:20:56,860 --> 00:21:00,720
+testar em produção, para que meu agente teste
+a minha aplicação em produção,
+
+307
+00:21:01,040 --> 00:21:06,067
+eu vou precisar subir aqui, esses perfis e
+criar, eu posso criar ambientes
+
+308
+00:21:06,067 --> 00:21:09,783
+separados, de desenvolvimento, ambiente
+produtivo, onde vai ter uma conta
+
+309
+00:21:09,783 --> 00:21:14,623
+logada de produção, por exemplo, ou vai ter
+uma conta de teste, e aqui eu
+
+310
+00:21:14,623 --> 00:21:18,593
+tenho também um proxy, eu posso
+criar um proxy, tá vendo?
+
+311
+00:21:19,133 --> 00:21:24,493
+Aqui eu posso criar um proxy, para que eu
+faça algumas operações de teste,
+
+312
+00:21:24,593 --> 00:21:29,113
+principalmente quem desenvolve para fora do
+país, quem faz outras coisas,
+
+313
+00:21:29,493 --> 00:21:34,533
+que precisa acessar aplicações externas,
+também não tem como fazer isso
+
+314
+00:21:34,533 --> 00:21:38,573
+na máquina, tem aqui um proxy também, é
+lógico, que não é só isso, tá gente?
+
+315
+00:21:38,633 --> 00:21:43,493
+Permite que o navegador virtual, tem uma
+rede dedicada, para uma melhor,
+
+316
+00:21:43,680 --> 00:21:49,333
+anti-associação, então, por exemplo, eu tenho
+uma rede dedicada, para testar,
+
+317
+00:21:49,393 --> 00:21:52,993
+aqui a aplicação, ele vai sair em uma rede,
+não vai ser no Brasil, entendeu?
+
+318
+00:21:52,993 --> 00:21:56,987
+ele vai criar uma rede ali por trás, vai
+fazer tudo um negócio bem complexo,
+
+319
+00:21:56,987 --> 00:22:00,877
+que seria para você fazer, para você
+acessar algumas aplicações, que você
+
+320
+00:22:00,877 --> 00:22:05,727
+precisa testar ali, no ambiente, até mesmo
+quem lança aplicativo hoje, quer
+
+321
+00:22:05,727 --> 00:22:11,027
+testar em outro país, tal, tem essa situação,
+então, todas essas automações,
+
+322
+00:22:11,027 --> 00:22:15,727
+elas são possíveis, controlar pelo Claude,
+aqui também, pelo CLI, se você
+
+323
+00:22:15,727 --> 00:22:19,800
+clicar aqui, em desenvolvimento, se
+eu clicar aqui, quer ver?
+
+324
+00:22:20,040 --> 00:22:23,900
+Desenvolvedor, eu posso subir uma API
+local, para o Claude trabalhar, no
+
+325
+00:22:23,900 --> 00:22:28,040
+MoreLogin, eu posso instalar por aqui, a
+linha de comando, que aí eu uso
+
+326
+00:22:28,040 --> 00:22:31,877
+ele no terminal, e também dou acesso para a
+IA, e eu também tenho uma API
+
+327
+00:22:31,877 --> 00:22:36,207
+aberta aqui, para acessar a via navegador,
+então, o que isso é interessante,
+
+328
+00:22:36,467 --> 00:22:40,667
+se eu coloco uma API local aqui, então, se
+você tem uma máquina na sua rede,
+
+329
+00:22:40,847 --> 00:22:43,527
+igual eu falei, você está criando um
+ambiente, para as pessoas acessarem,
+
+330
+00:22:43,527 --> 00:22:48,217
+para os clientes usarem, você vai subir uma
+API local, e você vai acessar
+
+331
+00:22:48,217 --> 00:22:51,737
+isso via internet, então, você pode, de
+qualquer lugar do mundo, acessar
+
+332
+00:22:51,737 --> 00:22:55,517
+esse navegador aqui, local, que já tenha a
+conta logada, isso faz com que
+
+333
+00:22:55,517 --> 00:22:58,967
+você acesse, de forma segura, porque você
+não precisa logar, a sua conta,
+
+334
+00:22:58,967 --> 00:23:03,173
+num computador externo, por exemplo, você
+vai ter aqui logado, tem muitas
+
+335
+00:23:03,173 --> 00:23:08,793
+outras opções aqui, tá gente, aí tem
+aplicações, tem assistente, já mostrei,
+
+336
+00:23:08,793 --> 00:23:13,083
+tem o centro de criação com a IA, aqui a
+gente consegue criar imagem, gerar
+
+337
+00:23:13,083 --> 00:23:19,060
+vídeo, ó, TikTok, Amazon, Ebay,
+Instagram, Facebook, tem um criador
+
+338
+00:23:19,060 --> 00:23:24,320
+aqui, de criativos, tem uma integração com a
+IA, e aí eu crio com a IA aqui,
+
+339
+00:23:24,320 --> 00:23:29,290
+eu agendo lá nos templates de publicação,
+e ele já vai publicando lá na
+
+340
+00:23:29,290 --> 00:23:33,267
+IA, mas como eu falei, se eu acessar via CLI
+e criá-la no Claude, juntando
+
+341
+00:23:33,267 --> 00:23:37,107
+com esse criador aqui, eu já tenho um
+agendador de postagens, entendeu,
+
+342
+00:23:37,407 --> 00:23:41,127
+pronto já para navegar nos navegadores e
+postar, e aí eu não preciso fazer
+
+343
+00:23:41,127 --> 00:23:45,757
+tudo via API, tudo com autorização da meta,
+via aquelas aplicações, porque
+
+344
+00:23:45,757 --> 00:23:49,717
+você paga hoje algumas aplicações para
+agendar a postagem, para ficar fazendo
+
+345
+00:23:49,717 --> 00:23:53,807
+todo o gerenciamento, só que você sabe que
+você paga os 50, 60 reais por
+
+346
+00:23:53,807 --> 00:23:58,817
+conta, que você loga ali, às vezes fica um
+plano caro para você logar e
+
+347
+00:23:58,817 --> 00:24:03,567
+fazer essas postagens, tá bom, então é
+basicamente isso que eu ia mostrar
+
+348
+00:24:03,567 --> 00:24:08,427
+para vocês, tá bom, e reforçando, nós temos
+os links aqui embaixo, de como
+
+349
+00:24:08,427 --> 00:24:14,507
+fazer essas integrações, como você
+adquirir essa plataforma
+
+350
+00:24:14,507 --> 00:24:18,667
+para estar utilizando, tá bom, então eu
+agradeço você que assistiu o vídeo,
+
+351
+00:24:18,667 --> 00:24:23,057
+e siga-me aqui, se inscreva no canal, para que
+a gente possa continuar produzindo
+
+352
+00:24:23,057 --> 00:24:24,627
+esse conteúdo para vocês.
+

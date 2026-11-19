@@ -1,0 +1,27 @@
+{
+ "capitulos": [
+  {"num": 1, "titulo": "O problema: várias contas, vários logins", "src": 49.0},
+  {"num": 2, "titulo": "Claude operando a loja da Shopee", "src": 176.6},
+  {"num": 3, "titulo": "Por que não usar o Chrome direto?", "src": 417.0},
+  {"num": 4, "titulo": "MoreLogin: perfis isolados", "src": 518.9},
+  {"num": 5, "titulo": "Criando o primeiro perfil", "src": 592.7},
+  {"num": 6, "titulo": "Conectando o MoreLogin ao Claude", "src": 757.5},
+  {"num": 7, "titulo": "Chat da Shopee pelo Claude", "src": 906.3},
+  {"num": 8, "titulo": "WhatsApp dentro de um perfil", "src": 1041.5},
+  {"num": 9, "titulo": "Automação: TikTok, Instagram, YouTube", "src": 1233.2},
+  {"num": 10, "titulo": "Assistente de IA, ambientes e proxy", "src": 1319.1},
+  {"num": 11, "titulo": "API local e Centro de Criação com IA", "src": 1455.0}
+ ],
+ "destaques": [
+  {"id": "ip", "titulo": "Rede própria por perfil", "texto": "Cada perfil abre com o próprio IP e a própria sessão. Nada de cookie de uma loja vazando para outra.", "icone": "🌐", "src": 479.0},
+  {"id": "celular", "titulo": "Celular em Nuvem", "texto": "Um Android na nuvem para Instagram e TikTok. A equipe usa sem pegar no seu celular.", "icone": "📱", "src": 553.0},
+  {"id": "cli", "titulo": "CLI do MoreLogin", "texto": "A IA abre e opera os perfis pelo terminal. Funciona até numa VPS.", "icone": "⌨️", "src": 817.0},
+  {"id": "sync", "titulo": "Sincronizador", "texto": "Você faz numa janela e ele repete nas outras ao mesmo tempo. Ideal para padronizar várias lojas.", "icone": "🔁", "src": 896.0},
+  {"id": "token", "titulo": "Menos tokens", "texto": "Comandos prontos por trás: o Claude não fica dando voltas no navegador.", "icone": "⚡", "src": 935.0},
+  {"id": "revisao", "titulo": "Revisão humana", "texto": "Uma resposta por cliente, no ritmo de uma pessoa, com a equipe aprovando antes de enviar.", "icone": "✅", "src": 1001.3},
+  {"id": "api", "titulo": "API local", "texto": "Acesse o perfil já logado de qualquer lugar, sem logar a conta em outra máquina.", "icone": "🔌", "src": 1470.7}
+ ],
+ "cta": [128.0, 730.0, 1193.0],
+ "nome": 33.0,
+ "final": 1563.8
+}

@@ -1,6 +1,7 @@
 """Sobe um vídeo vertical como YouTube Short a partir de um spec JSON.
 
-uso: python3 sobe_short.py <spec.json> agora | "2026-11-17T21:00:00Z"   (UTC; 21:00Z = 18:00 BRT)
+uso: python3 sobe_short.py <spec.json> agora | nao_listado | "2026-11-17T21:00:00Z"   (UTC; 21:00Z = 18:00 BRT)
+(serve também para vídeo horizontal comum; o link sai em watch?v= quando o spec tem "formato": "longo")
 
 spec (caminhos relativos à pasta do spec):
   {"arquivo": "video.mp4", "titulo": "... #shorts", "descricao": "...", "tags": [...],
@@ -26,9 +27,9 @@ corpo = {
     'status': {'privacyStatus': 'private', 'publishAt': QUANDO, 'selfDeclaredMadeForKids': False,
                'containsSyntheticMedia': bool(s.get('sintetico'))},
 }
-if QUANDO == 'agora':
+if QUANDO in ('agora', 'nao_listado'):
     corpo['status'].pop('publishAt')
-    corpo['status']['privacyStatus'] = 'public'
+    corpo['status']['privacyStatus'] = 'public' if QUANDO == 'agora' else 'unlisted'
 
 tok = yt.refresh()
 tam = os.path.getsize(ARQ)
@@ -58,6 +59,8 @@ if s.get('capa'):
     except urllib.error.HTTPError as e:
         capa = 'falhou %s %s' % (e.code, e.read().decode()[:200])
 print('capa', capa)
-json.dump({'id': vid, 'url': 'https://youtube.com/shorts/' + vid,
-           'status': 'publico' if QUANDO == 'agora' else 'agendado ' + QUANDO, 'capa': capa},
+url = ('https://youtu.be/' if s.get('formato') == 'longo' else 'https://youtube.com/shorts/') + vid
+estado = {'agora': 'publico', 'nao_listado': 'nao listado'}.get(QUANDO, 'agendado ' + QUANDO)
+print(url)
+json.dump({'id': vid, 'url': url, 'status': estado, 'capa': capa},
           open(os.path.splitext(os.path.abspath(SPEC))[0] + '_publicado.json', 'w'), indent=1)
