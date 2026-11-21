@@ -1,0 +1,42 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;800;900&family=JetBrains+Mono:wght@400;500&display=block" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--navy:#0b1f5c;--azul:#1d4ed8;--ciano:#17a2c8;--verde:#16a34a;--fundo:#eef3fa;--cinza:#5b6478}
+body{width:1080px;height:1350px;overflow:hidden;font-family:'Inter Tight',sans-serif;color:var(--navy);
+ background:radial-gradient(760px 520px at 50% 46%,#ffffff 0%,var(--fundo) 70%)}
+.wrap{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;text-align:center}
+.marca{margin-top:84px;display:flex;align-items:center;gap:22px}
+.marca img{height:112px}
+.marca .nome{font-size:40px;font-weight:800;letter-spacing:-.5px;text-align:left;line-height:1.05}
+.marca .nome span{display:block;font-size:24px;font-weight:600;color:var(--ciano);letter-spacing:.5px}
+h1{margin-top:72px;font-size:98px;font-weight:900;line-height:1.0;letter-spacing:-3.5px;max-width:960px}
+h1 .g{background:linear-gradient(95deg,var(--azul),var(--ciano));-webkit-background-clip:text;color:transparent}
+.sub{margin-top:34px;font-size:41px;font-weight:500;color:#1f2a44;letter-spacing:-.5px}
+.cards{margin-top:66px;display:flex;gap:24px}
+.card{width:300px;padding:40px 10px 32px;background:#fff;border-radius:22px;box-shadow:0 18px 50px rgba(20,40,90,.10)}
+.card b{display:block;font-size:72px;font-weight:900;letter-spacing:-2px;line-height:1}
+.card i{display:block;margin-top:14px;font-style:normal;font-family:'JetBrains Mono',monospace;font-size:21px;color:var(--cinza)}
+.pills{margin-top:56px;display:flex;gap:12px;flex-wrap:nowrap;justify-content:center;max-width:980px}
+.pill{padding:13px 19px;border-radius:999px;background:#fff;font-family:'JetBrains Mono',monospace;font-size:20px;color:#1f2a44;
+ box-shadow:0 8px 24px rgba(20,40,90,.07)}
+.ia{margin-top:60px;font-size:33px;font-weight:500;color:#3b4660}
+.ia b{font-weight:800;color:var(--navy)}
+.cta{margin-top:44px;padding:30px 92px;border-radius:16px;font-size:38px;font-weight:800;color:#fff;
+ background:linear-gradient(95deg,var(--azul),var(--ciano));box-shadow:0 16px 40px rgba(29,78,216,.30)}
+.url{margin-top:30px;font-size:26px;font-weight:600;color:var(--ciano);letter-spacing:.3px}
+.faixa{position:absolute;left:0;right:0;bottom:0;height:12px;background:linear-gradient(90deg,#16a34a 0 33.3%,#facc15 33.3% 66.6%,#1d4ed8 66.6%)}
+</style></head><body><div class="wrap">
+ <div class="marca"><img src="logo-tiops.png"><div class="nome">Emissor NF-e<span>nota fiscal eletrônica</span></div></div>
+ <h1>Uma API. <span class="g">Nota fiscal</span><br><span class="g" style="white-space:nowrap">do seu e&#8209;commerce.</span></h1>
+ <div class="sub">Loja própria e marketplace, direto na SEFAZ.</div>
+ <div class="cards">
+  <div class="card"><b>12</b><i>autorizadores SEFAZ</i></div>
+  <div class="card"><b>6</b><i>marketplaces</i></div>
+  <div class="card"><b style="white-space:nowrap;font-size:66px"><small style="font-size:34px;letter-spacing:0;margin-right:6px;vertical-align:22px">R$</small>49,90</b><i>até 5.000 notas/mês</i></div>
+ </div>
+ <div class="pills"><div class="pill">NF-e</div><div class="pill">NFS-e nacional</div><div class="pill">Devolução</div><div class="pill">Cancelamento</div><div class="pill">Carta de correção</div></div>
+ <div class="ia">API REST e MCP: emite pelo <b>Claude</b> e pelo <b>ChatGPT</b>.</div>
+ <div class="cta">Saiba mais</div>
+ <div class="url">nfe.tiops.com.br</div>
+</div><div class="faixa"></div></body></html>
