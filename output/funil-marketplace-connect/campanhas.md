@@ -606,3 +606,4 @@ o dobro do plano, e os públicos se sobrepõem (engajados no IG + visitantes do 
   (808 em 19/11) com visitas de anúncio parecidas (131 x 137), e a assinatura do dia não apareceu como Purchase no Meta → conferir pixel/servidor.
 - Pendente: OK do Itamar para ligar a conversão D (R$ 150) e para pausar o C das 09h34; renovar a chave do link curto.
 - WhatsApp: enviado e confirmado ("✅ Mensagem enviada"). Rotina rodou atrasada (11h34).
+- 21/11 ~11h50: anúncio C das 09h34 (`120255193108170007`) PAUSADO a pedido do Itamar (status PAUSED confirmado; entrega "em processamento" na hora da conferência). Acumulado final: R$ 87,28, 76 visitas, R$ 1,15/visita.
