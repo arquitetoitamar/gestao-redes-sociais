@@ -1,0 +1,120 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight:wght@600;800;900&display=block" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;background:transparent;overflow:hidden;font-family:'Inter Tight',sans-serif}
+:root{--am:#ffd400;--pr:#0a0a0a;--vm:#ff2d3d}
+.abs{position:absolute}
+/* faixa Black Friday embaixo */
+#faixa{left:0;right:0;top:1440px;height:170px;background:var(--pr);overflow:hidden;box-shadow:0 -10px 40px rgba(0,0,0,.35)}
+#listras{position:absolute;inset:-40px -200px;background:repeating-linear-gradient(-45deg,rgba(255,212,0,.16) 0 28px,transparent 28px 64px)}
+#bf{position:absolute;left:48px;top:14px;font-family:'Anton';font-size:118px;line-height:1.1;letter-spacing:2px;
+ background:linear-gradient(100deg,#ffd400 0%,#fff3a0 18%,#ffd400 36%,#ffb800 100%);background-size:300% 100%;-webkit-background-clip:text;color:transparent}
+#ia{position:absolute;right:48px;top:36px;padding:10px 26px;border-radius:14px;background:var(--am);color:#000;font-weight:900;font-size:46px;letter-spacing:1px}
+#data{position:absolute;right:56px;top:112px;color:#fff;font-weight:800;font-size:30px;letter-spacing:3px;opacity:.85}
+#ticker{left:0;right:0;top:1610px;height:58px;background:var(--am);overflow:hidden}
+#tk{position:absolute;top:8px;left:0;white-space:nowrap;font-family:'Anton';font-size:38px;color:#000;letter-spacing:2px}
+/* gancho */
+#gancho{left:0;right:0;top:700px;text-align:center}
+.g1{display:inline-block;font-family:'Anton';font-size:112px;color:#fff;line-height:1;padding:8px 26px;background:rgba(0,0,0,.82);border-radius:18px}
+.g2{display:inline-block;margin-top:14px;font-family:'Anton';font-size:150px;color:#000;line-height:1;padding:6px 34px;background:var(--am);border-radius:18px;transform:rotate(-2deg)}
+#preju{left:0;right:0;top:760px;text-align:center}
+#preju span{display:inline-block;font-family:'Anton';font-size:150px;color:#fff;background:var(--vm);padding:6px 34px;border-radius:16px;transform:rotate(-4deg);box-shadow:0 18px 50px rgba(255,45,61,.45)}
+/* legendas */
+#leg{left:60px;right:60px;top:1250px;text-align:center;font-weight:900;font-size:76px;line-height:1.05;color:#fff;
+ -webkit-text-stroke:3px #000;paint-order:stroke fill;text-shadow:0 6px 18px rgba(0,0,0,.55)}
+#leg .on{color:var(--am)}
+#leg .box{display:inline-block;background:rgba(0,0,0,.62);padding:12px 26px 16px;border-radius:18px;-webkit-text-stroke:2px #000}
+/* rótulos do b-roll */
+.rot{left:0;right:0;top:110px;text-align:center;opacity:0}
+.rot b{display:inline-block;font-family:'Anton';font-size:104px;line-height:1;color:#000;background:var(--am);padding:10px 30px;border-radius:16px}
+.rot i{display:block;margin:16px auto 0;width:max-content;font-style:normal;font-weight:800;font-size:44px;color:#fff;background:rgba(0,0,0,.85);padding:10px 26px;border-radius:12px}
+/* fluxo IA */
+#fluxo{left:0;right:0;top:640px;display:flex;flex-direction:column;align-items:center;gap:14px}
+.ch{font-weight:900;font-size:62px;padding:16px 34px;border-radius:18px;background:rgba(0,0,0,.85);color:#fff;opacity:0}
+.ch.y{background:var(--am);color:#000}
+.seta{font-family:'Anton';font-size:60px;color:var(--am);line-height:.8;opacity:0;text-shadow:0 4px 12px rgba(0,0,0,.6)}
+/* transição e CTA */
+#trans{left:0;top:0;width:1080px;height:1920px;background:#000;overflow:hidden;opacity:0}
+#trans .lst{position:absolute;inset:-300px;background:repeating-linear-gradient(-45deg,#ffd400 0 60px,#000 60px 140px);opacity:.9}
+#trans .tt{position:absolute;left:0;right:0;top:640px;text-align:center}
+#trans .tt div{font-family:'Anton';line-height:.95}
+#t1{font-size:200px;color:#fff;-webkit-text-stroke:0}
+#t2{display:inline-block;font-size:330px;color:#000;background:var(--am);padding:0 40px;border-radius:24px}
+#cta{left:0;right:0;top:640px;text-align:center;opacity:0}
+#cta .c1{display:inline-block;font-family:'Anton';font-size:120px;color:#fff;background:rgba(0,0,0,.88);padding:8px 34px;border-radius:18px}
+#cta .c2{display:block;margin:12px auto 0;width:max-content;font-family:'Anton';font-size:230px;line-height:1;color:#000;background:var(--am);padding:4px 46px;border-radius:24px;box-shadow:0 20px 60px rgba(255,212,0,.35)}
+#cta .c3{display:block;margin:20px auto 0;width:max-content;font-weight:900;font-size:54px;color:#fff;background:rgba(0,0,0,.88);padding:14px 30px;border-radius:14px}
+#seta{left:780px;top:1180px;font-size:150px;opacity:0}
+</style></head><body>
+<div id="trans" class="abs"><div class="lst"></div><div class="tt"><div id="t1">COMENTA</div><div id="t2">BLACK</div></div></div>
+<div id="gancho" class="abs"><div class="g1" id="g1">A 1ª BLACK FRIDAY</div><br><div class="g2" id="g2">COM IA</div></div>
+<div id="preju" class="abs" style="opacity:0"><span>NO PREJUÍZO</span></div>
+<div class="rot abs" id="r_hero"><b>GUIA COMPLETO</b><i>Mercado Livre · Shopee · TikTok Shop</i></div>
+<div class="rot abs" id="r_prompts"><b>26 PROMPTS PRONTOS</b><i>pro Claude e pro ChatGPT</i></div>
+<div class="rot abs" id="r_cal"><b>CALENDÁRIO DIA A DIA</b><i>até a Cyber Monday e o fechamento</i></div>
+<div class="rot abs" id="r_mar"><b>SIMULADOR DE MARGEM</b><i>desconto sem prejuízo</i></div>
+<div id="fluxo" class="abs"><div class="ch" id="f1">IA recomenda</div><div class="seta" id="s1">↓</div>
+ <div class="ch y" id="f2">você aprova</div><div class="seta" id="s2">↓</div><div class="ch" id="f3">executa na loja</div></div>
+<div id="cta" class="abs"><div class="c1">COMENTA</div><div class="c2">BLACK</div><div class="c3">📩 te mando o guia no direct</div></div>
+<div id="seta" class="abs">👇</div>
+<div id="leg" class="abs"></div>
+<div id="faixa" class="abs"><div id="listras"></div><div id="bf">BLACK FRIDAY</div><div id="ia">COM IA</div><div id="data">27 · 11</div></div>
+<div id="ticker" class="abs"><div id="tk"></div></div>
+<script>
+const C = __CRONO__;
+const tl = gsap.timeline({paused:true});
+const D = C.duracao;
+// faixa: listras andando, brilho, pílula pulsando, ticker
+const tkTxt = ' 26 PROMPTS ✦ CALENDÁRIO DIA A DIA ✦ SIMULADOR DE MARGEM ✦ MERCADO LIVRE ✦ SHOPEE ✦ TIKTOK SHOP ✦ CLAUDE ✦ CHATGPT ✦';
+document.getElementById('tk').textContent = tkTxt.repeat(6);
+tl.fromTo('#faixa',{y:220},{y:0,duration:.5,ease:'power3.out'},0)
+  .fromTo('#ticker',{y:120},{y:0,duration:.5,ease:'power3.out'},.1)
+  .to('#listras',{x:-640,duration:D,ease:'none'},0)
+  .to('#tk',{x:-2600,duration:D,ease:'none'},0);
+for(let t=0.6;t<D;t+=2.4){ tl.fromTo('#bf',{backgroundPosition:'100% 0'},{backgroundPosition:'-50% 0',duration:1.1,ease:'power1.inOut'},t);
+  tl.to('#ia',{scale:1.12,duration:.18,yoyo:true,repeat:1,ease:'power2.out'},t+.4); }
+// gancho
+tl.fromTo('#g1',{scale:2.2,opacity:0},{scale:1,opacity:1,duration:.35,ease:'back.out(2)'},.05)
+  .fromTo('#g2',{scale:2.6,opacity:0,rotation:-12},{scale:1,opacity:1,rotation:-2,duration:.4,ease:'back.out(2.2)'},.45)
+  .to('#gancho',{y:-30,duration:2.4,ease:'sine.inOut'},.9)
+  .to('#gancho',{opacity:0,y:-80,duration:.25},3.05);
+const pj = C.palavras.find(w=>w.w.startsWith('prejuízo'));
+tl.fromTo('#preju',{opacity:0,scale:2.4},{opacity:1,scale:1,duration:.22,ease:'back.out(3)'},pj.s-.18)
+  .to('#preju span',{x:12,duration:.05,repeat:5,yoyo:true},pj.s+.05)
+  .to('#preju',{opacity:0,duration:.2},6.35);
+// rótulos do b-roll
+const rot=[['#r_hero',6.45,11.25],['#r_prompts',11.25,14.95],['#r_cal',14.95,18.0],['#r_mar',18.0,22.7]];
+for(const [id,a,b] of rot){ tl.fromTo(id,{opacity:0,y:-60},{opacity:1,y:0,duration:.3,ease:'back.out(2)'},a+.05)
+  .fromTo(id+' b',{scale:1.6},{scale:1,duration:.3,ease:'back.out(2)'},a+.05).to(id,{opacity:0,duration:.18},b-.2); }
+// fluxo IA recomenda -> aprova -> executa
+const at = s => (C.palavras.find(w=>w.w.startsWith(s) && w.s>22)||{s:0}).s;
+tl.set('#fluxo',{opacity:1},0).fromTo('#f1',{opacity:0,x:-120},{opacity:1,x:0,duration:.25,ease:'back.out(2)'},at('IA')-.05)
+  .to('#s1',{opacity:1,duration:.15},at('você')-.15)
+  .fromTo('#f2',{opacity:0,scale:1.8},{opacity:1,scale:1,duration:.25,ease:'back.out(2.4)'},at('você')-.05)
+  .to('#s2',{opacity:1,duration:.15},at('executa')-.2)
+  .fromTo('#f3',{opacity:0,x:120},{opacity:1,x:0,duration:.25,ease:'back.out(2)'},at('executa')-.1)
+  .to('#fluxo',{opacity:0,duration:.2},C.transicao_cta[0]-.05);
+// transição COMENTA BLACK e CTA
+const [ta,tb] = C.transicao_cta;
+tl.set('#trans',{opacity:1},ta).fromTo('#trans .lst',{x:-400},{x:200,duration:tb-ta+.2,ease:'none'},ta)
+  .fromTo('#t1',{scale:3,opacity:0},{scale:1,opacity:1,duration:.22,ease:'back.out(2)'},ta+.05)
+  .fromTo('#t2',{scale:3.4,opacity:0,rotation:-10},{scale:1,opacity:1,rotation:0,duration:.25,ease:'back.out(2.4)'},ta+.25)
+  .to('#trans',{opacity:0,duration:.18},tb-.05)
+  .fromTo('#cta',{opacity:0,scale:.6},{opacity:1,scale:1,duration:.3,ease:'back.out(2)'},tb)
+  .to('#cta .c2',{scale:1.08,duration:.35,yoyo:true,repeat:7,ease:'sine.inOut'},tb+.4)
+  .fromTo('#seta',{opacity:0,y:-40},{opacity:1,y:0,duration:.25},tb+.6)
+  .to('#seta',{y:40,duration:.4,yoyo:true,repeat:6,ease:'sine.inOut'},tb+.9);
+// legendas: grupos de até 3 palavras / 16 caracteres; some na transição e no CTA
+const grupos=[]; let g=[];
+for(const w of C.palavras){ if(w.s>=ta) break; const txt=g.map(x=>x.w).join(' ');
+  if(g.length && (g.length>=3 || (txt+' '+w.w).length>16 || /[.,]$/.test(g[g.length-1].w))){grupos.push(g); g=[];} g.push(w); }
+if(g.length) grupos.push(g);
+const leg=document.getElementById('leg');
+window.LEG = t => { const gr = grupos.find((x,i)=> t>=x[0].s-.05 && t < (grupos[i+1]?grupos[i+1][0].s-.05:x[x.length-1].e+.25));
+  if(!gr || t>=ta){ leg.innerHTML=''; return; }
+  leg.innerHTML = '<div class="box">'+gr.map(w=>'<span class="'+(t>=w.s-.03?'on':'')+'">'+w.w.replace(/[.,]$/,'')+'</span>').join(' ')+'</div>'; };
+window.DUR = D;
+window.seek = t => { tl.seek(t,false); window.LEG(t); };
+</script></body></html>
