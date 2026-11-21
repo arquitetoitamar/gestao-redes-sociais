@@ -581,3 +581,28 @@ o dobro do plano, e os públicos se sobrepõem (engajados no IG + visitantes do 
 - Alertas: C das 09h34 em R$ 80,82 a R$ 1,22/visita → ⚠️ trocar criativo ou pausar.
 - Pendente: OK do Itamar para ligar a conversão D (R$ 150) e para pausar o C das 09h34; renovar a chave do link curto.
 - WhatsApp: enviado e confirmado ("✅ Mensagem enviada"). Rotina rodou atrasada (13h49).
+
+### 20/11/2026 (lida em 21/11 pela rotina das 08h, executada às 11h34)
+
+| Anúncio | Gasto ontem | Visitas ontem | R$/visita ontem | CTR ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 10,69 | 81 | R$ 0,13 | 6,37% | R$ 241,46 | 1.524 | R$ 0,16 | ativo |
+| A3 MadeiraMadeira | R$ 0,17 | 0 | — | 0% | R$ 2,06 | 5 | R$ 0,41 | ativo, quase sem entrega |
+| C 09h34 Reel loja no Claude (`120255193108170007`) | R$ 8,72 | 11 | R$ 0,79 | 1,15% | R$ 87,28 | 76 | R$ 1,15 | ativo ⚠️ |
+| C2 Reel Band PqTec (`120255193117270007`) | R$ 9,28 | 39 | R$ 0,24 | 4,99% | R$ 86,86 | 310 | R$ 0,28 | ativo |
+| C1 Reel loja no Claude (`120255193117080007`) | — | — | — | — | R$ 0,25 | 1 | R$ 0,25 | ativo, sem gasto ontem |
+| A2 Explicativo | — | — | — | — | R$ 15,81 | 20 | R$ 0,79 | conjunto concluído |
+| B Isca grátis | — | — | — | — | R$ 33,95 | 88 | R$ 0,39 | pausado |
+
+- Gasto total ontem (todos os anúncios com gasto na conta): R$ 28,86. Plano R$ 1.000 (A1+A2+A3+B+as C): R$ 467,67 (o "maximum" inclui 21/11 até ~11h40).
+- Visitas à VSL ontem (A1 + A3 + C): 131, R$ 0,22/visita.
+- Pixel em 20/11 (00h–23h59 BRT), só navegador: CompleteRegistration 5, ViewContent 2, ClicouAssinar 1, ConectouCanal 11,
+  PageView 349, SubscribedButtonClick 0, Lead 0. Clique em Assinar 1/131 = 0,8% (meta 5%). Purchase pelo servidor: 0
+  (nenhum evento Purchase no dia, em nenhuma fonte).
+- Link curto /comece e /madeira: SEM LEITURA, 8º dia (conector ba46… "API key inválida ou revogada"; o conector 23ff… devolveu o mesmo erro).
+- Stripe: 1 assinatura criada em 20/11, do MC (Plus mensal). Assinaturas novas do MC: 1.
+- Nenhum anúncio com erro de entrega. Nenhuma campanha D nem anúncio novo.
+- Alertas: C das 09h34 em R$ 87,28 a R$ 1,15/visita → ⚠️ trocar criativo ou pausar. PageView do pixel caiu para 349
+  (808 em 19/11) com visitas de anúncio parecidas (131 x 137), e a assinatura do dia não apareceu como Purchase no Meta → conferir pixel/servidor.
+- Pendente: OK do Itamar para ligar a conversão D (R$ 150) e para pausar o C das 09h34; renovar a chave do link curto.
+- WhatsApp: enviado e confirmado ("✅ Mensagem enviada"). Rotina rodou atrasada (11h34).
