@@ -3,7 +3,7 @@
 Pedido do Itamar: vídeo no formato do Reel DexEa_cOnsb (@igao.ia, "O Claude agora atende seu WhatsApp", sobre Kapso), trocando por Chatiops + Claude, fundo branco.
 Feito com a MESMA ESTRUTURA (gancho → o que é → como liga → 3 etapas → resultado → CTA), mas texto, cenas e visual nossos (cores do Chatiops); nada copiado do vídeo original.
 
-Status: VÍDEO PRONTO (videos/reel_chatiops_claude.mp4, 47,6 s, voz HeyGen gerada em 23/11) — aguardando "sim" do Itamar para postar (não faz parte da série automática). Link curto chatiops-90dias agora aponta para https://chatiops.com (pedido do Itamar).
+Status: VÍDEO PRONTO (videos/reel_chatiops_claude.mp4, 47,6 s, voz HeyGen gerada em 23/11) — APROVADO ("Pode postar", 23/11) e AGENDADO: Instagram 26/11 16h (ig-reel-chatiops-claude-20261126) + Short TEmIZiw0Yjg privado com publicação 26/11 16h. Link curto chatiops-90dias agora aponta para https://chatiops.com (pedido do Itamar).
 
 Fatos conferidos (chatiops.com, chatiops.com/mcp e conector MCP do Chatiops):
 - Servidor MCP com 96 ferramentas, URL `https://api.chatiops.tiops.com.br/mcp?token=...`, sem instalar nada; Claude Desktop/Code, ChatGPT, Cursor.
