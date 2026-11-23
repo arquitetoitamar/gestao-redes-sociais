@@ -7,10 +7,10 @@ Status: STORYBOARD (tempos estimados). Falta a narração HeyGen (voz c463ef5b, 
 
 Fatos conferidos (chatiops.com, chatiops.com/mcp e conector MCP do Chatiops):
 - Servidor MCP com 96 ferramentas, URL `https://api.chatiops.tiops.com.br/mcp?token=...`, sem instalar nada; Claude Desktop/Code, ChatGPT, Cursor.
-- Cria filas com saudação e chatbot, agentes de IA, base de conhecimento, campanhas, agendamento de mensagens, tickets para a equipe.
+- Confirmado pela sessão DEV ATEND no código e no banco (23/11): pelo MCP o Claude cria filas com saudação e chatbot (create_queue, create_queue_option), agentes e configura a IA (configure_ai), dispara campanhas em massa (sem data) e lista tickets. NÃO agenda mensagens pelo MCP (só na tela web) → tirado do roteiro.
 - A IA do atendente roda na chave da OpenAI do cliente (paga à parte) → o vídeo NÃO diz que "o Claude atende"; diz que o Claude MONTA e OPERA o atendimento. Aviso na tela.
-- Conexão por QR Code (Baileys), não é API oficial → não usar "API oficial".
-- Starter R$ 29,90 com 90 dias grátis (público no site).
+- Conexão padrão por QR Code (Baileys); também suporta a API oficial (Meta Cloud API, exige conta WABA). Enquadramento: "conecta por QR Code em segundos; também aceita a API oficial".
+- Starter R$ 29,90 com 90 dias grátis (trial permanente do plano, não promoção com prazo). Cadastro em chatiops.tiops.com.br — link do direct a confirmar com o Itamar.
 
 Gerar: `node ../../.agents/skills/media-use/audio/scripts/heygen-tts.mjs ./narracao.txt -o trab/voz.wav --words trab/voz.words.json --voice c463ef5bf11146d49bf754fa1e515401`,
 depois `python3 cronograma.py` (passa a usar os tempos reais), `python3 motion.py todos 4`, áudio e montagem como em `../reel-pergunta-claude-02/`.
