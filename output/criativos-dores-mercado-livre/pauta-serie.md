@@ -18,6 +18,9 @@ Motor: `output/reel-pergunta-claude-02/` (narração HeyGen voz c463ef5b ~US$ 0,
 | 10 Números do anúncio | a gerar | 12/12 |
 | 13 Reclamação e reputação | a gerar | 14/12 |
 | 12 Mesmo produto no ML e na Shopee | a gerar | 16/12 |
+| 14 Qual logística usar (Correios, Agência, Flex, Full) | a gerar | 18/12 |
+| 15 O que vender (análise de produto) | a gerar | 20/12 |
+| 16 Quem vende o ano inteiro (sazonalidade) | a gerar | 22/12 |
 | 4 Anúncio sem vídeo | ⚠ confirmar se gerar/subir clip com IA está liberado | — |
 
 Um por vez, a cada 48 h, entre 16h e 20h. Não cruzar com o Dia D da Black Friday (27/11).
@@ -100,3 +103,21 @@ Tarefa diária `monitor-pronix-pauta` (09h30): confere Reels novos do @pronixnap
 - Gancho: "Quantos dos seus anúncios que mais vendem não têm vídeo?"
 - Passos: 1) um clip que tira dúvida; 2) um clip de uso, que traz gente de fora; 3) a palavra-chave falada no começo; 4) narração e legenda, não só música.
 - Pergunta: "Lista os 20 anúncios mais visitados sem clip." (+ "gera um clip pro primeiro", só se a função estiver liberada no plano).
+
+### 14. Qual logística usar — paleta azul-gelo (#0c4a6e / #38bdf8 / #e0f2fe)
+- Gancho: "Correios, Agência, Flex ou Full? A escolha errada te tira da primeira página."
+- Passos: 1) conta quantos anúncios da primeira página estão no Full; 2) produto de giro rápido vai pro Full; 3) Flex quando você entrega na sua cidade no mesmo dia; 4) Correios e Agência pra começar e testar.
+- Pergunta: "Quais dos meus anúncios vendem mais de 2 por dia e ainda não estão no Full?"
+- Resposta: anúncio · venda/dia · logística atual · sugestão.
+
+### 15. O que vender — paleta mostarda (#422006 / #eab308 / #fef9c3) ⚠ confirmar dados de mercado
+- Gancho: "Antes de comprar estoque, passa o produto por esse filtro."
+- Passos: 1) busca com uma ou duas palavras; 2) vê quanto os 5 primeiros vendem por mês; 3) preço na média, nunca o mais barato; 4) acha o furo dos concorrentes (foto, vídeo, pergunta sem resposta).
+- Pergunta: "Pra 'luminária de mesa', quanto vendem os 5 primeiros, qual o preço médio e o que falta nos anúncios deles?"
+- Resposta: tabela de concorrentes + furo de cada um.
+
+### 16. Quem vende o ano inteiro — paleta oliva (#1a2e05 / #65a30d / #ecfccb)
+- Gancho: "Seu produto vende o ano todo ou só em dezembro?"
+- Passos: 1) olha a venda mês a mês do último ano; 2) mês fraco não é anúncio ruim; 3) estoque acompanha a curva; 4) produto de ano inteiro é a base da loja.
+- Pergunta: "Mostra a venda mês a mês dos meus 10 principais produtos e quais são sazonais."
+- Resposta: produto · curva · "ano inteiro" ou "sazonal (pico em …)".
