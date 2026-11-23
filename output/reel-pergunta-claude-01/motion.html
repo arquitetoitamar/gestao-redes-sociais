@@ -1,0 +1,177 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=block" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#070d1c;--card:#0f1a33;--line:#1f2d4f;--azul:#3b82f6;--azul2:#60a5fa;--txt:#e8eefb;--cinza:#8a97b5;--verm:#f43f5e;--verde:#22c55e;--amar:#facc15}
+body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);font-family:'Inter Tight',sans-serif;color:var(--txt)}
+#fundo{position:absolute;inset:0;background:radial-gradient(900px 700px at 50% 30%,#14244a 0%,var(--bg) 70%)}
+.cena{position:absolute;inset:0;opacity:0}
+.marca{position:absolute;top:150px;left:0;right:0;text-align:center;font-weight:800;font-size:30px;letter-spacing:3px;color:var(--cinza)}
+.marca b{color:var(--azul2)}
+h1{font-weight:900;letter-spacing:-2px;line-height:1.02;text-align:center}
+/* cena 1 */
+#c1 h1{position:absolute;top:250px;left:40px;right:40px;font-size:84px}
+#c1 h1 .a{color:var(--amar)}
+.anuncio{position:absolute;left:140px;right:140px;top:640px;background:var(--card);border:2px solid var(--line);border-radius:36px;padding:44px;display:flex;gap:36px;align-items:center}
+.thumb{width:220px;height:220px;border-radius:24px;background:linear-gradient(135deg,#e5e7eb,#9ca3af);display:flex;align-items:center;justify-content:center;font-size:110px}
+.dados{flex:1}
+.dados .t{font-size:38px;font-weight:700;line-height:1.15}
+.dados .p{margin-top:14px;font-size:44px;font-weight:800;color:var(--txt)}
+.stats{position:absolute;left:140px;right:140px;top:980px;display:flex;gap:28px}
+.stat{flex:1;background:var(--card);border:2px solid var(--line);border-radius:28px;padding:30px;text-align:center}
+.stat i{display:block;font-style:normal;font-size:30px;color:var(--cinza);font-weight:600}
+.stat b{display:block;margin-top:6px;font-size:96px;font-weight:900;letter-spacing:-2px}
+#vendas b{color:var(--verm)}
+#nopreco{position:absolute;left:0;right:0;top:1200px;text-align:center;font-size:52px;font-weight:800}
+#nopreco s{color:var(--verm);text-decoration-thickness:6px}
+/* cena 2 */
+#c2 h1{position:absolute;top:240px;left:60px;right:60px;font-size:78px}
+#c2 h1 span{color:var(--cinza)}
+.lista{position:absolute;left:150px;right:150px;top:470px}
+.item{display:flex;align-items:center;gap:26px;font-size:54px;font-weight:700;margin-bottom:30px;opacity:0}
+.item .ck{width:62px;height:62px;border-radius:16px;border:4px solid var(--azul2);display:flex;align-items:center;justify-content:center;font-size:40px;color:var(--azul2)}
+#grade{position:absolute;left:90px;right:90px;top:470px;display:grid;grid-template-columns:repeat(10,1fr);gap:12px;opacity:0}
+#grade div{height:70px;border-radius:12px;background:var(--card);border:2px solid var(--line)}
+#vezes{position:absolute;left:0;right:0;top:880px;text-align:center;font-size:170px;font-weight:900;letter-spacing:-4px;opacity:0}
+#naoda{position:absolute;left:0;right:0;top:1090px;text-align:center;opacity:0}
+#naoda span{display:inline-block;font-size:92px;font-weight:900;color:var(--verm);border:8px solid var(--verm);border-radius:22px;padding:6px 40px;transform:rotate(-6deg)}
+/* cena 3/4/5: chat */
+.chat{position:absolute;left:70px;right:70px;top:230px;bottom:620px;background:#0c1428;border:2px solid var(--line);border-radius:40px;overflow:hidden}
+.topo{display:flex;align-items:center;gap:18px;padding:30px 36px;border-bottom:2px solid var(--line)}
+.logo{width:56px;height:56px;border-radius:16px;background:#d97757;display:flex;align-items:center;justify-content:center;font-size:34px;color:#fff;font-weight:900}
+.topo .n{font-size:38px;font-weight:800}
+.chip{margin-left:auto;display:flex;align-items:center;gap:10px;font-size:24px;font-weight:700;color:#a7f3d0;background:#064e3b;border-radius:999px;padding:10px 20px;opacity:0}
+.chip i{width:14px;height:14px;border-radius:50%;background:var(--verde);display:inline-block}
+.corpo{padding:34px 36px}
+.msg{margin-left:auto;max-width:880px;background:var(--azul);border-radius:30px 30px 6px 30px;padding:28px 32px;font-size:40px;font-weight:600;line-height:1.3;min-height:60px;opacity:0}
+.msg .cur{display:inline-block;width:4px;height:38px;background:#fff;vertical-align:-6px;margin-left:3px}
+.resp{margin-top:30px;opacity:0}
+.pens{font-size:30px;color:var(--cinza);font-weight:600}
+.pens b{color:var(--azul2)}
+.tit{font-size:38px;font-weight:800;margin-bottom:18px}
+.linha{display:flex;align-items:center;gap:18px;background:var(--card);border:2px solid var(--line);border-radius:24px;padding:22px 24px;margin-bottom:16px;opacity:0}
+.linha .em{font-size:46px}
+.linha .nm{flex:1;font-size:34px;font-weight:700;line-height:1.2}
+.linha .nm small{display:block;font-family:'JetBrains Mono';font-size:23px;color:var(--cinza);font-weight:400;margin-top:4px}
+.tag{font-size:28px;font-weight:800;padding:10px 18px;border-radius:14px;background:#3b1d0a;color:#fdba74;white-space:nowrap}
+.linha.on{border-color:var(--amar);box-shadow:0 0 0 4px rgba(250,204,21,.25)}
+.exemplo{position:absolute;right:36px;bottom:26px;font-family:'JetBrains Mono';font-size:22px;color:var(--cinza)}
+.aprova{margin-top:20px;display:flex;gap:16px;opacity:0}
+.bt{flex:1;text-align:center;font-size:32px;font-weight:800;border-radius:20px;padding:22px}
+.bt.s{background:var(--verde);color:#052e16}.bt.n{background:#1e293b;color:var(--cinza)}
+#ok{position:absolute;left:0;right:0;top:1330px;text-align:center;font-size:62px;font-weight:900;opacity:0}
+#ok b{color:var(--verde)}
+/* cena 6 */
+#c6 .big{position:absolute;top:470px;left:0;right:0;text-align:center;font-size:110px;font-weight:900;letter-spacing:-3px;line-height:1.05}
+#c6 .big b{display:inline-block;margin-top:26px;font-size:150px;color:#fff;background:linear-gradient(95deg,var(--azul),#06b6d4);padding:10px 56px;border-radius:30px}
+#c6 .sub{position:absolute;top:1000px;left:0;right:0;text-align:center;font-size:48px;font-weight:600;color:var(--txt)}
+#c6 .mc{position:absolute;top:1130px;left:0;right:0;text-align:center;font-size:34px;font-weight:700;color:var(--cinza);letter-spacing:1px}
+/* legenda */
+#leg{position:absolute;left:70px;right:70px;top:1360px;text-align:center;font-size:56px;font-weight:800;line-height:1.18;text-shadow:0 4px 18px rgba(0,0,0,.7)}
+#leg span{opacity:.55}#leg span.at{opacity:1;color:var(--amar)}#leg span.ja{opacity:1}
+</style></head><body>
+<div id="fundo"></div>
+<div class="marca">PERGUNTA PRO <b>CLAUDE</b></div>
+
+<div class="cena" id="c1">
+ <h1>Seu anúncio tem visita<br>e <span class="a">não vende?</span></h1>
+ <div class="anuncio"><div class="thumb">💡</div><div class="dados"><div class="t">Luminária de mesa LED articulada</div><div class="p">R$ 89,90</div></div></div>
+ <div class="stats"><div class="stat"><i>Visitas (30 dias)</i><b id="nvis">0</b></div><div class="stat" id="vendas"><i>Vendas</i><b>0</b></div></div>
+ 
+</div>
+
+<div class="cena" id="c2">
+ <h1>O jeito manual <span>é conferir:</span></h1>
+ <div class="lista">
+  <div class="item" id="i1"><div class="ck">✓</div>Visitas</div>
+  <div class="item" id="i2"><div class="ck">✓</div>Pergunta repetida</div>
+  <div class="item" id="i3"><div class="ck">✓</div>Fotos</div>
+  <div class="item" id="i4"><div class="ck">✓</div>Vídeo</div>
+  <div class="item" id="i5"><div class="ck">✓</div>Ficha técnica</div>
+ </div>
+ <div id="grade"></div>
+ <div id="vezes">× 200</div>
+ <div id="naoda"><span>NÃO DÁ</span></div>
+</div>
+
+<div class="cena" id="chat">
+ <div class="chat">
+  <div class="topo"><div class="logo">✳</div><div class="n">Claude</div><div class="chip" id="chip"><i></i>Marketplace Connect · Mercado Livre</div></div>
+  <div class="corpo">
+   <div class="msg" id="msg"><span id="dig"></span><span class="cur" id="cur"></span></div>
+   <div class="resp" id="resp">
+    <div class="pens" id="pens">Lendo <b>200 anúncios</b>, visitas e perguntas…</div>
+    <div id="tab" style="opacity:0">
+     <div class="tit">3 anúncios com visita e sem venda</div>
+     <div class="linha" id="l1"><div class="em">💡</div><div class="nm">Luminária de mesa LED<small>142 visitas · 0 vendas</small></div><div class="tag">sem vídeo</div></div>
+     <div class="linha" id="l2"><div class="em">🗂️</div><div class="nm">Organizador de gaveta<small>96 visitas · 0 vendas</small></div><div class="tag">ficha técnica vazia</div></div>
+     <div class="linha" id="l3"><div class="em">💻</div><div class="nm">Suporte de notebook<small>81 visitas · 0 vendas</small></div><div class="tag">mesma pergunta 5×</div></div>
+     <div class="aprova" id="apr"><div class="bt s">Aprovar ajustes</div><div class="bt n">Agora não</div></div>
+    </div>
+   </div>
+  </div>
+  <div class="exemplo">valores de exemplo</div>
+ </div>
+ <div id="ok">Nada muda na loja <b>sem o seu OK.</b></div>
+</div>
+
+<div class="cena" id="c6">
+ <div class="big">Comenta<br><b>CONNECT</b></div>
+ <div class="sub">que eu te mando o link no direct 📩</div>
+ <div class="mc">MARKETPLACE CONNECT · TIOPS</div>
+</div>
+
+<div id="leg"></div>
+<script>
+const C = __CRONO__;
+const P = C.palavras, S = C.marcas;
+const $ = id => document.getElementById(id);
+const cl = (x,a,b)=>Math.max(a,Math.min(b,x));
+const ease = x => 1-Math.pow(1-cl(x,0,1),3);
+const prog = (t,a,d)=>ease((t-a)/d);
+function fade(el,t,a,b,d=0.35){ // visível entre a e b
+  const v = Math.min(prog(t,a,d), 1-prog(t,b-d,d)); el.style.opacity = cl(v,0,1); return v; }
+function pop(el,t,a,d=0.35,dy=40){ const p=prog(t,a,d); el.style.opacity=p; el.style.transform=`translateY(${(1-p)*dy}px)`; return p; }
+// grade de anúncios
+const g=$('grade'); for(let i=0;i<60;i++){ const d=document.createElement('div'); g.appendChild(d); }
+const PROMPT = 'Quais anúncios tiveram mais de 50 visitas e nenhuma venda no último mês? O que falta em cada um?';
+// legenda em blocos
+const BL=[]; let cur=[];
+P.forEach((w,i)=>{ cur.push(i); if(/[.,?!:]$/.test(w.w)||cur.length>=5){ BL.push(cur); cur=[]; } }); if(cur.length) BL.push(cur);
+window.seek = function(t){
+  // cenas
+  fade($('c1'),t,-1,S.c2,0.3);
+  fade($('c2'),t,S.c2,S.chat,0.3);
+  fade($('chat'),t,S.chat,S.cta,0.3);
+  fade($('c6'),t,S.cta,99,0.3);
+  // c1
+  $('nvis').textContent = Math.round(142*ease((t-0.5)/1.2));
+
+  // c2
+  ['i1','i2','i3','i4','i5'].forEach((id,k)=>{ const el=$(id); const p=pop(el,t,S.itens[k],0.3,30); el.style.opacity=Math.min(p,1-prog(t,S.porAnuncio,0.3)); });
+  const gp = prog(t,S.porAnuncio,0.4); g.style.opacity=gp*(1-prog(t,S.chat-0.3,0.3));
+  [...g.children].forEach((d,i)=>{ d.style.opacity = cl((t-S.porAnuncio)*25 - i*0.4,0,1); });
+  const vz=pop($('vezes'),t,S.duzentos,0.3,0); $('vezes').style.transform=`scale(${1.4-0.4*vz})`;
+  const nd=prog(t,S.naoda,0.18); $('naoda').style.opacity=nd; $('naoda').style.transform=`scale(${1.6-0.6*nd})`;
+  // chat
+  pop($('chip'),t,S.mc,0.35,0);
+  const mp = prog(t,S.digita0-0.2,0.3); $('msg').style.opacity=mp;
+  const n = Math.round(PROMPT.length*cl((t-S.digita0)/(S.digita1-S.digita0),0,1));
+  $('dig').textContent = PROMPT.slice(0,n);
+  $('cur').style.opacity = (t<S.digita1+0.3 && Math.floor(t*3)%2==0)?1:0;
+  pop($('resp'),t,S.segundos,0.3,20);
+  $('pens').style.display = t<S.lista ? 'block':'none';
+  $('tab').style.opacity = prog(t,S.lista,0.3);
+  ['l1','l2','l3'].forEach((id,k)=>{ const el=$(id); pop(el,t,S.linhas[k],0.3,24);
+     el.classList.toggle('on', t>=S.destaques[k] && t<(S.destaques[k+1]||S.nada)); });
+  pop($('apr'),t,S.nada,0.35,20);
+  const ok=pop($('ok'),t,S.nada+0.1,0.35,20);
+  // legenda
+  const ia = P.findIndex(w=>t>=w.s && t<w.e+0.25);
+  let bi = BL.findIndex(b=>b.includes(ia)); if(bi<0){ bi = BL.findIndex(b=>P[b[0]].s>t)-1; }
+  const L=$('leg');
+  if(bi<0 || t>C.duracao-0.2 || t>=S.nada){ L.innerHTML=''; return; }
+  L.innerHTML = BL[bi].map(i=>`<span class="${i===ia?'at':(P[i].s<=t?'ja':'')}">${P[i].w}</span>`).join(' ');
+};
+window.seek(0);
+</script></body></html>
