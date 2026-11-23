@@ -1,0 +1,7 @@
+Seu produto acabou no Full e o anúncio caiu? Isso é reposição no chute.
+Faz assim. Primeiro: olha quanto vendeu por dia nos últimos dez dias. Segundo: multiplica por trinta. Vendeu três por dia? Precisa de noventa no Full.
+Terceiro: desconta o que já está lá e o que está a caminho.
+Quarto: começa pelo produto que está subindo.
+Agora, fazer essa conta em oitenta anúncios toda semana... Eu pergunto pro Claude, ligado no Mercado Livre pelo Marketplace Connect: quanto eu preciso mandar pro Full pra cobrir trinta dias?
+Ele devolve a lista pronta, com o que está subindo no topo.
+Comenta CONNECT que eu te mando o link no direct.
