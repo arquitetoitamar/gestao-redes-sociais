@@ -35,3 +35,14 @@ Meta de leitura: custo por comentário com BLACK e cliques nos links `bf2026-gui
 
 - Não impulsionar Reels antigos nem este depois de 27/11 (o guia perde o sentido).
 - Não prometer resultado de venda nem citar faturamento de cliente.
+
+## Ligado em 23/11/2026 (OK do Itamar: "Pode ligar")
+
+| Nível | ID | Configuração |
+|---|---|---|
+| Campanha | `120255360898750007` | Engajamento, orçamento total R$ 80, 24/11 00h a 27/11 23h59 |
+| Conjunto | `120255360907460007` | Brasil, idade sugerida 22–55 (Advantage+ Audience), Instagram Feed + Reels, otimização "engajamento com a publicação" no post |
+| Anúncio | `120255360909670007` | post existente do Reel (IG 17912065866666329) — comentários caem no post e disparam o ManyChat |
+
+Sem interesses: o conector não aceita ID inventado; o público ficou amplo com Advantage+.
+Na leitura de 23/11 o anúncio estava em análise e a entrega parada por **limite de gastos da conta atingido** (`account_spend_limit_reached`): precisa de saldo/limite na conta pré-paga, feito pelo Itamar no Business Suite (pede 2FA).
