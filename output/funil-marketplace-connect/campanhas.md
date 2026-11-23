@@ -635,7 +635,7 @@ o dobro do plano, e os públicos se sobrepõem (engajados no IG + visitantes do 
 - Recarga: R$ 500 via PIX às ~17h (cerca de R$ 439 líquidos; o Meta soma ~13,8% de imposto em cima do gasto). O Itamar: "pode manter depois eu recarrego" (nada pausado).
 - Últimos 7 dias: A1 R$ 0,15/visita (freq. 1,09); Remarketing /comece R$ 0,25/visita (freq. 1,37); Remarketing VSL R$ 0,84/visita, freq. 2,6 na semana e 3,5 no total (saturando).
 - Público que converte: homens 25-44 (25-34 = 80% das visitas do A1). CPM do alcance antigo por posicionamento: R$ 1,4-1,6 (WhatsApp Status R$ 0,7-1,0). 100 mil visualizações ≈ R$ 145.
-- **Rascunho criado (não publicado):** campanha `120255363873540007` "MC | Alcance 100 mil | post notícia R$ 50 mi + Danilo | 24-30/11", alcance, R$ 145 total (CBO), 24/11 06h a 30/11 23h59.
+- **Publicada e ativa em 23/11 (OK do Itamar: "Sim"):** campanha `120255363873540007` "MC | Alcance 100 mil | post notícia R$ 50 mi + Danilo | 24-30/11", alcance, R$ 145 total (CBO), 24/11 06h a 30/11 23h59.
   Conjunto `120255363875420007`: BR 25+ (sugestão 25-44, Advantage+ Audience), LAL clientes + LAL engajados + MercadoLivre/donos de pequenas empresas como sugestão, 1 exibição por pessoa a cada 7 dias, posicionamentos automáticos.
   Exclui: lista de clientes, compradores 180d, engajou @tiopstecnologia 365d e visitantes /comece-/planos-isca 30d (não repetir quem o remarketing já atinge).
   Anúncio `120255363875730007`: carrossel DgGMN4IF9C8 (post existente), botão "Saiba mais" → `l.tiops.com.br/comece?o=meta-alcance-noticia`. Comentários disparam o ManyChat `COMECE - Post notícia` (`?o=manychat-noticia`).
