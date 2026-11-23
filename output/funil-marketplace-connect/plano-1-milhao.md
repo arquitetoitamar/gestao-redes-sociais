@@ -36,6 +36,8 @@ Status: **proposta**. Nada criado nem ligado. Ativar só com "sim" + recarga.
 1. **25 a 30/11** (semana da Black Friday, leilão mais caro): alcance da série R$ 400 + remarketing começa a encher. PIX ~R$ 460.
 2. **01 a 14/12**: se o alcance ficar até R$ 2 por mil e o /comece receber visita da série: alcance + R$ 1.100, A1 + R$ 300, remarketing R$ 250. PIX ~R$ 1.900.
 
+**Critério de assinatura (decide a fase 2):** com o Alcance de 04–08/11 no ar, saíram 2,75 assinaturas pagas por dia (05–08/11); sem ele, 2,9 por dia (09–22/11). O alcance não mexeu na assinatura. Se na fase 1 a média não passar de ~3 pagas por dia, a fase 2 vai quase toda para o A1 e o remarketing, não para o alcance.
+
 Corte automático: anúncio acima de R$ 0,45 por visita (A1/remarketing) ou acima de R$ 3 por mil (alcance) por 2 dias sai.
 Criativo: o anúncio usa o post já publicado (`source_instagram_media_id`), então a campanha só pode ser montada depois de 24/11 20h, quando #1, #2 e #3 estiverem no ar.
 
