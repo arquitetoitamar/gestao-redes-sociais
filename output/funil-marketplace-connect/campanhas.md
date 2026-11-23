@@ -607,3 +607,26 @@ o dobro do plano, e os públicos se sobrepõem (engajados no IG + visitantes do 
 - Pendente: OK do Itamar para ligar a conversão D (R$ 150) e para pausar o C das 09h34; renovar a chave do link curto.
 - WhatsApp: enviado e confirmado ("✅ Mensagem enviada"). Rotina rodou atrasada (11h34).
 - 21/11 ~11h50: anúncio C das 09h34 (`120255193108170007`) PAUSADO a pedido do Itamar (status PAUSED confirmado; entrega "em processamento" na hora da conferência). Acumulado final: R$ 87,28, 76 visitas, R$ 1,15/visita.
+
+### 22/11/2026 (lida em 23/11 pela rotina das 08h, executada às 09h55)
+
+| Anúncio | Gasto ontem | Visitas ontem | Acumulado | Visitas (acum.) | R$/visita (acum.) | Status |
+|---|---|---|---|---|---|---|
+| A1 Claude+ML+Shopee | R$ 0 | 0 | R$ 247,12 | 1.562 | R$ 0,16 | ativo, sem entrega (limite de gasto da conta) |
+| C2 Reel Band PqTec (`120255193117270007`) | R$ 0 | 0 | R$ 91,90 | 330 | R$ 0,28 | ativo, sem entrega (limite de gasto da conta) |
+| A3 MadeiraMadeira | R$ 0 | 0 | R$ 2,16 | 5 | R$ 0,43 | ativo, sem entrega (limite de gasto da conta) |
+| C1 Reel loja no Claude (`120255193117080007`) | R$ 0 | 0 | R$ 0,25 | 1 | R$ 0,25 | ativo, sem entrega (limite de gasto da conta) |
+| C 09h34 (`120255193108170007`) | — | — | R$ 87,39 | 77 | R$ 1,13 | pausado em 21/11 |
+| A2 Explicativo | — | — | R$ 15,81 | 20 | R$ 0,79 | conjunto concluído |
+| B Isca grátis | — | — | R$ 33,95 | 88 | R$ 0,39 | pausado |
+
+- ⚠️ Nenhum anúncio com gasto em 22/11: todos os ativos com entrega "off", subestado `account_spend_limit_reached`
+  (saldo pré-pago/limite de gasto da conta esgotado). Pela diferença com a leitura de 20/11, o último gasto foi ~R$ 10,91 em 21/11.
+- Plano R$ 1.000 (A1+A2+A3+B+as C): R$ 478,58 acumulado.
+- A leitura de 21/11 não foi registrada (rotina de 22/11 sem commit).
+- Pixel em 22/11 (00h–23h59 BRT), só navegador: PageView 200, ConectouCanal 7, ViewContent 2, ClicouAssinar 2,
+  CompleteRegistration 1, SubscribedButtonClick 0, Lead 0. Purchase (qualquer fonte): 0. Tráfego só orgânico.
+- Link curto /comece: SEM LEITURA, 10º dia (conector ba46… "API key inválida ou revogada").
+- Stripe: 2 assinaturas criadas em 22/11, ambas Plus mensal (MC): 1 ativa e 1 `incomplete_expired` (pagamento falhou). Assinaturas novas do MC: 1.
+- Pendente: recarregar saldo/subir limite de gasto da conta (2FA do Itamar); OK para a conversão D (R$ 150); renovar a chave do link curto.
+- WhatsApp: enviado e confirmado ("✅ Mensagem enviada").
