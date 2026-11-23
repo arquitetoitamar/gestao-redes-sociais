@@ -6,7 +6,7 @@ Motor: `output/reel-pergunta-claude-02/` (narração HeyGen voz c463ef5b ~US$ 0,
 
 | # | Status | Data sugerida |
 |---|---|---|
-| 2 Reposição do Full | agendado (IG, 24/11 18h) | 24/11 |
+| 2 Reposição do Full | IG agendado 24/11 18h · Shorts publicado 23/11 (2eLnF7hcG_o) | 24/11 |
 | 1 Visita sem venda (refazer no formato novo) | a gerar | 26/11 |
 | 3 Fotos | a gerar | 28/11 |
 | 5 Ficha técnica | a gerar | 30/11 |
@@ -21,6 +21,12 @@ Motor: `output/reel-pergunta-claude-02/` (narração HeyGen voz c463ef5b ~US$ 0,
 | 4 Anúncio sem vídeo | ⚠ confirmar se gerar/subir clip com IA está liberado | — |
 
 Um por vez, a cada 48 h, entre 16h e 20h. Não cruzar com o Dia D da Black Friday (27/11).
+
+## Uso como treinamento do Marketplace Connect (pedido do Itamar, 23/11)
+Depois da série, os vídeos viram treinamento por tema: Estoque e Full (2), Anúncio (1, 3, 4, 5, 10), Preço e promoção (7, 8, 6), Atendimento e reputação (11, 13), Rotina (9), Multicanal (12).
+
+## Monitoramento do perfil de referência
+Tarefa diária `monitor-pronix-pauta` (09h30): confere Reels novos do @pronixnapratica (estado em `pronix-estado.json`), tira a dor de cada um e acrescenta um episódio novo nesta pauta, com texto nosso, paleta nova e a próxima data livre. Só leitura no Instagram; não gera vídeo nem posta.
 
 ## Episódios
 
