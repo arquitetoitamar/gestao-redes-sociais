@@ -1,0 +1,119 @@
+{
+ "num": 2,
+ "slug": "reposicao-full",
+ "data": "2026-11-24",
+ "hora": "18:00",
+ "status": "agendado",
+ "paleta": {
+  "bg": "#070d1c",
+  "card": "#0f1a33",
+  "line": "#1f2d4f",
+  "accent": "#3b82f6",
+  "accent2": "#60a5fa",
+  "texto": "#e8eefb",
+  "cinza": "#8a97b5",
+  "destaque": "#facc15",
+  "brilho": "#14244a",
+  "chatbg": "#0c1428"
+ },
+ "narracao": "Seu produto acabou no Full e o anúncio caiu? Isso é reposição no chute.\nFaz assim. Primeiro: olha quanto vendeu por dia nos últimos dez dias. Segundo: multiplica por trinta. Vendeu três por dia? Precisa de noventa no Full.\nTerceiro: desconta o que já está lá e o que está a caminho.\nQuarto: começa pelo produto que está subindo.\nAgora, fazer essa conta em oitenta anúncios toda semana... Eu pergunto pro Claude, ligado no Mercado Livre pelo Marketplace Connect: quanto eu preciso mandar pro Full pra cobrir trinta dias?\nEle devolve a lista pronta, com o que está subindo no topo.\nComenta CONNECT que eu te mando o link no direct.\n",
+ "c1": {
+  "titulo": "Seu produto acabou<br>no Full e o <span class=\"a\">anúncio caiu?</span>",
+  "emoji": "🎧",
+  "produto": "Fone Bluetooth sem fio",
+  "selo": "⚡FULL",
+  "stats": [
+   {
+    "rotulo": "Vendia por dia",
+    "valor": 4
+   },
+   {
+    "rotulo": "Estoque no Full",
+    "valor": 22,
+    "ruim": true
+   }
+  ],
+  "anima": {
+   "stat": 1,
+   "de": 22,
+   "para": 0
+  },
+  "alerta": "⚠ últimas unidades"
+ },
+ "c2": {
+  "titulo": "Reposição do Full<br><span>em 4 passos</span>",
+  "passos": [
+   [
+    "Venda por dia",
+    "dos últimos 10 dias"
+   ],
+   [
+    "Multiplica por 30",
+    "é o que precisa estar no Full"
+   ],
+   [
+    "Desconta o que já tem",
+    "e o que está a caminho"
+   ],
+   [
+    "Começa pelo que está subindo",
+    ""
+   ]
+  ],
+  "conta": {
+   "texto": "3 por dia × 30 =",
+   "resultado": "90",
+   "palavra_inicio": "vendeu",
+   "palavra_resultado": "noventa"
+  }
+ },
+ "c3": {
+  "n": 80,
+  "rotulo": "anúncios",
+  "sub": "toda semana"
+ },
+ "chat": {
+  "pensando": "Lendo vendas e estoque do <b>Full</b>…",
+  "prompt": "Quanto eu preciso mandar pro Full pra cobrir 30 dias? Usa a venda por dia dos últimos 10 dias e desconta o que já está lá e a caminho.",
+  "titulo": "Quanto mandar pro Full (30 dias)",
+  "linhas": [
+   {
+    "emoji": "🎧",
+    "nome": "Fone Bluetooth ↑ subindo",
+    "detalhe": "4/dia · no Full 22 · a caminho 0",
+    "tag": "mandar 98"
+   },
+   {
+    "emoji": "💡",
+    "nome": "Luminária LED",
+    "detalhe": "3/dia · no Full 41 · a caminho 20",
+    "tag": "mandar 29"
+   },
+   {
+    "emoji": "💻",
+    "nome": "Suporte de notebook",
+    "detalhe": "1/dia · no Full 35",
+    "tag": "ok"
+   }
+  ],
+  "destaque": 0,
+  "destaque_palavra": "subindo",
+  "botao": "Montar o envio"
+ },
+ "cta": "CONNECT",
+ "legenda_ig": "Seu produto acabou no Full e o anúncio caiu? Reposição no chute custa posição.\n\nFaz em 4 passos:\n1. Olha a venda por dia dos últimos 10 dias.\n2. Multiplica por 30: é o que precisa estar no Full.\n3. Desconta o que já está lá e o que está a caminho.\n4. Começa pelo produto que está subindo.\n\nCom 80 anúncios, essa conta toda semana vira um dia de planilha. Com o Marketplace Connect, o Claude (ou o ChatGPT) lê vendas e estoque do seu Mercado Livre e devolve a lista de envio pronta, com o que está subindo no topo.\n\n💬 Comenta CONNECT que eu te mando o link no direct.\n\n(valores de exemplo)\n\n#mercadolivre #mercadolivrefull #vendasonline #ecommerce #inteligenciaartificial",
+ "short": {
+  "titulo": "Reposição do Full no Mercado Livre em 4 passos (e com IA) #shorts",
+  "tags": [
+   "reposicao full",
+   "mercado livre full",
+   "estoque full mercado livre",
+   "mercado livre",
+   "claude",
+   "chatgpt",
+   "marketplace connect",
+   "ia para ecommerce",
+   "vender no mercado livre"
+  ]
+ }
+}

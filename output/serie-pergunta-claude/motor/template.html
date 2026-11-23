@@ -1,0 +1,149 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=block" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#070d1c;--card:#0f1a33;--line:#1f2d4f;--azul:#3b82f6;--azul2:#60a5fa;--txt:#e8eefb;--cinza:#8a97b5;--verm:#f43f5e;--verde:#22c55e;--amar:#facc15;--brilho:#14244a;--chatbg:#0c1428}
+body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);font-family:'Inter Tight',sans-serif;color:var(--txt)}
+#fundo{position:absolute;inset:0;background:radial-gradient(900px 700px at 50% 30%,var(--brilho) 0%,var(--bg) 70%)}
+.cena{position:absolute;inset:0;opacity:0}
+.marca{position:absolute;top:150px;left:0;right:0;text-align:center;font-weight:800;font-size:30px;letter-spacing:3px;color:var(--cinza)}
+.marca b{color:var(--azul2)}
+h1{font-weight:900;letter-spacing:-2px;line-height:1.02;text-align:center}
+/* cena 1 */
+#c1 h1{position:absolute;top:250px;left:40px;right:40px;font-size:84px}
+#c1 h1 .a{color:var(--amar)}
+.anuncio{position:absolute;left:140px;right:140px;top:600px;background:var(--card);border:2px solid var(--line);border-radius:36px;padding:44px;display:flex;gap:36px;align-items:center}
+.thumb{width:200px;height:200px;border-radius:24px;background:linear-gradient(135deg,#e5e7eb,#9ca3af);display:flex;align-items:center;justify-content:center;font-size:100px}
+.dados{flex:1}.dados .t{font-size:38px;font-weight:700;line-height:1.15}
+.full{display:inline-block;margin-top:14px;font-size:30px;font-weight:900;font-style:italic;color:#052e16;background:#4ade80;border-radius:10px;padding:4px 14px}
+.stats{position:absolute;left:140px;right:140px;top:920px;display:flex;gap:28px}
+.stat{flex:1;background:var(--card);border:2px solid var(--line);border-radius:28px;padding:30px;text-align:center}
+.stat i{display:block;font-style:normal;font-size:30px;color:var(--cinza);font-weight:600}
+.stat b{display:block;margin-top:6px;font-size:96px;font-weight:900;letter-spacing:-2px}
+#est b{color:var(--verm)}
+#ultimas{position:absolute;left:0;right:0;top:1180px;text-align:center;opacity:0}
+#ultimas span{font-size:40px;font-weight:800;color:#fdba74;background:#3b1d0a;border-radius:16px;padding:12px 26px}
+/* cena 2: passos */
+#c2 h1{position:absolute;top:230px;left:60px;right:60px;font-size:72px}
+#c2 h1 span{color:var(--azul2)}
+.passo{position:absolute;left:110px;right:110px;display:flex;gap:28px;align-items:flex-start;opacity:0}
+.passo .n{flex:none;width:84px;height:84px;border-radius:24px;background:var(--azul);display:flex;align-items:center;justify-content:center;font-size:48px;font-weight:900}
+.passo .tx{font-size:48px;font-weight:700;line-height:1.15;padding-top:10px}
+.passo .tx small{display:block;font-size:34px;color:var(--cinza);font-weight:600;margin-top:6px}
+#conta{position:absolute;left:110px;right:110px;top:1080px;background:var(--card);border:2px solid var(--azul2);border-radius:28px;padding:26px 30px;text-align:center;font-family:'JetBrains Mono';font-size:50px;font-weight:600;opacity:0}
+#conta b{color:var(--verde)}
+/* cena 3 */
+#c3 h1{position:absolute;top:300px;left:60px;right:60px;font-size:80px}
+#grade{position:absolute;left:90px;right:90px;top:500px;display:grid;grid-template-columns:repeat(10,1fr);gap:12px}
+#grade div{height:46px;border-radius:12px;background:var(--card);border:2px solid var(--line)}
+#vezes{position:absolute;left:0;right:0;top:1020px;text-align:center;font-size:110px;font-weight:900;letter-spacing:-3px;opacity:0}
+#vezes span{color:var(--amar)}
+/* cena 3/4/5: chat */
+.chat{position:absolute;left:70px;right:70px;top:230px;bottom:620px;background:var(--chatbg);border:2px solid var(--line);border-radius:40px;overflow:hidden}
+.topo{display:flex;align-items:center;gap:18px;padding:30px 36px;border-bottom:2px solid var(--line)}
+.logo{width:56px;height:56px;border-radius:16px;background:#d97757;display:flex;align-items:center;justify-content:center;font-size:34px;color:#fff;font-weight:900}
+.topo .n{font-size:38px;font-weight:800}
+.chip{margin-left:auto;display:flex;align-items:center;gap:10px;font-size:24px;font-weight:700;color:#a7f3d0;background:#064e3b;border-radius:999px;padding:10px 20px;opacity:0}
+.chip i{width:14px;height:14px;border-radius:50%;background:var(--verde);display:inline-block}
+.corpo{padding:34px 36px}
+.msg{margin-left:auto;max-width:880px;background:var(--azul);border-radius:30px 30px 6px 30px;padding:28px 32px;font-size:40px;font-weight:600;line-height:1.3;min-height:60px;opacity:0}
+.msg .cur{display:inline-block;width:4px;height:38px;background:#fff;vertical-align:-6px;margin-left:3px}
+.resp{margin-top:30px;opacity:0}
+.pens{font-size:30px;color:var(--cinza);font-weight:600}
+.pens b{color:var(--azul2)}
+.tit{font-size:38px;font-weight:800;margin-bottom:18px}
+.linha{display:flex;align-items:center;gap:18px;background:var(--card);border:2px solid var(--line);border-radius:24px;padding:22px 24px;margin-bottom:16px;opacity:0}
+.linha .em{font-size:46px}
+.linha .nm{flex:1;font-size:34px;font-weight:700;line-height:1.2}
+.linha .nm small{display:block;font-family:'JetBrains Mono';font-size:23px;color:var(--cinza);font-weight:400;margin-top:4px}
+.tag{font-size:28px;font-weight:800;padding:10px 18px;border-radius:14px;background:#3b1d0a;color:#fdba74;white-space:nowrap}
+.linha.on{border-color:var(--amar);box-shadow:0 0 0 4px color-mix(in srgb,var(--amar) 30%,transparent)}
+.exemplo{position:absolute;right:36px;bottom:26px;font-family:'JetBrains Mono';font-size:22px;color:var(--cinza)}
+.aprova{margin-top:20px;display:flex;gap:16px;opacity:0}
+.bt{flex:1;text-align:center;font-size:32px;font-weight:800;border-radius:20px;padding:22px}
+.bt.s{background:var(--verde);color:#052e16}.bt.n{background:#1e293b;color:var(--cinza)}
+#ok{position:absolute;left:0;right:0;top:1330px;text-align:center;font-size:62px;font-weight:900;opacity:0}
+#ok b{color:var(--verde)}
+/* cena 6 */
+#c6 .big{position:absolute;top:470px;left:0;right:0;text-align:center;font-size:110px;font-weight:900;letter-spacing:-3px;line-height:1.05}
+#c6 .big b{display:inline-block;margin-top:26px;font-size:150px;color:#fff;background:linear-gradient(95deg,var(--azul),var(--azul2));padding:10px 56px;border-radius:30px}
+#c6 .sub{position:absolute;top:1000px;left:0;right:0;text-align:center;font-size:48px;font-weight:600;color:var(--txt)}
+#c6 .mc{position:absolute;top:1130px;left:0;right:0;text-align:center;font-size:34px;font-weight:700;color:var(--cinza);letter-spacing:1px}
+/* legenda */
+#leg{position:absolute;left:70px;right:70px;top:1360px;text-align:center;font-size:56px;font-weight:800;line-height:1.18;text-shadow:0 4px 18px rgba(0,0,0,.7)}
+#leg span{opacity:.55}#leg span.at{opacity:1;color:var(--amar)}#leg span.ja{opacity:1}
+</style></head><body>
+<div id="fundo"></div>
+<div class="marca">PERGUNTA PRO <b>CLAUDE</b></div>
+
+<div class="cena" id="c1"><h1 id="c1t"></h1>
+ <div class="anuncio"><div class="thumb" id="c1e"></div><div class="dados"><div class="t" id="c1p"></div><span class="full" id="c1s"></span></div></div>
+ <div class="stats" id="c1st"></div><div id="ultimas"><span id="c1a"></span></div></div>
+<div class="cena" id="c2"><h1 id="c2t"></h1><div id="c2p"></div><div id="conta"></div></div>
+<div class="cena" id="c3"><h1>Agora faz isso em…</h1><div id="grade"></div><div id="vezes"></div></div>
+<div class="cena" id="chat"><div class="chat">
+  <div class="topo"><div class="logo">✳</div><div class="n">Claude</div><div class="chip" id="chip"><i></i><span id="chipt"></span></div></div>
+  <div class="corpo"><div class="msg" id="msg"><span id="dig"></span><span class="cur" id="cur"></span></div>
+   <div class="resp" id="resp"><div class="pens" id="pens"></div><div id="tab" style="opacity:0"><div class="tit" id="titr"></div><div id="linhas"></div>
+    <div class="aprova" id="apr"><div class="bt s" id="bts"></div><div class="bt n">Agora não</div></div></div></div></div>
+  <div class="exemplo">valores de exemplo</div></div></div>
+<div class="cena" id="c6"><div class="big">Comenta<br><b id="ctaw"></b></div><div class="sub">que eu te mando o link no direct 📩</div><div class="mc">MARKETPLACE CONNECT · TIOPS</div></div>
+<div id="leg"></div>
+<script>
+const C = __CRONO__;
+const P = C.palavras, S = C.marcas;
+const $ = id => document.getElementById(id);
+const cl = (x,a,b)=>Math.max(a,Math.min(b,x));
+const ease = x => 1-Math.pow(1-cl(x,0,1),3);
+const prog = (t,a,d)=>ease((t-a)/d);
+function fade(el,t,a,b,d=0.35){ // visível entre a e b
+  const v = Math.min(prog(t,a,d), 1-prog(t,b-d,d)); el.style.opacity = cl(v,0,1); return v; }
+function pop(el,t,a,d=0.35,dy=40){ const p=prog(t,a,d); el.style.opacity=p; el.style.transform=`translateY(${(1-p)*dy}px)`; return p; }
+const EP = __EP__;
+const pal=EP.paleta||{}; const map={bg:'--bg',card:'--card',line:'--line',accent:'--azul',accent2:'--azul2',texto:'--txt',cinza:'--cinza',destaque:'--amar',brilho:'--brilho',chatbg:'--chatbg',ruim:'--verm',bom:'--verde'};
+for(const k in map) if(pal[k]) document.documentElement.style.setProperty(map[k],pal[k]);
+if(pal.claro){ document.getElementById('leg').style.textShadow='none'; }
+$('c1t').innerHTML=EP.c1.titulo; $('c1e').textContent=EP.c1.emoji; $('c1p').textContent=EP.c1.produto;
+if(EP.c1.selo){ $('c1s').textContent=EP.c1.selo; } else { $('c1s').style.display='none'; }
+$('c1st').innerHTML=EP.c1.stats.map((x,i)=>`<div class="stat"><i>${x.rotulo}</i><b id="st${i}" style="${x.ruim?'color:var(--verm)':''}">${x.valor}</b></div>`).join('');
+$('c1a').textContent=EP.c1.alerta||''; if(!EP.c1.alerta) $('ultimas').style.display='none';
+$('c2t').innerHTML=EP.c2.titulo;
+$('c2p').innerHTML=EP.c2.passos.map((p,i)=>`<div class="passo" id="p${i+1}" style="top:${480+i*150}px"><div class="n">${i+1}</div><div class="tx">${p[0]}${p[1]?`<small>${p[1]}</small>`:''}</div></div>`).join('');
+if(EP.c2.conta){ $('conta').innerHTML=EP.c2.conta.texto+` <b id="res">${EP.c2.conta.resultado}</b>`; } else { $('conta').style.display='none'; }
+$('vezes').innerHTML=`${EP.c3.n} ${EP.c3.rotulo}<br><span>${EP.c3.sub}</span>`;
+$('chipt').textContent=EP.chat.chip||'Marketplace Connect · Mercado Livre';
+$('pens').innerHTML=EP.chat.pensando; $('titr').textContent=EP.chat.titulo; $('bts').textContent=EP.chat.botao||'Aprovar';
+$('linhas').innerHTML=EP.chat.linhas.map((l,i)=>`<div class="linha" id="l${i+1}"><div class="em">${l.emoji}</div><div class="nm">${l.nome}<small>${l.detalhe}</small></div><div class="tag">${l.tag}</div></div>`).join('');
+$('ctaw').textContent=EP.cta||'CONNECT';
+const g=$('grade'); for(let i=0;i<80;i++){ const d=document.createElement('div'); g.appendChild(d); }
+const PROMPT = EP.chat.prompt;
+const BL=[]; let cur=[];
+P.forEach((w,i)=>{ cur.push(i); if(/[.,?!:]$/.test(w.w)||cur.length>=5){ BL.push(cur); cur=[]; } }); if(cur.length) BL.push(cur);
+const NL=EP.chat.linhas.length, ST=EP.c1.stats.map(x=>x.valor), ANIM=EP.c1.anima;
+window.seek = function(t){
+  fade($('c1'),t,-1,S.c2,0.3); fade($('c2'),t,S.c2,S.c3,0.3); fade($('c3'),t,S.c3,S.chat,0.3);
+  fade($('chat'),t,S.chat,S.cta,0.3); fade($('c6'),t,S.cta,99,0.3);
+  if(ANIM){ const zp=prog(t,0.6,1.6); const el=$('st'+ANIM.stat); el.textContent=Math.round(ANIM.de+(ANIM.para-ANIM.de)*zp); }
+  pop($('ultimas'),t,1.4,0.3,20);
+  [1,2,3,4].forEach((k,i)=>{ const el=$('p'+k); if(el) pop(el,t,S.passos[i],0.35,30); });
+  if(EP.c2.conta){ pop($('conta'),t,S.conta,0.35,20); $('res').style.opacity = t>=S.resultado?1:0; }
+  [...g.children].forEach((d,i)=>{ d.style.opacity = cl((t-S.c3)*30 - i*0.35,0,1); });
+  pop($('vezes'),t,S.vezes,0.3,20);
+  pop($('chip'),t,S.mc,0.35,0);
+  $('msg').style.opacity=prog(t,S.digita0-0.2,0.3);
+  const n = Math.round(PROMPT.length*cl((t-S.digita0)/(S.digita1-S.digita0),0,1));
+  $('dig').textContent = PROMPT.slice(0,n);
+  $('cur').style.opacity = (t<S.digita1+0.3 && Math.floor(t*3)%2==0)?1:0;
+  pop($('resp'),t,S.ele,0.3,20);
+  $('pens').style.display = t<S.lista ? 'block':'none';
+  $('tab').style.opacity = prog(t,S.lista,0.3);
+  for(let k=0;k<NL;k++){ const el=$('l'+(k+1)); pop(el,t,S.lista+0.25+k*0.3,0.3,24); el.classList.toggle('on', k==(EP.chat.destaque||0) && t>=S.destaque); }
+  pop($('apr'),t,S.destaque+0.4,0.35,20);
+  const ia = P.findIndex(w=>t>=w.s && t<w.e+0.25);
+  let bi = BL.findIndex(b=>b.includes(ia)); if(bi<0){ bi = BL.findIndex(b=>P[b[0]].s>t)-1; }
+  const L=$('leg');
+  if(bi<0 || t>C.duracao-0.2 || t>=S.cta){ L.innerHTML=''; return; }
+  L.innerHTML = BL[bi].map(i=>`<span class="${i===ia?'at':(P[i].s<=t?'ja':'')}">${P[i].w}</span>`).join(' ');
+};
+window.seek(0);
+</script></body></html>

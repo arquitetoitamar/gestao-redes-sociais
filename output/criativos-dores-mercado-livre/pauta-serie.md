@@ -2,28 +2,28 @@
 
 Formato aprovado pelo Itamar no nº 2 ("ficou show"): **um problema específico → orientação em 4 passos → "agora faz isso em N anúncios" → a pergunta pro Claude com o Marketplace Connect → resposta pronta → Comenta CONNECT.**
 Cada episódio muda a paleta de cor (pedido do Itamar). Valores na tela sempre "de exemplo". Texto nosso, sem copiar o perfil de referência.
-Motor: `output/reel-pergunta-claude-02/` (narração HeyGen voz c463ef5b ~US$ 0,12 por episódio, `motion.html`, `audio.py`). **Não gerar até o Itamar recarregar a HeyGen.**
+Motor: `output/serie-pergunta-claude/motor/` (narração HeyGen voz c463ef5b ~US$ 0,12 por episódio). Sem saldo na HeyGen a tarefa para e avisa no WhatsApp.
 
 | # | Status | Data sugerida |
 |---|---|---|
 | 2 Reposição do Full | IG agendado 24/11 18h · Shorts publicado 23/11 (2eLnF7hcG_o) | 24/11 |
-| 1 Visita sem venda (refazer no formato novo) | a gerar | 26/11 |
-| 3 Fotos | a gerar | 28/11 |
-| 5 Ficha técnica | a gerar | 30/11 |
-| 11 Perguntas sem resposta | a gerar | 02/12 |
-| 6 Catálogo perdido | a gerar | 04/12 |
-| 9 Resumo da manhã | a gerar | 06/12 |
-| 7 Subir preço em degraus | a gerar | 08/12 |
-| 8 Desconto com selo e piso de margem | a gerar | 10/12 |
-| 10 Números do anúncio | a gerar | 12/12 |
-| 13 Reclamação e reputação | a gerar | 14/12 |
-| 12 Mesmo produto no ML e na Shopee | a gerar | 16/12 |
-| 14 Qual logística usar (Correios, Agência, Flex, Full) | a gerar | 18/12 |
-| 15 O que vender (análise de produto) | a gerar | 20/12 |
-| 16 Quem vende o ano inteiro (sazonalidade) | a gerar | 22/12 |
+| 1 Visita sem venda (refazer no formato novo) | a gerar · JSON pronto (episodios/01) | 25/11 |
+| 3 Fotos | a gerar | 26/11 |
+| 5 Ficha técnica | a gerar | 28/11 |
+| 11 Perguntas sem resposta | a gerar | 29/11 |
+| 6 Catálogo perdido | a gerar | 30/11 |
+| 9 Resumo da manhã | a gerar | 01/12 |
+| 7 Subir preço em degraus | a gerar | 02/12 |
+| 8 Desconto com selo e piso de margem | a gerar | 03/12 |
+| 10 Números do anúncio | a gerar | 04/12 |
+| 13 Reclamação e reputação | a gerar | 05/12 |
+| 12 Mesmo produto no ML e na Shopee | a gerar | 06/12 |
+| 14 Qual logística usar (Correios, Agência, Flex, Full) | a gerar | 07/12 |
+| 15 O que vender (análise de produto) | ⚠ confirmar dados de concorrentes; sem OK, pula | 08/12 |
+| 16 Quem vende o ano inteiro (sazonalidade) | a gerar | 09/12 |
 | 4 Anúncio sem vídeo | ⚠ confirmar se gerar/subir clip com IA está liberado | — |
 
-Um por vez, a cada 48 h, entre 16h e 20h. Não cruzar com o Dia D da Black Friday (27/11).
+Pedido do Itamar (23/11): **um por dia**, gerado e postado sozinho pela tarefa `serie-pergunta-claude-diaria` (10h gera, agenda Instagram + Shorts para as 18h e manda prévia no WhatsApp). Pula 27/11 (Dia D da Black Friday). Motor: `output/serie-pergunta-claude/` (`motor/gera.py`, `motor/publica.py`, `episodios/NN-slug.json`).
 
 ## Uso como treinamento do Marketplace Connect (pedido do Itamar, 23/11)
 Depois da série, os vídeos viram treinamento por tema: Estoque e Full (2), Anúncio (1, 3, 4, 5, 10), Preço e promoção (7, 8, 6), Atendimento e reputação (11, 13), Rotina (9), Multicanal (12).
