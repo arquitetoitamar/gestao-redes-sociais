@@ -5,16 +5,10 @@
  "hora": "18:00",
  "status": "agendado",
  "paleta": {
-  "bg": "#070d1c",
-  "card": "#0f1a33",
-  "line": "#1f2d4f",
-  "accent": "#3b82f6",
+  "accent": "#2563eb",
   "accent2": "#60a5fa",
-  "texto": "#e8eefb",
-  "cinza": "#8a97b5",
-  "destaque": "#facc15",
-  "brilho": "#14244a",
-  "chatbg": "#0c1428"
+  "destaque": "#1d4ed8",
+  "brilho": "#eff6ff"
  },
  "narracao": "Seu produto acabou no Full e o anúncio caiu? Isso é reposição no chute.\nFaz assim. Primeiro: olha quanto vendeu por dia nos últimos dez dias. Segundo: multiplica por trinta. Vendeu três por dia? Precisa de noventa no Full.\nTerceiro: desconta o que já está lá e o que está a caminho.\nQuarto: começa pelo produto que está subindo.\nAgora, fazer essa conta em oitenta anúncios toda semana... Eu pergunto pro Claude, ligado no Mercado Livre pelo Marketplace Connect: quanto eu preciso mandar pro Full pra cobrir trinta dias?\nEle devolve a lista pronta, com o que está subindo no topo.\nComenta CONNECT que eu te mando o link no direct.\n",
  "c1": {

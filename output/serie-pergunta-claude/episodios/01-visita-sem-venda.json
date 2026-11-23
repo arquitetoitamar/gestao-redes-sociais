@@ -4,16 +4,10 @@
  "data": "2026-11-25",
  "hora": "18:00",
  "paleta": {
-  "bg": "#03140f",
-  "card": "#072a1f",
-  "line": "#0f3d2e",
-  "accent": "#10b981",
+  "accent": "#059669",
   "accent2": "#34d399",
-  "texto": "#ecfdf5",
-  "cinza": "#86a99b",
-  "destaque": "#fde68a",
-  "brilho": "#0b3b2c",
-  "chatbg": "#052018"
+  "destaque": "#047857",
+  "brilho": "#ecfdf5"
  },
  "narracao": "Seu anúncio tem visita e não vende? Não baixa o preço ainda.\nFaz assim. Primeiro: pouca visita? O problema é o título e a foto de capa. Segundo: passou de cinquenta visitas sem venda? O problema está dentro do anúncio. Terceiro: pergunta que se repete vira resposta no próprio anúncio. Quarto: o preço fica por último, e muda uma coisa por vez.\nAgora, fazer essa conta em duzentos anúncios toda semana... Eu pergunto pro Claude, ligado no Mercado Livre pelo Marketplace Connect: quais anúncios tiveram mais de cinquenta visitas e nenhuma venda no último mês?\nEle devolve a lista e o que falta em cada um: vídeo, ficha técnica ou a mesma pergunta repetida.\nComenta CONNECT que eu te mando o link no direct.",
  "c1": {

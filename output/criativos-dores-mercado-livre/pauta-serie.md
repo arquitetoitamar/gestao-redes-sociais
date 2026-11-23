@@ -1,7 +1,9 @@
 # Série "Pergunta pro Claude" — pauta completa (23/11/2026)
 
 Formato aprovado pelo Itamar no nº 2 ("ficou show"): **um problema específico → orientação em 4 passos → "agora faz isso em N anúncios" → a pergunta pro Claude com o Marketplace Connect → resposta pronta → Comenta CONNECT.**
-Cada episódio muda a paleta de cor (pedido do Itamar). Valores na tela sempre "de exemplo". Texto nosso, sem copiar o perfil de referência.
+Cada episódio muda a cor de destaque (pedido do Itamar).
+**Fundo SEMPRE branco** (Itamar, 23/11: "não use fundo escuro, fundo escuro fica com cara de IA"). A paleta de cada episódio define só a cor de destaque: use o 2º hex como `accent`, um tom mais claro como `accent2`, um mais escuro como `destaque` (palavra da legenda e tags) e um bem claro como `brilho` (o halo do fundo). Exemplos: ep 1 verde #059669/#34d399/#047857/#ecfdf5; ep 2 azul #2563eb/#60a5fa/#1d4ed8/#eff6ff.
+ Valores na tela sempre "de exemplo". Texto nosso, sem copiar o perfil de referência.
 Motor: `output/serie-pergunta-claude/motor/` (narração HeyGen voz c463ef5b ~US$ 0,12 por episódio). Sem saldo na HeyGen a tarefa para e avisa no WhatsApp.
 
 | # | Status | Data sugerida |
