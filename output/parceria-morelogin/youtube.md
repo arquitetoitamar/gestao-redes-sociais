@@ -9,7 +9,7 @@ Pelo brief da MoreLogin (PDF "MoreLogin for partners 2026"):
 
 Publicação: só depois do "sim" do Itamar e da aprovação da MoreLogin (os 70% restantes são pagos antes da publicação).
 
-**Versão atual, NÃO LISTADA (19/11/2026): https://youtu.be/6p_TPYrAzy0** (capa ok).
+**Versão atual, PÚBLICA (conferido em 23/11/2026, 389 views): https://youtu.be/6p_TPYrAzy0** (capa ok). Parceria resolvida segundo o Itamar.
 Título pedido pela MoreLogin (Ana não quis "Claude operando várias contas"): **MoreLogin: sua IA operando várias contas da Shopee**.
 Link de afiliado corrigido para `/register?from=AAF7cYpPRan2` na descrição, no comentário e no cartão final do vídeo; capa trocou "CLAUDE" por "SUA IA".
 Versão anterior, com link e título errados: https://youtu.be/c4CFjmaGg88 (não listada, apagar quando o Itamar mandar).
