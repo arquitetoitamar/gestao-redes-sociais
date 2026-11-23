@@ -1,0 +1,96 @@
+# Série "Pergunta pro Claude" — pauta completa (23/11/2026)
+
+Formato aprovado pelo Itamar no nº 2 ("ficou show"): **um problema específico → orientação em 4 passos → "agora faz isso em N anúncios" → a pergunta pro Claude com o Marketplace Connect → resposta pronta → Comenta CONNECT.**
+Cada episódio muda a paleta de cor (pedido do Itamar). Valores na tela sempre "de exemplo". Texto nosso, sem copiar o perfil de referência.
+Motor: `output/reel-pergunta-claude-02/` (narração HeyGen voz c463ef5b ~US$ 0,12 por episódio, `motion.html`, `audio.py`). **Não gerar até o Itamar recarregar a HeyGen.**
+
+| # | Status | Data sugerida |
+|---|---|---|
+| 2 Reposição do Full | agendado (IG, 24/11 18h) | 24/11 |
+| 1 Visita sem venda (refazer no formato novo) | a gerar | 26/11 |
+| 3 Fotos | a gerar | 28/11 |
+| 5 Ficha técnica | a gerar | 30/11 |
+| 11 Perguntas sem resposta | a gerar | 02/12 |
+| 6 Catálogo perdido | a gerar | 04/12 |
+| 9 Resumo da manhã | a gerar | 06/12 |
+| 7 Subir preço em degraus | a gerar | 08/12 |
+| 8 Desconto com selo e piso de margem | a gerar | 10/12 |
+| 10 Números do anúncio | a gerar | 12/12 |
+| 13 Reclamação e reputação | a gerar | 14/12 |
+| 12 Mesmo produto no ML e na Shopee | a gerar | 16/12 |
+| 4 Anúncio sem vídeo | ⚠ confirmar se gerar/subir clip com IA está liberado | — |
+
+Um por vez, a cada 48 h, entre 16h e 20h. Não cruzar com o Dia D da Black Friday (27/11).
+
+## Episódios
+
+### 1. Anúncio com visita e sem venda (refazer) — paleta esmeralda (#064e3b / #10b981 / destaque #fde68a)
+- Gancho: "Seu anúncio tem visita e não vende? Não baixa o preço ainda."
+- Passos: 1) pouca visita → o problema é título e capa; 2) passou de 50 visitas sem venda → o problema está dentro do anúncio; 3) pergunta que se repete vira resposta no próprio anúncio; 4) preço por último, e muda uma coisa por vez.
+- Pergunta: "Quais anúncios tiveram mais de 50 visitas e nenhuma venda no último mês? O que falta em cada um?"
+- Resposta: luminária sem vídeo · organizador com ficha vazia · suporte com a mesma pergunta 5×.
+
+### 3. Fotos do anúncio — paleta violeta (#2e1065 / #8b5cf6 / #f0abfc)
+- Gancho: "Seu anúncio tem 3 fotos? Você está perdendo venda no celular."
+- Passos: 1) capa com fundo branco e sem texto; 2) da segunda foto em diante, benefício e medida; 3) produto em uso, na mão ou no ambiente; 4) responde a dúvida na foto, porque no celular ninguém desce até a descrição.
+- Pergunta: "Quais dos meus 30 anúncios mais visitados têm menos de 6 fotos?"
+- Resposta: lista com nº de fotos e visitas, os mais visitados no topo.
+
+### 5. Ficha técnica incompleta — paleta petróleo e lima (#083344 / #22d3ee / #bef264)
+- Gancho: "Campo vazio na ficha técnica tira seu anúncio do filtro da busca."
+- Passos: 1) preenche todos os campos, até os opcionais; 2) no campo modelo, sinônimo que não coube no título; 3) não repete palavra do título; 4) código de barras também conta.
+- Pergunta: "Quais anúncios têm campos da ficha técnica vazios? Me sugere o preenchimento."
+- Resposta: anúncio · campos vazios (ex.: 7) · sugestão pronta para aprovar.
+
+### 11. Perguntas sem resposta — paleta verde-limão sobre grafite (#1c1917 / #84cc16 / #fef08a)
+- Gancho: "Pergunta respondida depois de 3 horas é venda pro concorrente."
+- Passos: 1) responde em menos de 1 hora; 2) pergunta repetida vira informação no anúncio; 3) resposta curta, com o benefício; 4) à noite e no fim de semana também tem cliente.
+- Pergunta: "Quais perguntas estão sem resposta e quais se repetem? Sugere a resposta de cada uma."
+- Resposta: 4 sem resposta (há 2 h, 5 h…) · "voltagem" repetida 6× → sugestão de colocar no título/ficha. Responder só com OK.
+
+### 6. Catálogo perdido — paleta vinho e rosa (#4c0519 / #f43f5e / #fecdd3)
+- Gancho: "Seu anúncio caiu no catálogo e parou de vender?"
+- Passos: 1) confere se você está ganhando a vitrine; 2) vê quanto falta pra ganhar e se ainda sobra margem; 3) não compensa? kit ou anúncio próprio; 4) catálogo que vende e é seu, fica.
+- Pergunta: "Em quais catálogos eu estou perdendo e quanto falta pra ganhar, sem passar do meu piso?"
+- Resposta: anúncio · preço pra ganhar · cabe no piso? (sim/não).
+
+### 9. Resumo da manhã — paleta âmbar clara (fundo #fffbeb / texto #1c1917 / destaque #d97706)
+- Gancho: "Todo dia de manhã eu faço uma pergunta pro Claude."
+- Passos: 1) venda de ontem contra a média da semana; 2) vendeu menos → falta ajuste no anúncio; 3) vendeu mais → falta estoque; 4) na segunda, olha o fim de semana inteiro.
+- Pergunta: "Como foi ontem contra a média de 7 dias? O que caiu, o que subiu e o que vai zerar de estoque?"
+- Resposta: 3 blocos (caiu / subiu / vai zerar).
+
+### 7. Subir preço sem perder posição — paleta preto e amarelo (#0a0a0a / #facc15 / #fafafa)
+- Gancho: "Subiu 10% de uma vez e o anúncio sumiu?"
+- Passos: 1) mexe na promoção, não no preço base; 2) sobe de 2 em 2%; 3) vendeu igual, sobe mais; caiu, volta; 4) deixa a próxima promoção pronta antes da atual acabar.
+- Pergunta: "Nos anúncios com promoção que venderam igual na última semana, sugere a próxima 2% mais cara, sem passar do meu piso."
+- Resposta: anúncio · promoção atual · próxima · aprovar.
+
+### 8. Desconto com selo sem perder margem — paleta teal (#042f2e / #14b8a6 / #ccfbf1)
+- Gancho: "Dá pra ganhar o selo de desconto sem tirar nada da margem."
+- Passos: 1) preço cheio maior + desconto na central = mesmo preço final; 2) anota o piso de cada anúncio; 3) campanha pedindo desconto maior? confere o piso antes; 4) desconto de 50, 70% vicia o cliente.
+- Pergunta: "Quais campanhas ativas me deixam abaixo do piso de margem?"
+- Resposta: campanha · anúncio · preço final · abaixo do piso? 
+
+### 10. Números do anúncio — paleta índigo (#1e1b4b / #818cf8 / #c7d2fe)
+- Gancho: "Como saber se o seu anúncio está bom? Três números."
+- Passos: 1) de impressão pra clique, pelo menos 1%; 2) abaixo disso, mexe na capa e no título; 3) de visita pra venda, de 2 a 3%; 4) abaixo disso, o problema está dentro do anúncio.
+- Pergunta: "Compara meus anúncios com essas réguas. Onde cada um está travando?"
+- Resposta: anúncio · clique % · conversão % · trava em (capa/título ou dentro do anúncio).
+
+### 13. Reclamação e reputação — paleta vermelho escuro (#450a0a / #ef4444 / #fecaca)
+- Gancho: "Uma reclamação sem resposta pode derrubar a sua cor de reputação."
+- Passos: 1) responde em até 24 h; 2) oferece a solução antes da mediação; 3) olha o motivo que se repete; 4) corrige o anúncio que gera reclamação.
+- Pergunta: "Quais reclamações abertas afetam minha reputação e qual o prazo de cada uma?"
+- Resposta: reclamação · motivo · prazo · afeta reputação (sim/não).
+
+### 12. Mesmo produto no Mercado Livre e na Shopee — paleta coral (#431407 / #fb923c / #ffedd5)
+- Gancho: "Mesmo preço no Mercado Livre e na Shopee? Sua margem não é a mesma."
+- Passos: 1) comissão muda de canal pra canal; 2) frete e subsídio também; 3) calcula o preço por canal pelo piso; 4) revisa quando o canal muda a taxa.
+- Pergunta: "Compara a margem dos meus 10 produtos mais vendidos no Mercado Livre e na Shopee."
+- Resposta: produto · margem ML · margem Shopee · ajuste sugerido.
+
+### 4. Anúncio sem vídeo — paleta grafite e laranja (#18181b / #f97316 / #fed7aa) ⚠ confirmar produto
+- Gancho: "Quantos dos seus anúncios que mais vendem não têm vídeo?"
+- Passos: 1) um clip que tira dúvida; 2) um clip de uso, que traz gente de fora; 3) a palavra-chave falada no começo; 4) narração e legenda, não só música.
+- Pergunta: "Lista os 20 anúncios mais visitados sem clip." (+ "gera um clip pro primeiro", só se a função estiver liberada no plano).
