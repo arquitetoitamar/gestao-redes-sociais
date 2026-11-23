@@ -649,3 +649,10 @@ Pedido: "1 milhão de visualizações porém quero já montar a campanha, quando
 - O que ficou de fora pelo aprendizado: carrossel, Reel antigo, ManyChat como saída do anúncio.
 - Próximo: entrar com #1 e #3 (e os seguintes) como anúncios novos no mesmo conjunto, sem verba extra.
 - ⚠️ Saldo: ~R$ 400 líquidos e gasto previsto de ~R$ 120-140/dia com tudo no ar → acaba por volta de 26/11; quando zera, TODAS param (inclusive o A1). Rotina `resumo-campanhas-mc-whatsapp` atualizada com esta campanha e o alerta.
+
+### 23/11/2026 ~20h10 — seguidores + A1 dobrado (pedido do Itamar)
+Pedido: "Se possível a campanha para aumentar seguidores. Impulsione os anúncios que deram mais certo." Escolhas dele: seguidores R$ 40/dia por 7 dias; A1 "Dobrar".
+- Leitura de 90 dias: só 4 seguidores atribuídos a anúncio em mais de R$ 1.000 (todas as campanhas mandavam para o site). Vencedores: A1 (1.562 visitas a R$ 0,16, 10 mil interações), Band PqTec (58% de interação, R$ 0,28/visita), Reel nota do anúncio (5,3 mil interações; viral orgânico).
+- **A1** conjunto `120255061320240007`: verba total de R$ 434 para **R$ 617** (restante R$ 183 → R$ 366 até 04/12, ~R$ 33/dia).
+- **Seguidores** campanha `120255364710400007` (tráfego, objetivo visita ao perfil do Instagram), **R$ 40/dia**, 24/11 00h a 30/11 23h59. Conjunto `120255364711840007`: mesmo público perfil seller, só Instagram (feed, Reels, stories, explorar, perfil), exclui engajados 365d, clientes e compradores. Anúncios com os posts do perfil e botão "Ver perfil do Instagram": Band PqTec `120255364712920007`, nota do anúncio `120255364713180007`, Claude+ML+Shopee `120255364714030007`. Regra: custo por seguidor acima de R$ 3 por 2 dias → pausar o anúncio.
+- ⚠️ Gasto previsto com tudo no ar: ~R$ 200/dia. Saldo (~R$ 400) acaba por volta de 25/11; quando zera, todas param.
