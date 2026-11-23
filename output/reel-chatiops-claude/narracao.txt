@@ -1,0 +1,9 @@
+Agora o Claude monta o atendimento do seu WhatsApp pra você.
+O Chatiops tem um servidor MCP: você cola uma URL no Claude e ele passa a operar o seu atendimento. Sem instalar nada.
+São três etapas.
+Primeiro: conecta o seu número lendo o QR Code.
+Segundo: descreve o seu negócio pro Claude. Ele cria as filas, a saudação e o atendente de IA.
+Terceiro: manda preço, horário e as perguntas frequentes. Isso vira a base de conhecimento, e a IA responde seus clientes sozinha, até de madrugada.
+Quando precisa de gente, o atendimento vai pra sua equipe.
+Depois é só pedir pro Claude: lista meus atendimentos abertos. Agenda um lembrete. Dispara a campanha.
+O plano Starter tem noventa dias grátis. Comenta WHATSAPP que eu te mando o link.

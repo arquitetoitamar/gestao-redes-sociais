@@ -1,0 +1,206 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=block" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#ffffff;--tinta:#111827;--cinza:#6b7280;--linha:#e5e7eb;--roxo:#7c3aed;--roxo2:#a78bfa;--lilas:#f5f3ff;--verde:#22c55e;--wa:#25d366;--claude:#d97757}
+body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);font-family:'Inter Tight',sans-serif;color:var(--tinta)}
+#fundo{position:absolute;inset:0;background:radial-gradient(800px 600px at 50% 28%,#f5f3ff 0%,#fff 70%)}
+.cena{position:absolute;inset:0;opacity:0}
+.tag{position:absolute;top:150px;left:0;right:0;text-align:center;font-weight:800;font-size:28px;letter-spacing:3px;color:var(--roxo)}
+h1{font-weight:900;letter-spacing:-2px;line-height:1.03;text-align:center}
+h1 .r{color:var(--roxo)} h1 .w{color:#16a34a}
+.ic{width:150px;height:150px;border-radius:40px;display:flex;align-items:center;justify-content:center;font-weight:900;color:#fff;box-shadow:0 20px 50px rgba(17,24,39,.12)}
+.ic.cl{background:var(--claude);font-size:90px}.ic.ch{background:var(--roxo);font-size:86px}.ic.wa{background:var(--wa);font-size:84px}
+.ic small{position:absolute;margin-top:220px;font-size:28px;color:var(--cinza);font-weight:700}
+/* c1 */
+#c1 h1{position:absolute;top:260px;left:60px;right:60px;font-size:92px}
+.trio{position:absolute;top:760px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:40px}
+.fio{width:90px;height:6px;border-radius:6px;background:linear-gradient(90deg,var(--roxo2),var(--roxo));transform-origin:left}
+/* c2 */
+#c2 h1{position:absolute;top:250px;left:60px;right:60px;font-size:76px}
+.janela{position:absolute;left:90px;right:90px;top:560px;background:#fff;border:2px solid var(--linha);border-radius:34px;box-shadow:0 30px 80px rgba(17,24,39,.10);overflow:hidden}
+.barra{display:flex;gap:10px;padding:22px 26px;border-bottom:2px solid var(--linha)}
+.barra i{width:18px;height:18px;border-radius:50%;background:#e5e7eb;display:block}
+.janela .conteudo{padding:34px 38px}
+.rot{font-size:30px;font-weight:700;color:var(--cinza)}
+.url{margin-top:14px;font-family:'JetBrains Mono';font-size:31px;word-break:break-all;border:2px solid var(--roxo2);background:var(--lilas);border-radius:18px;padding:18px 22px;color:var(--roxo)}
+.ok{margin-top:24px;font-size:34px;font-weight:800;color:#16a34a;opacity:0}
+.badge{display:inline-block;margin-top:20px;font-size:30px;font-weight:800;background:var(--lilas);color:var(--roxo);border-radius:999px;padding:12px 24px;opacity:0}
+/* c3 etapas */
+#c3 h1{position:absolute;top:300px;left:0;right:0;font-size:110px}
+.etapas{position:absolute;top:620px;left:110px;right:110px}
+.et{display:flex;align-items:center;gap:30px;margin-bottom:40px;opacity:0}
+.et b{flex:none;width:110px;height:110px;border-radius:30px;background:var(--roxo);color:#fff;font-size:64px;font-weight:900;display:flex;align-items:center;justify-content:center}
+.et span{font-size:56px;font-weight:800}
+/* c4 QR */
+.passo{position:absolute;top:200px;left:0;right:0;text-align:center;font-size:40px;font-weight:800;color:var(--roxo)}
+.passo b{display:inline-flex;width:62px;height:62px;border-radius:18px;background:var(--roxo);color:#fff;align-items:center;justify-content:center;margin-right:14px;font-size:38px}
+.cel{position:absolute;left:330px;top:320px;width:420px;height:820px;border-radius:64px;border:14px solid #111827;background:#fff;overflow:hidden;box-shadow:0 40px 90px rgba(17,24,39,.18)}
+.qr{position:absolute;left:60px;top:200px;width:270px;height:270px;background:
+ conic-gradient(from 0deg,#111 0 25%,#fff 0 50%,#111 0 75%,#fff 0) 0 0/34px 34px;border:12px solid #fff;outline:6px solid #111}
+.scan{position:absolute;left:50px;right:50px;height:8px;background:var(--wa);box-shadow:0 0 30px var(--wa);top:200px}
+.conect{position:absolute;left:0;right:0;top:560px;text-align:center;font-size:38px;font-weight:900;color:#16a34a;opacity:0}
+/* c5 claude chat */
+.chat{position:absolute;left:70px;right:70px;top:300px;background:#fff;border:2px solid var(--linha);border-radius:36px;box-shadow:0 30px 80px rgba(17,24,39,.10);overflow:hidden}
+.topo{display:flex;align-items:center;gap:16px;padding:24px 30px;border-bottom:2px solid var(--linha)}
+.mini{width:54px;height:54px;border-radius:16px;background:var(--claude);color:#fff;display:flex;align-items:center;justify-content:center;font-size:32px;font-weight:900}
+.topo .n{font-size:36px;font-weight:800}
+.chip{margin-left:auto;font-size:24px;font-weight:800;color:var(--roxo);background:var(--lilas);border-radius:999px;padding:10px 18px}
+.corpo{padding:30px}
+.msg{margin-left:auto;max-width:860px;background:var(--roxo);color:#fff;border-radius:28px 28px 6px 28px;padding:24px 28px;font-size:36px;font-weight:600;line-height:1.3}
+.ferr{margin-top:22px;display:flex;flex-wrap:wrap;gap:12px}
+.ferr span{font-family:'JetBrains Mono';font-size:26px;background:#f3f4f6;border:2px solid var(--linha);border-radius:14px;padding:10px 16px;opacity:0}
+.filas{margin-top:24px}
+.fila{display:flex;align-items:center;gap:16px;font-size:34px;font-weight:700;border:2px solid var(--linha);border-radius:20px;padding:18px 22px;margin-bottom:12px;opacity:0}
+.fila i{width:22px;height:22px;border-radius:50%;display:inline-block}
+/* c6 base + whatsapp */
+.doc{position:absolute;left:90px;top:300px;width:420px;background:#fff;border:2px solid var(--linha);border-radius:28px;padding:30px;box-shadow:0 20px 60px rgba(17,24,39,.08)}
+.doc h3{font-size:34px;font-weight:900;margin-bottom:16px}
+.doc p{font-size:28px;color:var(--cinza);font-weight:600;margin-bottom:10px;opacity:0}
+.zap{position:absolute;right:80px;top:560px;width:540px;background:#efeae2;border-radius:36px;padding:26px;box-shadow:0 30px 80px rgba(17,24,39,.14)}
+.zap .hd{font-size:30px;font-weight:800;margin-bottom:16px;color:#075e54}
+.b{max-width:430px;border-radius:22px;padding:18px 22px;font-size:30px;font-weight:600;line-height:1.3;margin-bottom:14px;opacity:0}
+.b.c{background:#fff}.b.ia{background:#d9fdd3;margin-left:auto}
+.b small{display:block;font-size:22px;color:var(--cinza);text-align:right;margin-top:6px}
+.hora{position:absolute;left:90px;top:800px;font-size:120px;font-weight:900;color:#1e1b4b;opacity:0}
+.hora small{display:block;font-size:34px;color:var(--cinza);font-weight:700}
+.nota{position:absolute;left:0;right:0;top:1270px;text-align:center;font-size:26px;color:var(--cinza);font-weight:600}
+/* c7 equipe */
+.kan{position:absolute;left:80px;right:80px;top:420px;display:flex;gap:24px}
+.col{flex:1;background:#f9fafb;border:2px solid var(--linha);border-radius:28px;padding:24px;min-height:560px}
+.col h4{font-size:32px;font-weight:900;margin-bottom:20px}
+.tk{background:#fff;border:2px solid var(--linha);border-radius:20px;padding:20px;font-size:30px;font-weight:700;margin-bottom:14px}
+#tkm{border-color:var(--roxo);box-shadow:0 10px 30px rgba(124,58,237,.18)}
+/* c8 prompts */
+#c8 h1{position:absolute;top:300px;left:60px;right:60px;font-size:80px}
+.pr{position:absolute;left:120px;right:120px;font-size:42px;font-weight:700;background:var(--lilas);border:2px solid var(--roxo2);border-radius:28px;padding:30px 34px;opacity:0}
+/* c9 cta */
+#c9 .gr{position:absolute;top:360px;left:0;right:0;text-align:center}
+#c9 .gr span{display:inline-block;font-size:44px;font-weight:900;color:#fff;background:#16a34a;border-radius:999px;padding:16px 36px}
+#c9 .big{position:absolute;top:560px;left:0;right:0;text-align:center;font-size:110px;font-weight:900;letter-spacing:-3px;line-height:1.05}
+#c9 .big b{display:inline-block;margin-top:24px;font-size:132px;color:#fff;background:linear-gradient(95deg,var(--roxo),#c026d3);padding:10px 50px;border-radius:30px}
+#c9 .sub{position:absolute;top:1060px;left:0;right:0;text-align:center;font-size:48px;font-weight:700}
+#c9 .mc{position:absolute;top:1170px;left:0;right:0;text-align:center;font-size:32px;font-weight:800;color:var(--cinza);letter-spacing:1px}
+/* legenda */
+#leg{position:absolute;left:70px;right:70px;top:1360px;text-align:center;font-size:58px;font-weight:800;line-height:1.18}
+#leg span{color:#9ca3af}#leg span.at{color:var(--roxo)}#leg span.ja{color:var(--tinta)}
+</style></head><body>
+<div id="fundo"></div>
+<div class="tag">CHATIOPS + CLAUDE</div>
+
+<div class="cena" id="c1">
+ <h1>O Claude agora monta o <span class="r">atendimento</span> do seu <span class="w">WhatsApp</span></h1>
+ <div class="trio"><div class="ic cl" id="i1">✳</div><div class="fio" id="f1"></div><div class="ic ch" id="i2">C</div><div class="fio" id="f2"></div><div class="ic wa" id="i3">✆</div></div>
+</div>
+
+<div class="cena" id="c2">
+ <h1>Uma URL no Claude.<br><span class="r">Sem instalar nada.</span></h1>
+ <div class="janela"><div class="barra"><i></i><i></i><i></i></div><div class="conteudo">
+  <div class="rot">Conectores → Adicionar conector</div>
+  <div class="url" id="url"></div>
+  <div class="ok" id="ok2">✓ Chatiops conectado</div>
+  <div class="badge" id="bd2">96 ferramentas de atendimento</div>
+ </div></div>
+</div>
+
+<div class="cena" id="c3">
+ <h1>3 etapas</h1>
+ <div class="etapas">
+  <div class="et" id="e1"><b>1</b><span>Conecta o número</span></div>
+  <div class="et" id="e2"><b>2</b><span>Descreve o negócio</span></div>
+  <div class="et" id="e3"><b>3</b><span>Manda o conteúdo</span></div>
+ </div>
+</div>
+
+<div class="cena" id="c4">
+ <div class="passo"><b>1</b>Conecta o seu número</div>
+ <div class="cel"><div class="qr"></div><div class="scan" id="scan"></div><div class="conect" id="conect">✓ Conectado</div></div>
+</div>
+
+<div class="cena" id="c5">
+ <div class="passo" style="top:200px"><b>2</b>Descreve o seu negócio</div>
+ <div class="chat"><div class="topo"><div class="mini">✳</div><div class="n">Claude</div><div class="chip">Chatiops conectado</div></div>
+  <div class="corpo">
+   <div class="msg">Tenho uma clínica odontológica. Monta o atendimento: agendamento, orçamento e financeiro.</div>
+   <div class="ferr"><span id="t1">criar fila</span><span id="t2">criar saudação</span><span id="t3">criar atendente IA</span></div>
+   <div class="filas">
+    <div class="fila" id="q1"><i style="background:#7c3aed"></i>1 · Agendamento</div>
+    <div class="fila" id="q2"><i style="background:#16a34a"></i>2 · Orçamento</div>
+    <div class="fila" id="q3"><i style="background:#f59e0b"></i>3 · Financeiro</div>
+   </div>
+  </div></div>
+</div>
+
+<div class="cena" id="c6">
+ <div class="passo"><b>3</b>Manda preço, horário e dúvidas</div>
+ <div class="doc"><h3>📄 Base de conhecimento</h3><p id="d1">Limpeza: R$ 180</p><p id="d2">Seg a sex, 8h às 18h</p><p id="d3">Aceita convênio?</p></div>
+ <div class="hora" id="hora">02:14<small>de madrugada</small></div>
+ <div class="zap"><div class="hd">WhatsApp</div>
+  <div class="b c" id="z1">Quanto custa a limpeza?<small>02:14</small></div>
+  <div class="b ia" id="z2">A limpeza é R$ 180. Quer que eu reserve um horário amanhã? 😊<small>02:14 ✓✓</small></div>
+ </div>
+ <div class="nota">A IA usa a sua chave da OpenAI · valores de exemplo</div>
+</div>
+
+<div class="cena" id="c7">
+ <div class="passo">Precisa de gente? Vai pra equipe.</div>
+ <div class="kan">
+  <div class="col"><h4>🤖 IA</h4><div class="tk">Horário amanhã</div><div class="tk" id="tkm">Quer falar com o dentista</div></div>
+  <div class="col"><h4>👩‍💼 Equipe</h4><div class="tk" style="opacity:.0" id="tkd">Quer falar com o dentista</div></div>
+ </div>
+</div>
+
+<div class="cena" id="c8">
+ <h1>Depois, é só <span class="r">pedir pro Claude</span></h1>
+ <div class="pr" id="p1" style="top:620px">“Lista meus atendimentos abertos”</div>
+ <div class="pr" id="p2" style="top:790px">“Agenda um lembrete pra amanhã”</div>
+ <div class="pr" id="p3" style="top:960px">“Dispara a campanha de dezembro”</div>
+</div>
+
+<div class="cena" id="c9">
+ <div class="gr"><span>Starter · 90 dias grátis</span></div>
+ <div class="big">Comenta<br><b>WHATSAPP</b></div>
+ <div class="sub">que eu te mando o link 📩</div>
+ <div class="mc">CHATIOPS · TIOPS</div>
+</div>
+
+<div id="leg"></div>
+<script>
+const C = __CRONO__;
+const P = C.palavras, S = C.marcas;
+const $ = id => document.getElementById(id);
+const cl=(x,a,b)=>Math.max(a,Math.min(b,x)); const ease=x=>1-Math.pow(1-cl(x,0,1),3); const prog=(t,a,d)=>ease((t-a)/d);
+function fade(el,t,a,b,d=0.3){ el.style.opacity=cl(Math.min(prog(t,a,d),1-prog(t,b-d,d)),0,1); }
+function pop(el,t,a,d=0.35,dy=30){ const p=prog(t,a,d); el.style.opacity=p; el.style.transform=`translateY(${(1-p)*dy}px)`; return p; }
+const URL_MCP='api.chatiops.tiops.com.br/mcp?token=••••••';
+const BL=[]; let cur=[]; P.forEach((w,i)=>{ cur.push(i); if(/[.,?!:]$/.test(w.w)||cur.length>=5){BL.push(cur);cur=[];} }); if(cur.length)BL.push(cur);
+const ord=['c1','c2','c3','c4','c5','c6','c7','c8','c9'];
+window.seek=function(t){
+  ord.forEach((id,k)=>fade($(id),t,k?S[id]:-1,ord[k+1]?S[ord[k+1]]:99));
+  // c1
+  ['i1','i2','i3'].forEach((id,k)=>{ const p=prog(t,0.4+k*0.35,0.35); $(id).style.opacity=p; $(id).style.transform=`scale(${0.6+0.4*p})`; });
+  ['f1','f2'].forEach((id,k)=>{ $(id).style.transform=`scaleX(${prog(t,0.7+k*0.35,0.35)})`; });
+  // c2
+  const n=Math.round(URL_MCP.length*cl((t-S.c2-0.6)/1.2,0,1)); $('url').textContent=URL_MCP.slice(0,n)+(n<URL_MCP.length&&Math.floor(t*3)%2?'|':'');
+  pop($('ok2'),t,S.c2+2.1,0.3,10); pop($('bd2'),t,S.c2+2.6,0.3,10);
+  // c3
+  ['e1','e2','e3'].forEach((id,k)=>pop($(id),t,S.c3+0.3+k*0.35,0.3,30));
+  // c4
+  $('scan').style.top=(200+ (Math.sin((t-S.c4)*3)*0.5+0.5)*270)+'px'; $('scan').style.opacity=t<S.conect?1:0; pop($('conect'),t,S.conect,0.3,10);
+  // c5
+  ['t1','t2','t3'].forEach((id,k)=>pop($(id),t,S.cria+k*0.35,0.25,10));
+  ['q1','q2','q3'].forEach((id,k)=>pop($(id),t,S.cria+1.2+k*0.3,0.3,20));
+  // c6
+  ['d1','d2','d3'].forEach((id,k)=>pop($(id),t,S.c6+0.4+k*0.4,0.3,10));
+  pop($('hora'),t,S.madrugada-0.6,0.3,10); pop($('z1'),t,S.base,0.3,20); pop($('z2'),t,S.base+1.0,0.3,20);
+  // c7
+  const mv=prog(t,S.c7+0.8,0.6); $('tkm').style.transform=`translateX(${mv*480}px)`; $('tkm').style.opacity=1-mv; $('tkd').style.opacity=mv;
+  // c8
+  ['p1','p2','p3'].forEach((id,k)=>pop($(id),t,S.prompts[k],0.3,20));
+  // legenda
+  const ia=P.findIndex(w=>t>=w.s&&t<w.e+0.25); let bi=BL.findIndex(b=>b.includes(ia)); if(bi<0){bi=BL.findIndex(b=>P[b[0]].s>t)-1;}
+  const L=$('leg'); if(bi<0||t>=S.c9){L.innerHTML='';return;}
+  L.innerHTML=BL[bi].map(i=>`<span class="${i===ia?'at':(P[i].s<=t?'ja':'')}">${P[i].w}</span>`).join(' ');
+};
+window.seek(0);
+</script></body></html>
