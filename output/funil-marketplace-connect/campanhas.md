@@ -656,3 +656,8 @@ Pedido: "Se possível a campanha para aumentar seguidores. Impulsione os anúnci
 - **A1** conjunto `120255061320240007`: verba total de R$ 434 para **R$ 617** (restante R$ 183 → R$ 366 até 04/12, ~R$ 33/dia).
 - **Seguidores** campanha `120255364710400007` (tráfego, objetivo visita ao perfil do Instagram), **R$ 40/dia**, 24/11 00h a 30/11 23h59. Conjunto `120255364711840007`: mesmo público perfil seller, só Instagram (feed, Reels, stories, explorar, perfil), exclui engajados 365d, clientes e compradores. Anúncios com os posts do perfil e botão "Ver perfil do Instagram": Band PqTec `120255364712920007`, nota do anúncio `120255364713180007`, Claude+ML+Shopee `120255364714030007`. Regra: custo por seguidor acima de R$ 3 por 2 dias → pausar o anúncio.
 - ⚠️ Gasto previsto com tudo no ar: ~R$ 200/dia. Saldo (~R$ 400) acaba por volta de 25/11; quando zera, todas param.
+
+### 23/11/2026 ~20h30 — remarketing VSL pausado, verba para o remarketing /comece (OK do Itamar: "Sim")
+- Remarketing VSL `120255193102880007` **pausado** (últimos 7 dias: R$ 0,84/visita, frequência 2,6; sobraram R$ 112,61 sem gastar).
+- Remarketing /comece `120255193104840007`: verba total de R$ 200 para **R$ 313** (restante R$ 220 até 04/12, ~R$ 20/dia). R$ 0,25/visita, frequência 1,4.
+- Funil: 1 milhão + Seguidores (excluem quem já engajou) → quem engaja entra em "Engajaram com @tiopstecnologia 365d" → remarketing /comece.
