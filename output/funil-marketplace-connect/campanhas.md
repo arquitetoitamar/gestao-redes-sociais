@@ -640,3 +640,12 @@ o dobro do plano, e os públicos se sobrepõem (engajados no IG + visitantes do 
   Exclui: lista de clientes, compradores 180d, engajou @tiopstecnologia 365d e visitantes /comece-/planos-isca 30d (não repetir quem o remarketing já atinge).
   Anúncio `120255363875730007`: carrossel DgGMN4IF9C8 (post existente), botão "Saiba mais" → `l.tiops.com.br/comece?o=meta-alcance-noticia`. Comentários disparam o ManyChat `COMECE - Post notícia` (`?o=manychat-noticia`).
 - Rotina diária `resumo-campanhas-mc-whatsapp` atualizada para as campanhas ativas (A1, 2 remarketings, BF, Alcance notícia) e saldo estimado.
+
+### 23/11/2026 ~19h40 — campanha "1 milhão de visualizações" (pedido do Itamar)
+Pedido: "1 milhão de visualizações porém quero já montar a campanha, quando acabar o saldo eu coloco mais". Plano em `plano-1-milhao.md`.
+- Campanha `120255364658680007` "MC | 1 milhão de visualizações | Reels Pergunta pro Claude | nov-dez": reconhecimento (alcance), CBO **R$ 1.500 no total**, 23/11 20h a 14/12 23h59 (~R$ 70/dia).
+- Conjunto `120255364660440007`: mesmo público que funcionou (BR, 25+ com sugestão 25-44, LAL clientes + LAL engajados + MercadoLivre/donos de pequenas empresas/admins de página, Advantage+ ligado), exclui clientes, engajados 365d, visitantes 30d e compradores; no máximo 2 exibições por pessoa a cada 7 dias; posicionamentos automáticos.
+- Anúncio `120255364671370007`: Reel #2 "Reposição do Full" (versão branca) como vídeo novo (vídeo `1129590419786925`, capa `b317aca9…`, criativo `1105742989164334`), botão Saiba mais → `l.tiops.com.br/comece?o=meta-alcance-serie`. Melhorias automáticas do Advantage+ criativo ficaram desligadas.
+- O que ficou de fora pelo aprendizado: carrossel, Reel antigo, ManyChat como saída do anúncio.
+- Próximo: entrar com #1 e #3 (e os seguintes) como anúncios novos no mesmo conjunto, sem verba extra.
+- ⚠️ Saldo: ~R$ 400 líquidos e gasto previsto de ~R$ 120-140/dia com tudo no ar → acaba por volta de 26/11; quando zera, TODAS param (inclusive o A1). Rotina `resumo-campanhas-mc-whatsapp` atualizada com esta campanha e o alerta.
