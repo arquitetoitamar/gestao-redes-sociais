@@ -1,0 +1,5 @@
+Seu anúncio tem visita e não vende? Não baixa o preço ainda.
+Faz assim. Primeiro: pouca visita? O problema é o título e a foto de capa. Segundo: passou de cinquenta visitas sem venda? O problema está dentro do anúncio. Terceiro: pergunta que se repete vira resposta no próprio anúncio. Quarto: o preço fica por último, e muda uma coisa por vez.
+Agora, fazer essa conta em duzentos anúncios toda semana... Eu pergunto pro Claude, ligado no Mercado Livre pelo Marketplace Connect: quais anúncios tiveram mais de cinquenta visitas e nenhuma venda no último mês?
+Ele devolve a lista e o que falta em cada um: vídeo, ficha técnica ou a mesma pergunta repetida.
+Comenta CONNECT que eu te mando o link no direct.

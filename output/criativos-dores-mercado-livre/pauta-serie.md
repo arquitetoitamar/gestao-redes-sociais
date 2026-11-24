@@ -8,9 +8,9 @@ Motor: `output/serie-pergunta-claude/motor/` (narração HeyGen voz c463ef5b ~US
 
 | # | Status | Data |
 |---|---|---|
-| 1 Visita sem venda (refeito) | a gerar · JSON pronto (episodios/01) | 24/11 16h |
+| 1 Visita sem venda (refeito) | agendado 24/11 16h · Short 435z0Nn0hZs | 24/11 16h |
 | 2 Reposição do Full | IG agendado 24/11 18h · Shorts publicado 23/11 (2eLnF7hcG_o) | 24/11 18h |
-| 3 Fotos | a gerar | 24/11 20h |
+| 3 Fotos | agendado 24/11 20h · Short E8xX-IVYZjI | 24/11 20h |
 | 5 Ficha técnica | a gerar | 25/11 16h |
 | 11 Perguntas sem resposta | a gerar | 25/11 18h |
 | 6 Catálogo perdido | a gerar | 25/11 20h |

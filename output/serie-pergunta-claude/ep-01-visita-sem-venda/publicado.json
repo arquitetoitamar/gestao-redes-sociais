@@ -1,0 +1,11 @@
+{
+ "ig_agendamento": "ig-serie-pc-01-20261124",
+ "ig_quando": "2026-11-24 16:00 BRT",
+ "previa": "https://tiops-public-assets-1785392019.s3.amazonaws.com/temp/agendados/serie-pc-01-20261124.mp4",
+ "short": {
+  "id": "435z0Nn0hZs",
+  "url": "https://youtube.com/shorts/435z0Nn0hZs",
+  "publica_em": "2026-11-24T19:00:00Z"
+ },
+ "cancelar": "python3 scripts/ig-agendado/agenda.py cancela serie-pc-01-20261124  +  apagar o Short 435z0Nn0hZs no YouTube Studio"
+}

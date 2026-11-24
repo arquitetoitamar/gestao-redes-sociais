@@ -1,0 +1,106 @@
+{
+ "num": 3,
+ "slug": "fotos",
+ "data": "2026-11-24",
+ "hora": "20:00",
+ "paleta": {
+  "accent": "#8b5cf6",
+  "accent2": "#a78bfa",
+  "destaque": "#6d28d9",
+  "brilho": "#f5f3ff"
+ },
+ "narracao": "Seu anúncio tem três fotos? Você está perdendo venda no celular.\nFaz assim. Primeiro: capa com fundo branco e sem texto. Segundo: da segunda foto em diante, mostra benefício e medida. Terceiro: põe o produto em uso, na mão ou no ambiente. Quarto: responde a dúvida na foto, porque no celular ninguém desce até a descrição.\nAgora, fazer essa conta em cento e vinte anúncios toda semana... Eu pergunto pro Claude, ligado no Mercado Livre pelo Marketplace Connect: quais dos meus trinta anúncios mais visitados têm menos de seis fotos?\nEle devolve a lista com o número de fotos e as visitas, os mais visitados no topo.\nComenta CONNECT que eu te mando o link no direct.",
+ "c1": {
+  "titulo": "Seu anúncio tem<br><span class=\"a\">3 fotos?</span>",
+  "emoji": "🎒",
+  "produto": "Mochila para notebook",
+  "selo": "",
+  "stats": [
+   {
+    "rotulo": "Visitas (30 dias)",
+    "valor": 310
+   },
+   {
+    "rotulo": "Fotos",
+    "valor": 3,
+    "ruim": true
+   }
+  ],
+  "anima": {
+   "stat": 0,
+   "de": 0,
+   "para": 310
+  },
+  "alerta": "⚠ só 3 fotos no celular"
+ },
+ "c2": {
+  "titulo": "Fotos que vendem<br><span>em 4 passos</span>",
+  "passos": [
+   [
+    "Capa com fundo branco",
+    "e sem texto"
+   ],
+   [
+    "Da 2ª foto em diante",
+    "benefício e medida"
+   ],
+   [
+    "Produto em uso",
+    "na mão ou no ambiente"
+   ],
+   [
+    "Dúvida respondida na foto",
+    "no celular ninguém lê a descrição"
+   ]
+  ],
+  "conta": null
+ },
+ "c3": {
+  "n": 120,
+  "rotulo": "anúncios",
+  "sub": "toda semana"
+ },
+ "chat": {
+  "pensando": "Contando fotos e visitas de <b>120 anúncios</b>…",
+  "prompt": "Quais dos meus 30 anúncios mais visitados têm menos de 6 fotos?",
+  "titulo": "Mais visitados com menos de 6 fotos",
+  "linhas": [
+   {
+    "emoji": "🎒",
+    "nome": "Mochila para notebook",
+    "detalhe": "310 visitas · 3 fotos",
+    "tag": "faltam 3 fotos"
+   },
+   {
+    "emoji": "🫖",
+    "nome": "Chaleira elétrica",
+    "detalhe": "254 visitas · 4 fotos",
+    "tag": "faltam 2 fotos"
+   },
+   {
+    "emoji": "🪴",
+    "nome": "Vaso autoirrigável",
+    "detalhe": "198 visitas · 2 fotos",
+    "tag": "faltam 4 fotos"
+   }
+  ],
+  "destaque": 0,
+  "destaque_palavra": "topo",
+  "botao": "Ver lista completa"
+ },
+ "cta": "CONNECT",
+ "legenda_ig": "Seu anúncio tem 3 fotos? No celular, isso custa venda.\n\nFaz em 4 passos:\n1. Capa com fundo branco e sem texto.\n2. Da segunda foto em diante, mostra benefício e medida.\n3. Produto em uso: na mão ou no ambiente.\n4. Responde a dúvida na foto, porque no celular ninguém desce até a descrição.\n\nCom 120 anúncios, conferir isso toda semana vira uma tarde inteira. Com o Marketplace Connect, o Claude (ou o ChatGPT) lê a sua conta do Mercado Livre e devolve a lista dos anúncios mais visitados com poucas fotos, os mais visitados no topo.\n\n💬 Comenta CONNECT que eu te mando o link no direct.\n\n(valores de exemplo)\n\n#mercadolivre #fotodeproduto #vendasonline #ecommerce #inteligenciaartificial",
+ "short": {
+  "titulo": "Fotos do anúncio no Mercado Livre: 4 passos para vender no celular (e com IA) #shorts",
+  "tags": [
+   "fotos de anuncio",
+   "foto de produto",
+   "mercado livre",
+   "vender no mercado livre",
+   "claude",
+   "chatgpt",
+   "marketplace connect",
+   "ia para ecommerce"
+  ]
+ }
+}
