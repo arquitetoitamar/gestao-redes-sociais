@@ -35,6 +35,7 @@ Motor: `output/serie-pergunta-claude/motor/` (narração HeyGen voz c463ef5b ~US
 | 26 Pedido sem nota fiscal | a gerar | 03/12 16h |
 | 27 Anúncio fraco na Shopee | ⚠ confirmar diagnóstico de qualidade da Shopee no MC | 03/12 18h |
 | 28 Título sem a palavra que o cliente busca | a gerar | 03/12 20h |
+| 29 Raio-x das ferramentas do ML que você não usa | a gerar | 04/12 16h |
 | 15 O que vender | ⚠ confirmar dados de concorrentes; sem OK, não sai | — |
 | 4 Anúncio sem vídeo | ⚠ confirmar se gerar/subir clip com IA está liberado | — |
 
@@ -208,3 +209,9 @@ Tarefa diária `monitor-pronix-pauta` (09h30): confere Reels novos do @pronixnap
 - Passos: 1) descobre como o cliente chama o produto; 2) a palavra principal vai no começo do título; 3) sem palavra repetida e sem marca dos outros; 4) muda um título por vez e acompanha as visitas.
 - Pergunta: "Quais dos meus títulos não têm a palavra mais buscada da categoria?"
 - Resposta: anúncio · título atual · palavra que falta · sugestão de título.
+
+### 29. Raio-x das ferramentas do ML que você não usa — paleta fúcsia (#701a75 / #d946ef / #f5d0fe)
+- Gancho: "Seu anúncio aparece pouco? Talvez você esteja deixando de lado o que o próprio Mercado Livre te oferece."
+- Passos: 1) faz a lista do que o ML oferece pro vendedor (Full, Ads, promoções da central, clips) e marca o que você usa; 2) começa pelo que custa pouco: uma promoção na central e um clip no anúncio que mais vende; 3) Ads com verba pequena, só nos anúncios que já vendem; 4) liga uma de cada vez e compara as visitas da semana anterior com a seguinte.
+- Pergunta: "Nos meus 20 anúncios mais vendidos, quais não estão no Full, não têm promoção ativa, não têm clip e não estão no Ads?"
+- Resposta: anúncio · Full (sim/não) · promoção (sim/não) · clip (sim/não) · Ads (sim/não) · próximo passo sugerido (valores de exemplo).
