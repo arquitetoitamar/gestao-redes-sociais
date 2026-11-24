@@ -661,3 +661,26 @@ Pedido: "Se possível a campanha para aumentar seguidores. Impulsione os anúnci
 - Remarketing VSL `120255193102880007` **pausado** (últimos 7 dias: R$ 0,84/visita, frequência 2,6; sobraram R$ 112,61 sem gastar).
 - Remarketing /comece `120255193104840007`: verba total de R$ 200 para **R$ 313** (restante R$ 220 até 04/12, ~R$ 20/dia). R$ 0,25/visita, frequência 1,4.
 - Funil: 1 milhão + Seguidores (excluem quem já engajou) → quem engaja entra em "Engajaram com @tiopstecnologia 365d" → remarketing /comece.
+
+### 23/11/2026 (lida em 24/11 pela rotina das 08h, executada às ~10h)
+
+| Campanha / anúncio | Gasto ontem | Resultado ontem | Custo | Acumulado (até 24/11 ~10h) |
+|---|---|---|---|---|
+| A1 Topo VSL (total) | R$ 20,68 | 111 visitas | R$ 0,19/visita | R$ 294,46 · 1.751 visitas · R$ 0,17 |
+| ↳ A1 Claude+ML+Shopee | R$ 17,70 | 105 visitas | R$ 0,17 | — |
+| ↳ A3 MadeiraMadeira | R$ 2,98 | 6 visitas | R$ 0,50 | (abaixo de R$ 15, sem alerta) |
+| Remarketing /comece | R$ 14,64 | 42 visitas, freq. 1,04 | R$ 0,35/visita | R$ 116,56 · 413 visitas · R$ 0,28 · freq. 1,84 |
+| 1 milhão de visualizações | R$ 21,22 | 12.527 impressões, 11.895 alcançados | R$ 1,69 por mil | 18.126 de 1 milhão · 16.708 alcançados · R$ 30,62 |
+| Seguidores | R$ 21,22 | 197 cliques no perfil, 0 seguidores atribuídos | — | R$ 46,59 |
+| ↳ Band PqTec / Claude+ML+Shopee / nota do anúncio | R$ 20,17 / 0,97 / 0,08 | 194 / 3 / 0 cliques | — | — |
+| Black Friday | R$ 0 | começa 24/11 | — | — |
+| Alcance notícia | R$ 0 | começa 24/11 | — | — |
+
+- Gasto total em 23/11: R$ 77,76. Saldo estimado: R$ 439 − 77,76 = ~R$ 361 (hoje já gastando). Com tudo no ar (~R$ 200/dia) acaba por volta de 25/11 à noite → ⚠️ recarregar até 25/11.
+- Todas as campanhas ACTIVE; nenhum erro de entrega. A campanha Seguidores (agendada para 24/11 00h) já gastou em 23/11.
+- Pixel em 23/11 (só navegador): PageView 667, ConectouCanal 25, CompleteRegistration 6, ClicouAssinar 5, ViewContent 2, InitiateCheckout 1, SubscribedButtonClick 0, Lead 0. Purchase (servidor): 3.
+- Taxa VSL → Assinar: 5 ClicouAssinar ÷ 153 visitas pagas = 3,3% (meta 5%; SubscribedButtonClick veio 0, usado o evento ClicouAssinar).
+- Stripe: 5 assinaturas criadas em 23/11; 3 do Marketplace Connect (2 Plus mensal, 1 Plus anual, todas ativas) e 2 GestorPro em teste. Bate com 3 Purchase no Meta. Critério do plano 1 milhão (≥ 3/dia): atingido.
+- Link curto: `comece` sem leitura (conector d2d7… responde 403 "Este link foi criado por outra conta"). `madeira` 13 cliques em 23/11 (meta-madeira); `bf2026-guia` 1 (manychat); `bf2026` 6 (email).
+- Alertas: saldo acaba em ~2 dias; Seguidores dia 1 sem seguidor atribuído (regra: R$ 3/seguidor por 2 dias → rever amanhã, principalmente Band PqTec).
+- WhatsApp: FALHOU (`ERR_WAPP_NOT_INITIALIZED` no Chatiops). Texto salvo em `resumo-pendente.md`.
