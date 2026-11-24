@@ -684,3 +684,7 @@ Pedido: "Se possível a campanha para aumentar seguidores. Impulsione os anúnci
 - Link curto: `comece` sem leitura (conector d2d7… responde 403 "Este link foi criado por outra conta"). `madeira` 13 cliques em 23/11 (meta-madeira); `bf2026-guia` 1 (manychat); `bf2026` 6 (email).
 - Alertas: saldo acaba em ~2 dias; Seguidores dia 1 sem seguidor atribuído (regra: R$ 3/seguidor por 2 dias → rever amanhã, principalmente Band PqTec).
 - WhatsApp: FALHOU (`ERR_WAPP_NOT_INITIALIZED` no Chatiops). Texto salvo em `resumo-pendente.md`.
+
+### 24/11/2026 ~13h10 — Reel da Band pausado na campanha Seguidores (pedido do Itamar)
+Pedido: "tire este reel da band para não gastar". Leitura de 23/11 a 24/11 13h: Band PqTec `120255364712920007` levou 98% da verba da campanha (R$ 50,49, 603 visitas ao perfil a R$ 0,08, **0 seguidores atribuídos**). Pausado (só o anúncio). A campanha segue com R$ 40/dia nos outros dois: nota do anúncio `120255364713180007` e Claude+ML+Shopee `120255364714030007`.
+Leitura das outras às 13h (acumulado desde 23/11): 1 milhão R$ 38, 22,5 mil visualizações, R$ 1,69 por mil · A1 188 visitas a R$ 0,19 · remarketing /comece 88 visitas a R$ 0,30 · Alcance notícia R$ 0,73 (entrega lenta desde 06h) · Black Friday R$ 4,78, 0 comentários, R$ 21 por mil. Gasto total desde a recarga ~R$ 158; saldo estimado ~R$ 280; acaba ~25/11 à noite.
