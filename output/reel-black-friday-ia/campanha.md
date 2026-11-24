@@ -46,3 +46,22 @@ Meta de leitura: custo por comentário com BLACK e cliques nos links `bf2026-gui
 
 Sem interesses: o conector não aceita ID inventado; o público ficou amplo com Advantage+.
 Na leitura de 23/11 o anúncio estava em análise e a entrega parada por **limite de gastos da conta atingido** (`account_spend_limit_reached`): precisa de saldo/limite na conta pré-paga, feito pelo Itamar no Business Suite (pede 2FA).
+
+## Leitura de 24/11/2026
+
+Entrega **começou**: campanha, conjunto e anúncio sem erro de entrega (`ads_get_errors` vazio); anúncio `ACTIVE`, entrega ativa. O bloqueio por limite de gastos de 23/11 foi resolvido e a análise aprovou.
+
+| Métrica (24/11, primeiro dia) | Valor |
+|---|---|
+| Gasto | R$ 3,69 (de R$ 80) |
+| Impressões | 169 |
+| Alcance | 148 |
+| Interações com a publicação | 44 |
+| Custo por interação | R$ 0,08 |
+| Comentários atribuídos ao anúncio | 0 (Meta não reportou nenhum) |
+
+Custo por comentário: ainda sem base (nenhum comentário pago). A regra de pausar acima de R$ 3 por comentário passa a valer quando o gasto passar de ~R$ 10 sem comentário: se chegar a R$ 10 com 0 comentários BLACK, recomendar pausa.
+
+Links curtos (7 dias, só humanos):
+- `bf2026-guia` (página): 4 cliques — manychat 3, direto 1. Nenhum com `?o=anuncio-meta` (o anúncio é de engajamento, sem link).
+- `bf2026` (PDF): 25 cliques — email 20, direto 4, site 1.
