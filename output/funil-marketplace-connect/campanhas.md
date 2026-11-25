@@ -699,3 +699,9 @@ Leitura das outras às 13h (acumulado desde 23/11): 1 milhão R$ 38, 22,5 mil vi
 | Black Friday | R$ 10,73 · 0 comentários · R$ 22,40/mil | idem (começou hoje) |
 | Alcance notícia | R$ 7,20 · 4,7 mil pessoas · R$ 1,45/mil | idem (entrega lenta: R$ 7 de R$ 145) |
 Gasto desde a recarga ~R$ 210; saldo estimado ~R$ 230; acaba ~25/11 à noite. Sugestão: pausar Seguidores (0 seguidor) e passar a verba ao A1; BF sem comentário até amanhã cedo → pausar.
+
+### 24/11/2026 ~19h30 — Seguidores pausada, verba para o A1 (pedido do Itamar: "Pode pausar de seguidores e passa para o a1")
+- Campanha Seguidores `120255364710400007` PAUSADA (campanha inteira). Resultado final: R$ 51,68, 0 seguidores. Não reativar sem pedido.
+- A1, conjunto `120255061320240007`: verba total R$ 617 → **R$ 857** (+R$ 240 = R$ 40/dia que Seguidores gastaria de 25 a 30/11). Gasto até agora R$ 303,63; restam R$ 553,37 até 04/12 (~R$ 52/dia, antes ~R$ 31/dia). Conferido ao vivo no Meta.
+- Gasto diário da conta fica igual ou menor (saiu R$ 40/dia, entrou ~R$ 21/dia a mais no A1). Saldo continua acabando ~25/11 à noite sem PIX.
+- Vigiar: aumento de ~70% no A1 pode mexer no custo por visita; se passar de R$ 0,30 por 2 dias, voltar a verba para ~R$ 700.
