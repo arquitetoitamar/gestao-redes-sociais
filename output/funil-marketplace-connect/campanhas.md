@@ -727,3 +727,16 @@ Gasto desde a recarga ~R$ 210; saldo estimado ~R$ 230; acaba ~25/11 à noite. Su
 - Link curto: `comece` sem leitura (403 "Este link foi criado por outra conta"). `madeira` 1 clique em 24/11 (meta-madeira); `bf2026-guia` 1 (manychat); `bf2026` 3 (email).
 - Alertas: saldo acaba hoje; Black Friday 0 comentário com R$ 20 gastos (regra > R$ 3/comentário → sugerido pausar); clique em Assinar muito abaixo da meta; assinaturas < 3/dia com 1 milhão no ar.
 - WhatsApp: enviado (✅ Mensagem enviada).
+
+### 25/11/2026 ~16h55 — leitura do dia (pedido do Itamar: "como estao as campanhas?")
+| Campanha | Hoje até ~17h | Acumulado 23–25/11 |
+|---|---|---|
+| A1 Topo VSL | R$ 27,12 · 139 visitas · R$ 0,20/visita | R$ 89,89 · 545 visitas · R$ 0,16 |
+| Remarketing /comece | R$ 6,83 · 19 visitas · R$ 0,36 | R$ 44,77 · 181 visitas · R$ 0,25 · freq. 1,19 |
+| 1 milhão | R$ 29,33 · 16,4 mil impressões · R$ 1,79/mil | R$ 115,15 · 66,5 mil impressões (6,6% de 1 mi) · 63,7 mil pessoas · 30 cliques · 8 visitas |
+| Alcance notícia | R$ 8,05 · 4,2 mil pessoas · R$ 1,84/mil | R$ 23,18 · 13 mil de 100 mil pessoas · entrega lenta (restam R$ 121,82) |
+| Black Friday | R$ 10,90 · 0 comentários · R$ 29/mil | R$ 27,85 · 0 comentários (restam R$ 52,15) |
+| Seguidores | pausada | R$ 51,68 · 0 seguidores |
+- Gasto desde a recarga: R$ 352,52 → saldo estimado ~R$ 86 se não entrou PIX hoje; no ritmo de hoje (~R$ 115/dia) acaba na madrugada de 26/11.
+- A1 depois do aumento: R$ 0,14 (24/11) → R$ 0,20 hoje. Abaixo do limite de R$ 0,30; vigiar amanhã.
+- Black Friday: 2 dias, R$ 27,85, 0 comentários → sugerido pausar (regra > R$ 3/comentário).
