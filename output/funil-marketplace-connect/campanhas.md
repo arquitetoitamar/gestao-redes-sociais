@@ -705,3 +705,25 @@ Gasto desde a recarga ~R$ 210; saldo estimado ~R$ 230; acaba ~25/11 à noite. Su
 - A1, conjunto `120255061320240007`: verba total R$ 617 → **R$ 857** (+R$ 240 = R$ 40/dia que Seguidores gastaria de 25 a 30/11). Gasto até agora R$ 303,63; restam R$ 553,37 até 04/12 (~R$ 52/dia, antes ~R$ 31/dia). Conferido ao vivo no Meta.
 - Gasto diário da conta fica igual ou menor (saiu R$ 40/dia, entrou ~R$ 21/dia a mais no A1). Saldo continua acabando ~25/11 à noite sem PIX.
 - Vigiar: aumento de ~70% no A1 pode mexer no custo por visita; se passar de R$ 0,30 por 2 dias, voltar a verba para ~R$ 700.
+
+### 24/11/2026 (lida em 25/11 pela rotina das 08h, executada às ~09h20)
+
+| Campanha / anúncio | Gasto ontem | Resultado ontem | Custo | Acumulado (até 25/11 ~09h) |
+|---|---|---|---|---|
+| A1 Topo VSL (total) | R$ 42,09 | 295 visitas | R$ 0,14/visita | R$ 335,75 · 2.040 visitas · R$ 0,16 |
+| ↳ A1 Claude+ML+Shopee | R$ 42,00 | 295 visitas | R$ 0,14 | — |
+| ↳ A3 MadeiraMadeira | R$ 0,09 | 0 visitas | — | (quase sem entrega) |
+| Remarketing /comece | R$ 23,28 | 120 visitas, freq. 1,10 (7d: 1,37) | R$ 0,19/visita | R$ 131,78 · 496 visitas · R$ 0,27 |
+| Black Friday | R$ 16,95 | 0 comentários, 239 interações | R$ 24,04 por mil | R$ 20,33 · 0 comentários |
+| Alcance notícia | R$ 15,12 | 9.020 pessoas, freq. 1,04 | R$ 1,62 por mil impressões | 10.369 de 100 mil pessoas · R$ 18,05 · R$ 1,74 por mil alcançados |
+| 1 milhão de visualizações | R$ 64,59 | 37.567 impressões, 36.327 pessoas, 17 cliques no link | R$ 1,72 por mil | 54.205 de 1 milhão · 52.360 pessoas · R$ 93,07 |
+| Seguidores (pausada 24/11 ~19h30) | ~R$ 30 | — | — | R$ 51,68 · 0 seguidores |
+
+- Gasto da conta: 23/11 R$ 77,79 · 24/11 R$ 192,49 → R$ 270,28 desde a recarga. Saldo estimado: R$ 439 − 270,28 = **~R$ 169**. Com as 5 ativas (~R$ 162/dia) acaba hoje à noite / madrugada de 26/11 → ⚠️ recarregar hoje.
+- Todas as 5 campanhas ACTIVE; nenhum erro de entrega. Seguidores segue PAUSED.
+- Pixel em 24/11 (só navegador): PageView 924, ConectouCanal 37, CompleteRegistration 10, ClicouAssinar 1, ViewContent 1, SubscribedButtonClick 0, Lead 0. Purchase (servidor): 2.
+- Taxa VSL → Assinar: 1 ClicouAssinar ÷ 420 visitas pagas = 0,2% (meta 5%).
+- Stripe: 2 assinaturas criadas em 24/11, ambas Marketplace Connect (Plus mensal, ativas). Bate com 2 Purchase no Meta. Critério do plano 1 milhão (≥ 3/dia): **não atingido** → avisado que a verba rende mais no A1.
+- Link curto: `comece` sem leitura (403 "Este link foi criado por outra conta"). `madeira` 1 clique em 24/11 (meta-madeira); `bf2026-guia` 1 (manychat); `bf2026` 3 (email).
+- Alertas: saldo acaba hoje; Black Friday 0 comentário com R$ 20 gastos (regra > R$ 3/comentário → sugerido pausar); clique em Assinar muito abaixo da meta; assinaturas < 3/dia com 1 milhão no ar.
+- WhatsApp: enviado (✅ Mensagem enviada).
