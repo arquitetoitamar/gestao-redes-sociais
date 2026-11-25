@@ -740,3 +740,7 @@ Gasto desde a recarga ~R$ 210; saldo estimado ~R$ 230; acaba ~25/11 à noite. Su
 - Gasto desde a recarga: R$ 352,52 → saldo estimado ~R$ 86 se não entrou PIX hoje; no ritmo de hoje (~R$ 115/dia) acaba na madrugada de 26/11.
 - A1 depois do aumento: R$ 0,14 (24/11) → R$ 0,20 hoje. Abaixo do limite de R$ 0,30; vigiar amanhã.
 - Black Friday: 2 dias, R$ 27,85, 0 comentários → sugerido pausar (regra > R$ 3/comentário).
+
+### 25/11/2026 ~17h05 — Black Friday pausada (pedido do Itamar: "pode pausar")
+- Campanha Black Friday `120255360898750007` PAUSADA (campanha inteira), conferida ao vivo. Resultado final: R$ 27,87, 0 comentários em 2 dias. Sobra ~R$ 52 de verba não gasta. Não reativar sem pedido.
+- Ativas agora: A1, remarketing /comece, Alcance notícia, 1 milhão. Gasto diário cai ~R$ 15–20.
