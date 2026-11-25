@@ -744,3 +744,7 @@ Gasto desde a recarga ~R$ 210; saldo estimado ~R$ 230; acaba ~25/11 à noite. Su
 ### 25/11/2026 ~17h05 — Black Friday pausada (pedido do Itamar: "pode pausar")
 - Campanha Black Friday `120255360898750007` PAUSADA (campanha inteira), conferida ao vivo. Resultado final: R$ 27,87, 0 comentários em 2 dias. Sobra ~R$ 52 de verba não gasta. Não reativar sem pedido.
 - Ativas agora: A1, remarketing /comece, Alcance notícia, 1 milhão. Gasto diário cai ~R$ 15–20.
+
+### 25/11/2026 ~17h20 — recarga PIX (Itamar)
+- PIX de R$ 500 creditado em 25/11 ("Com saldo"). Saldo real lido na tela de cobrança: **R$ 568,13** (antes R$ 70,13).
+- Ritmo atual ~R$ 110–160/dia (A1, remarketing, notícia, 1 milhão) → dura até ~29–30/11. Próxima recarga antes disso.
