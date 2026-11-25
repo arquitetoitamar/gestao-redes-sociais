@@ -1,0 +1,106 @@
+{
+ "num": 6,
+ "slug": "catalogo-perdido",
+ "data": "2026-11-25",
+ "hora": "20:00",
+ "paleta": {
+  "accent": "#e11d48",
+  "accent2": "#fb7185",
+  "destaque": "#be123c",
+  "brilho": "#fff1f2"
+ },
+ "narracao": "Seu anúncio caiu no catálogo e parou de vender? Não sai baixando o preço.\nFaz assim. Primeiro: confere se você está ganhando a vitrine. Segundo: vê quanto falta pra ganhar e se ainda sobra margem. Terceiro: não compensa? Monta um kit ou um anúncio próprio. Quarto: catálogo que vende e é seu, fica.\nAgora, fazer essa conta em sessenta anúncios toda semana... Eu pergunto pro Claude, ligado no Mercado Livre pelo Marketplace Connect: em quais catálogos eu estou perdendo e quanto falta pra ganhar, sem passar do meu piso?\nEle devolve cada catálogo com o preço pra ganhar e se cabe no seu piso de margem.\nComenta CONNECT que eu te mando o link no direct.",
+ "c1": {
+  "titulo": "Caiu no catálogo e<br><span class=\"a\">parou de vender?</span>",
+  "emoji": "🎮",
+  "produto": "Controle sem fio",
+  "selo": "",
+  "stats": [
+   {
+    "rotulo": "Vendas/semana antes",
+    "valor": 21
+   },
+   {
+    "rotulo": "Vendas/semana agora",
+    "valor": 2,
+    "ruim": true
+   }
+  ],
+  "anima": {
+   "stat": 1,
+   "de": 21,
+   "para": 2
+  },
+  "alerta": "⚠ perdendo a vitrine"
+ },
+ "c2": {
+  "titulo": "Catálogo perdido<br><span>em 4 passos</span>",
+  "passos": [
+   [
+    "Ganhando a vitrine?",
+    "confere no catálogo"
+   ],
+   [
+    "Quanto falta pra ganhar",
+    "e se ainda sobra margem"
+   ],
+   [
+    "Não compensa?",
+    "kit ou anúncio próprio"
+   ],
+   [
+    "Vende e é seu?",
+    "fica no catálogo"
+   ]
+  ],
+  "conta": null
+ },
+ "c3": {
+  "n": 60,
+  "rotulo": "anúncios",
+  "sub": "toda semana"
+ },
+ "chat": {
+  "pensando": "Comparando preços em <b>60 catálogos</b>…",
+  "prompt": "Em quais catálogos eu estou perdendo e quanto falta pra ganhar, sem passar do meu piso?",
+  "titulo": "Catálogos que você está perdendo",
+  "linhas": [
+   {
+    "emoji": "🎮",
+    "nome": "Controle sem fio",
+    "detalhe": "R$ 189,90 → 184,50 · piso 179",
+    "tag": "cabe no piso"
+   },
+   {
+    "emoji": "🔊",
+    "nome": "Caixa de som 20W",
+    "detalhe": "R$ 249,00 → 229,90 · piso 238",
+    "tag": "não cabe: kit"
+   },
+   {
+    "emoji": "⌚",
+    "nome": "Relógio smart",
+    "detalhe": "R$ 159,90 → 157,00 · piso 150",
+    "tag": "cabe no piso"
+   }
+  ],
+  "destaque": 0,
+  "destaque_palavra": "piso",
+  "botao": "Ajustar os que cabem"
+ },
+ "cta": "CONNECT",
+ "legenda_ig": "Seu anúncio caiu no catálogo e parou de vender? Antes de sair baixando o preço:\n\n1. Confere se você está ganhando a vitrine.\n2. Vê quanto falta pra ganhar e se ainda sobra margem.\n3. Não compensa? Monta um kit ou um anúncio próprio.\n4. Catálogo que vende e é seu, fica.\n\nCom 60 anúncios em catálogo, essa conta toda semana vira uma tarde de planilha. Com o Marketplace Connect, o Claude (ou o ChatGPT) lê a sua conta do Mercado Livre e devolve cada catálogo com o preço pra ganhar e se ele cabe no seu piso de margem. Nada muda na loja sem o seu OK.\n\n💬 Comenta CONNECT que eu te mando o link no direct.\n\n(valores de exemplo)\n\n#mercadolivre #catalogomercadolivre #vendasonline #ecommerce #inteligenciaartificial",
+ "short": {
+  "titulo": "Perdeu o catálogo no Mercado Livre? 4 passos sem queimar a margem (e com IA) #shorts",
+  "tags": [
+   "catalogo mercado livre",
+   "ganhar catalogo",
+   "mercado livre",
+   "vender no mercado livre",
+   "claude",
+   "chatgpt",
+   "marketplace connect",
+   "ia para ecommerce"
+  ]
+ }
+}

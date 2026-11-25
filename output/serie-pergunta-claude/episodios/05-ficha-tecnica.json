@@ -1,0 +1,106 @@
+{
+ "num": 5,
+ "slug": "ficha-tecnica",
+ "data": "2026-11-25",
+ "hora": "16:00",
+ "paleta": {
+  "accent": "#0891b2",
+  "accent2": "#22d3ee",
+  "destaque": "#0e7490",
+  "brilho": "#ecfeff"
+ },
+ "narracao": "Campo vazio na ficha técnica tira seu anúncio do filtro da busca.\nFaz assim. Primeiro: preenche todos os campos, até os opcionais. Segundo: no campo modelo, coloca o sinônimo que não coube no título. Terceiro: não repete palavra do título, cada campo é uma chance nova. Quarto: código de barras também conta.\nAgora, fazer essa conta em cento e cinquenta anúncios toda semana... Eu pergunto pro Claude, ligado no Mercado Livre pelo Marketplace Connect: quais anúncios têm campos da ficha técnica vazios?\nEle devolve a lista com os campos que faltam e a sugestão de preenchimento pronta pra você aprovar.\nComenta CONNECT que eu te mando o link no direct.",
+ "c1": {
+  "titulo": "Campo vazio na ficha<br><span class=\"a\">tira você da busca</span>",
+  "emoji": "🍶",
+  "produto": "Garrafa térmica 1 litro",
+  "selo": "",
+  "stats": [
+   {
+    "rotulo": "Campos preenchidos",
+    "valor": 11
+   },
+   {
+    "rotulo": "Campos vazios",
+    "valor": 7,
+    "ruim": true
+   }
+  ],
+  "anima": {
+   "stat": 1,
+   "de": 0,
+   "para": 7
+  },
+  "alerta": "⚠ fora do filtro da busca"
+ },
+ "c2": {
+  "titulo": "Ficha técnica<br><span>em 4 passos</span>",
+  "passos": [
+   [
+    "Preenche todos os campos",
+    "até os opcionais"
+   ],
+   [
+    "Campo modelo",
+    "o sinônimo que não coube no título"
+   ],
+   [
+    "Não repete o título",
+    "cada campo é uma chance nova"
+   ],
+   [
+    "Código de barras",
+    "também conta"
+   ]
+  ],
+  "conta": null
+ },
+ "c3": {
+  "n": 150,
+  "rotulo": "anúncios",
+  "sub": "toda semana"
+ },
+ "chat": {
+  "pensando": "Lendo a ficha técnica de <b>150 anúncios</b>…",
+  "prompt": "Quais anúncios têm campos da ficha técnica vazios? Me sugere o preenchimento.",
+  "titulo": "Fichas com campos vazios",
+  "linhas": [
+   {
+    "emoji": "🍶",
+    "nome": "Garrafa térmica 1 litro",
+    "detalhe": "7 campos vazios · cor, material…",
+    "tag": "sugestão pronta"
+   },
+   {
+    "emoji": "🔦",
+    "nome": "Lanterna recarregável",
+    "detalhe": "5 campos vazios · modelo, potência…",
+    "tag": "sugestão pronta"
+   },
+   {
+    "emoji": "🧺",
+    "nome": "Cesto organizador",
+    "detalhe": "4 campos vazios",
+    "tag": "sem cód. de barras"
+   }
+  ],
+  "destaque": 0,
+  "destaque_palavra": "sugestão",
+  "botao": "Aprovar preenchimento"
+ },
+ "cta": "CONNECT",
+ "legenda_ig": "Campo vazio na ficha técnica tira seu anúncio do filtro da busca. O cliente filtra por cor, material ou voltagem, e quem deixou em branco some da lista.\n\nFaz em 4 passos:\n1. Preenche todos os campos, até os opcionais.\n2. No campo modelo, coloca o sinônimo que não coube no título.\n3. Não repete palavra do título: cada campo é uma chance nova de ser achado.\n4. Código de barras também conta.\n\nCom 150 anúncios, conferir ficha por ficha toda semana vira um dia inteiro. Com o Marketplace Connect, o Claude (ou o ChatGPT) lê a sua conta do Mercado Livre, aponta os campos vazios de cada anúncio e sugere o preenchimento. Nada muda na loja sem o seu OK.\n\n💬 Comenta CONNECT que eu te mando o link no direct.\n\n(valores de exemplo)\n\n#mercadolivre #fichatecnica #vendasonline #ecommerce #inteligenciaartificial",
+ "short": {
+  "titulo": "Ficha técnica no Mercado Livre: 4 passos para aparecer no filtro da busca (e com IA) #shorts",
+  "tags": [
+   "ficha tecnica mercado livre",
+   "filtro da busca",
+   "mercado livre",
+   "vender no mercado livre",
+   "claude",
+   "chatgpt",
+   "marketplace connect",
+   "ia para ecommerce"
+  ]
+ }
+}

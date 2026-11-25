@@ -1,0 +1,11 @@
+{
+ "ig_agendamento": "ig-serie-pc-05-20261125",
+ "ig_quando": "2026-11-25 16:00 BRT",
+ "previa": "https://tiops-public-assets-1785392019.s3.amazonaws.com/temp/agendados/serie-pc-05-20261125.mp4",
+ "short": {
+  "id": "8FOu_JYFoso",
+  "url": "https://youtube.com/shorts/8FOu_JYFoso",
+  "publica_em": "2026-11-25T19:00:00Z"
+ },
+ "cancelar": "python3 scripts/ig-agendado/agenda.py cancela serie-pc-05-20261125  +  apagar o Short 8FOu_JYFoso no YouTube Studio"
+}

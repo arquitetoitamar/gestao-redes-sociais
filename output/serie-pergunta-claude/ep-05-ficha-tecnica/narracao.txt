@@ -1,0 +1,5 @@
+Campo vazio na ficha técnica tira seu anúncio do filtro da busca.
+Faz assim. Primeiro: preenche todos os campos, até os opcionais. Segundo: no campo modelo, coloca o sinônimo que não coube no título. Terceiro: não repete palavra do título, cada campo é uma chance nova. Quarto: código de barras também conta.
+Agora, fazer essa conta em cento e cinquenta anúncios toda semana... Eu pergunto pro Claude, ligado no Mercado Livre pelo Marketplace Connect: quais anúncios têm campos da ficha técnica vazios?
+Ele devolve a lista com os campos que faltam e a sugestão de preenchimento pronta pra você aprovar.
+Comenta CONNECT que eu te mando o link no direct.

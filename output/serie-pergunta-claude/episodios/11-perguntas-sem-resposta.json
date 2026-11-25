@@ -1,0 +1,106 @@
+{
+ "num": 11,
+ "slug": "perguntas-sem-resposta",
+ "data": "2026-11-25",
+ "hora": "18:00",
+ "paleta": {
+  "accent": "#65a30d",
+  "accent2": "#a3e635",
+  "destaque": "#4d7c0f",
+  "brilho": "#f7fee7"
+ },
+ "narracao": "Pergunta respondida depois de três horas é venda pro concorrente.\nFaz assim. Primeiro: responde em menos de uma hora. Segundo: pergunta que se repete vira informação no anúncio, no título ou na ficha. Terceiro: resposta curta, com o benefício do produto. Quarto: à noite e no fim de semana também tem cliente perguntando.\nAgora, fazer essa conta em noventa anúncios todo dia... Eu pergunto pro Claude, ligado no Mercado Livre pelo Marketplace Connect: quais perguntas estão sem resposta e quais se repetem?\nEle devolve cada pergunta com a resposta sugerida, e você só aprova com um OK.\nComenta CONNECT que eu te mando o link no direct.",
+ "c1": {
+  "titulo": "Pergunta respondida<br><span class=\"a\">3 horas depois?</span>",
+  "emoji": "🍟",
+  "produto": "Air fryer 4 litros",
+  "selo": "",
+  "stats": [
+   {
+    "rotulo": "Perguntas hoje",
+    "valor": 9
+   },
+   {
+    "rotulo": "Sem resposta",
+    "valor": 4,
+    "ruim": true
+   }
+  ],
+  "anima": {
+   "stat": 1,
+   "de": 0,
+   "para": 4
+  },
+  "alerta": "⚠ cliente esperando há 5 h"
+ },
+ "c2": {
+  "titulo": "Perguntas no anúncio<br><span>em 4 passos</span>",
+  "passos": [
+   [
+    "Responde rápido",
+    "em menos de 1 hora"
+   ],
+   [
+    "Pergunta repetida",
+    "vira informação no anúncio"
+   ],
+   [
+    "Resposta curta",
+    "com o benefício do produto"
+   ],
+   [
+    "Noite e fim de semana",
+    "também tem cliente"
+   ]
+  ],
+  "conta": null
+ },
+ "c3": {
+  "n": 90,
+  "rotulo": "anúncios",
+  "sub": "todo dia"
+ },
+ "chat": {
+  "pensando": "Lendo as perguntas de <b>90 anúncios</b>…",
+  "prompt": "Quais perguntas estão sem resposta e quais se repetem? Sugere a resposta de cada uma.",
+  "titulo": "Sem resposta agora",
+  "linhas": [
+   {
+    "emoji": "🍟",
+    "nome": "Air fryer 4 litros",
+    "detalhe": "“É 110 ou 220?” · há 5 h",
+    "tag": "repetida 6×"
+   },
+   {
+    "emoji": "☕",
+    "nome": "Cafeteira elétrica",
+    "detalhe": "“Vem com filtro?” · há 2 h",
+    "tag": "resposta pronta"
+   },
+   {
+    "emoji": "🧹",
+    "nome": "Aspirador portátil",
+    "detalhe": "“Serve pra carro?” · há 1 h",
+    "tag": "resposta pronta"
+   }
+  ],
+  "destaque": 0,
+  "destaque_palavra": "resposta",
+  "botao": "Responder com OK"
+ },
+ "cta": "CONNECT",
+ "legenda_ig": "Pergunta respondida depois de 3 horas é venda pro concorrente.\n\nFaz em 4 passos:\n1. Responde em menos de 1 hora.\n2. Pergunta que se repete vira informação no anúncio: perguntaram a voltagem 6 vezes? Põe no título ou na ficha.\n3. Resposta curta, com o benefício do produto.\n4. À noite e no fim de semana também tem cliente perguntando.\n\nCom 90 anúncios, acompanhar isso todo dia não cabe na rotina. Com o Marketplace Connect, o Claude (ou o ChatGPT) lê as perguntas do seu Mercado Livre, mostra as que estão sem resposta e as que se repetem, e sugere a resposta de cada uma. Só sai resposta com o seu OK.\n\n💬 Comenta CONNECT que eu te mando o link no direct.\n\n(valores de exemplo)\n\n#mercadolivre #atendimento #vendasonline #ecommerce #inteligenciaartificial",
+ "short": {
+  "titulo": "Perguntas sem resposta no Mercado Livre: 4 passos para não perder venda (e com IA) #shorts",
+  "tags": [
+   "perguntas mercado livre",
+   "responder perguntas",
+   "mercado livre",
+   "vender no mercado livre",
+   "claude",
+   "chatgpt",
+   "marketplace connect",
+   "ia para ecommerce"
+  ]
+ }
+}

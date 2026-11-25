@@ -1,0 +1,5 @@
+Pergunta respondida depois de três horas é venda pro concorrente.
+Faz assim. Primeiro: responde em menos de uma hora. Segundo: pergunta que se repete vira informação no anúncio, no título ou na ficha. Terceiro: resposta curta, com o benefício do produto. Quarto: à noite e no fim de semana também tem cliente perguntando.
+Agora, fazer essa conta em noventa anúncios todo dia... Eu pergunto pro Claude, ligado no Mercado Livre pelo Marketplace Connect: quais perguntas estão sem resposta e quais se repetem?
+Ele devolve cada pergunta com a resposta sugerida, e você só aprova com um OK.
+Comenta CONNECT que eu te mando o link no direct.
