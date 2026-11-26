@@ -1,0 +1,106 @@
+{
+ "num": 7,
+ "slug": "preco-em-degraus",
+ "data": "2026-11-26",
+ "hora": "20:00",
+ "paleta": {
+  "accent": "#ca8a04",
+  "accent2": "#eab308",
+  "destaque": "#a16207",
+  "brilho": "#fefce8"
+ },
+ "narracao": "Subiu dez por cento de uma vez e o anúncio sumiu?\nFaz assim. Primeiro: mexe na promoção, não no preço base. Segundo: sobe de dois em dois por cento. Terceiro: vendeu igual, sobe mais um degrau; caiu, volta pro anterior. Quarto: deixa a próxima promoção pronta antes da atual acabar.\nAgora, fazer essa conta em setenta anúncios toda semana... Eu pergunto pro Claude, ligado no Mercado Livre pelo Marketplace Connect: nos anúncios com promoção que venderam igual na última semana, qual a próxima, dois por cento mais cara, sem passar do preço cheio?\nEle devolve a promoção atual e a próxima, e só muda o que você aprovar.\nComenta CONNECT que eu te mando o link no direct.",
+ "c1": {
+  "titulo": "Subiu 10% de uma vez<br>e o <span class=\"a\">anúncio sumiu?</span>",
+  "emoji": "💡",
+  "produto": "Luminária de mesa LED",
+  "selo": "",
+  "stats": [
+   {
+    "rotulo": "Vendas por dia",
+    "valor": 12
+   },
+   {
+    "rotulo": "Depois do +10%",
+    "valor": 3,
+    "ruim": true
+   }
+  ],
+  "anima": {
+   "stat": 1,
+   "de": 12,
+   "para": 3
+  },
+  "alerta": "⚠ caiu da 1ª página"
+ },
+ "c2": {
+  "titulo": "Subir preço<br><span>em degraus</span>",
+  "passos": [
+   [
+    "Mexe na promoção",
+    "não no preço base"
+   ],
+   [
+    "Sobe de 2 em 2%",
+    "um degrau por semana"
+   ],
+   [
+    "Vendeu igual? Sobe mais",
+    "caiu? volta pro degrau anterior"
+   ],
+   [
+    "Próxima já pronta",
+    "antes da promoção atual acabar"
+   ]
+  ],
+  "conta": null
+ },
+ "c3": {
+  "n": 70,
+  "rotulo": "anúncios",
+  "sub": "toda semana"
+ },
+ "chat": {
+  "pensando": "Lendo promoções e vendas de <b>70 anúncios</b>…",
+  "prompt": "Nos anúncios com promoção que venderam igual na última semana, sugere a próxima 2% mais cara, sem passar do preço cheio.",
+  "titulo": "Próximo degrau (+2%)",
+  "linhas": [
+   {
+    "emoji": "🗂️",
+    "nome": "Organizador de gaveta",
+    "detalhe": "promo R$ 49,90 · vendeu igual",
+    "tag": "próxima R$ 50,90"
+   },
+   {
+    "emoji": "☕",
+    "nome": "Caneca térmica",
+    "detalhe": "promo R$ 39,90 · vendeu igual",
+    "tag": "próxima R$ 40,70"
+   },
+   {
+    "emoji": "🧦",
+    "nome": "Kit meias esportivas",
+    "detalhe": "promo R$ 29,90 · caiu 30%",
+    "tag": "voltar R$ 29,30"
+   }
+  ],
+  "destaque": 0,
+  "destaque_palavra": "próxima",
+  "botao": "Aprovar os degraus"
+ },
+ "cta": "CONNECT",
+ "legenda_ig": "Subiu 10% de uma vez e o anúncio sumiu da busca? Preço se sobe em degraus.\n\nFaz em 4 passos:\n1. Mexe na promoção, não no preço base.\n2. Sobe de 2 em 2%, um degrau por semana.\n3. Vendeu igual? Sobe mais um degrau. Caiu? Volta pro anterior.\n4. Deixa a próxima promoção pronta antes da atual acabar.\n\nCom 70 anúncios, acompanhar isso toda semana vira planilha. Com o Marketplace Connect, o Claude (ou o ChatGPT) lê as promoções e as vendas do seu Mercado Livre e devolve a lista com a promoção atual e a próxima, sem passar do preço cheio. Só muda o que você aprovar.\n\n💬 Comenta CONNECT que eu te mando o link no direct.\n\n(valores de exemplo)\n\n#mercadolivre #precificacao #vendasonline #ecommerce #inteligenciaartificial",
+ "short": {
+  "titulo": "Como subir preço no Mercado Livre sem sumir da busca (e com IA) #shorts",
+  "tags": [
+   "subir preço mercado livre",
+   "promoção mercado livre",
+   "precificação",
+   "mercado livre",
+   "claude",
+   "chatgpt",
+   "marketplace connect",
+   "ia para ecommerce"
+  ]
+ }
+}

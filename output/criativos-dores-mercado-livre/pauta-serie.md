@@ -15,8 +15,8 @@ Motor: `output/serie-pergunta-claude/motor/` (narração HeyGen voz c463ef5b ~US
 | 11 Perguntas sem resposta | agendado 25/11 18h · Short AZh8Gl0iCxU | 25/11 18h |
 | 6 Catálogo perdido | agendado 25/11 20h · Short T18Q0h8vIp0 | 25/11 20h |
 | Chatiops + Claude (avulso, fora da série) | agendado IG + Shorts | 26/11 16h |
-| 9 Resumo da manhã | a gerar | 26/11 18h |
-| 7 Subir preço em degraus | a gerar | 26/11 20h |
+| 9 Resumo da manhã | agendado 26/11 18h · Short opBffLjRhVU | 26/11 18h |
+| 7 Subir preço em degraus | agendado 26/11 20h · Short t9r7BvW5Z1I | 26/11 20h |
 | 8 Desconto com selo e piso de margem | a gerar | 28/11 16h |
 | 10 Números do anúncio | a gerar | 28/11 18h |
 | 13 Reclamação e reputação | a gerar | 28/11 20h |

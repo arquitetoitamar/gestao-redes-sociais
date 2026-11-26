@@ -1,0 +1,106 @@
+{
+ "num": 9,
+ "slug": "resumo-da-manha",
+ "data": "2026-11-26",
+ "hora": "18:00",
+ "paleta": {
+  "accent": "#d97706",
+  "accent2": "#fbbf24",
+  "destaque": "#b45309",
+  "brilho": "#fffbeb"
+ },
+ "narracao": "Todo dia de manhã eu faço uma pergunta pro Claude.\nFaz assim. Primeiro: compara a venda de ontem com a média de sete dias. Segundo: o que vendeu menos precisa de ajuste no anúncio. Terceiro: o que vendeu mais precisa de estoque, antes de zerar. Quarto: na segunda-feira, olha o fim de semana inteiro.\nAgora, fazer essa conta em cento e vinte anúncios todo dia... Eu pergunto pro Claude, ligado no Mercado Livre pelo Marketplace Connect: como foi ontem contra a média de sete dias, o que caiu, o que subiu e o que vai zerar de estoque?\nEle responde em três blocos: caiu, subiu e vai zerar.\nComenta CONNECT que eu te mando o link no direct.",
+ "c1": {
+  "titulo": "Todo dia de manhã<br>uma <span class=\"a\">pergunta pro Claude</span>",
+  "emoji": "🍶",
+  "produto": "Garrafa térmica 1 litro",
+  "selo": "",
+  "stats": [
+   {
+    "rotulo": "Média 7 dias",
+    "valor": 11
+   },
+   {
+    "rotulo": "Vendas ontem",
+    "valor": 6,
+    "ruim": true
+   }
+  ],
+  "anima": {
+   "stat": 1,
+   "de": 11,
+   "para": 6
+  },
+  "alerta": "⚠ vendeu 45% menos ontem"
+ },
+ "c2": {
+  "titulo": "Resumo da manhã<br><span>em 4 passos</span>",
+  "passos": [
+   [
+    "Ontem × média 7 dias",
+    "compara a venda de cada anúncio"
+   ],
+   [
+    "Vendeu menos?",
+    "ajusta preço, foto ou promoção"
+   ],
+   [
+    "Vendeu mais?",
+    "repõe o estoque antes de zerar"
+   ],
+   [
+    "Segunda-feira",
+    "olha o fim de semana inteiro"
+   ]
+  ],
+  "conta": null
+ },
+ "c3": {
+  "n": 120,
+  "rotulo": "anúncios",
+  "sub": "todo dia"
+ },
+ "chat": {
+  "pensando": "Comparando ontem com a média de <b>7 dias</b>…",
+  "prompt": "Como foi ontem contra a média de 7 dias? O que caiu, o que subiu e o que vai zerar de estoque?",
+  "titulo": "Ontem × média de 7 dias",
+  "linhas": [
+   {
+    "emoji": "🍶",
+    "nome": "Garrafa térmica 1 L",
+    "detalhe": "ontem 6 · média 11/dia",
+    "tag": "caiu 45%"
+   },
+   {
+    "emoji": "🎒",
+    "nome": "Mochila para notebook",
+    "detalhe": "ontem 14 · média 8/dia",
+    "tag": "subiu 75%"
+   },
+   {
+    "emoji": "🔦",
+    "nome": "Lanterna recarregável",
+    "detalhe": "estoque 9 · vende 5/dia",
+    "tag": "zera em 2 dias"
+   }
+  ],
+  "destaque": 0,
+  "destaque_palavra": "caiu",
+  "botao": "Ver o que fazer"
+ },
+ "cta": "CONNECT",
+ "legenda_ig": "Todo dia de manhã eu faço uma pergunta pro Claude, e ela me poupa uma hora.\n\nFaz em 4 passos:\n1. Compara a venda de ontem com a média dos últimos 7 dias.\n2. O anúncio que vendeu menos precisa de ajuste: preço, foto ou promoção.\n3. O que vendeu mais precisa de estoque, antes de zerar.\n4. Na segunda-feira, olha o fim de semana inteiro, não só o domingo.\n\nCom 120 anúncios, fazer essa conta todo dia não cabe na manhã. Com o Marketplace Connect, o Claude (ou o ChatGPT) lê as vendas e o estoque do seu Mercado Livre e responde em 3 blocos: o que caiu, o que subiu e o que vai zerar.\n\n💬 Comenta CONNECT que eu te mando o link no direct.\n\n(valores de exemplo)\n\n#mercadolivre #vendasonline #ecommerce #gestaodeestoque #inteligenciaartificial",
+ "short": {
+  "titulo": "Resumo da manhã no Mercado Livre: 1 pergunta pro Claude todo dia #shorts",
+  "tags": [
+   "resumo de vendas",
+   "mercado livre",
+   "vender no mercado livre",
+   "estoque mercado livre",
+   "claude",
+   "chatgpt",
+   "marketplace connect",
+   "ia para ecommerce"
+  ]
+ }
+}

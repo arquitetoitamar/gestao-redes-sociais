@@ -1,0 +1,5 @@
+Todo dia de manhã eu faço uma pergunta pro Claude.
+Faz assim. Primeiro: compara a venda de ontem com a média de sete dias. Segundo: o que vendeu menos precisa de ajuste no anúncio. Terceiro: o que vendeu mais precisa de estoque, antes de zerar. Quarto: na segunda-feira, olha o fim de semana inteiro.
+Agora, fazer essa conta em cento e vinte anúncios todo dia... Eu pergunto pro Claude, ligado no Mercado Livre pelo Marketplace Connect: como foi ontem contra a média de sete dias, o que caiu, o que subiu e o que vai zerar de estoque?
+Ele responde em três blocos: caiu, subiu e vai zerar.
+Comenta CONNECT que eu te mando o link no direct.

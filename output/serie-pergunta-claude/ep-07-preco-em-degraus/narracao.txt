@@ -1,0 +1,5 @@
+Subiu dez por cento de uma vez e o anúncio sumiu?
+Faz assim. Primeiro: mexe na promoção, não no preço base. Segundo: sobe de dois em dois por cento. Terceiro: vendeu igual, sobe mais um degrau; caiu, volta pro anterior. Quarto: deixa a próxima promoção pronta antes da atual acabar.
+Agora, fazer essa conta em setenta anúncios toda semana... Eu pergunto pro Claude, ligado no Mercado Livre pelo Marketplace Connect: nos anúncios com promoção que venderam igual na última semana, qual a próxima, dois por cento mais cara, sem passar do preço cheio?
+Ele devolve a promoção atual e a próxima, e só muda o que você aprovar.
+Comenta CONNECT que eu te mando o link no direct.
