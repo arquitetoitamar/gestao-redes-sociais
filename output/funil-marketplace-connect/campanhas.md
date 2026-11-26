@@ -779,3 +779,14 @@ Gasto desde a recarga ~R$ 210; saldo estimado ~R$ 230; acaba ~25/11 à noite. Su
 - Link curto: `comece` sem leitura (403, link de outra conta); `madeira` 3 cliques (meta-madeira); `bf2026-guia` 1 (manychat); `bf2026` 2.
 - 1 milhão: custo por mil R$ 1,84 (< R$ 3), sem alerta. A1 R$ 0,16 (< R$ 0,30), sem alerta.
 - WhatsApp: **falhou** (`ERR_WAPP_NOT_INITIALIZED` no Chatiops). Texto salvo em `resumo-pendente.md`.
+
+### 26/11/2026 ~13h15 — parcial do dia (pedido do Itamar: "como esta a campanhas")
+| Campanha | Hoje até ~13h | Acumulado |
+|---|---|---|
+| A1 Topo VSL | R$ 13,23 · 81 visitas · R$ 0,16/visita | R$ 400,02 · 2.432 visitas · R$ 0,16 |
+| Remarketing /comece | R$ 6,25 · 36 visitas · R$ 0,17/visita | R$ 152,99 · 600 visitas · R$ 0,25 · freq. 1,94 |
+| 1 milhão | R$ 18,49 · 9,7 mil impressões · R$ 1,90/mil | R$ 167,50 · 94,2 mil de 1 mi (9,4%) · 82,5 mil pessoas |
+| Alcance notícia | R$ 6,26 · 3,0 mil pessoas · R$ 1,93/mil | R$ 41,16 · 22,1 mil de 100 mil pessoas |
+- Gasto hoje até ~13h: R$ 44,23. Saldo estimado: R$ 653 − 169,42 − 44,23 = **~R$ 439** → acaba ~29/11. Recarregar até 28/11.
+- Stripe 26/11 até 13h: **1 assinatura Marketplace Connect** (Plus mensal).
+- Sem alerta: A1 e remarketing abaixo de R$ 0,30/visita; custo por mil do alcance abaixo de R$ 3.
