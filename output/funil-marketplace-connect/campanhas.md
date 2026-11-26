@@ -748,3 +748,17 @@ Gasto desde a recarga ~R$ 210; saldo estimado ~R$ 230; acaba ~25/11 à noite. Su
 ### 25/11/2026 ~17h20 — recarga PIX (Itamar)
 - PIX de R$ 500 creditado em 25/11 ("Com saldo"). Saldo real lido na tela de cobrança: **R$ 568,13** (antes R$ 70,13).
 - Ritmo atual ~R$ 110–160/dia (A1, remarketing, notícia, 1 milhão) → dura até ~29–30/11. Próxima recarga antes disso.
+
+### 26/11/2026 ~01h10 — leitura de 25/11 completo (pedido do Itamar: "Como estão as campanhas?")
+| Campanha | 25/11 | Acumulado |
+|---|---|---|
+| A1 Topo VSL | R$ 58,93 · 341 visitas · R$ 0,17/visita · freq. 1,05 | R$ 389,33 · 2.347 visitas · R$ 0,17 |
+| Remarketing /comece | R$ 16,61 · 66 visitas · R$ 0,25/visita · freq. 1,11 | R$ 147,36 · 559 visitas · R$ 0,26 · freq. 1,92 |
+| 1 milhão | R$ 63,17 · 34,3 mil impressões · R$ 1,84/mil · 21 cliques · 9 visitas | R$ 150,79 · 85,4 mil de 1 mi (8,5%) · 77,6 mil pessoas · 15 visitas (R$ 10/visita) |
+| Alcance notícia | R$ 19,76 · 10,2 mil pessoas · R$ 1,88/mil | R$ 35,59 · 19,5 mil de 100 mil pessoas · restam R$ 109,41 |
+| Black Friday (pausada 25/11 ~17h) | R$ 10,95 · 0 comentários | R$ 27,90 · 0 comentários |
+- Gasto 25/11: R$ 169,42 (com BF). Ritmo sem BF: ~R$ 158/dia. Hoje até 01h: R$ 5,70.
+- Saldo estimado: R$ 653 − 175,12 = **~R$ 478** → acaba ~29/11. Recarregar até 28/11.
+- A1 voltou a R$ 0,17 (24/11 R$ 0,14 → 25/11 parcial R$ 0,20 → fechado R$ 0,17). Abaixo de R$ 0,30, sem alerta.
+- Projeções: notícia ~75 mil pessoas até 30/11 (não chega a 100 mil); 1 milhão ~750 mil impressões até 14/12 no ritmo atual.
+- Stripe 25/11: **3 assinaturas Marketplace Connect** (Plus mensal, ativas). Outras 2 do dia são Chatiops PRO e GestorPro (teste). Critério do plano 1 milhão (≥ ~3/dia): atingido em 25/11; média 24–25/11 = 2,5/dia.
