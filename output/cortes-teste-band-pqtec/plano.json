@@ -1,0 +1,231 @@
+{
+  "video": "/Users/itamar/git/gestao-redes-sociais/output/reel-startup-pandemia/trab/original.mp4",
+  "nome": "teste-band-pqtec",
+  "fonte": "Reportagem: Band Cidade",
+  "contexto": "Reportagem da Band no PqTec durante a pandemia. Itamar Rocha é o entrevistado, fundador da Gerência Pedidos, startup anterior dele.",
+  "cta": "CONNECT",
+  "corta_topo": 0.08,
+  "corta_base": 0.2,
+  "cortes": [
+    {
+      "n": 1,
+      "ini": 51.9,
+      "fim": 107.92,
+      "nota": 88,
+      "cenas": [
+        [
+          0.0,
+          4.167,
+          0.575
+        ],
+        [
+          4.167,
+          8.567,
+          0.575
+        ],
+        [
+          8.567,
+          10.367,
+          0.575
+        ],
+        [
+          10.367,
+          14.567,
+          0.307
+        ],
+        [
+          14.567,
+          38.367,
+          0.28
+        ],
+        [
+          38.367,
+          56.02,
+          0.588
+        ]
+      ],
+      "titulo": "Crescimento de 300%\ndurante a pandemia",
+      "legenda": "Reportagem da Band no PqTec durante a pandemia. Itamar Rocha, fundador da Gerência Pedidos (startup anterior), conta sobre o crescimento da empresa.\n\nA plataforma de gestão de pedidos e pagamentos online para pequenos varejistas cresceu 300% durante a pandemia, saltando de 30 para 100 funcionários.\n\nFonte: Reportagem Band Cidade.\n💬 Comenta CONNECT que eu te mando no direct.",
+      "hashtags": [
+        "#tecnologia",
+        "#varejo",
+        "#pandemia",
+        "#crescimento",
+        "#startup"
+      ],
+      "titulo_shorts": "Crescimento de 300% durante a pandemia | Itamar Rocha | Band Cidade",
+      "descricao_shorts": "Itamar Rocha, fundador da Gerência Pedidos, conta como a startup cresceu 300% durante a pandemia. Fonte: Reportagem Band Cidade.",
+      "motivo": "Mostra um caso de sucesso contraintuitivo de crescimento durante a crise, com números concretos.",
+      "financeiro": true
+    },
+    {
+      "n": 2,
+      "ini": 0.0,
+      "fim": 51.9,
+      "nota": 85,
+      "cenas": [
+        [
+          0.0,
+          3.767,
+          0.5
+        ],
+        [
+          3.767,
+          5.167,
+          0.5
+        ],
+        [
+          5.167,
+          6.967,
+          0.5
+        ],
+        [
+          6.967,
+          9.367,
+          0.5
+        ],
+        [
+          9.367,
+          19.167,
+          0.204
+        ],
+        [
+          19.167,
+          24.367,
+          0.204,
+          true
+        ],
+        [
+          24.367,
+          51.9,
+          0.411
+        ]
+      ],
+      "titulo": "Pandemia fecha lojas\nReinvenção digital",
+      "legenda": "A pandemia fechou mais de 75 mil lojas físicas no Brasil.\n\nQuem trabalha com varejo precisou se reinventar com ajuda da tecnologia, como mostra a Gerência Pedidos, startup do Itamar Rocha.\n\nA solução já movimentou mais de 81 milhões de reais com facilidade e aceleração de processos para compra e entrega.\n\nReportagem: Band Cidade\n💬 Comenta CONNECT que eu te mando no direct.",
+      "hashtags": [
+        "#Pandemia",
+        "#VarejoDigital",
+        "#Marketplace",
+        "#Tecnologia",
+        "#Ecommerce"
+      ],
+      "titulo_shorts": "Como o varejo se reinventou na pandemia com tecnologia | Itamar Rocha",
+      "descricao_shorts": "Reportagem da Band sobre a Gerência Pedidos durante a pandemia. Solução movimentou mais de 81 milhões de reais.",
+      "motivo": "Dados concretos sobre impacto da pandemia e números impressionantes de resultados",
+      "financeiro": true
+    },
+    {
+      "n": 3,
+      "ini": 108.46,
+      "fim": 176.7,
+      "nota": 82,
+      "cenas": [
+        [
+          0.0,
+          3.573,
+          0.555
+        ],
+        [
+          3.573,
+          5.573,
+          0.555
+        ],
+        [
+          5.573,
+          8.773,
+          0.555
+        ],
+        [
+          8.773,
+          10.573,
+          0.555
+        ],
+        [
+          10.573,
+          41.173,
+          0.385
+        ],
+        [
+          41.173,
+          68.24,
+          0.634
+        ]
+      ],
+      "titulo": "Segurança online\né imprescindível",
+      "legenda": "Reportagem da Band no PqTec durante a pandemia com Itamar Rocha, fundador da Gerência Pedidos.\n\n\"Nenhum negócio funciona hoje se não tiver essas tecnologias para proteger os dados.\"\n\n💬 Comenta CONNECT que eu te mando no direct.",
+      "hashtags": [
+        "#SegurançaDigital",
+        "#Tecnologia",
+        "#LGPD",
+        "#Startup",
+        "#Dados"
+      ],
+      "titulo_shorts": "Itamar Rocha na Band: Segurança de dados é imprescindível para negócios online",
+      "descricao_shorts": "Entrevista com Itamar Rocha da Gerência Pedidos na Band Cidade. Segurança da informação como serviço essencial para empresas.",
+      "motivo": "Afirmação contundente sobre a importância crucial da segurança de dados para negócios digitais",
+      "financeiro": false
+    },
+    {
+      "n": 4,
+      "ini": 177.46,
+      "fim": 224.2,
+      "nota": 79,
+      "cenas": [
+        [
+          0.0,
+          9.773,
+          0.625
+        ],
+        [
+          9.773,
+          11.973,
+          0.669
+        ],
+        [
+          11.973,
+          17.573,
+          0.608
+        ],
+        [
+          17.573,
+          20.373,
+          0.608
+        ],
+        [
+          20.373,
+          24.973,
+          0.7
+        ],
+        [
+          24.973,
+          26.573,
+          0.585
+        ],
+        [
+          26.573,
+          46.74,
+          0.602
+        ]
+      ],
+      "titulo": "Profissões do futuro\nno parque tecnológico",
+      "legenda": "Durante a pandemia, o Parque Tecnológico se tornou essencial para o mercado de vendas online.\n\nItamar Rocha, fundador da Gerência Pedidos, destaca a importância dos profissionais de tecnologia e as parcerias com universidades para formar novos talentos.\n\nReportagem original: Band Cidade\n\n💬 Comenta CONNECT que eu te mando no direct.",
+      "hashtags": [
+        "#Tecnologia",
+        "#ProfissõesDoFuturo",
+        "#VendasOnline",
+        "#ParqueTecnológico",
+        "#Startup"
+      ],
+      "titulo_shorts": "Itamar Rocha no Parque Tecnológico: as profissões do futuro e o mercado de vendas online",
+      "descricao_shorts": "Entrevista com Itamar Rocha da Gerência Pedidos durante reportagem da Band no Parque Tecnológico. Confira a visão sobre o mercado de tecnologia e vendas online.",
+      "motivo": "Aborda tendências do mercado de trabalho e tecnologia de forma direta e relevante",
+      "financeiro": false
+    }
+  ],
+  "inicio": "2026-11-27",
+  "tamanho": [
+    1920,
+    1080
+  ]
+}

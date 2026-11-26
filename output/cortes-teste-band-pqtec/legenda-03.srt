@@ -1,0 +1,107 @@
+1
+00:00:00,000 --> 00:00:02,230
+E nas vendas online, a segurança é
+
+2
+00:00:02,230 --> 00:00:03,220
+imprescindível.
+
+3
+00:00:03,220 --> 00:00:06,490
+O grupo Energy Telecom trabalha com serviços
+
+4
+00:00:06,490 --> 00:00:09,240
+voltados à tecnologia e à proteção da
+
+5
+00:00:09,240 --> 00:00:10,060
+informação.
+
+6
+00:00:10,480 --> 00:00:13,610
+E como existe uma falta de mão de obra
+
+7
+00:00:13,610 --> 00:00:17,070
+especializada de tecnologia e segurança da
+
+8
+00:00:17,070 --> 00:00:17,980
+informação,
+
+9
+00:00:18,900 --> 00:00:21,090
+nós conseguimos entregar isso tudo como
+
+10
+00:00:21,090 --> 00:00:21,540
+serviço.
+
+11
+00:00:22,240 --> 00:00:25,870
+A parte de criptografia, a parte de
+
+12
+00:00:25,870 --> 00:00:29,820
+correlacionamento de log, entre outras
+
+13
+00:00:29,820 --> 00:00:32,620
+tecnologias especializadas.
+
+14
+00:00:32,820 --> 00:00:34,930
+Nosso time, a gente tem diversos
+
+15
+00:00:34,930 --> 00:00:37,890
+especialistas, onde a gente consegue entregar
+
+16
+00:00:37,890 --> 00:00:40,450
+cada necessidade modularmente para cada
+
+17
+00:00:40,450 --> 00:00:40,980
+cliente.
+
+18
+00:00:41,060 --> 00:00:43,630
+Nós, então, somos uma empresa que faz
+
+19
+00:00:43,630 --> 00:00:46,480
+gerenciamento de soluções voltadas para a
+
+20
+00:00:46,480 --> 00:00:48,080
+segurança desses dados,
+
+21
+00:00:48,860 --> 00:00:53,580
+para processos de LGPD, para data center, para
+
+22
+00:00:53,580 --> 00:00:57,280
+produtos que queiram subir em nuvem,
+
+23
+00:00:58,040 --> 00:01:00,080
+coisas dessa linha de natureza.
+
+24
+00:01:00,080 --> 00:01:03,230
+Então, nenhum negócio funciona hoje se ele não
+
+25
+00:01:03,230 --> 00:01:05,970
+tiver essas tecnologias para proteger os
+
+26
+00:01:05,970 --> 00:01:06,660
+dados, né?
+
+27
+00:01:07,080 --> 00:01:08,240
+São muitas tecnologias.
