@@ -1,14 +1,16 @@
-# Resumo pendente — leitura de 23/11/2026 (WhatsApp falhou: ERR_WAPP_NOT_INITIALIZED)
+# Resumo pendente — campanhas MC 25/11/2026
 
-📊 Campanhas MC — ontem (23/11)
-Gasto: R$ 77,76 · saldo estimado: R$ 361 (acaba ~25/11 à noite, com tudo no ar ~R$ 200/dia)
-A1 VSL: 111 visitas · R$ 0,19/visita · 5 cliques em Assinar (3,3% das 153 visitas pagas; meta 5%)
-Remarketing /comece: 42 visitas · R$ 0,35/visita (freq. 1,0)
-Black Friday: começa hoje, sem dado ainda (até 27/11)
-Alcance notícia: começa hoje, sem dado ainda (até 30/11)
-1 milhão: 18 mil de 1 milhão de visualizações · R$ 1,69 por mil (até 14/12)
-Seguidores: 0 novos atribuídos · R$ 21,22 gastos, 197 cliques no perfil (até 30/11)
-Cadastros: 6 · Assinaturas novas: 3 · Compras no Meta: 3
-Link curto /comece: sem leitura (conector diz "link de outra conta")
-⚠️ Saldo acaba em ~2 dias: recarregar até 25/11 ou TODAS param, inclusive o A1. Seguidores: dia 1 sem seguidor atribuído (Band PqTec gastou R$ 20); se repetir hoje, pausar.
-👉 Recarregar o saldo amanhã.
+Envio pelo WhatsApp (Chatiops) falhou em 26/11 ~09h30: `ERR_WAPP_NOT_INITIALIZED`. Texto que seria enviado:
+
+```
+📊 Campanhas MC — ontem (25/11)
+Gasto: R$ 169,49 (com R$ 10,95 da Black Friday antes da pausa) · saldo estimado: R$ 483 (acaba ~29/11)
+A1 VSL: 358 visitas · R$ 0,16/visita · 7 cliques em Assinar no site todo (1,6% das 440 visitas pagas)
+Remarketing /comece: 71 visitas · R$ 0,23/visita (freq. 1,1 no dia; 1,9 no total)
+Alcance notícia: 21,6 mil de 100 mil pessoas · R$ 1,86 por mil (até 30/11)
+1 milhão: 92 mil de 1 milhão de visualizações · 81,6 mil pessoas · R$ 1,84 por mil (até 14/12)
+   Cadastros: 12 · Assinaturas novas: 3 · Compras no Meta: 2
+Link comece: sem leitura (link de outra conta) · madeira 3 cliques
+⚠️ Recarregar até 28/11 para não parar tudo, inclusive o A1
+👉 Clique em Assinar segue bem abaixo da meta de 5%; 1 milhão bateu o critério de 3 assinaturas/dia
+```

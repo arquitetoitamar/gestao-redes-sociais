@@ -762,3 +762,20 @@ Gasto desde a recarga ~R$ 210; saldo estimado ~R$ 230; acaba ~25/11 à noite. Su
 - A1 voltou a R$ 0,17 (24/11 R$ 0,14 → 25/11 parcial R$ 0,20 → fechado R$ 0,17). Abaixo de R$ 0,30, sem alerta.
 - Projeções: notícia ~75 mil pessoas até 30/11 (não chega a 100 mil); 1 milhão ~750 mil impressões até 14/12 no ritmo atual.
 - Stripe 25/11: **3 assinaturas Marketplace Connect** (Plus mensal, ativas). Outras 2 do dia são Chatiops PRO e GestorPro (teste). Critério do plano 1 milhão (≥ ~3/dia): atingido em 25/11; média 24–25/11 = 2,5/dia.
+
+### 25/11/2026 (lida em 26/11 pela rotina das 08h, executada às ~09h30)
+| Campanha | 25/11 | Acumulado (até 26/11 ~09h) |
+|---|---|---|
+| A1 Topo VSL | R$ 58,93 · 358 visitas · R$ 0,16/visita · freq. 1,05 | R$ 397,76 · 2.419 visitas · R$ 0,16 |
+| Remarketing /comece | R$ 16,65 · 71 visitas · R$ 0,23/visita · freq. 1,12 | R$ 152,34 · 591 visitas · R$ 0,26 · freq. 1,94 |
+| Alcance notícia | R$ 19,77 · 10,2 mil pessoas · freq. 1,03 | 21.633 de 100 mil pessoas · R$ 40,16 · R$ 1,86 por mil alcançados |
+| 1 milhão | R$ 63,19 · 34.332 impressões · R$ 1,84/mil · 21 cliques · 9 visitas | 92.277 de 1 mi · 81.593 pessoas · R$ 163,87 |
+| Black Friday (pausada) | R$ 10,95 (leitura anterior) | R$ 27,90 |
+- Gasto 25/11: R$ 169,49. Saldo estimado: R$ 653 − 169,49 = **~R$ 483** → acaba ~29/11; recarregar até 28/11.
+- Todas as 4 ativas ACTIVE, sem erro de entrega.
+- Pixel 25/11 (só navegador): PageView 1.043, ConectouCanal 65, CompleteRegistration 12, ViewContent 9, ClicouAssinar 7, SubscribedButtonClick 0, Lead 0. Purchase (servidor): 2.
+- Taxa VSL → Assinar: 7 ClicouAssinar ÷ 440 visitas pagas = 1,6% (meta 5%).
+- Stripe 25/11: 3 assinaturas Marketplace Connect (Plus mensal). Critério 1 milhão (≥ 3/dia) atingido.
+- Link curto: `comece` sem leitura (403, link de outra conta); `madeira` 3 cliques (meta-madeira); `bf2026-guia` 1 (manychat); `bf2026` 2.
+- 1 milhão: custo por mil R$ 1,84 (< R$ 3), sem alerta. A1 R$ 0,16 (< R$ 0,30), sem alerta.
+- WhatsApp: **falhou** (`ERR_WAPP_NOT_INITIALIZED` no Chatiops). Texto salvo em `resumo-pendente.md`.
