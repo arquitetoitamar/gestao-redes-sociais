@@ -36,6 +36,7 @@ Motor: `output/serie-pergunta-claude/motor/` (narração HeyGen voz c463ef5b ~US
 | 27 Anúncio fraco na Shopee | ⚠ confirmar diagnóstico de qualidade da Shopee no MC | 03/12 18h |
 | 28 Título sem a palavra que o cliente busca | a gerar | 03/12 20h |
 | 29 Raio-x das ferramentas do ML que você não usa | a gerar | 04/12 16h |
+| 30 Mexeu no anúncio que vendia | a gerar | 04/12 18h |
 | 15 O que vender | ⚠ confirmar dados de concorrentes; sem OK, não sai | — |
 | 4 Anúncio sem vídeo | ⚠ confirmar se gerar/subir clip com IA está liberado | — |
 
@@ -215,3 +216,9 @@ Tarefa diária `monitor-pronix-pauta` (09h30): confere Reels novos do @pronixnap
 - Passos: 1) faz a lista do que o ML oferece pro vendedor (Full, Ads, promoções da central, clips) e marca o que você usa; 2) começa pelo que custa pouco: uma promoção na central e um clip no anúncio que mais vende; 3) Ads com verba pequena, só nos anúncios que já vendem; 4) liga uma de cada vez e compara as visitas da semana anterior com a seguinte.
 - Pergunta: "Nos meus 20 anúncios mais vendidos, quais não estão no Full, não têm promoção ativa, não têm clip e não estão no Ads?"
 - Resposta: anúncio · Full (sim/não) · promoção (sim/não) · clip (sim/não) · Ads (sim/não) · próximo passo sugerido (valores de exemplo).
+
+### 30. Mexeu no anúncio que vendia e a venda caiu — paleta azul-aço (#0c4a6e / #0369a1 / #e0f2fe)
+- Gancho: "Seu anúncio vendia bem, você mudou uma coisa e a venda sumiu?"
+- Passos: 1) anúncio que vende toda semana é o último que você mexe; 2) quer melhorar? começa pelo que pesa menos: fotos do meio, descrição, respostas; 3) uma mudança de cada vez, e espera alguns dias pra ver o efeito; 4) anota o que mudou e quando, pra saber o que voltar se cair.
+- Pergunta: "Quais anúncios que vendiam toda semana tiveram queda de visitas ou de vendas nas últimas 2 semanas, comparando com as 2 anteriores?"
+- Resposta: anúncio · visitas antes/depois · vendas antes/depois · "investigar o que mudou" (valores de exemplo).
