@@ -790,3 +790,13 @@ Gasto desde a recarga ~R$ 210; saldo estimado ~R$ 230; acaba ~25/11 à noite. Su
 - Gasto hoje até ~13h: R$ 44,23. Saldo estimado: R$ 653 − 169,42 − 44,23 = **~R$ 439** → acaba ~29/11. Recarregar até 28/11.
 - Stripe 26/11 até 13h: **1 assinatura Marketplace Connect** (Plus mensal).
 - Sem alerta: A1 e remarketing abaixo de R$ 0,30/visita; custo por mil do alcance abaixo de R$ 3.
+
+### 26/11/2026 ~15h30 — retorno das campanhas (pedido do Itamar: "como estao o retonro")
+| Período | Gasto Meta | Visitas pagas | Assinaturas MC (Stripe) | Por dia | Gasto por assinatura |
+|---|---|---|---|---|---|
+| 16–22/11 (só A1 + remarketings, antes do aumento) | R$ 169,21 | 757 | 20 | 2,9/dia | R$ 8,46 |
+| 23–26/11 15h (A1 dobrado + 1 milhão + notícia + Seguidores/BF) | R$ 496,67 | 1.154 | 9 | 2,5/dia | R$ 55,19 |
+- Gasto por dia triplicou (~R$ 24 → ~R$ 140) e as assinaturas não subiram (2,9 → 2,5/dia). Todas as 9 ativas, nenhuma com cancelamento marcado.
+- Gasto 23–26/11 por campanha: 1 milhão R$ 176,06 (18 visitas) · A1 R$ 137,05 (859) · remarketing /comece R$ 61,71 (271) · Seguidores R$ 51,68 (0 seguidor) · Alcance notícia R$ 42,27 (6 visitas) · BF R$ 27,90 (0 comentário).
+- Meta atribui 0 compras às campanhas (omni_purchase vazio). Pixel recebeu 8 Purchase (servidor) contra 9 assinaturas; só 1 das 9 assinaturas traz `meta_fbp` no metadata do Stripe → o evento de compra quase nunca chega com o identificador do clique, e o Meta não consegue ligar venda a anúncio.
+- Critério do plano 1 milhão (≥ ~3 assinaturas/dia com ela no ar): não atingido (2,5/dia) → sugerido ao Itamar reduzir/pausar o 1 milhão e manter A1 + remarketing. Nada alterado sem OK.
