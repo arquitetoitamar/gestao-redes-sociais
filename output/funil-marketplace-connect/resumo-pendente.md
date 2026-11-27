@@ -1,16 +1,16 @@
-# Resumo pendente — campanhas MC 25/11/2026
+# Resumo pendente — leitura de 26/11/2026 (rotina 27/11)
 
-Envio pelo WhatsApp (Chatiops) falhou em 26/11 ~09h30: `ERR_WAPP_NOT_INITIALIZED`. Texto que seria enviado:
+Envio por WhatsApp falhou: Chatiops respondeu `ERR_WAPP_NOT_INITIALIZED` (1ª tentativa: servidor sem resposta; 2ª: erro). Texto abaixo para enviar manualmente.
 
 ```
-📊 Campanhas MC — ontem (25/11)
-Gasto: R$ 169,49 (com R$ 10,95 da Black Friday antes da pausa) · saldo estimado: R$ 483 (acaba ~29/11)
-A1 VSL: 358 visitas · R$ 0,16/visita · 7 cliques em Assinar no site todo (1,6% das 440 visitas pagas)
-Remarketing /comece: 71 visitas · R$ 0,23/visita (freq. 1,1 no dia; 1,9 no total)
-Alcance notícia: 21,6 mil de 100 mil pessoas · R$ 1,86 por mil (até 30/11)
-1 milhão: 92 mil de 1 milhão de visualizações · 81,6 mil pessoas · R$ 1,84 por mil (até 14/12)
-   Cadastros: 12 · Assinaturas novas: 3 · Compras no Meta: 2
-Link comece: sem leitura (link de outra conta) · madeira 3 cliques
-⚠️ Recarregar até 28/11 para não parar tudo, inclusive o A1
-👉 Clique em Assinar segue bem abaixo da meta de 5%; 1 milhão bateu o critério de 3 assinaturas/dia
+📊 Campanhas MC — ontem (26/11)
+Gasto: R$ 153,23 · saldo estimado: R$ 330 (acaba ~29/11)
+A1 VSL: 357 visitas · R$ 0,15/visita · 2 cliques em Assinar (0,4% das visitas pagas)
+Remarketing /comece: 85 visitas · R$ 0,20/visita (freq. 1,5 na semana)
+Alcance notícia: 30 mil de 100 mil pessoas · R$ 1,99 por mil (até 30/11)
+1 milhão: 123 mil de 1 milhão de visualizações · R$ 1,95 por mil · 8 visitas (até 14/12)
+   Cadastros: 6 · Assinaturas novas: 1 · Compras no Meta: 1
+⚠️ Saldo acaba ~29/11 e aí TODAS param, inclusive o A1: recarregar até amanhã (28/11).
+⚠️ 1 milhão: 1 assinatura ontem, abaixo das ~3/dia do plano. A verba rende mais no A1.
+👉 Recarga até 28/11 e decidir se reduz o 1 milhão.
 ```

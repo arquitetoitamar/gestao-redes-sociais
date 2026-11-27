@@ -800,3 +800,20 @@ Gasto desde a recarga ~R$ 210; saldo estimado ~R$ 230; acaba ~25/11 à noite. Su
 - Gasto 23–26/11 por campanha: 1 milhão R$ 176,06 (18 visitas) · A1 R$ 137,05 (859) · remarketing /comece R$ 61,71 (271) · Seguidores R$ 51,68 (0 seguidor) · Alcance notícia R$ 42,27 (6 visitas) · BF R$ 27,90 (0 comentário).
 - Meta atribui 0 compras às campanhas (omni_purchase vazio). Pixel recebeu 8 Purchase (servidor) contra 9 assinaturas; só 1 das 9 assinaturas traz `meta_fbp` no metadata do Stripe → o evento de compra quase nunca chega com o identificador do clique, e o Meta não consegue ligar venda a anúncio.
 - Critério do plano 1 milhão (≥ ~3 assinaturas/dia com ela no ar): não atingido (2,5/dia) → sugerido ao Itamar reduzir/pausar o 1 milhão e manter A1 + remarketing. Nada alterado sem OK.
+
+### 26/11/2026 (lida em 27/11 pela rotina das 08h, executada às ~11h10)
+| Campanha | 26/11 | Acumulado (até 27/11 ~11h) |
+|---|---|---|
+| A1 Topo VSL | R$ 53,07 · 357 visitas · R$ 0,15/visita · freq. 1,00 | R$ 454,62 · 2.796 visitas · R$ 0,16 |
+| Remarketing /comece | R$ 17,36 · 85 visitas · R$ 0,20/visita · freq. 1,07 (7 dias: 1,50) | R$ 169,98 · 670 visitas · R$ 0,25 · freq. 1,95 |
+| Alcance notícia | R$ 20,11 · 9.667 pessoas · R$ 1,99/mil impressões · 5 visitas | 29.974 de 100 mil pessoas · R$ 58,52 · R$ 1,95 por mil alcançados |
+| 1 milhão | R$ 62,69 · 32.074 impressões · R$ 1,95/mil · 18 cliques · 8 visitas | 123.099 de 1 mi (12,3%) · 104.501 pessoas · R$ 225,36 |
+- Gasto 26/11: R$ 153,23. Gasto desde 25/11: 169,50 (25/11 com BF) + 153,23 = R$ 322,73. Saldo estimado: R$ 653 − 322,73 = **~R$ 330** (hoje até ~11h já R$ 37,80) → acaba ~29/11. ⚠️ Recarregar até 28/11.
+- Todas as 4 ativas ACTIVE, sem erro de entrega. Anúncios: A1 Claude+ML+Shopee R$ 0,16; MadeiraMadeira R$ 0,33 (R$ 6,89, abaixo de R$ 15); C2 PqTec R$ 0,25. Sem alerta de criativo.
+- Pixel 26/11 (só navegador): PageView 1.101, ConectouCanal 31, CompleteRegistration 6, ViewContent 13, InitiateCheckout 9, ClicouAssinar 2, SubscribedButtonClick 0, Lead 2. Purchase (servidor): 1.
+- Taxa VSL → Assinar: 2 ClicouAssinar ÷ 455 visitas pagas = 0,4% (meta 5%).
+- Stripe 26/11: **1 assinatura Marketplace Connect** (Plus mensal, ativa).
+- Critério 1 milhão (≥ ~3 assinaturas/dia): não atingido → avisado que a verba rende mais no A1. Custo por mil R$ 1,95 (< R$ 3), sem alerta de vídeo.
+- Notícia: ritmo ~10 mil pessoas/dia → ~60 mil até 30/11 (não chega a 100 mil). Lembrete 30/11: leitura final e decidir versão em Reel.
+- Link curto (2 dias): `comece` sem leitura (403, link de outra conta); `madeira` 11 cliques em 26/11 (meta-madeira); `bf2026-guia` 2 em 26/11 (manychat); `bf2026` 0 em 26/11.
+- WhatsApp: **falhou** (`ERR_WAPP_NOT_INITIALIZED` no Chatiops). Texto salvo em `resumo-pendente.md`.
