@@ -37,6 +37,7 @@ Motor: `output/serie-pergunta-claude/motor/` (narração HeyGen voz c463ef5b ~US
 | 28 Título sem a palavra que o cliente busca | a gerar | 03/12 20h |
 | 29 Raio-x das ferramentas do ML que você não usa | a gerar | 04/12 16h |
 | 30 Mexeu no anúncio que vendia | a gerar | 04/12 18h |
+| 31 Em qual produto reinvestir o lucro | a gerar | 04/12 20h |
 | 15 O que vender | ⚠ confirmar dados de concorrentes; sem OK, não sai | — |
 | 4 Anúncio sem vídeo | ⚠ confirmar se gerar/subir clip com IA está liberado | — |
 
@@ -222,3 +223,9 @@ Tarefa diária `monitor-pronix-pauta` (09h30): confere Reels novos do @pronixnap
 - Passos: 1) anúncio que vende toda semana é o último que você mexe; 2) quer melhorar? começa pelo que pesa menos: fotos do meio, descrição, respostas; 3) uma mudança de cada vez, e espera alguns dias pra ver o efeito; 4) anota o que mudou e quando, pra saber o que voltar se cair.
 - Pergunta: "Quais anúncios que vendiam toda semana tiveram queda de visitas ou de vendas nas últimas 2 semanas, comparando com as 2 anteriores?"
 - Resposta: anúncio · visitas antes/depois · vendas antes/depois · "investigar o que mudou" (valores de exemplo).
+
+### 31. Em qual produto reinvestir o lucro — paleta terracota (#7c2d12 / #c2410c / #ffedd5)
+- Gancho: "Sobrou dinheiro no mês e você não sabe se compra mais do mesmo ou tenta outro produto?"
+- Passos: 1) antes de tirar dinheiro pra você, separa o que volta pro negócio; 2) põe primeiro no produto que gira rápido e deixa sobra boa por venda; 3) confere quantos dias de estoque ele ainda tem, pra não deixar zerar; 4) produto parado não recebe dinheiro novo até girar.
+- Pergunta: "Dos meus anúncios, quais vendem todo dia, deixam boa sobra por venda e têm estoque pra menos de 30 dias? Ordena por onde reinvestir primeiro."
+- Resposta: produto · vendas/dia · sobra por venda · dias de estoque · prioridade de reposição (valores de exemplo).
